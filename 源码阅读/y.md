@@ -1,0 +1,54 @@
+## 删除排序数组中的重复项 
+- public int removeDuplicates(int[] A) {
+        int count = 0;//重复的数字个数
+        for (int right = 1; right < A.length; right++) {
+            if (A[right] == A[right - 1]) {
+                //如果有重复的，count要加1
+                count++;
+            } else {
+                //如果没有重复，后面的就往前挪
+                A[right - count] = A[right];
+            }
+        }
+        //数组的长度减去重复的个数
+        return A.length - count;
+    }
+
+## 旋转数组
+- 输入: nums = [1,2,3,4,5,6,7], k = 3输出: [5,6,7,1,2,3,4] 解释:向右旋转 1 步: [7,1,2,3,4,5,6]向右旋转 2 步: [6,7,1,2,3,4,5]向右旋转 3 步: [5,6,7,1,2,3,4]
+- public static void rotate(int[] nums, int k) {
+        int hold = nums[0];
+        int index = 0;
+        int length = nums.length;
+        boolean[] visited = new boolean[length];
+        for (int i = 0; i < length; i++) {
+            index = (index + k) % length;
+            if (visited[index]) {
+                //如果访问过，再次访问的话，会出现原地打转的现象，
+                //不能再访问当前元素了，我们直接从他的下一个元素开始
+                index = (index + 1) % length;
+                hold = nums[index];
+                i--;
+            } else {
+                //把当前值保存在下一个位置，保存之前要把下一个位置的
+                //值给记录下来
+                visited[index] = true;
+                int temp = nums[index];
+                nums[index] = hold;
+                hold = temp;
+            }
+        }
+    }
+    
+## 只出现一次的数字
+- 给定一个非空整数数组，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素
+- class Solution {public:
+    int singleNumber(vector<int>& nums) {
+        // a ^ b ^ a = a ^ a ^ b = 0 ^ b = b
+        int result = nums[0];
+        for (int i = 1; i < nums.size(); ++i) {
+            result = result ^ nums[i];
+        }
+        return result;
+    }};
+
