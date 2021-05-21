@@ -1,11 +1,9 @@
-# work
-# wxt
-## react-hooks
+- 5.20
 
-## useState
+- useState
   - useState(变量,事件函数)
       - 状态钩子函数
-## useEffect
+- useEffect
 
   - useEffect(()=>{
       return
@@ -15,7 +13,5 @@
     - 只写一个中括号则执行一次
     - 如果中括号里有内容则内容改变时才触发
 
-## 函数事件
-- function 事件名(){
-
-}
+- 函数事件
+- function 事件名(){}
