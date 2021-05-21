@@ -1,3 +1,7 @@
+- 5.21 
+    - [有效的数独](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2gy9m/)
+    - [两数之和](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2jrse/)
+    - [加一](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2cv1c/)
 - 5.20
     - [删除排序数组中的重复项](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2gy9m/)
   

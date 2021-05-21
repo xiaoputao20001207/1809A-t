@@ -1,3 +1,24 @@
+- 5.21
+  - 类继承
+    ```js 
+    class Parent {
+        constructor(value){
+            this.val = value
+            console.log(constructor);
+        }
+        getValue(){
+            console.log(this.val);
+        }
+    } 
+    class Child extends Parent {
+    constructor(value){
+        super(value)
+        this.val = value
+    }}
+    let child = new Child(1)
+    child.getValue()
+    child instanceof Parent
+    ```
 - 5.20
     - 删除排序数组中的重复项 
         - public int removeDuplicates(int[] A) {
@@ -31,6 +52,5 @@
                 return result;
             }};
 - 5.19
-  - 5.90
-    - 90
+  
     

@@ -1,3 +1,7 @@
+- 5.21 
+    - [node使用Nodemailer发送邮件可用于登录注册的验证码哟](https://juejin.cn/post/6964197984498089997)
+    - ["类"设计模式和"原型"设计模式](https://juejin.cn/post/6964649946238681125)
+    - [自定义下拉框 vue 组件序](https://juejin.cn/post/6963638903467147295)
 - 5.20
     - [实现一个简易的 npm install](https://juejin.cn/post/6963855043174858759)
     
