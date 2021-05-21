@@ -12,4 +12,4 @@
 - 5.19
     - [使用集合Set解决](https://leetcode-cn.com/leetbook/read/top-interview-questions/xm0u83/)
     - [git操作](https://jasonandjay.github.io/study/zh/standard/Start.html#git%E7%8E%AF%E5%A2%83)
-- 5.18
+- 5.18.1

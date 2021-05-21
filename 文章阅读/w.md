@@ -12,5 +12,5 @@
     - [CSS 制作波浪](https://juejin.cn/post/6963445854589960206)
     - [React进阶](https://juejin.cn/post/6963053793613185031)
     - [webpack](https://juejin.cn/post/6961961165656326152)
-- 5.18.
+- 5.18.1
   
