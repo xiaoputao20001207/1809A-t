@@ -14,5 +14,5 @@ export interface ISkillListQuery{
     searchTitle?:string,
     majorId?:string,
     status?:number,
-    isMyInfo:boolean
+    isMyInfo:boolean,
 }
