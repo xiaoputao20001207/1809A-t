@@ -1,12 +1,14 @@
+- 5.22
+    - [数组去重](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x21ib6/)
+    - [数组每一项相加之和](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2skh7/)
+    - [合并对象](https://leetcode-cn.com/leetbook/read/top-interview-questions/xm0u83/)
 - 5.21 
     - [有效的数独](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2gy9m/)
     - [两数之和](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2jrse/)
     - [加一](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2cv1c/)
 - 5.20
     - [删除排序数组中的重复项](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2gy9m/)
-  
     - [旋转数组](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2skh7/)
-  
     - [只出现一次的数字](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x21ib6/)
     
 - 5.19

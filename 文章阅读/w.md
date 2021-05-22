@@ -1,3 +1,7 @@
+- 5.22
+    - [Redis与MySQL双写一致性如何保证?](https://juejin.cn/post/6964531365643550751)
+    - [12种mysql常见错误总结](https://juejin.cn/post/6965052029441933348)
+    - [Golang基础 - 接口interface的使用](https://juejin.cn/post/6965056241110351903)
 - 5.21 
     - [node使用Nodemailer发送邮件可用于登录注册的验证码哟](https://juejin.cn/post/6964197984498089997)
     - ["类"设计模式和"原型"设计模式](https://juejin.cn/post/6964649946238681125)
