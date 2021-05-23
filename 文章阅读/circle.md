@@ -16,15 +16,6 @@
     + [实现call、apply和bind](https://juejin.cn/post/6963101823704481805)
     + [理解 JavaScript 中的原型与原型链](https://juejin.cn/post/6963493064740454414)
 
-    
-
-
-
-
-
-
-
-
 
 
 
