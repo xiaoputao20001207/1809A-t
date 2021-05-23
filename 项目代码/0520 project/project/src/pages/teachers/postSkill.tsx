@@ -71,6 +71,8 @@ const columns = [
         }
       },
   ];
+
+  
 // sxpt/station/selectStationLabel 专业数据
 // sxpt/station/selectStationVersionList  表格
 const postSkill:FC=()=>{
