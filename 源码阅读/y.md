@@ -1,10 +1,42 @@
+- 5.23 
+    - 手写apply
+    ```js
+    Function.prototype.myApply = function(context) {
+        if (typeof this !== 'function') {
+        throw new TypeError('Error')
+        }
+        context = context || window
+        context.fn = this
+        let result
+        // ॒ቘ݇හ޾ call ํڦ܄
+        if (arguments[1]) {
+        result = context.fn(...arguments[1])
+        } else {
+        result = context.fn()
+        }
+        delete context.fn
+        return result
+    }
+    ```
 - 5.22
-  - 输入: nums = [1, 1, 2]
-    输出: false
-    解释: 
-    Alice 有两个选择: 擦掉数字 1 或 2。
-    如果擦掉 1, 数组变成 [1, 2]。剩余数字按位异或得到 1 XOR 2 = 3。那么 Bob 可以擦掉任意数字，因为 Alice 会成为擦掉最后一个数字的人，她总是会输。
-    如果 Alice 擦掉 2，那么数组变成[1, 1]。剩余数字按位异或得到 1 XOR 1 = 0。Alice 仍然会输掉游戏。
+    - 手写bind
+    ```js
+    Function.prototype.myBind = function (context) {
+        if (typeof this !== 'function') {
+        throw new TypeError('Error')
+        }
+        const _this = this
+        const args = [...arguments].slice(1)
+        // ᬬࢧӞӻڍහ
+        return function F() {
+        // ࢩԅᬬࢧԧӞӻڍහ҅౯ժݢզ new F()҅ಅզᵱᥝڣෙ
+        if (this instanceof F) {
+        return new _this(...args, ...arguments)
+        }
+        return _this.apply(context, args.concat(...arguments))
+        }
+    }   
+    ```
 - 5.21
   - 类继承
     ```js 
