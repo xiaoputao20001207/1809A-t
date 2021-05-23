@@ -12,5 +12,5 @@
 - 0519 
     - [ Vue 源码解读（2）—— Vue 初始化过程](https://juejin.cn/post/6950084496515399717)
     - [Vue 源码解读（1）—— 前言](https://juejin.cn/post/6949370458793836580)
-- 0518。
+- 0518
     + [ Lodash(slice.js)](https://juejin.cn/post/6964616735152406536)

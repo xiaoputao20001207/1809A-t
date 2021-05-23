@@ -83,7 +83,7 @@
 ## 2021.5.18 【git操作】
 + 创建版本库
     + git clone url
-    + git init 
+    + git init
 + 查看状态
     + git status
 + 提交信息
