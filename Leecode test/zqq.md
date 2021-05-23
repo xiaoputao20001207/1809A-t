@@ -5,10 +5,10 @@
 - 0522 
     - [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)
     - [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
-- 05.21 
+- 0521 
     - [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)
     - [回文数](https://leetcode-cn.com/problems/palindrome-number/)
-- 05.20 
+- 0520 
     - [删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
     - [三数之和](https://leetcode-cn.com/problems/3sum/)
 - 0519 
