@@ -11,7 +11,7 @@
    - [组数总和](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-leetcode-solution/)
 
 4. 项目进度
-    页头布局
+    页头布局.
 
 ## 2021.5.23
 1. 文章阅读
