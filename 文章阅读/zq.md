@@ -9,7 +9,7 @@
     - [产品经理：你能不能用div给我画条龙？](https://juejin.cn/post/6963476650356916254)
   - 0521
     - [javascript中关于函数传递参数的一点理解——区分值传递还是引用传递](https://juejin.cn/post/6964687516876144654)
-    [JS第一座大山:堆栈内存和闭包作用域](https://juejin.cn/post/6964635223531192333)
+    - [JS第一座大山:堆栈内存和闭包作用域](https://juejin.cn/post/6964635223531192333)
   - 0520
     - [React Hooks](https://juejin.cn/post/6964216741425594382)
   - 05190
