@@ -1,4 +1,7 @@
 # zq
+- 0524
+    - [React 组件性能优化最佳实践](https://juejin.cn/post/6965747225154732069)
+    - [大道理小聪明系列 - Redux + Hooks 工程实践一则](https://juejin.cn/post/6965732983781195807)
 - 0523
     - [超详细的 Promise 理解与实现](https://juejin.cn/post/6857934319886893064)
     - [Vue 源码解读（5）—— 全局 API目标](https://juejin.cn/post/6952643167715852319)

@@ -1,4 +1,7 @@
 # 张琪
+   - 0524
+    - [new Map()使用方法](https://www.jianshu.com/p/c9a55b591948)
+    - [ES6学习☞set和map数据结构](https://www.jianshu.com/p/9be458a73e05)
   - 0523 
     - [React核心成员表示：JSX就是个错误](https://juejin.cn/post/6965303670154100773)
   - 0522 

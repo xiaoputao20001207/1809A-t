@@ -1,4 +1,7 @@
 ## 练习
+- 0524
+    - [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/solution/valid-parentheses-fu-zhu-zhan-fa-by-jin407891080/)
+    - [组数总和](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-leetcode-solution/)
 - 0523
     - [ 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
     - [字符串相乘](https://leetcode-cn.com/problems/multiply-strings/)
