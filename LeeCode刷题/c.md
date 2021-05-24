@@ -1,4 +1,7 @@
-- 5.2323
+- 5.24
+  - [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/solution/valid-parentheses-fu-zhu-zhan-fa-by-jin407891080/)
+   - [组数总和](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-leetcode-solution/)
+- 5.23
     - [鸡蛋掉落](https://leetcode-cn.com/leetbook/read/top-interview-questions/xmup75/)
     - [验证回文串](https://leetcode-cn.com/leetbook/read/top-interview-questions/xah8k6/)
     - [分割回文串](https://leetcode-cn.com/leetbook/read/top-interview-questions/xaxi62/)

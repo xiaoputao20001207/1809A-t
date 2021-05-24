@@ -1,3 +1,6 @@
+- 5.24
+    - [new Map()使用方法](https://www.jianshu.com/p/c9a55b591948)
+    - [ES6学习☞set和map数据结构](https://www.jianshu.com/p/)
 - 5.23
     - [Vue 3 中的 JSX](https://juejin.cn/post/6965057432544346143)
     - [前端响应式布局原理与方案](https://juejin.cn/post/6964623417949552648)

@@ -1,4 +1,7 @@
-- 5.23 。
+- 5.24
+  - [React 组件性能优化最佳实践](https://juejin.cn/post/6965747225154732069)
+   - [大道理小聪明系列 - Redux + Hooks 工程实践一则](https://juejin.cn/post/6965732983781195807)
+- 5.23
     - 手写apply
     ```js
     Function.prototype.myApply = function(context) {
