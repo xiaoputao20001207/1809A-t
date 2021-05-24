@@ -1,0 +1,336 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html,body,#root{
+  width: 100%;
+  height: 100%;
+}
+.teacher {
+  width: 100%;
+  height: 100%;
+  .ps{
+    width: 100%;
+    height: 200px;
+    background: #fff;
+    .professional {
+      width: 100%;
+      height: 100px;
+      margin-top: 10px;
+      margin-left: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      span {
+        display: inline-block;
+        width: 100px;
+        height: 24px;
+        border-radius: 25px;
+        text-align: center;
+      }
+      .active {
+        background: #00f;
+        color: #fff;
+      }
+    }
+    .state {
+      width: 100%;
+      height: 80px;
+      margin-top: 10px;
+      margin-left: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      span {
+        display: inline-block;
+        width: 100px;
+        height: 24px;
+        border-radius: 25px;
+        text-align: center;
+      }
+      .active {
+        background: #00f;
+        color: #fff;
+      }
+    }
+  }
+  .main{
+      width: 100%;
+      background: #fff;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      .res{
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          .aa{
+              width: 500px;
+              display: flex;
+              justify-content: space-around;
+              margin: 5px;
+              .iptd{
+                  margin-top: 5px;
+              }
+          }
+          .ipt{
+              width: 300px;
+              height: 30px;
+          }
+      }
+  }
+}
+.ant-layout-header {
+  position: relative;
+  color: #fff;
+  background: #545c64;
+  img {
+    width: 110px;
+    height: 30px;
+  }
+  a {
+    margin-left: 25px;
+    color: #fff;
+  }
+  .active {
+    color: #00f;
+  }
+  span {
+    margin-left: 25px;
+  }
+  .ant-badge {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    right: 150px;
+    top: 30px;
+    .ant-scroll-number{
+      width: 15px;
+      height: 20px;
+      border-radius: 50%;
+      text-align: center;
+      .ant-scroll-number-only{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        .ant-scroll-number-only-unit{
+          position: absolute;
+          top: 0px;
+          left: -23px;
+        }
+      }
+    }
+  }
+}
+.top {
+  width: 100%;
+  height: 50px;
+  background: rgba(103, 156, 246, 0.1);
+  color: #000;
+}
+.ant-layout-footer{
+    width: 100%;
+    background: #353d53;
+
+    .bw_bottom {
+        width: 100%;
+      background: #353d53;
+      box-sizing: inherit;
+      .b_b_detail {
+        width: 1200px;
+        margin: 0 auto;
+        height: 180px;
+        background: #353d53;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        -webkit-box-align: center;
+        align-items: center;
+        .b_b_left {
+          display: flex;
+          height: 100%;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          flex-direction: column;
+          -webkit-box-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          justify-content: center;
+          .bw_img {
+            box-sizing: inherit;
+            img {
+              width: 110px;
+              height: 31px;
+              border-style: none;
+              box-sizing: inherit;
+            }
+          }
+          .b_w_tel {
+            font-size: 21px;
+            margin-top: 43px;
+            color: white;
+            box-sizing: inherit;
+          }
+        }
+        .b_b_middle {
+          width: 40%;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          flex-direction: row;
+          -webkit-box-pack: justify;
+          justify-content: space-between;
+          margin-left: 97px;
+          box-sizing: inherit;
+          .middle_one {
+            text-align: center;
+            box-sizing: inherit;
+            .middle_title {
+              font-size: 16px;
+              font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+              font-weight: 400;
+              color: white;
+              margin-bottom: 10px;
+              box-sizing: inherit;
+            }
+            .href_a {
+              font-size: 14px;
+              font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+              font-weight: 400;
+              color: rgba(255, 255, 255, 0.6);
+              padding: 5px;
+              box-sizing: inherit;
+              a {
+                cursor: pointer;
+                color: inherit;
+                text-decoration: none;
+                background-color: transparent;
+                box-sizing: inherit;
+              }
+            }
+          }
+          .middle_two {
+            text-align: center;
+            box-sizing: inherit;
+            .middle_title {
+              font-size: 16px;
+              font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+              font-weight: 400;
+              color: white;
+              margin-bottom: 10px;
+              box-sizing: inherit;
+            }
+            .href_a {
+              font-size: 14px;
+              font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+              font-weight: 400;
+              color: rgba(255, 255, 255, 0.6);
+              padding: 5px;
+              box-sizing: inherit;
+              a {
+                cursor: pointer;
+                color: inherit;
+                text-decoration: none;
+                background-color: transparent;
+                box-sizing: inherit;
+              }
+            }
+          }
+          .middle_three {
+            text-align: center;
+            box-sizing: inherit;
+            .middle_title {
+              font-size: 16px;
+              font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+              font-weight: 400;
+              color: white;
+              margin-bottom: 10px;
+              box-sizing: inherit;
+            }
+            .href_a {
+              font-size: 14px;
+              font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+              font-weight: 400;
+              color: rgba(255, 255, 255, 0.6);
+              padding: 5px;
+              box-sizing: inherit;
+              a {
+                cursor: pointer;
+                color: inherit;
+                text-decoration: none;
+                background-color: transparent;
+                box-sizing: inherit;
+              }
+            }
+          }
+          .middle_four {
+            text-align: center;
+            box-sizing: inherit;
+            .middle_title {
+              font-size: 16px;
+              font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+              font-weight: 400;
+              color: white;
+              margin-bottom: 10px;
+              box-sizing: inherit;
+            }
+            .href_a {
+              font-size: 14px;
+              font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+              font-weight: 400;
+              color: rgba(255, 255, 255, 0.6);
+              padding: 5px;
+              box-sizing: inherit;
+              a {
+                cursor: pointer;
+                color: inherit;
+                text-decoration: none;
+                background-color: transparent;
+                box-sizing: inherit;
+              }
+            }
+          }
+        }
+        .b_b_right {
+          width: 15%;
+          height: 100%;
+          margin-left: 30%;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          flex-direction: column;
+          -webkit-box-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          justify-content: center;
+          img {
+            width: 106px;
+            height: 106px;
+            border-style: none;
+          }
+          .wechat_text{
+            margin-top: 10px;
+            font-size: 14px;
+            font-family: SourceHanSansCN-Regular,SourceHanSansCN;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.6);
+            box-sizing: inherit;
+          }
+        }
+      }
+      .b_b_sign{
+        width: 1200px;
+        text-align: center;
+        line-height: 47px;
+        height: 47px;
+        background: #252b3a;
+        font-size: 12px;
+        font-family: SourceHanSansCN-Regular,SourceHanSansCN;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.65);
+        box-sizing: inherit;
+      }
+    }
+}
