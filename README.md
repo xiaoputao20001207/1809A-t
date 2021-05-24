@@ -6,7 +6,7 @@
     - [React核心成员表示：JSX就是个错误](https://juejin.cn/post/6965303670154100773)
 
 2. 源码阅读
-     - [超详细的 Promise 理解与实现](https://juejin.cn/post/6857934319886893064)
+    - [超详细的 Promise 理解与实现](https://juejin.cn/post/6857934319886893064)
     - [Vue 源码解读（5）—— 全局 API目标](https://juejin.cn/post/6952643167715852319)
 
 3. leecode 刷题
