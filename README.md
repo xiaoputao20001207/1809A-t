@@ -42,29 +42,6 @@
 - [x] 八维生产性实训平台 - 添加岗位页面保存基本信息以后新的框
 
 
-- ## 2021/05/24
-
-1. 文章阅读
-
-- [一文带你看懂 UmiJS （3.x版本）](https://juejin.cn/post/6844904197331091464)
-- ​[基于React的数据流实现](https://juejin.cn/post/6844904121116393486)
-
-2. 源码阅读
-   
-- [React Hooks源码浅析](https://zhuanlan.zhihu.com/p/68842478)
-- ​[react生命周期，hooks对应的生命周期？](https://www.cnblogs.com/cxyqts/p/14401737.html?ivk_sa=1024320u)
-  
-3. leecode 刷题
-
-- [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
-- ​[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
-
-4. 项目进度
-
-- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
-- [x] 八维生产性实训平台 - 岗位页面排版
-- [x] 八维生产性实训平台 - 添加岗位页面排版  
-
 - ## 2021/05/23
 
 1. 文章阅读
@@ -200,7 +177,145 @@
 - [x] 学习markdown
 - [x] 复习ts
 
-————————————————————————————————————————————————————————————
+
+# 张琪
+## 2021.5.25
+1. 文章阅读
+- [这些原生DOM操作你还记住多少](https://juejin.cn/post/6966062224892756005)
+- [【js 进阶】全篇干货 ！一篇文章让你彻底弄懂栈、堆、队列、执行栈、上下文、事件循环（Event Loop）](https://juejin.cn/post/6966158666030383118)
+2. 源码阅读
+- [【js 进阶】全篇干货 ！一篇文章让你彻底弄懂栈、堆、队列、执行栈、上下文、事件循环（Event Loop）](https://juejin.cn/post/6966158666030383118)
+3. leecode 刷题
+- [括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
+- [数组全排列](https://leetcode-cn.com/problems/permutations/)
+
+4. 项目进度
+   - [ x ] 添加页面基本布局
+   - [ x ] 添加页面数据获取
+   - [ x ] 添加页面接口
+
+## 2021.5.24
+1. 文章阅读
+- [new Map()使用方法](https://www.jianshu.com/p/c9a55b591948)
+- [ES6学习☞set和map数据结构](https://www.jianshu.com/p/9be458a73e05)
+2. 源码阅读
+- [React 组件性能优化最佳实践](https://juejin.cn/post/6965747225154732069)
+- [大道理小聪明系列 - Redux + Hooks 工程实践一则](https://juejin.cn/post/6965732983781195807)
+3. leecode 刷题
+- [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/solution/valid-parentheses-fu-zhu-zhan-fa-by-jin407891080/)
+- [组数总和](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-leetcode-solution/)
+
+4. 项目进度
+   - [ x ] 页头布局
+
+## 2021.5.23
+1. 文章阅读
+- [React核心成员表示：JSX就是个错误](https://juejin.cn/post/6965303670154100773)
+
+2. 源码阅读
+- [超详细的 Promise 理解与实现](https://juejin.cn/post/6857934319886893064)
+- [Vue 源码解读（5）—— 全局 API目标](https://juejin.cn/post/6952643167715852319)
+
+3. leecode 刷题
+- [ 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+- [字符串相乘](https://leetcode-cn.com/problems/multiply-strings/)
+
+4. 项目进度
+   - [ x ] 页头布局
+
+## 2021.5.22
+1. 文章阅读
+- [图解 React-router 带你深入理解路由本质](https://juejin.cn/post/6965419095860707341)
+- [产品经理：你能不能用div给我画条龙？](https://juejin.cn/post/6963476650356916254)
+
+2. 源码阅读
+- [Vue 源码解读（5）—— 全局 API目标](https://juejin.cn/post/6952643167715852319)
+
+3. leecode 刷题
+- [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)
+- [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
+
+4. 项目进度
+   - [ x ] 页头布局
+
+## 2021.5.21
+1. 文章阅读
+- [Vue 源码解读（4）—— 异步更新](https://juejin.cn/post/6951568091893465102)
+
+2. 源码阅读
+- [Vue 源码解读（3）—— 响应式原理](https://juejin.cn/post/6950826293923414047)
+- [Vue 源码解读（4）—— 异步更新](https://juejin.cn/post/6951568091893465102)
+
+3. leecode 刷题
+- [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)
+- [回文数](https://leetcode-cn.com/problems/palindrome-number/)
+
+4. 项目进度
+- [ x ] postSkill 搜索 功能的实现
+- [ x ] layout 布局
+- [ x ] css module 模块化
+
+
+## 2021.5.20
+1. 文章阅读
+- [React Hooks](https://juejin.cn/post/6964216741425594382)
+
+2. 源码阅读
+- [Vue 源码解读（3）—— 响应式原理](https://juejin.cn/post/6950826293923414047)
+- [Vue 源码解读（4）—— 异步更新](https://juejin.cn/post/6951568091893465102)
+
+3. leecode 刷题
+- [删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
+- [三数之和](https://leetcode-cn.com/problems/3sum/)
+
+4. 项目进度
+- [ x ] postSkill 页面的基础数据渲染及部分排版
+
+## 2021.5.19
+1. 文章阅读
+- [React Hooks](https://juejin.cn/post/6964216741425594382)
+
+2. 源码阅读
+- [Vue 源码解读（3）—— 响应式原理](https://juejin.cn/post/6950826293923414047)
+- [Vue 源码解读（4）—— 异步更新](https://juejin.cn/post/6951568091893465102)
+
+3. leecode 刷题
+- [ 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)
+- [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
+
+4. 项目进度
+- [ x ] 登录页面的实现 
+- [ x ] 接口的实现
+## 2021.5.18 
+### [git操作](https://jasonandjay.github.io/study/zh/standard/Start.html#git%E7%8E%AF%E5%A2%83)
+
++ 创建版本库
+    + git clone url
+    + git init
++ 查看状态
+    + git status
++ 提交信息
+    + init 
+    + add 新增
+    + update 更新
+    + fix 修复
+    + finish 完成
+    + remove 删除
++ 撤销
+    + 软撤销 git reset --soft []
+    + 应撤销 git reset --hard []
++ 分支
+    + 创建分支
+    + 切换分支
+    + 删除分支
+    + 合并分支
++ 提交
+    + 先拉去远程分支  pull
+    + 在提交远程 push
+
+
+
+
 # 杜学洋
 ## 2021/5/25
 1.文章阅读
