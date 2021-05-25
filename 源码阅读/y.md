@@ -61,7 +61,7 @@
     child.getValue()
     child instanceof Parent
     ```
-- 5.20
+- 5.20.
     - 删除排序数组中的重复项 
         - public int removeDuplicates(int[] A) {
                 int count = 0;//重复的数字个数
