@@ -1,3 +1,7 @@
+- 5.25
+   - [assign](https://www.lodashjs.com/docs/lodash.assign)
+   - [_.create(prototype, [properties])](https://www.lodashjs.com/docs/lodash.create)
+   - [bind](https://www.lodashjs.com/docs/lodash.bind)
 - 5.24
   - [React 组件性能优化最佳实践](https://juejin.cn/post/6965747225154732069)
    - [大道理小聪明系列 - Redux + Hooks 工程实践一则](https://juejin.cn/post/6965732983781195807)

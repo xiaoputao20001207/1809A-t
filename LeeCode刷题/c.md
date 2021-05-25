@@ -1,3 +1,6 @@
+- 5.25
+    - [二叉树前序遍历](https://leetcode-cn.com/leetbook/read/data-structure-binary-tree/xeywh5/)
+    - [二叉树中序遍历](https://leetcode-cn.com/leetbook/read/data-structure-binary-tree/xecaj6/)
 - 5.24
   - [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/solution/valid-parentheses-fu-zhu-zhan-fa-by-jin407891080/)
    - [组数总和](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-leetcode-solution/)

@@ -1,3 +1,7 @@
+- 5.25
+   - [建脚手架相关知识体系](https://juejin.cn/post/6966119324478079007)
+   - [vue create](https://cli.vuejs.org/zh/guide/creating-a-project.html)
+   - [原生DOM操作](https://juejin.cn/post/6966062224892756005)
 - 5.24
     - [new Map()使用方法](https://www.jianshu.com/p/c9a55b591948)
     - [ES6学习☞set和map数据结构](https://www.jianshu.com/p/)

@@ -1,4 +1,24 @@
 # 吴晓桐
+## 2021.5.25
+1. 文章阅读
+   - [建脚手架相关知识体系](https://juejin.cn/post/6966119324478079007)
+   - [vue create](https://cli.vuejs.org/zh/guide/creating-a-project.html)
+   - [原生DOM操作](https://juejin.cn/post/6966062224892756005)
+2. 源码阅读
+   - [assign](https://www.lodashjs.com/docs/lodash.assign)
+   - [_.create(prototype, [properties])](https://www.lodashjs.com/docs/lodash.create)
+   - [bind](https://www.lodashjs.com/docs/lodash.bind)
+3. leecode 刷题
+   - [二叉树前序遍历](https://leetcode-cn.com/leetbook/read/data-structure-binary-tree/xeywh5/)
+   - [二叉树中序遍历](https://leetcode-cn.com/leetbook/read/data-structure-binary-tree/xecaj6/)
+
+4. 项目进度
+    - 表格功能完成百分之90% 
+    - 保存功能 编辑详情页
+    - 反显功能
+    - get url params传参
+    - post data
+
 ## 2021.5.24
 1. 文章阅读
    - [new Map()使用方法](https://www.jianshu.com/p/c9a55b591948)
