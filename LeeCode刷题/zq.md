@@ -1,5 +1,8 @@
 ## 练习
 - 0524
+    - [括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
+    - [数组全排列](https://leetcode-cn.com/problems/permutations/)
+- 0524
     - [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/solution/valid-parentheses-fu-zhu-zhan-fa-by-jin407891080/)
     - [组数总和](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-leetcode-solution/)
 - 0523
@@ -19,3 +22,5 @@
     - [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 - 0518
     + [ 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)
+
+

@@ -3,11 +3,14 @@ import {getSkillLabel,getStationVersionList} from "@/services"
 import {ISkillLabel,IStationVersionList,ISkillListQuery} from "@/utils/interface"
 import { Table ,Input,Button } from 'antd';
 import "./post.css"
-
+import { history } from 'umi';
 import { EyeOutlined ,RollbackOutlined,FormOutlined,DeliveredProcedureOutlined,DeleteOutlined} from '@ant-design/icons';
 import "./post.css"
 import styles from './postSkill.less'
 import classNames from 'classnames';
+import {observer} from 'mobx-react-lite'
+import useStore from "@/context/useStore"
+
 interface Iprops{
     onChange:(e:ChangeEvent<HTMLInputElement>)=>void
 }
@@ -17,42 +20,42 @@ const columns = [
     {
       title: '岗位名称',
       dataIndex: 'name',
-      align:'center',
+    //   align:'center',
     },
     {
       title: '专业',
       dataIndex: 'majorName',
-      align:'center',
+    //   align:'center',
     },
     {
       title: '版本号',
       dataIndex: 'stationVersion',
-      align:'center',
+    //   align:'center',
     },
     {
         title: '技能数量',
         dataIndex: 'skillNum',
-      align:'center',
+    //   align:'center',
 
       },
       {
         title: '作者',
         dataIndex: 'userName',
-        align:'center',
+        // align:'center',
       },
       {
         title: '发起时间',
         dataIndex: 'createTime',
-        align:'center',
+        // align:'center',
       },
       {
         title: '状态',
         render: (row: IStationVersionList) => <span className={styles[`status${row.status}`]}>{status[Number(row.status)]}</span>,
-        align:'center',
+        // align:'center',
       },
       {
         title: '操作',
-        align:'center',
+        // align:'center',
         render:(row: IStationVersionList)=>{    
             if(row.status ==='3'){
                 return  <div className={styles.action}>
@@ -71,8 +74,6 @@ const columns = [
         }
       },
   ];
-
-
 // sxpt/station/selectStationLabel 专业数据
 // sxpt/station/selectStationVersionList  表格
 const postSkill:FC=()=>{
@@ -83,6 +84,7 @@ const postSkill:FC=()=>{
         let [dataSource, setDataSource] = useState<IStationVersionList[]>([]);
         const [isMyInfo,setIsMyInfo] = useState(false)//多选框选中状态
         const [searchTitle,setSearchTitle] = useState('')//多选框选中状态
+        let {skill} = useStore()
         // isAsc: desc
         // pageNum: 1
         // pageSize: 10
@@ -92,9 +94,8 @@ const postSkill:FC=()=>{
         // isMyInfo: false
         //专业数据
         useEffect(()=>{
-            getSkillLabel().then(res=>{
-                setselectStationLabel(res.data)
-            })
+            //将请求 一级数据放到 mobx 中管理
+            skill.getSkillLabel()
         },[])//相当于componentdidmount  执行一次 不传第二个参数无限执行
 
         //项目列表
@@ -106,11 +107,7 @@ const postSkill:FC=()=>{
         } else {
             queryParams = { ...queryParams, majorId: curSkill,isMyInfo, searchTitle,status: '' as unknown as number }
         }
-        getStationVersionList(queryParams).then(res => {
-            if (res.code == 200) {
-                setDataSource(res.rows);
-            }
-        })
+        skill.getStationVersionList(queryParams)
     },  [curSkill, curStatus,isMyInfo,searchTitle]);
 
     // 发起请求获取项目列表
@@ -126,7 +123,7 @@ const postSkill:FC=()=>{
                             <h3>专业：</h3>
                             <ul>
                             {
-                                selectStationLabel?  [{ id: '', name: '全部' },...selectStationLabel].map(item=>{
+                                selectStationLabel?  [{ id: '', name: '全部' },...skill.selectStationLabel].map(item=>{
                                     return <span key={item.id} className={curSkill==item.id?classNames(styles.item,styles.shine):styles.item} onClick={e => setCurSkill(item.id)}>{item.name}</span>
                                 }):''
                             }</ul>
@@ -143,16 +140,15 @@ const postSkill:FC=()=>{
                     </div>
 
                     <div className={styles.mainlist}>
-                         <div className={styles.search}>
+                        <div className={styles.search}>
                         <input type="checkbox" onChange={e=>{setIsMyInfo(e.target.checked)}}/>只看我的
                         <Search placeholder="输入内容" allowClear onSearch={onSearch} style={{ width: 200 }} />
-                        <Button type="primary">添加岗位</Button>
+                        <Button type="primary" onClick={()=>{history.push('/teachers/addPostSkill');}}>添加岗位</Button>
                     </div>
-
-                    <Table columns={columns} dataSource={dataSource} rowKey='1'/>
+                    <Table columns={columns} dataSource={skill.dataSource} rowKey='1'/>
                     </div>
                 </div>
             </div>
         )
 }
-export default postSkill
+export default observer(postSkill)

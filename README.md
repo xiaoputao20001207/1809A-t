@@ -1,4 +1,19 @@
 # 张琪
+## 2021.5.25
+1. 文章阅读
+- [这些原生DOM操作你还记住多少](https://juejin.cn/post/6966062224892756005)
+- [【js 进阶】全篇干货 ！一篇文章让你彻底弄懂栈、堆、队列、执行栈、上下文、事件循环（Event Loop）](https://juejin.cn/post/6966158666030383118)
+2. 源码阅读
+- [【js 进阶】全篇干货 ！一篇文章让你彻底弄懂栈、堆、队列、执行栈、上下文、事件循环（Event Loop）](https://juejin.cn/post/6966158666030383118)
+3. leecode 刷题
+- [括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
+- [数组全排列](https://leetcode-cn.com/problems/permutations/)
+
+4. 项目进度
+   - [ x ] 添加页面基本布局
+   - [ x ] 添加页面数据获取
+   - [ x ] 添加页面接口
+
 ## 2021.5.24
 1. 文章阅读
 - [new Map()使用方法](https://www.jianshu.com/p/c9a55b591948)
@@ -11,7 +26,7 @@
 - [组数总和](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-leetcode-solution/)
 
 4. 项目进度
-    页头布局
+   - [ x ] 页头布局
 
 ## 2021.5.23
 1. 文章阅读
@@ -26,7 +41,7 @@
 - [字符串相乘](https://leetcode-cn.com/problems/multiply-strings/)
 
 4. 项目进度
-    页头布局
+   - [ x ] 页头布局
 
 ## 2021.5.22
 1. 文章阅读
@@ -41,7 +56,7 @@
 - [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
 
 4. 项目进度
-    页头布局
+   - [ x ] 页头布局
 
 ## 2021.5.21
 1. 文章阅读
@@ -56,9 +71,9 @@
 - [回文数](https://leetcode-cn.com/problems/palindrome-number/)
 
 4. 项目进度
-- postSkill 搜索 功能的实现
-- layout 布局
-- css module 模块化
+- [ x ] postSkill 搜索 功能的实现
+- [ x ] layout 布局
+- [ x ] css module 模块化
 
 
 ## 2021.5.20
@@ -74,7 +89,7 @@
 - [三数之和](https://leetcode-cn.com/problems/3sum/)
 
 4. 项目进度
-- postSkill 页面的基础数据渲染及部分排版
+- [ x ] postSkill 页面的基础数据渲染及部分排版
 
 ## 2021.5.19
 1. 文章阅读
@@ -89,8 +104,8 @@
 - [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 
 4. 项目进度
-- 登录页面的实现 
-- 接口的实现
+- [ x ] 登录页面的实现 
+- [ x ] 接口的实现
 ## 2021.5.18 
 ### [git操作](https://jasonandjay.github.io/study/zh/standard/Start.html#git%E7%8E%AF%E5%A2%83)
 
