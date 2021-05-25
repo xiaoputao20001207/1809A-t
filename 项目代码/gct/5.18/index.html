@@ -8,15 +8,16 @@
     <title>Document</title>
     <style>
         img{
-            width: 200px;
-            height: 200px;
+            width: 300px;
         }
     </style>
 </head>
 
 <body>
+
     <script>
-        let imgs = ["https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fgss0.baidu.com%2F94o3dSag_xI4khGko9WTAnF6hhy%2Fzhidao%2Fpic%2Fitem%2Fbba1cd11728b471049731910c5cec3fdfd03238a.jpg&refer=http%3A%2F%2Fgss0.baidu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623946336&t=1583e50bd082354af385f0bc1c7380be"
+        const imgs = [
+            "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fgss0.baidu.com%2F94o3dSag_xI4khGko9WTAnF6hhy%2Fzhidao%2Fpic%2Fitem%2Fbba1cd11728b471049731910c5cec3fdfd03238a.jpg&refer=http%3A%2F%2Fgss0.baidu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623946336&t=1583e50bd082354af385f0bc1c7380be"
             , "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fattach.bbs.miui.com%2Fforum%2F201305%2F15%2F105530rt6t70g51o1u9t66.jpg&refer=http%3A%2F%2Fattach.bbs.miui.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623946336&t=869b69d76ddc947d65284f4439fa86b2"
             , "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fgss0.baidu.com%2F7Po3dSag_xI4khGko9WTAnF6hhy%2Fzhidao%2Fpic%2Fitem%2F7a899e510fb30f24c548b901c895d143ac4b03e5.jpg&refer=http%3A%2F%2Fgss0.baidu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623946336&t=55a434232e75610cd44e1eee5aafcfcc"
             , "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fattach.bbs.miui.com%2Fforum%2F201304%2F01%2F143239o3mun66uyfm66pbm.jpg&refer=http%3A%2F%2Fattach.bbs.miui.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623946336&t=f67081131a85c587a8320f1b5eeea082"
@@ -26,39 +27,57 @@
             , " https://ss1.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/8b82b9014a90f6030add233a3b12b31bb051ed5a.jpg"
             , "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fattach.bbs.miui.com%2Fforum%2F201306%2F23%2F110328s72xxse7lfis9fnd.jpg&refer=http%3A%2F%2Fattach.bbs.miui.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623946336&t=124d9aaf33ae9881160cddec98ddd4cb"
             , " https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fattach.bbs.miui.com%2Fforum%2F201407%2F12%2F191509c68rqqdu6drerqef.jpg&refer=http%3A%2F%2Fattach.bbs.miui.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623946336&t=2ecab08e1042ab65c926e0ce2db0920c"
-        ]
-         
-        function loadingImg(src) {
-          return new Promise((resolve,reject)=>{
-              let img = new Image
-               img.src = src
-               img.onload =()=>{
-                   resolve(img)
-               }
-               img.onerror =()=>{
-                   reject(error)
-               }
+        ];
 
-          })
+        // 封装一个加载图片的promise
+        // 封装到Promise的核心: 主要是在回调函数里改变状态
+        function loadImg(src){// 成功    失败
+            return new Promise((reslove,reject)=>{
+                let img = new Image();
+                img.src=src;
+                img.onload=()=>{
+                    reslove(img);
+                }
+                img.onerror=(err)=>{
+                    reject(err);
+                }
+            })
         }
-        let imgPromise = imgs.map(item=>{
-            return loadingImg(item)
-        })
-        console.log(imgPromise)
-        //全部加载
-        Promise.all(imgPromise).then(res=>{
-               res.forEach(item=>{
-                   document.body.appendChild(item)
-               })
 
-        })
-        //依次加载
-        imgs.forEach(item=>{
-          loadingImg(item).then(res=>{
-              document.body.appendChild(res)
-          })
+         const imgsPromise = imgs.map(item=>loadImg(item));
 
-        })
+         // 1.用promise实现十张图片的依此加载
+        //  方法一:
+        // Promise.all(imgsPromise).then(res=>{
+        //     res.forEach(item=>document.body.appendChild(item))
+        // })
+        // 方法二:
+        function loadImgSync(){
+            for(let i=0;i<imgs.length;i++){
+                let res=await loadImg(imgs[i]);
+                document.body.appendChild(res)
+            }
+        }
+        loadImgSync()
+        
+
+        
+
+
+        // 2.用promise实现十张图片同时加载，谁先加载完谁先添加到页面
+        // forEach 外面同步,里面异步
+        // 方法一:
+        // imgs.forEach(item=>{
+        //     loadImg(item).then(res=>{
+        //         document.body.appendChild(res)
+        //     })
+        // })
+        // 方法二:
+        // imgs.forEach(async item=>{
+            // let res = await loadImg(item);                document.body.appendChild(res)
+        // })
+
+
     </script>
 </body>
 

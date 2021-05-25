@@ -1,18 +1,18 @@
 export interface ISkillLabel {
-  id: string;
-  name: string;
-  parentId: string;
-  children?: any;
+    id: string;
+    name: string;
+    parentId: string;
+    children?: any;
 }
 
 export interface ISkillListQuery {
-  isAsc: string;
-  pageNum: number;
-  pageSize: number;
-  searchTitle?: string;
-  majorId?: string;
-  status?: number;
-  isMyInfo: boolean;
+    isAsc: string;
+    pageNum: number;
+    pageSize: number;
+    searchTitle?: string;
+    majorId?: string;
+    status?: number;
+    isMyInfo: boolean;
 }
 
 export interface ISkillListItem {
