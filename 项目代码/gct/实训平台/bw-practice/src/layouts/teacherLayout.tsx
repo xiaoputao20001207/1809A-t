@@ -54,41 +54,45 @@ const content = (
 
 const TearcherLayout: React.FC = (props) => {
     return <Layout>
-        {
-            // console.log(props.children)
-        }
         
         {/* 头部 */}
         <Header>
-            <img src="http://111.203.59.61:8060/static/img/w_bw.172a76e5.png" alt="" />
-            <NavLink to="/teachers/postSkill" className="title_one">岗位</NavLink>
-            <NavLink to="/teachers/proManagement" className="title_one">项目</NavLink>
-            <Dropdown overlay={practiceMenu}>
-                <span >实训</span>
-            </Dropdown>
-            <Dropdown overlay={interviewMenu}>
-                <span>面试</span>
-            </Dropdown>
-            <Dropdown overlay={questionMenu}>
-                <span>问答</span>
-            </Dropdown>
-            {/* 铃铛 */}
-            <Popover placement="bottom" content={content}>
-                <Badge count={5}>
-                    <BellOutlined />
-                </Badge>
-            </Popover>
-            
-
+            <div>
+                <img src="http://111.203.59.61:8060/static/img/w_bw.172a76e5.png" alt="" />
+                <NavLink to="/teachers/postSkill" className="title_one">岗位</NavLink>
+                <NavLink to="/teachers/proManagement" className="title_one">项目</NavLink>
+                <Dropdown overlay={practiceMenu}>
+                    <span >实训</span>
+                </Dropdown>
+                <Dropdown overlay={interviewMenu}>
+                    <span>面试</span>
+                </Dropdown>
+                <Dropdown overlay={questionMenu}>
+                    <span>问答</span>
+                </Dropdown>
+                {/* 铃铛 */}
+                <Popover placement="bottom" content={content}>
+                    <Badge count={5}>
+                        <BellOutlined />
+                    </Badge>
+                </Popover>
+            </div>
         </Header>
-        <div className="box">
-            <p>岗位 / 岗位管理</p>
-        </div>
+        
         {/* 主体 */}
-        <Content>{props.children}</Content>
+        <Content>
+            <div className="box">
+                <p>岗位 / 岗位管理</p>
+            </div>
+            <div className="main">
+                <div>{props.children}</div>
+            </div>
+        </Content>
+        
         {/* 尾部 */}
         <Footer>
-            <div data-v-7178e8ae="" className="bw_bottom">
+            <div className="bottom_one">
+                <div data-v-7178e8ae="" className="bw_bottom">
                 <div className="b_b_detail">
                     <div className="b_b_left">
                         <div className="bw_img">
@@ -150,7 +154,9 @@ const TearcherLayout: React.FC = (props) => {
                         <div className="wechat_text">八维微信公众号</div>
                     </div>
                 </div>
-                <div className="b_b_sign">京公网安备 11010802031438号 © Copyright 2020. 八维教育版权所有 | 京ICP备12008262号-12</div>
+            </div>
+        
+            <div className="bottom_two">京公网安备 11010802031438号 © Copyright 2020. 八维教育版权所有 | 京ICP备12008262号-12</div>
             </div>
         </Footer>
     </Layout>

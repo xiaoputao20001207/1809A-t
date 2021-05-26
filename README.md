@@ -1,4 +1,26 @@
-# 弓程婷
+# 弓程婷- ## 2021/05/26
+
+1. 文章阅读
+
+- [React 中后台系统多页签实现 ｜ 项目复盘](https://juejin.cn/post/6941683774153293837)
+- ​[分享15个Webpack实用的插件！！！](https://juejin.cn/post/6944940506862485511)
+
+2. 源码阅读
+   
+- [jQuery](https://blog.csdn.net/u010046318/article/details/73729844?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162203046116780274136469%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fcode.%2522%257D&request_id=162203046116780274136469&biz_id=)
+- [lodash源码分析之arrayEach](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/arrayEach.md) 
+
+ 3. LeetCode刷题
+- [二进制求和](https://leetcode-cn.com/problems/add-binary/)
+- [ x 的平方根](https://leetcode-cn.com/problems/sqrtx/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 添加岗位页面
+
+
 
 - ## 2021/05/25
 

@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import {getSkillLabel, getSkillList} from '@/services/index'
 import {ISkillLabel, ISkillListItem, ISkillListQuery} from '@/utils/interface'
-import {Table,Input} from 'antd'
+import {Table,Input,Button} from 'antd'
 import {EyeOutlined,RollbackOutlined,FormOutlined,SearchOutlined,DeleteOutlined,DeliveredProcedureOutlined} from '@ant-design/icons'
 
 
@@ -13,6 +13,7 @@ import styles from './postSkill.less' //css模块化代码
 import classnames from 'classnames'
 import {observer} from 'mobx-react-lite'
 import useStore from '@/context/useStore';
+import { Link } from 'umi';
 
 
 
@@ -83,9 +84,9 @@ const PostSkill:React.FC=props=>{
     let [isMyInfo,setMyInfo] = useState(false);
     let [curStatus,setCurStatus] = useState(0);
     let [title,setTitle] = useState('');
-    let [searchTitle,setSearchTitle] = useState('')
+    let [searchTitle,setSearchTitle] = useState('') //搜索
     let [dataSource,setDataSource] = useState<ISkillListItem []>([])
-    let queryParams:ISkillListQuery = {isAsc:'desc',searchTitle:'',pageNum:1,pageSize:10,isMyInfo:false} as ISkillListQuery;
+    let queryParams:ISkillListQuery = {isAsc:'desc',searchTitle:'',pageNum:1,pageSize:10,isMyInfo:false};
     
 
     let {skill} = useStore();
@@ -106,24 +107,24 @@ const PostSkill:React.FC=props=>{
             queryParams={...queryParams,isMyInfo,searchTitle,majorId:curSkill,status:'' as unknown as number}
         }
 
+        //debugger;//断点
+
         getSkillList(queryParams).then(res=>{
             console.log('getSkillList',res);
             if(res.code==200){
                 setDataSource(res.rows)
             }
-            
         })
     },[curSkill,curStatus,isMyInfo,searchTitle])
 
 
 
-    
+    return <div className="main_postSkill">
 
-    
-    return <div>
-        <section>
-            <section>
-                <span className="box_two">专业:</span>
+        <section className="header_box">
+            {/* 专业 */}
+            <section className="major_box">
+                <div>专业:</div>
                 <ul className={styles.statusList}>
                     {
                         [{id:'',name:'全部',},...skill.skillLabel].map(item=>{
@@ -132,9 +133,9 @@ const PostSkill:React.FC=props=>{
                     }
                 </ul>
             </section>
-
-            <section>
-                <span className="box_two">状态</span>
+            {/* 状态 */}
+            <section className="state_box">
+                <div>状态</div>
                 <ul className="statusList">
                     {
                         status.map((item,index)=>{
@@ -144,20 +145,33 @@ const PostSkill:React.FC=props=>{
                 </ul>
             </section>
         </section>
-        <div className="wrap">
-            <input type="checkbox" checked={isMyInfo} onChange={e=>setMyInfo(e.target.checked)}/>仅看我的
-            <Input className="ipt"  placeholder="请输入搜索的岗位" suffix={<SearchOutlined onClick={()=>setSearchTitle(title)}/>} value={title} onChange={e=>setTitle(e.target.value)} onKeyDown={e=>{
-                if(e.keyCode === 13){
-                    console.log(title);
-                    setSearchTitle(title)
-                }
-            }}/>
-
-            <button className="btn"> + 添加岗位</button>
-        </div>
 
         {/* 表格 */}
+        <div className="table_box">
+            {/* 搜索 */}
+            <section className="wrap">
+                <div></div>
+                <div className="only_one">
+                    <div className="only_my">
+                        <input type="checkbox" checked={isMyInfo} onChange={e=>setMyInfo(e.target.checked)}/> <span>仅看我的</span>
+                    </div>
+                    <Input className="ipt"  placeholder="请输入搜索的岗位" suffix={<SearchOutlined onClick={()=>setSearchTitle(title)}/>} value={title} onChange={e=>setTitle(e.target.value)} onKeyDown={e=>{
+                        if(e.keyCode === 13){
+                            // console.log(title);
+                            setSearchTitle(title)
+                        }
+                    }}/>
+                    {/* 添加岗位 */}
+                    <Link to="/teachers/addPostSkill?see=false">
+                        <Button type="primary"> + 添加岗位</Button>
+                    </Link>
+                </div>
+            </section>
+        </div>
+        
+        {/* 表格 */}
         <Table rowKey="stationId" dataSource={dataSource} columns={columns}></Table >
+        
     </div>
 }
 
