@@ -1,0 +1,27 @@
+- 5.25
+    - [二叉树前序遍历](https://leetcode-cn.com/leetbook/read/data-structure-binary-tree/xeywh5/)
+    - [二叉树中序遍历](https://leetcode-cn.com/leetbook/read/data-structure-binary-tree/xecaj6/)
+- 5.24
+  - [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/solution/valid-parentheses-fu-zhu-zhan-fa-by-jin407891080/)
+   - [组数总和](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-leetcode-solution/)
+- 5.23
+    - [鸡蛋掉落](https://leetcode-cn.com/leetbook/read/top-interview-questions/xmup75/)
+    - [验证回文串](https://leetcode-cn.com/leetbook/read/top-interview-questions/xah8k6/)
+    - [分割回文串](https://leetcode-cn.com/leetbook/read/top-interview-questions/xaxi62/)
+- 5.22
+    - [数组去重](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x21ib6/)
+    - [数组每一项相加之和](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2skh7/)
+    - [合并对象](https://leetcode-cn.com/leetbook/read/top-interview-questions/xm0u83/)
+- 5.21 
+    - [有效的数独](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2gy9m/)
+    - [两数之和](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2jrse/)
+    - [加一](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2cv1c/)
+- 5.20
+    - [删除排序数组中的重复项](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2gy9m/)
+    - [旋转数组](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2skh7/)
+    - [只出现一次的数字](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x21ib6/)
+    
+- 5.19
+    - [使用集合Set解决](https://leetcode-cn.com/leetbook/read/top-interview-questions/xm0u83/)
+    - [git操作](https://jasonandjay.github.io/study/zh/standard/Start.html#git%E7%8E%AF%E5%A2%83)
+    - [增减](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2cv1c/)
