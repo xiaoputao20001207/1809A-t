@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 杜学洋
 ## 2021/5/26   
 1.文章阅读
@@ -652,6 +653,24 @@
 - [x] 复习ts
 
 # 张琪
+=======
+# 张琪
+## 2021.5.26
+1. 文章阅读
+- [JS常用的循环遍历你会几种](https://juejin.cn/post/6966390357005172773)
+- [ReactDOM.render的渲染原理（理解）](https://juejin.cn/post/6966068024478531592)
+2. 源码阅读
+- [每天 10 分钟，学习 JavaScript —— （十一）原型链属性](https://juejin.cn/post/6966117810149785631)
+3. leecode 刷题
+- [ 反转每对括号间的子串](https://leetcode-cn.com/problems/reverse-substrings-between-each-pair-of-parentheses/)
+- [旋转图像](https://leetcode-cn.com/problems/rotate-image/)
+
+4. 项目进度
+   - [ x ] 详情数据反显
+   - [ x ] 添加数据刷新存在状态
+   - [ x ] Tree 形结构
+
+>>>>>>> 3965b2d2ec3a6b2a70f20c66b6fa87595d85acbe
 ## 2021.5.25
 1. 文章阅读
 - [这些原生DOM操作你还记住多少](https://juejin.cn/post/6966062224892756005)
@@ -787,6 +806,7 @@
     + 在提交远程 push
 
 
+<<<<<<< HEAD
 # 吴晓桐
 ## 2021.5.26
 1. 文章阅读
@@ -960,3 +980,5 @@
 - [x] 验证码接口
 - [x] 登录按钮掉接口
 - [x] 验证
+=======
+>>>>>>> 3965b2d2ec3a6b2a70f20c66b6fa87595d85acbe
