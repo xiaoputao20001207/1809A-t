@@ -450,6 +450,25 @@
 
 
 # 赵晓杰
+
+## 2021.5.26
+1. 文章阅读
+
+- [JS常用的循环遍历你会几种](https://juejin.cn/post/6966390357005172773)
+- [vue3初始化挂载组件流程](https://juejin.cn/post/6966236601370279973)
+1. 源码阅读
+
+- [React源码解析](https://juejin.cn/post/6844903568487497741)
+- [剖析 React 源码](https://juejin.cn/post/6844903829704540174)
+3. leecode 刷题
+
+ - [删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
+ - [括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
+
+4. 项目进度
+
+
+- [x] 八维生产性实训平台 - 岗位添加页面
 ## 2021.5.25
 1. 文章阅读
 - [原生DOM操作你还记住多少](https://juejin.cn/post/6966062224892756005)
