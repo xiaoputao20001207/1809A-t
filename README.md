@@ -1,5 +1,28 @@
 # 郭乾升
-## 2021.5.20
+## 2021.5.26
+1. 文章阅读
+
+- [看破JS底层——实现a==1、2、3](https://juejin.cn/post/6948257149625729055)
+- [React Router 入门完全指南(包含 Router Hooks)](https://juejin.cn/post/6948226424427773983)
+
+2. 源码阅读
+
+- [lodash源码分析之Stack](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/Stack.md)
+
+3. leecode 刷题
+
+- [反转链表](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnnhm6/)
+- [合并两个有序链表](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnnbp2/)
+
+4. 项目进度
+
+- [x] 班级管理页面布局
+- [x] 添加班级 删除班级
+- [x] 教室管理页面布局
+- [x] 添加教室号 删除教室
+- [x] 学生管理页面布局
+
+## 2021.5.25
 1. 文章阅读
 
 - [什么是BFC？大白话讲清楚](https://juejin.cn/post/6950082193632788493)
@@ -23,7 +46,7 @@
 - [ ] 首页页面的排版
 - [ ] 首页页面的布局
 
-## 2021.5.21
+## 2021.5.24
 1. 文章阅读
 
 - [看破JS底层——实现a==1、2、3](https://juejin.cn/post/6948257149625729055)
@@ -48,7 +71,7 @@
 - [ ] 首页页面的排版
 - [ ] 首页页面的布局
 
-## 2021.5 .24
+## 2021.5 .21
 1. 文章阅读
 
 - [看破JS底层——实现a==1、2、3](https://juejin.cn/post/6948257149625729055)
@@ -75,7 +98,7 @@
 
 5. 遇到的问题
 
-## 2021.5.25
+## 2021.5.20
 1. 文章阅读
 
 - [Vue 源码解读（1）](https://juejin.cn/post/6949370458793836580)
