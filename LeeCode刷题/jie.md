@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+  ## 5.26 
+   - [删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
+   - [括号生成](https://leetcode-cn.com/problems/generate-parentheses/)  
   ## 5.25
    - [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/)
    - [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)
-=======
->>>>>>> 41921c4fb2a1d6d5741ca6d9c2a46041f0029e8a
   ## 5.24
    - [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/)
    - [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)
