@@ -1,3 +1,7 @@
+- 5.26
+    - [JS常用的循环遍历](https://juejin.cn/post/6966390357005172773)
+   - [10 分钟搞懂 Vite devServer，速来围观！](https://juejin.cn/post/6966401940573913119)
+   - [调试工具窗口断点](https://www.ruanyifeng.com/blog/2018/03/node-debugger.html?spm=a2c6h.12873639.0.0.58f832acIcEUUh)
 - 5.25
    - [建脚手架相关知识体系](https://juejin.cn/post/6966119324478079007)
    - [vue create](https://cli.vuejs.org/zh/guide/creating-a-project.html)

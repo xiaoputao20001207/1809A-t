@@ -1,3 +1,7 @@
+- 5.26
+  - [ MindSpore 人脸识别](https://juejin.cn/post/6965741051646574628)
+   - [Android 原生webview传递header前端H5如何接收](https://juejin.cn/post/6965336033395212302)
+   - [用5个示例理解 CSS 变量](https://juejin.cn/post/6966387853483835429)
 - 5.25
    - [assign](https://www.lodashjs.com/docs/lodash.assign)
    - [_.create(prototype, [properties])](https://www.lodashjs.com/docs/lodash.create)

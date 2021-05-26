@@ -1,3 +1,7 @@
+- 5.26
+   - [assign](https://www.lodashjs.com/docs/lodash.assign)
+   - [assignIn](https://www.lodashjs.com/docs/lodash.assignIn)
+   - [assignInWith](https://www.lodashjs.com/docs/lodash.assignInWith)
 - 5.25
     - [二叉树前序遍历](https://leetcode-cn.com/leetbook/read/data-structure-binary-tree/xeywh5/)
     - [二叉树中序遍历](https://leetcode-cn.com/leetbook/read/data-structure-binary-tree/xecaj6/)

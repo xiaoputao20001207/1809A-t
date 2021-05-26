@@ -1,4 +1,23 @@
 # 吴晓桐
+## 2021.5.26
+1. 文章阅读
+   - [JS常用的循环遍历](https://juejin.cn/post/6966390357005172773)
+   - [10 分钟搞懂 Vite devServer，速来围观！](https://juejin.cn/post/6966401940573913119)
+   - [调试工具窗口断点](https://www.ruanyifeng.com/blog/2018/03/node-debugger.html?spm=a2c6h.12873639.0.0.58f832acIcEUUh)
+2. 源码阅读
+   - [ MindSpore 人脸识别](https://juejin.cn/post/6965741051646574628)
+   - [Android 原生webview传递header前端H5如何接收](https://juejin.cn/post/6965336033395212302)
+   - [用5个示例理解 CSS 变量](https://juejin.cn/post/6966387853483835429)
+3. leecode 刷题
+   - [assign](https://www.lodashjs.com/docs/lodash.assign)
+   - [assignIn](https://www.lodashjs.com/docs/lodash.assignIn)
+   - [assignInWith](https://www.lodashjs.com/docs/lodash.assignInWith)
+4. 项目进度
+    - 表格功能完成百分之90% 
+    - 保存功能 编辑详情页
+    - 反显功能
+    - get url params传参
+    - post data
 ## 2021.5.25
 1. 文章阅读
    - [建脚手架相关知识体系](https://juejin.cn/post/6966119324478079007)
