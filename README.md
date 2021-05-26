@@ -13,11 +13,8 @@
    - [assignIn](https://www.lodashjs.com/docs/lodash.assignIn)
    - [assignInWith](https://www.lodashjs.com/docs/lodash.assignInWith)
 4. 项目进度
-    - 表格功能完成百分之90% 
-    - 保存功能 编辑详情页
-    - 反显功能
-    - get url params传参
-    - post data
+    - 脚部markdown
+    - 添加调接口按钮
 ## 2021.5.25
 1. 文章阅读
    - [建脚手架相关知识体系](https://juejin.cn/post/6966119324478079007)
