@@ -1,8 +1,10 @@
 ## 练习
+- 0527
+    - [汉明距离](https://leetcode-cn.com/problems/hamming-distance/)
+    - [猜数字](https://leetcode-cn.com/problems/guess-numbers/)
 - 0526
     - [ 反转每对括号间的子串](https://leetcode-cn.com/problems/reverse-substrings-between-each-pair-of-parentheses/)
     - [旋转图像](https://leetcode-cn.com/problems/rotate-image/)
-- 0525
 - 0524
     - [括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
     - [数组全排列](https://leetcode-cn.com/problems/permutations/)

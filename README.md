@@ -1,4 +1,19 @@
 # 张琪
+## 2021.5.27
+1. 文章阅读
+- [assign](https://www.lodashjs.com/docs/lodash.assign)
+- [bind](https://www.lodashjs.com/docs/lodash.bind)
+2. 源码阅读
+- [防抖节流](https://juejin.cn/post/6964580071986167822)
+- [前端进阶-模块化](https://juejin.cn/post/6965026256286908429)
+3. leecode 刷题
+- [汉明距离](https://leetcode-cn.com/problems/hamming-distance/)
+- [猜数字](https://leetcode-cn.com/problems/guess-numbers/)
+4. 项目进度
+   - [ x ] 详情数据反显
+   - [ x ] 添加数据刷新存在状态
+   - [ x ] Tree 形结构
+
 ## 2021.5.26
 1. 文章阅读
 - [JS常用的循环遍历你会几种](https://juejin.cn/post/6966390357005172773)
@@ -10,9 +25,9 @@
 - [旋转图像](https://leetcode-cn.com/problems/rotate-image/)
 
 4. 项目进度
-   - [ x ] 详情数据反显
-   - [ x ] 添加数据刷新存在状态
-   - [ x ] Tree 形结构
+   - [ x ] 添加岗位的排版布局修改
+   - [ x ] tree bug修复 
+   - [ x ] for-editor
 
 ## 2021.5.25
 1. 文章阅读

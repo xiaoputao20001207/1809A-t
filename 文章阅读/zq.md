@@ -1,5 +1,8 @@
 # 张琪
--05260
+- 0527
+    - [assign](https://www.lodashjs.com/docs/lodash.assign)
+    - [bind](https://www.lodashjs.com/docs/lodash.bind)
+- 0526
     - [JS常用的循环遍历你会几种](https://juejin.cn/post/6966390357005172773)
     - [ReactDOM.render的渲染原理（理解）](https://juejin.cn/post/
 - 0525
