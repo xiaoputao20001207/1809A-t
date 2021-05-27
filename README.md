@@ -475,6 +475,20 @@
 
 # 赵晓杰
 
+## 2021.5.27
+1. 文章阅读
+- [2021不得不学的Typescript](https://juejin.cn/post/6966151454914510878)
+- [TypeScript 中的依赖注入](https://juejin.cn/post/6965857170646630408)
+2. 源码阅读
+
+- [生产环境js错误收集及定位源码位置](https://juejin.cn/post/6960108736966819848)
+- [Node.js eventloop + 线程池源码分析（建议精读）](https://juejin.cn/post/6951303053739819038)
+3. leecode 刷题
+
+ - [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
+ - [四数之和](https://leetcode-cn.com/problems/4sum/)
+
+4. 项目进度
 ## 2021.5.26
 1. 文章阅读
 - [JS常用的循环遍历你会几种](https://juejin.cn/post/6966390357005172773)
