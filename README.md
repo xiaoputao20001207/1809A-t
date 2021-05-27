@@ -843,6 +843,22 @@
 
 
 # 吴晓桐
+## 2021.5.27
+1. 文章阅读
+   - [实现一个简易的 npm install](https://juejin.cn/post/69663903570051727)
+   - [React进阶](https://juejin.cn/post/696640194057399)
+   - [如何成为优秀的前端工程师](https://www.ruanyifeng.com/blog/2018/03/node-debugger.html?.58f832acIcEUUh)
+2. 源码阅读
+   - [indexOf](https://www.lodashjs.com/docs/lodash.indexOf)
+   - [裁剪数组](https://www.lodashjs.com/docs/lodash.slice)
+   - [移除array中对应的元素](https://www.lodashjs.com/docs/lodash.pullAt)
+3. leecode 刷题
+   - [flattenDepth](https://www.lodashjs.com/docs/lodash.flattenDepth)
+   - [fromPairs(pairs)](https://www.lodashjs.com/docs/lodash.fromPairs)
+   - [head(array)](https://www.lodashjs.com/docs/lodash.head)
+4. 项目进度
+    - 头部排版
+    - 树形结构
 ## 2021.5.26
 1. 文章阅读
    - [JS常用的循环遍历](https://juejin.cn/post/6966390357005172773)
