@@ -103,4 +103,19 @@ export interface Items{
   parentId: string;
   key:string
 }
-
+export interface IPlanListItem {
+  classId?: any;
+  className: string;
+  id: string;
+  classid: string;
+  planname: string;
+  begintime: string;
+  endtime: string;
+  states: string;
+  progress: string;
+  countStus: number;
+  countUncompleted: number;
+  description: string;
+  countCompleted?: any;
+  surplusTime: string;
+}
