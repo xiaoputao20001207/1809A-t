@@ -1,5 +1,5 @@
 # 张琪
-- 0527
+- 05270
     - [assign](https://www.lodashjs.com/docs/lodash.assign)
     - [bind](https://www.lodashjs.com/docs/lodash.bind)
 - 0526

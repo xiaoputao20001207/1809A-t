@@ -1,5 +1,5 @@
 ## 练习
-- 0527
+- 05270
     - [汉明距离](https://leetcode-cn.com/problems/hamming-distance/)
     - [猜数字](https://leetcode-cn.com/problems/guess-numbers/)
 - 0526
