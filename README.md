@@ -843,6 +843,22 @@
 
 
 # 吴晓桐
+## 2021.5.28
+1. 文章阅读
+   - [Redis与MySQL双写一致性如何保证?](https://juejin.cn/post/6964531365643550751)
+   - [12种mysql常见错误总结](https://juejin.cn/post/6965052029441933348)
+   - [Golang基础 - 接口interface的使用](https://juejin.cn/post/6965056241110351903)
+
+2. 源码阅读
+   - [Vue 源码解读（5）—— 全局 API目标](https://juejin.cn/post/6952643167715852319)
+
+3. leecode 刷题
+   - [数组去重](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x21ib6/)
+   - [数组每一项相加之和](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2skh7/)
+   - [合并对象](https://leetcode-cn.com/leetbook/read/top-interview-questions/xm0u83/)
+
+4. 铃铛排版
+    我的主页排版
 ## 2021.5.27
 1. 文章阅读
    - [实现一个简易的 npm install](https://juejin.cn/post/69663903570051727)
