@@ -36,6 +36,7 @@
 - [x] 添加岗位基本信息
 - [x] 排版
 - [x] 保存传参
+  
 ## 2021/5/24
 1.文章阅读
 > * [探索 Vue 3 中的 JSX](https://juejin.cn/post/6965057432544346143)
@@ -163,6 +164,63 @@
 
 
 # 弓程婷
+
+
+- ## 2021/05/28
+
+1. 文章阅读
+
+- [155个JavaScript基础问题（1-5）](https://juejin.cn/post/6966781111888265253)
+- ​[一个简单的前后端传输加密方案](https://juejin.cn/post/6966794922884071455)
+- ​[JS常用的循环遍历你会几种](https://juejin.cn/post/6966390357005172773)
+
+2. 源码阅读
+   
+- [React Hooks完全上手指南](https://zhuanlan.zhihu.com/p/92211533)
+- [umijs介绍及基本用法、配置式路由、约定式路由、路由传参等](https://blog.csdn.net/weixin_48653480/article/details/109011777) 
+
+ 1. LeetCode刷题
+- [全排列](https://leetcode-cn.com/problems/permutations/)
+- [最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+  
+
+- ## 2021/05/27
+
+1. 文章阅读
+
+- [JavaScript实现一个链表结构](https://juejin.cn/post/6966882368099450888)
+- ​[基于 teambition 的项目管理实践](https://juejin.cn/post/6891527506453594125)
+- ​[项目实战-UmiJS开发（附带qiankun](https://juejin.cn/post/6901103416651546637)
+
+2. 源码阅读
+   
+- [Mobx 源码解读（一） 基本概念](https://zhuanlan.zhihu.com/p/31704920)
+- [【用故事解读 MobX源码（一）】 autorun](https://segmentfault.com/a/1190000013682735) 
+
+ 1. LeetCode刷题
+- [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/submissions/)
+- [ 数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/submissions/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+  
 
 - ## 2021/05/26
 

@@ -6,6 +6,13 @@ export interface ISkillLabel {
   children?: any;
 }
 
+// 类型接口
+// export interface ISkilltype{
+//     id:string;
+//     name:string;
+//     parentId:string;
+// }
+
 //头部点击接口
 export interface ISkillListQuery{
     isAsc:string,
