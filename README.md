@@ -858,7 +858,7 @@
 
 # 吴晓桐
 ## 2021.5.28
-1. 文章阅读
+1. 文章阅读.
    - [Redis与MySQL双写一致性如何保证?](https://juejin.cn/post/6964531365643550751)
    - [12种mysql常见错误总结](https://juejin.cn/post/6965052029441933348)
    - [Golang基础 - 接口interface的使用](https://juejin.cn/post/6965056241110351903)
