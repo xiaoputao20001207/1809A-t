@@ -147,11 +147,7 @@ const Postskill:FC = (props)=>{
             </div>
         </div>
         <div className="tab">
-<<<<<<< HEAD
             <Table dataSource={dataSource} columns={columns} rowKey="stationId"></Table>
-=======
-            <Table dataSource={dataSource} columns={columns} rowKey="stationId"></Table>1
->>>>>>> 719f29d456929dec0d38ae8f0df02c612fd1c462
         </div>
     </div>
 }

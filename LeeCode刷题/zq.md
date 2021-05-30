@@ -1,5 +1,4 @@
 ## 练习
-<<<<<<< HEAD
 - 05300
     - [寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
 - 0529
@@ -14,17 +13,7 @@
 - 0526
     - [ 反转每对括号间的子串](https://leetcode-cn.com/problems/reverse-substrings-between-each-pair-of-parentheses/)
     - [旋转图像](https://leetcode-cn.com/problems/rotate-image/)
-- 0524
-=======
-<<<<<<< HEAD
-- 0524
-=======
-- 0526
-    - [ 反转每对括号间的子串](https://leetcode-cn.com/problems/reverse-substrings-between-each-pair-of-parentheses/)
-    - [旋转图像](https://leetcode-cn.com/problems/rotate-image/)
 - 0525
->>>>>>> 3965b2d2ec3a6b2a70f20c66b6fa87595d85acbe
->>>>>>> 719f29d456929dec0d38ae8f0df02c612fd1c462
     - [括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
     - [数组全排列](https://leetcode-cn.com/problems/permutations/)
 - 0524
