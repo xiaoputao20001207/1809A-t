@@ -251,3 +251,74 @@ export interface questionDetailList {
     defenceStatus: string,
   }
   
+//行业 
+export interface ISkilldairn {
+  id:string;
+  value: string;
+  label: string;
+  parentId: string;
+  children?: any;
+  content?: any;
+  proId?: any;
+}
+//添加
+export interface Addpro{
+  trade:string;
+  name:string;
+  version:number;
+  majorStationList:string;
+  sxType:string;
+  subjectTime:number;
+  note:string;
+  pictureUrl:string;
+  showUrl:string;
+  versionId:string
+}
+//行业表格
+export interface ISkilldairnObj {
+  id: string;
+  specialtyTag:string;
+  status: string;
+  searchTitle:string;
+  isMyInfo:boolean;
+  curDairn:number;
+  industryTag:number;
+  taskCount:number;
+  sxtype:string;
+  proName:string,
+  newProjectList:string;
+}
+
+interface RootObject {
+  searchValue?: any;
+  createBy?: any;
+  createTime?: string;
+  updateBy?: any;
+  updateTime?: string;
+  remark?: any;
+  params: Params;
+  id: string;
+  authorid: string;
+  proname: string;
+  prodescription: string;
+  sxtype: string;
+  stucount?: any;
+  score?: any;
+  publishtime?: any;
+  status: string;
+  subjecttime?: string;
+  favorcount?: any;
+  pictureUrl?: any;
+  richText?: any;
+  newVersionId?: any;
+  taskCount: number;
+  trade: string;
+  major: string;
+  versionId: string;
+  versionNum: string;
+  showUrl: string;
+  version: string;
+}
+
+interface Params {
+}

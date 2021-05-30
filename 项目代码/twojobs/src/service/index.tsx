@@ -25,3 +25,5 @@ export * from './modules/personcenter'
 
 //登录
 export * from './modules/logins'
+//项目
+export * from './modules/proSkill'

@@ -1,4 +1,57 @@
 # 杜学洋
+## 2021/5/30
+1. 文章阅读
+> * [九种跨域当时实现](https://juejin.cn/post/6844903767226351623)
+> * [跨域](https://juejin.cn/post/6844903496521613320)
+1. 源码阅读
+> * [原生JS灵魂之问(中)，检验自己是否真的熟悉JavaScript？](https://juejin.cn/post/6844903974378668039)
+1. leecode 刷题
+> * [各位相加](https://leetcode-cn.com/problems/add-digits/)
+> * [丢失的数](https://leetcode-cn.com/problems/missing-number/)
+1. 项目进度
+    -[x] 获取数据
+    -[x] 调用点击保存接口
+## 2021/5/29
+1. 文章阅读
+> * [Hooks很强大，为何还需要Mobx](https://juejin.cn/post/6930758273863778317)
+> * [Mobx特别容易入门级教程](https://juejin.cn/post/6844903907441770509)
+1. 源码阅读
+> * [原生JS灵魂之问](https://juejin.cn/post/6844903974378668039)
+1. leecode 刷题
+> * [快乐数](https://leetcode-cn.com/problems/happy-number/)
+> * [除自身以外的数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/)
+1. 项目进度
+    -[x] 项目页面
+    -[x] 添加项目
+## 2021/5/28
+1. 文章阅读
+> * [155个JavaScript基础问题](https://juejin.cn/post/6966781111888265253)
+> * [如何让10万条数据的小程序列表如丝般顺滑](https://juejin.cn/post/6966904317148299271)
+1. 源码阅读
+> * [1 小时顶 7 天！程序员工作中的巧思](https://juejin.cn/post/6965879044634050568)
+> * [裁剪数组](https://www.lodashjs.com/docs/lodash.slice)
+1. leecode 刷题
+> * [相同的树](https://leetcode-cn.com/problems/same-tree/)
+> * [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/)
+1. 项目进度
+    -[x] 项目页面
+    -[x] 添加项目
+
+## 2021/5/27
+1. 文章阅读
+> * [实现一个简易的 npm install](https://juejin.cn/post/69663903570051727)
+> * [React进阶](https://juejin.cn/post/696640194057399)
+> * [如何成为优秀的前端工程师](https://www.ruanyifeng.com/blog/2018/03/node-debugger.html?.58f832acIcEUUh)
+2. 源码阅读
+> * [indexOf](https://www.lodashjs.com/docs/lodash.indexOf)
+> * [裁剪数组](https://www.lodashjs.com/docs/lodash.slice)
+1. leecode 刷题
+> * [fromPairs(pairs)](https://www.lodashjs.com/docs/lodash.fromPairs)
+> * [head(array)](https://www.lodashjs.com/docs/lodash.head)
+1. 项目进度
+    -[x] 头部排版
+    -[x] 树形结构
+
 ## 2021/5/26   
 1.文章阅读
 > * [JS常用的循环遍历）](https://juejin.cn/post/6966390357005172773)
