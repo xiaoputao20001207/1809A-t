@@ -36,13 +36,5 @@
     - [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 - 0518
     + [ 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)
-<<<<<<< HEAD
 
 
-=======
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 3965b2d2ec3a6b2a70f20c66b6fa87595d85acbe
->>>>>>> 719f29d456929dec0d38ae8f0df02c612fd1c462
