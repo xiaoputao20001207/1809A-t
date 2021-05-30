@@ -166,6 +166,64 @@
 # 弓程婷
 
 
+- ## 2021/05/30
+
+1. 文章阅读
+
+- [react 高阶组件HOC详解](https://juejin.cn/post/6968013313347158053)
+- ​[ES6复习攻略](https://juejin.cn/post/6967924597681291272)
+
+
+1. 源码阅读
+   
+- [Promise 源码分析](https://juejin.cn/post/6844903745004765191)
+- [redux源码解读](https://juejin.cn/post/6844903600456466445) 
+
+ 1. LeetCode刷题
+- [只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
+- [二进制求和](https://leetcode-cn.com/problems/add-binary/submissions/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
+
+- ## 2021/05/29
+
+1. 文章阅读
+
+- [Hooks 邂逅 Mobx，代码变得更丝滑了](https://juejin.cn/post/6930758273863778317)
+- ​[数据流管理方案：Redux 和 MobX 哪个更好？](https://juejin.cn/post/6938207430048219166)
+
+
+1. 源码阅读
+   
+- [React 源码学习之 render 阶段](https://juejin.cn/post/6967959680341508126)
+- [Axios 源码解析](https://juejin.cn/post/6844903824583294984) 
+
+ 1. LeetCode刷题
+- [加一](https://leetcode-cn.com/problems/plus-one/submissions/)
+- [移动零](https://leetcode-cn.com/problems/move-zeroes/submissions/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
+  
+
+
 - ## 2021/05/28
 
 1. 文章阅读
