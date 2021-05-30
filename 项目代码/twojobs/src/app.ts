@@ -8,6 +8,7 @@ import store from '@/store'
 import { getCookie } from './utils/auth';
 
 const baseURL = 'http://111.203.59.61:8060/dev-api'
+
 const authorization = 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjI5OTIyMzhhLWUyZjAtNDZhMC04ZjNhLTQzYjA0Y2Q2OWM5OCJ9.Cbhxg8xB1yL0rX_iTNtlu-vOGKHtt0d4v6kofZQjEC_kxPTPeYV0iBAJorI0MWxfViO4K8N3z5usEfyxhNAkBw'
 
 export const request: RequestConfig = {

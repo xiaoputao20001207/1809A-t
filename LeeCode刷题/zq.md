@@ -1,5 +1,5 @@
 ## 练习
-- 05300
+- 0530
     - [寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
 - 0529
     - [给定一个数组，将数组中的元素向右移动 k 个位置，其中 k 是非负数](https://leetcode-cn.com/problems/rotate-array/)
