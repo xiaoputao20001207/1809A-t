@@ -1,5 +1,13 @@
 ## 练习
-- 05270
+- 0530
+    - [寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
+- 0529
+    - [给定一个数组，将数组中的元素向右移动 k 个位置，其中 k 是非负数](https://leetcode-cn.com/problems/rotate-array/)
+    - [颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)
+- 0528
+    - [最大数](https://leetcode-cn.com/problems/largest-number/)
+    - [只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
+- 0527
     - [汉明距离](https://leetcode-cn.com/problems/hamming-distance/)
     - [猜数字](https://leetcode-cn.com/problems/guess-numbers/)
 - 0526

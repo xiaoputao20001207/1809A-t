@@ -1,4 +1,39 @@
 # 张琪
+## 2021.5.30
+1. 文章阅读
+- [一份工作4年前端的Git备忘指南](https://juejin.cn/post/6967634683811069982)
+2. 源码阅读
+ - [react 高阶组件HOC详解](https://juejin.cn/post/6968013313347158053)
+3. leecode 刷题
+- [寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
+4. 项目进度
+   - [ x ] 面试管理页面
+   - [ x ] 面试排行榜页面数据渲染
+
+## 2021.5.29
+1. 文章阅读
+ [【进阶探索】从源码分析Redux 和 Mobx 那个更优美 ，一起探索谁丝滑！](https://juejin.cn/post/6968028239386116109)
+2. 源码阅读
+- [useReducer —— 是的，数据驱动乃控熵大法](https://juejin.cn/post/6967713078477586462)
+3. leecode 刷题
+    - [给定一个数组，将数组中的元素向右移动 k 个位置，其中 k 是非负数](https://leetcode-cn.com/problems/rotate-array/)
+    - [颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)
+4. 项目进度
+   - [ x ] 屏蔽状态
+   - [ x ] 跳转详情
+
+## 2021.5.28
+1. 文章阅读
+- [React-Router 知识了解](https://juejin.cn/post/6966242922278682632)
+2. 源码阅读
+- [React 源码学习之 render 阶段](https://juejin.cn/post/6967959680341508126)
+3. leecode 刷题
+- [最大数](https://leetcode-cn.com/problems/largest-number/)
+- [只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
+4. 项目进度
+   - [ x ] 面试模块首页
+   - [ x ] 面试记录页面
+
 ## 2021.5.27
 1. 文章阅读
 - [assign](https://www.lodashjs.com/docs/lodash.assign)

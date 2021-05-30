@@ -1,4 +1,10 @@
 # 张琪
+- 0530
+    - [一份工作4年前端的Git备忘指南](https://juejin.cn/post/6967634683811069982)
+- 0529
+    - [【进阶探索】从源码分析Redux 和 Mobx 那个更优美 ，一起探索谁丝滑！](https://juejin.cn/post/6968028239386116109)
+- 0528
+    - [React-Router 知识了解](https://juejin.cn/post/6966242922278682632)
 - 05270
     - [assign](https://www.lodashjs.com/docs/lodash.assign)
     - [bind](https://www.lodashjs.com/docs/lodash.bind)
