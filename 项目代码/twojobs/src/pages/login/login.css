@@ -1,0 +1,43 @@
+
+.login{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url(http://111.203.59.61:8060/static/img/login-background.55b26da3.jpg);
+    /* background-size: 100%; */
+}
+.login .mask{
+    width: 400px;
+    height: 380px;
+    background: white;
+    position: absolute;
+    top: 160px;
+    right: 130px;
+    border-radius: 4px;
+}
+
+.login .mask  h3{
+    text-align: center;
+    color: rgb(94, 94, 94);
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 50px;
+}
+.login_big{
+    width: 100%;
+    /* height: 340px; */
+}
+.ant-row{
+    margin: 15px 10px 0 10px;
+}
+.login-form-button{
+     width: 100%;
+}
+.yes{
+   width: 40%;
+    float: left;
+}
+#code{
+    margin-top: 13px;
+}
