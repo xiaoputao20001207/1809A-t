@@ -52,6 +52,7 @@ class Skill{
             }
         ]
     }
+    
     //定义方法
     async Gettoplist(){
         let result = await Gettoplist()

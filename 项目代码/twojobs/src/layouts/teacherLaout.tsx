@@ -1,12 +1,17 @@
 import { Layout } from 'antd'
-import React from 'react'
+import React, { useEffect } from 'react'
 import './teacher.css'
-import { NavLink } from 'umi'
-import { Popover, Avatar, Image, Badge } from 'antd';
+import { NavLink, history } from 'umi'
+import { Popover,  Badge, Spin } from 'antd';
 import { BellOutlined, UserOutlined, ProfileOutlined, LogoutOutlined } from '@ant-design/icons';
+import {observer} from 'mobx-react-lite'
+import useStore from '@/context/useStore';
+import need from '@/store/modules/need';
+
 
 const { Header, Content, Footer } = Layout
-const content = (
+
+  const content = (
     <div style={{width:'100px'}}>
      <p> <NavLink to="/teachers/planList">计划</NavLink></p>
       <p><NavLink to="/teachers/viewPlan">进度</NavLink></p>
@@ -26,22 +31,21 @@ const content = (
       <p><NavLink to="/teachers/questionHandle">问答管理</NavLink></p>
     </div>
   );
-  const Laozy = (
-    <div style={{width:'100px'}}>
-      <p><NavLink to="/teachers/answerDetail">问答</NavLink></p>
-      <p><NavLink to="/teachers/answerDetail">问答</NavLink></p>
-    </div>
-  );
-  const headerList = (
-    <div style={{width:'100px'}}>
-      <p><NavLink to="/teachers/teacherPersonCenter"> <UserOutlined style={{color:'grey'}}/> <span>个人中心</span></NavLink></p>
-      <p><NavLink to="/teachers/needHandle"> <ProfileOutlined style={{color:'grey'}}/> <span> 我的代办</span> </NavLink></p>
-      <p> <LogoutOutlined style={{color:'grey'}}/> <a>退出</a></p>
-    </div>
-  );
-const TeacherLayout: React.FC = (props) => {
+
+  const TeacherLayout: React.FC = (props) => {
+
+  let {personcenter,global} = useStore()
+
+    useEffect(() => {
+        setTimeout(() => {
+          global.hideLoading()
+        }, 1000);
+      
+    }, [])
+
     return <Layout>
-        <Header>
+         
+          <Header>
             <img src="http://111.203.59.61:8060/static/img/w_bw.172a76e5.png" alt=""/>
             
             <NavLink to='/teachers/postSkill'>岗位</NavLink>
@@ -55,13 +59,38 @@ const TeacherLayout: React.FC = (props) => {
             <Popover  placement="bottomLeft" content={contentquestions} trigger="hover">
                <a>问答</a>
             </Popover>
-           <div style={{float:'right',marginRight:'100px',height:'50px'}}>
-            <Popover  placement="bottomRight" content={Laozy}trigger="hover">
-                <Badge count={2}  style={{marginTop:"15px",position:'absolute',top:'-30px',right:'5px'}}>
+            <div style={{float:'right',marginRight:'100px',height:'50px'}}>
+            <Popover  placement="bottomRight" content={
+                        <div style={{width:'300px'}}>
+                        <h2 style={{borderBottom:'1px solid #ccc',padding:'10px 0'}}><b>待办事项</b></h2>
+                        {
+                          need.needTabList && need.needTabList.map(item=>{
+                            return <p><NavLink to="" key={1}></NavLink></p>
+                          })
+                        }
+                        <p style={{textAlign:"center"}}><NavLink to="/teachers/needHandle"> <span style={{color:'grey'}} >查看全部</span> </NavLink></p>
+                      </div>}
+                    trigger="hover">
+              <Badge count={2}  style={{marginTop:"15px",position:'absolute',top:'-30px',right:'5px'}}>
                   <BellOutlined style={{fontSize:'25px',color:"white",position:'absolute',top:'-13px',right:'5px'}}/>
-                </Badge>
-              </Popover>
-              <Popover  placement="bottomLeft" content={headerList} trigger="hover">
+              </Badge>
+            </Popover>
+            <Popover  placement="bottomLeft" content={
+                <div style={{width:'100px'}}>
+                    <p><NavLink to="/teachers/teacherPersonCenter"> <UserOutlined style={{color:'grey'}}/> <span>个人中心</span></NavLink></p>
+                    <p><NavLink to="/teachers/needHandle"> <ProfileOutlined style={{color:'grey'}}/> <span> 我的代办</span> </NavLink></p>
+                    <p onClick={e=>{
+                        if(confirm('确定注销并退出系统吗？')){
+                          personcenter.exit()
+                          history.replace('/login')
+                          
+                        }else{
+                          console.log('已取消');
+                          
+                        }
+                    }}> <LogoutOutlined style={{color:'grey'}}/> <a >退出</a></p>
+                </div>} 
+              trigger="hover">
               
                   <img 
                     style={{margin:'0 5px 0 25px',width:'40px',height:'40px',borderRadius:"50%"}}
@@ -70,7 +99,9 @@ const TeacherLayout: React.FC = (props) => {
               </Popover>
            </div>
         </Header>
-        <Content>{props.children}</Content>
+        <Spin spinning={global.isLoading}>
+          <Content>{props.children}</Content>
+        </Spin>
         <Footer>
             <div data-v-01b3f466="" data-v-7178e8ae="" className="bw_bottom">
                 <div data-v-01b3f466="" className="b_b_detail">
@@ -99,6 +130,7 @@ const TeacherLayout: React.FC = (props) => {
             </div>
                             <div data-v-01b3f466="" className="b_b_sign_bootm_son">京公网安备 11010802031438号 © Copyright 2020. 八维教育版权所有 | 京ICP备12008262号-12</div>
         </Footer>
-    </Layout>
+         
+      </Layout>
 }
-export default TeacherLayout
+export default observer(TeacherLayout)

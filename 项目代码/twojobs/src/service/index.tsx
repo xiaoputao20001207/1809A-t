@@ -15,6 +15,13 @@ export * from './modules/description'
 //添加页面脚部markdown
 export * from './modules/description'
 
-
 // 抛出questionDetail
 export * from './modules/questionDetail'
+//铃铛查看全部
+export * from './modules/need'
+
+//个人详情
+export * from './modules/personcenter'
+
+//登录
+export * from './modules/logins'

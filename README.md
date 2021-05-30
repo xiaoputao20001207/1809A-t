@@ -1024,6 +1024,35 @@
 
 
 # 吴晓桐
+## 2021.5.29
+   1. 文章阅读
+   - [new Map()使用方法](https://www.jianshu.com/p/c9a55b591948)
+   - [ES6学习☞set和map数据结构](https://www.jianshu.com/p/9be458a73e05)
+  2. 源码阅读
+     - [React 组件性能优化最佳实践](https://juejin.cn/post/6965747225154732069)
+     - [大道理小聪明系列 - Redux + Hooks 工程实践一则](https://juejin.cn/post/6965732983781195807)
+  3. leecode 刷题
+     - [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/solution/valid-parentheses-fu-zhu-zhan-fa-by-jin407891080/)
+     - [组数总和](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-leetcode-solution/)
+
+  4. 项目进度
+    页头布局.
+## 2021.5.28
+1. 文章阅读.
+   - [Redis与MySQL双写一致性如何保证?](https://juejin.cn/post/6964531365643550751)
+   - [12种mysql常见错误总结](https://juejin.cn/post/6965052029441933348)
+   - [Golang基础 - 接口interface的使用](https://juejin.cn/post/6965056241110351903)
+
+2. 源码阅读
+   - [Vue 源码解读（5）—— 全局 API目标](https://juejin.cn/post/6952643167715852319)
+
+3. leecode 刷题
+   - [数组去重](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x21ib6/)
+   - [数组每一项相加之和](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2skh7/)
+   - [合并对象](https://leetcode-cn.com/leetbook/read/top-interview-questions/xm0u83/)
+
+4. 铃铛排版
+    我的主页排版
 ## 2021.5.27
 1. 文章阅读
    - [实现一个简易的 npm install](https://juejin.cn/post/69663903570051727)

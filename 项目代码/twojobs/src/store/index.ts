@@ -6,7 +6,10 @@ import interview from './modules/interview'
 import interviewManage from './modules/interviewManage'
 import rankList from './modules/rankList'
 import questionDetail from './modules/questionDetail'
-
+import need from './modules/need'
+import personcenter from './modules/personcenter'
+import logins from './modules/logins'
+import global from './modules/global'
 
 export default{
     skill,
@@ -14,7 +17,13 @@ export default{
     interview,
     rankList,
     interviewManage,
-    questionDetail
+    questionDetail,
+    need,
+    personcenter,
+    logins,
+    global
 }
+
+
 
 

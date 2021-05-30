@@ -21,8 +21,10 @@
   },
   "dependencies": {
     "@ant-design/pro-layout": "^6.5.0",
+    "@types/js-cookie": "^2.2.6",
     "@umijs/preset-react": "1.x",
     "for-editor": "^0.3.5",
+    "js-cookie": "^2.2.1",
     "mobx": "^6.3.2",
     "mobx-react-lite": "^3.2.0",
     "umi": "^3.4.21"

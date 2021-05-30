@@ -1,6 +1,6 @@
 import { addSubmitItem, changeValueItem, delSubmitItem, getStationSkillDetail, initSkill } from '@/service/modules/description'
 import {makeAutoObservable} from 'mobx'
-import { IStationSkillDetail, ISkillDescriptionListItem, Items } from '@/utils/interface'
+import { IStationSkillDetail, Items } from '@/utils/interface'
 
 function setKeyById(skillList:Items[]){
     skillList.forEach(item => {
@@ -71,5 +71,6 @@ class Description{
         this.skillDetail = {...this.skillDetail, ...params}
         // console.log('params...', params, this.skillDetail);
     }
-}   
+} 
+  
 export default new Description
