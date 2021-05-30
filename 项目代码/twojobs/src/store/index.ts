@@ -5,6 +5,7 @@ import description from './modules/description'
 import interview from './modules/interview'
 import interviewManage from './modules/interviewManage'
 import rankList from './modules/rankList'
+import questionDetail from './modules/questionDetail'
 
 
 export default{
@@ -12,5 +13,8 @@ export default{
     description,
     interview,
     rankList,
-    interviewManage
+    interviewManage,
+    questionDetail
 }
+
+
