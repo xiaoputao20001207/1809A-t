@@ -166,6 +166,36 @@
 # 弓程婷
 
 
+- ## 2021/05/31
+
+1. 文章阅读
+
+- [为什么要使用 async/await ？](https://juejin.cn/post/6967000766032658440)
+- ​[面试-搬砖到城堡1：JS防抖和节流及应用场景](https://juejin.cn/post/6967273496430772255)
+
+
+1. 源码阅读
+   
+- [微信小程序源码获取教程](https://juejin.cn/post/6844903614847123463)
+- [源码20](https://juejin.cn/post/6844903506017517582) 
+- [JavaScript专题之数组去重](https://github.com/mqyqingfeng/Blog/issues/27) 
+
+ 1. LeetCode刷题
+- [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
+- [判断子序列 ](https://leetcode-cn.com/problems/is-subsequence/submissions/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
+
+
 - ## 2021/05/30
 
 1. 文章阅读

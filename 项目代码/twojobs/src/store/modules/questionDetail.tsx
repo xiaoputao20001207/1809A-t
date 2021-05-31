@@ -1,16 +1,35 @@
-import { makeAutoObservable } from "mobx"
+import { makeAutoObservable ,runInAction} from "mobx"
 import { questionDetailList, questionAnserItem } from "@/utils/interface"
-import { getquestionDetailList } from '@/service/index'
+import { getquestionDetailList ,getprojectlist} from '@/service/index'
+import {message} from "antd"
+interface defauList{
+    name:string|null,
+    value:string
+}
 class questionDetail {
     constructor() {
         makeAutoObservable(this)
     }
+    // labels: []
+    // questionContent: "MK文档"
+    // questionTitle: "标题"
+    // text1: "类型的公司"
+    // text2: "岗位"
+    // type: 1
     //查看全部状态
     showAllindex:string|number=""
     //状态栏切换active标记
     curIndex = ""
+    //标签数组
+    labels:Array<string>=[]
+    //标签值
+    labelsvalue=""
+    //第一栏选中字段
+    curpro="实训"
     //默认每页显示条数
     pageSize = 8
+    //实训的第二栏参数
+    list:defauList[]=[]
     //默认页码
     pageNum = 1
     //最大数据
@@ -63,13 +82,47 @@ class questionDetail {
     changeFlag(){
         this.flag=true
     }
-    handleOk = () => {
-        this.flag=false
-      };
-    
      handleCancel = () => {
         this.flag=false;
       };
+      //第一栏改变 获取第二栏数据
+    async  changeclass(v:string){
+        this.curpro=v
+        let res=  await getprojectlist()
+            this.list=res.data
+      }
+      //添加标签的值
+      changelabelsvalue(e:React.ChangeEvent<HTMLInputElement>){
+     
+        this.labelsvalue=e.target.value
+      }
+      error = () => {
+        message.error('最多只能添加5个标签');
+      };
+      //添加标签
+      addtext(e:React.KeyboardEvent<HTMLInputElement>){
+      
+        if(e.key=="Enter"){
+            if(e.preventDefault){
+                e.preventDefault();
+              }
+              if(this.labels.length<5){
+                this.labels.unshift(this.labelsvalue)
+                this.labelsvalue=""                  
+            }else{
+                this.error()
+            }
+               
+            
+            
+        }
+      } 
+      //删除标签
+      deletelabes(i:number){
+         this.labels=this.labels.filter((item,index)=>{
+             return index!=i
+         })
+      }
 }
 
 export default new questionDetail

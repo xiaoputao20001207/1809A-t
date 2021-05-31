@@ -7,7 +7,7 @@ import StoreContext from '@/context/storeContext'
 import store from '@/store'
 
 const baseURL = 'http://111.203.59.61:8060/dev-api'
-const authorization = 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjM5MGU2NDYwLThiOWEtNDQ0OS1iNTAyLTYxYzdkMWYxM2YwNSJ9.pRzcivOWmlyOuXKJAmW_FR71gr4oNQxe_VTqzKdPkeHCl5R0agAUgMkicBcfjSLs5GgRVPfcYuHhIsRLjASZaA'
+const authorization = 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjMyNmExMmE2LTIwNTQtNDZlNC04YmUyLWZjMGM0ODllMTZiZiJ9.X_Ts-hGdMbs3vzf6C0KhqV1jIXgbugHufJD36Sbq5Da9WodOddfaZJSMyFwoRMQ8juFO3_yOeROLR_2_1EKBoQ'
 
 export const request: RequestConfig = {
   timeout: 10000,
