@@ -9,7 +9,7 @@ import {
 } from '@ant-design/icons';
 import useStore from '@/context/useStore';
 import { ISkilldairn ,Addpro} from '@/utils/interface';
-import { observer } from '_mobx-react-lite@3.2.0@mobx-react-lite';
+import { observer } from 'mobx-react-lite';
 const { TextArea } = Input;
 
 const AddProject: React.FC = () => {

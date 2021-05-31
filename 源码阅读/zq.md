@@ -1,4 +1,6 @@
 # zq
+- 0531
+    - [javascript 求数组的最大值和最小值 (6种方法)](https://juejin.cn/post/6967704305713283080)
 - 0530
     - [react 高阶组件HOC详解](https://juejin.cn/post/6968013313347158053)
 - 0529

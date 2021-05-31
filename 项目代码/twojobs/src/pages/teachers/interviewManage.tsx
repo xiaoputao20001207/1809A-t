@@ -21,7 +21,7 @@ const columns = [
       title: '岗位名称',
     //   dataIndex: 'stationName',
       render:(row:InterViewListItem)=>{
-          return <a onClick={()=>{history.replace(`/teachers/interviewRecord?interviewId=${row.interviewId}&shield=${Boolean(row.shield)}&see=true`)}}>{row.stationName}</a>
+          return <a onClick={()=>{history.push(`/teachers/interviewRecord?interviewId=${row.interviewId}&shield=${Boolean(row.shield)}&see=true`)}}>{row.stationName}</a>
       },
       align:"center"
     },

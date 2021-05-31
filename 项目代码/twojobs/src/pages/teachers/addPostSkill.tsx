@@ -57,7 +57,6 @@ const AddPostSkill:FC<IRouteComponentProps> = ({history,location})=>{
                     </div>
                 </div>
                 <div className={style.context}>
-                    
                     <Form form={form} key={JSON.stringify(skill.skillAddItem)} initialValues={{...skill.skillAddItem,...skill.skillAddItem.stationLevelList[0]}} onFinish={addPostSkill}>
                         <div className={style.context_top}>
                             <h2><span className="icon" data-v-262311c4></span>基本信息</h2>

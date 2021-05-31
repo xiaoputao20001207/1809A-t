@@ -1,14 +1,13 @@
 import React,{ FC, useEffect, useState } from 'react'
 import { GetListItem} from '@/service/index'
 import { ISkillListQuery,IStationVersionList} from '@/utils/interface'
-import { EyeOutlined, RollbackOutlined, FormOutlined, DeleteOutlined,  SendOutlined  } from '@ant-design/icons';
+import { EyeOutlined, RollbackOutlined, FormOutlined, DeleteOutlined, DeliveredProcedureOutlined, SendOutlined  } from '@ant-design/icons';
 import './postSKill.css'
 import { Input, Space, Button, Table,} from 'antd';
 import style from './postless.less'
 import {observer} from 'mobx-react-lite'
 import useStore from '@/context/useStore';
-import {history, Link} from 'umi'
-
+import {history} from 'umi'
 
 const { Search } = Input;
 
@@ -59,9 +58,7 @@ const columns = [
                 </div>
             }else if(row.status === '1'){
                 return <div className={style.action}>
-                    <Link to={`/teachers/addPostSkill?stationVersionId=${row.stationVersionId}&see=false`}>
-                        <FormOutlined style={{ color: '#679cf6' }}/>
-                    </Link>
+                        <FormOutlined style={{ color: '#679cf6' }} />
                         <SendOutlined style={{ color: '#679cf6' }}/>
                         <DeleteOutlined style={{ color: '#679cf6' }} />
                     </div>
@@ -93,7 +90,7 @@ const Postskill:FC = (props)=>{
     //仅看我的
     const [isMyInfo,setisMyInfo] = useState(false)
 
-    let {skill,need} = useStore()
+    let {skill} = useStore()
 
     //头部发起请求
     useEffect(() => { 
@@ -115,10 +112,7 @@ const Postskill:FC = (props)=>{
         })
     },[curStatus,carStatus,searchTitle,isMyInfo])
     
-    //小铃铛
-    useEffect(()=>{
-        need.getAll()
-    },[])
+    
     return <div className='box'>
         <p className={style.management}><span>岗位</span>/岗位管理</p>
         <div className='topfather'>

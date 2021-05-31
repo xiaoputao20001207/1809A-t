@@ -24,6 +24,7 @@
     -[x] 项目页面
     -[x] 添加项目
     
+
 ## 2021/5/28
 1. 文章阅读
 > * [155个JavaScript基础问题](https://juejin.cn/post/6966781111888265253)
@@ -876,7 +877,19 @@
 - [x] 复习ts
 
 # 张琪
--
+## 2021.5.31
+1. 文章阅读
+- [为什么要使用 async/await ？](https://juejin.cn/post/6967000766032658440)
+2. 源码阅读
+   - [javascript 求数组的最大值和最小值 (6种方法)](https://juejin.cn/post/6967704305713283080)
+3. leecode 刷题
+- [Excel 表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number/solution/hua-jie-suan-fa-171-excelbiao-lie-xu-hao-by-guanpe/)
+- [寻找峰值](https://leetcode-cn.com/problems/find-peak-element/)
+4. 项目进度
+   - [ x ] 面试排行榜页面完善排版
+   - [ x ] 登录页面
+   - [ x ] 导航守卫
+
 ## 2021.5.30
 1. 文章阅读
 - [一份工作4年前端的Git备忘指南](https://juejin.cn/post/6967634683811069982)

@@ -77,10 +77,7 @@ html,body,#root,.box{
     color: #C0C4CC;
 }
 
-.ant-table-wrapper{
-    width: 80%;
-    margin: auto;
-}
+
 .ant-table-thead > tr th {
     background-color: rgb(193, 204, 223);
     font-weight: 800;
@@ -100,3 +97,11 @@ display: inline-block;
 .ant-btn{
     height: 37px;
 }
+.ant-spin-nested-loading{
+    width: 80%;
+    margin: auto;
+}
+/* .mainlist .ant-table table{
+    width: 80%;
+    margin: auto;
+} */

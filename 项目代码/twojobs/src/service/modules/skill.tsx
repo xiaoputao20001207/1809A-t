@@ -1,14 +1,16 @@
 import { request } from 'umi';
 import { ISkillAddItem, ISkillListQuery } from '@/utils/interface';
 
-//获取岗位专业接口
+//获取专业接口
 export let Gettoplist = () => {
     return request('/sxpt/station/selectStationLabel')
 }
+
 //获取专业点击每一项接口
 export let GetListItem = (params:ISkillListQuery)=>{
     return request('/sxpt/station/selectStationVersionList',{params})
 }
+
 //添加岗位接口
 export let Addpostskill = (data:ISkillAddItem)=>{
     return request('/sxpt/station',{

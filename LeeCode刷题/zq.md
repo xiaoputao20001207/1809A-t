@@ -1,4 +1,7 @@
 ## 练习
+- 0531
+    - [Excel 表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number/solution/hua-jie-suan-fa-171-excelbiao-lie-xu-hao-by-guanpe/)
+    - [寻找峰值](https://leetcode-cn.com/problems/find-peak-element/)
 - 0530
     - [寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
 - 0529

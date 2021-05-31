@@ -41,7 +41,7 @@ html,body,#root,.box{
 span:hover{
     background: #679cf6;
     color: white;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .ant-table-wrapper{
     /* height: 600px; */
