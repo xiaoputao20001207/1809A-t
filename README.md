@@ -164,6 +164,30 @@
 
 # 弓程婷
 
+- ## 2021/05/26
+
+1. 文章阅读
+
+- [React 中后台系统多页签实现 ｜ 项目复盘](https://juejin.cn/post/6941683774153293837)
+- ​[分享15个Webpack实用的插件！！！](https://juejin.cn/post/6944940506862485511)
+
+2. 源码阅读
+   
+- [jQuery](https://blog.csdn.net/u010046318/article/details/73729844?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162203046116780274136469%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fcode.%2522%257D&request_id=162203046116780274136469&biz_id=)
+- [lodash源码分析之arrayEach](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/arrayEach.md) 
+
+ 3. LeetCode刷题
+- [二进制求和](https://leetcode-cn.com/problems/add-binary/)
+- [ x 的平方根](https://leetcode-cn.com/problems/sqrtx/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 添加岗位页面
+
+
+
 - ## 2021/05/25
 
 1. 文章阅读
@@ -347,7 +371,7 @@
 - [x] 学习markdown
 - [x] 复习ts
   
-  # 郭乾升
+# 郭乾升
 ## 2021.5.20
 1. 文章阅读
 
@@ -450,21 +474,84 @@
 
 
 # 赵晓杰
-<<<<<<< HEAD
+
+## 2021.6.1
+1. 文章阅读
+- [数组的常用方法整理](https://blog.csdn.net/qq_42736311/article/details/115274807?utm_medium=distribute.pc_category.none-task-blog-hot-1.nonecase&dist_request_id=1328270.10280.16171099278440167&depth_1-utm_source=distribute.pc_category.none-task-blog-hot-1.nonecase)
+- [贪心算法](https://juejin.cn/post/6844904190578278414)
+1. 源码阅读
+- [_.flattenDeep](https://www.lodashjs.com/docs/lodash.flattenDeep)
+- [_.flattenDepth](https://www.lodashjs.com/docs/lodash.flattenDepth)
+ 
+2. LeeCode刷题
+- [移动零](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2ba4i/)
+- [两数之和](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2jrse/)
+4. 项目进度
+- [x] 八维生产性实训平台 -答辩页面
+## 2021.5.31
+1. 文章阅读
+- [二叉树之层序遍历](https://juejin.cn/post/6944716679687438344)
+2. 源码阅读
+- [throttle-debounce](https://github.com/jasonandjay/js-code/blob/master/original/throttle-debounce.js)
+- [deep-clone](https://github.com/jasonandjay/js-code/blob/master/original/deep-clone.js)
+1. LeeCode刷题
+- [两个数组的交集 II](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2y0c2/)
+- [加一](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2cv1c/)
+4. 项目进度
+- [x] 八维生产性实训平台 -答辩页面
+
+## 2021.5.30
+1. 文章阅读
+- [JS事件分类](https://blog.csdn.net/weixin_51458883/article/details/115257155?utm_medium=distribute.pc_category.none-task-blog-hot-5.nonecase&dist_request_id=&depth_1-utm_source=distribute.pc_category.none-task-blog-hot-5.nonecase)
+2. 源码阅读
+- [call-apply](https://github.com/jasonandjay/js-code/blob/master/original/call-apply.js)
+3. LeeCode刷题
+- [外观数列](https://leecode-cn.com/leetbook/read/top-interview-questions-easy/xnpvdm/)
+- [最长公共前缀](https://leecode-cn.com/leetbook/read/top-interview-questions-easy/xnmav1/)
+4. 项目进度
+- [x] 八维生产性实训平台 -答辩页面
+
+## 2021.5.29
+
+1. 文章阅读
+- [JS高级开发-内置对象Object梳理](https://blog.csdn.net/weixin_42210229/article/details/115110518?utm_medium=distribute.pc_category.none-task-blog-hot-3.nonecase&dist_request_id=1328740.2280.16167698045002259&depth_1-utm_source=distribute.pc_category.none-task-blog-hot-3.nonecase)
+2. 源码阅读
+3. LeeCode刷题
+- [字符串转换整数 (atoi)](https://leecode-cn.com/leetbook/read/top-interview-questions-easy/xnoilh/)
+- [实现 strStr()](https://leecode-cn.com/leetbook/read/top-interview-questions-easy/xnr003/)
+4. 项目进度
+- [x] 八维生产性实训平台 -答辩页面
+
+## 2021.5.28
+
+1. 文章阅读
+- [栈内存与堆内存，深浅拷贝](https://juejin.cn/post/6875859084600410119)
+2. 源码阅读
+- [bind-new.js](https://github.com/jasonandjay/js-code/blob/master/original/bind-new.js)
+3. LeeCode刷题
+- [有效的字母异位词](https://leecode-cn.com/leetbook/read/top-interview-questions-easy/xn96us/)
+- [验证回文串](https://leecode-cn.com/leetbook/read/top-interview-questions-easy/xne8id/)
+4. 项目进度
+- [x] 八维生产性实训平台 -答辩页面
+## 2021.5.27
+1. 文章阅读
+- [2021不得不学的Typescript](https://juejin.cn/post/6966151454914510878)
+- [TypeScript 中的依赖注入](https://juejin.cn/post/6965857170646630408)
+2. 源码阅读
+
+- [生产环境js错误收集及定位源码位置](https://juejin.cn/post/6960108736966819848)
+- [Node.js eventloop + 线程池源码分析（建议精读）](https://juejin.cn/post/6951303053739819038)
+3. leecode 刷题
+
+ - [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
+ - [四数之和](https://leetcode-cn.com/problems/4sum/)
+
+4. 项目进度
 ## 2021.5.26
 1. 文章阅读
 - [JS常用的循环遍历你会几种](https://juejin.cn/post/6966390357005172773)
 - [vue3初始化挂载组件流程](https://juejin.cn/post/6966236601370279973)
 2. 源码阅读
-=======
-
-## 2021.5.26
-1. 文章阅读
-
-- [JS常用的循环遍历你会几种](https://juejin.cn/post/6966390357005172773)
-- [vue3初始化挂载组件流程](https://juejin.cn/post/6966236601370279973)
-1. 源码阅读
->>>>>>> master
 
 - [React源码解析](https://juejin.cn/post/6844903568487497741)
 - [剖析 React 源码](https://juejin.cn/post/6844903829704540174)
@@ -475,12 +562,6 @@
 
 4. 项目进度
 
-
-- [x] 八维生产性实训平台 - 岗位添加页面
-<<<<<<< HEAD
-
-=======
->>>>>>> master
 ## 2021.5.25
 1. 文章阅读
 - [原生DOM操作你还记住多少](https://juejin.cn/post/6966062224892756005)
@@ -834,6 +915,22 @@
 
 
 # 吴晓桐
+## 2021.5.27
+1. 文章阅读
+   - [实现一个简易的 npm install](https://juejin.cn/post/69663903570051727)
+   - [React进阶](https://juejin.cn/post/696640194057399)
+   - [如何成为优秀的前端工程师](https://www.ruanyifeng.com/blog/2018/03/node-debugger.html?.58f832acIcEUUh)
+2. 源码阅读
+   - [indexOf](https://www.lodashjs.com/docs/lodash.indexOf)
+   - [裁剪数组](https://www.lodashjs.com/docs/lodash.slice)
+   - [移除array中对应的元素](https://www.lodashjs.com/docs/lodash.pullAt)
+3. leecode 刷题
+   - [flattenDepth](https://www.lodashjs.com/docs/lodash.flattenDepth)
+   - [fromPairs(pairs)](https://www.lodashjs.com/docs/lodash.fromPairs)
+   - [head(array)](https://www.lodashjs.com/docs/lodash.head)
+4. 项目进度
+    - 头部排版
+    - 树形结构
 ## 2021.5.26
 1. 文章阅读
    - [JS常用的循环遍历](https://juejin.cn/post/6966390357005172773)

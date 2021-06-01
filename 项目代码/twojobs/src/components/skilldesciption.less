@@ -1,0 +1,38 @@
+.box{
+    width: 100%;
+    height: 500px;
+    padding: 15px;
+    display: flex;
+    .left{
+        width: 300px;
+        background-color: #f0f1f4;
+        height: 100%;
+        .left_top{
+            height: 50px;
+            border-bottom: 1px solid rgba(178, 183, 198, 0.6);
+            .left_top_icon{
+                float: right;
+                height: 50px;
+                display: flex;
+                width: 50px;
+                justify-content: space-around;
+                font-size: 20px;
+                align-items: center;
+                margin-right: 10px;
+                color: rgb(92, 92, 92);
+            }
+        }   
+        
+    }   
+    .right{
+        flex: 1;
+        margin-left: 10px;
+        overflow: hidden;
+    }
+}
+#item{
+    margin-top: 10px;
+}
+#item:hover{
+    background-color: grey;
+}
