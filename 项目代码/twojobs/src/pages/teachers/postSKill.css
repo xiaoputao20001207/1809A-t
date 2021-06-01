@@ -38,7 +38,7 @@ html,body,#root,.box{
     color: white;
     border-radius: 10px;
 }
-span:hover{
+.box span:hover{
     background: #679cf6;
     color: white;
     border-radius: 10px;
@@ -46,7 +46,6 @@ span:hover{
 .ant-table-wrapper{
     /* height: 600px; */
     margin: 0 30px 30px 30px;
- 
 }
 .search{
     height: 60px;

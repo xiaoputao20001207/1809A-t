@@ -1,14 +1,17 @@
+import { getPlanList } from '@/service'
+import { IPlanListItem, IPlanStatus } from '@/utils/interface'
 import {makeAutoObservable} from 'mobx'
 
 class plan {
-    constructor(parameters){
+    constructor(){
         makeAutoObservable(this)
     }
     palnList:IPlanListItem[]=[]
-    async getPlanList(){
+    async getPlanList(params:IPlanStatus){
         const result=await getPlanList(params)
-        if(res.rows){
-            palnList=res.rows
+        console.log(result)
+        if(result.rows){
+            this.palnList=result.rows
         }
     }
 }

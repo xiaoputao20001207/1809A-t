@@ -1,6 +1,6 @@
-import { IPlanListItem } from '@/utils/interface'
+import { IPlanListItem, IPlanStatus } from '@/utils/interface'
 import {request} from 'umi'
 
-export const getPlanList=(params:IPlanListItem)=>{
-    return request('/classPlan/getPlanList',{params})
+export const getPlanList=(params:IPlanStatus)=>{
+    return request('/sxpt/classPlan/getPlanList',{params})
 }
