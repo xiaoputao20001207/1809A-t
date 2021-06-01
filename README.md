@@ -166,6 +166,35 @@
 # 弓程婷
 
 
+- ## 2021/06/01
+
+1. 文章阅读
+
+- [v-model 双向数据绑定实现原理](https://juejin.cn/post/6968500711390707749)
+- ​[防抖/节流到底解决什么问题？](https://juejin.cn/post/6968636979630047239)
+
+
+2. 源码阅读
+   
+- [React源码解析(一):组件的实现与挂载](https://juejin.cn/post/6844903504528556040)
+- [golang map源码详解](https://juejin.cn/post/6844903517530882061) 
+
+3. LeetCode刷题
+- [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
+- [剑指 Offer 10- II. 青蛙跳台阶问题 ](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/submissions/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
+
+
 - ## 2021/05/31
 
 1. 文章阅读
@@ -174,13 +203,13 @@
 - ​[面试-搬砖到城堡1：JS防抖和节流及应用场景](https://juejin.cn/post/6967273496430772255)
 
 
-1. 源码阅读
+2. 源码阅读
    
 - [微信小程序源码获取教程](https://juejin.cn/post/6844903614847123463)
 - [源码20](https://juejin.cn/post/6844903506017517582) 
 - [JavaScript专题之数组去重](https://github.com/mqyqingfeng/Blog/issues/27) 
 
- 1. LeetCode刷题
+3. LeetCode刷题
 - [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
 - [判断子序列 ](https://leetcode-cn.com/problems/is-subsequence/submissions/)
 
@@ -204,12 +233,12 @@
 - ​[ES6复习攻略](https://juejin.cn/post/6967924597681291272)
 
 
-1. 源码阅读
+2. 源码阅读
    
 - [Promise 源码分析](https://juejin.cn/post/6844903745004765191)
 - [redux源码解读](https://juejin.cn/post/6844903600456466445) 
 
- 1. LeetCode刷题
+3. LeetCode刷题
 - [只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
 - [二进制求和](https://leetcode-cn.com/problems/add-binary/submissions/)
 
@@ -232,12 +261,12 @@
 - ​[数据流管理方案：Redux 和 MobX 哪个更好？](https://juejin.cn/post/6938207430048219166)
 
 
-1. 源码阅读
+2. 源码阅读
    
 - [React 源码学习之 render 阶段](https://juejin.cn/post/6967959680341508126)
 - [Axios 源码解析](https://juejin.cn/post/6844903824583294984) 
 
- 1. LeetCode刷题
+3. LeetCode刷题
 - [加一](https://leetcode-cn.com/problems/plus-one/submissions/)
 - [移动零](https://leetcode-cn.com/problems/move-zeroes/submissions/)
 
@@ -267,7 +296,7 @@
 - [React Hooks完全上手指南](https://zhuanlan.zhihu.com/p/92211533)
 - [umijs介绍及基本用法、配置式路由、约定式路由、路由传参等](https://blog.csdn.net/weixin_48653480/article/details/109011777) 
 
- 1. LeetCode刷题
+3. LeetCode刷题
 - [全排列](https://leetcode-cn.com/problems/permutations/)
 - [最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/)
 
@@ -295,7 +324,7 @@
 - [Mobx 源码解读（一） 基本概念](https://zhuanlan.zhihu.com/p/31704920)
 - [【用故事解读 MobX源码（一）】 autorun](https://segmentfault.com/a/1190000013682735) 
 
- 1. LeetCode刷题
+3. LeetCode刷题
 - [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/submissions/)
 - [ 数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/submissions/)
 

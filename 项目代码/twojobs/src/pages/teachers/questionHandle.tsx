@@ -15,7 +15,7 @@ const QuestionHandle:React.FC=()=>{
             {/*来源和状态 */}
             <div className="one">
                 <div className="train_resource">
-                    <div>来源: <span> 网站2021A班 </span></div>
+                    <div>来源: <span style={{padding:"2px 5px",background:"rgb(103,156,246)",color:"#fff"}}> 网站2021A班 </span></div>
                 </div>
                 <div className="resource_type">
                     <div>状态 : </div>
