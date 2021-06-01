@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-
 }
 html,body,#root,.box{
     width: 100%;
@@ -106,5 +105,8 @@ html,body,#root,.box{
     width: 100%;
 }
 .resource_type___hXDot,.tabs___3sIXC{
+    width: 100%;
+}
+.ranklist___aitsv{
     width: 100%;
 }

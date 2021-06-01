@@ -1,4 +1,7 @@
 ## 练习
+- 0601
+    - [寻找第 n 高的薪水](https://leetcode-cn.com/problems/nth-highest-salary/)
+    - [打家劫舍](https://leetcode-cn.com/problems/house-robber/)
 - 0531
     - [Excel 表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number/solution/hua-jie-suan-fa-171-excelbiao-lie-xu-hao-by-guanpe/)
     - [寻找峰值](https://leetcode-cn.com/problems/find-peak-element/)

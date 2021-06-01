@@ -1,8 +1,8 @@
 import { observer } from "mobx-react-lite"
 import React, { useEffect, useState } from "react"
 import { FC } from "react"
-import "./interviewManage.css"
 import styles from "./interviewManage.less"
+import "./interviewManage.css"
 import { IRouteComponentProps } from "@umijs/renderer-react"
 import {Button ,message,Input,Table ,Switch} from "antd"
 import {CaretRightOutlined ,PauseOutlined ,CheckOutlined,CloseOutlined} from "@ant-design/icons"
@@ -144,7 +144,7 @@ const InterviewManage:FC<IRouteComponentProps>=(history)=>{
 
                 <div className={styles.mainlist}>
                         <div className={styles.search}>
-                            <Search className={styles.aa} placeholder="输入内容" allowClear onChange={e=>{setSearchTitle(e.target.value)}} style={{ width: 200 }} />
+                            <Search className={styles.aa} placeholder="搜索岗位/公司名称" allowClear onChange={e=>{setSearchTitle(e.target.value)}} style={{ width: 200 }} />
                         </div>
                         <Table columns={columns} dataSource={interviewManage.interviewManageList} rowKey='1'/>
                     </div>

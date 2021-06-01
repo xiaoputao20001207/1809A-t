@@ -102,7 +102,7 @@ const RankList:FC=()=>{
                             </div>
                         </div>
                         
-                        <div className={style.tabs}>
+                        <div className={style.ranklist}>
                             <Tabs defaultActiveKey="1" onChange={()=>{setKey(key)}}>
                                 <TabPane tab="面试记录榜单" key="1" id="aa">
                                     <Table columns={columns} dataSource={RecordRanking} rowKey='2'/>

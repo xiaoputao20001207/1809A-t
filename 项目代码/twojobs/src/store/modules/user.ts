@@ -21,13 +21,14 @@ class User{
         }
     }
 
-    //登录
+    //登录 请求
     async login(data:LoginParams){
-        console.log(data)
         let result = await goLogin({...data,uuid:this.captchImage.uuid,})
         if(result.code==200){
             let authorization = this.authorization=`Bearer ${result.token}`
+            //设置登录态
             setCookie(authorization)
+            return authorization
         }
     }
 

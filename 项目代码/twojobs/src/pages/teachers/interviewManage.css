@@ -97,11 +97,11 @@ display: inline-block;
 .ant-btn{
     height: 37px;
 }
-.ant-spin-nested-loading{
+.mainlist .ant-spin-nested-loading{
     width: 80%;
     margin: auto;
 }
-/* .mainlist .ant-table table{
+
+.mainlist___3njX-  .ant-table-wrapper{
     width: 80%;
-    margin: auto;
-} */
+}

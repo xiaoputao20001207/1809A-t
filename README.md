@@ -877,6 +877,19 @@
 - [x] 复习ts
 
 # 张琪
+## 2021.6.1
+1. 文章阅读
+- [手把手带你10分钟手撸一个简易的Markdown编辑器](https://juejin.cn/post/6968632189894262791)
+- [再也不怕面试官了: vue router原理剖析, 自行实现router](https://juejin.cn/post/6968706833527930887)
+2. 源码阅读
+   - [JavaScript 异步编程指南 — Promise 前世 Deferred](https://juejin.cn/post/6968225000742453262)
+3. leecode 刷题
+- [寻找第 n 高的薪水](https://leetcode-cn.com/problems/nth-highest-salary/)
+- [打家劫舍](https://leetcode-cn.com/problems/house-robber/)
+4. 项目进度
+   - [ x ] 页面 bug 调试
+   - [ x ] 语言国际化
+
 ## 2021.5.31
 1. 文章阅读
 - [为什么要使用 async/await ？](https://juejin.cn/post/6967000766032658440)
