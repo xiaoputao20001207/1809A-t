@@ -16,7 +16,31 @@ export interface ISkillListQuery{
     status?:number,
     isMyInfo:boolean
 }
-
+//计划管理
+export interface IplanList{
+  classId: string,
+searchName: string,
+ifFinished: number,
+pageNum: number,
+pageSize: number
+}
+//
+export interface IplanListItem {
+  classId?: any;
+  className: string;
+  id: string;
+  classid: string;
+  planname: string;
+  begintime: string;
+  endtime: string;
+  states: string;
+  progress: string;
+  countStus: number;
+  countUncompleted: number;
+  description: string;
+  countCompleted?: any;
+  surplusTime: string;
+}
 export interface IStationVersionList{
   stationId: string;
   stationVersionId: string;
@@ -115,18 +139,7 @@ export interface ISkilldairn {
   proId?: any;
 }
 //添加
-export interface Addpro{
-  trade:string;
-  name:string;
-  version:number;
-  majorStationList:string;
-  sxType:string;
-  subjectTime:number;
-  note:string;
-  pictureUrl:string;
-  showUrl:string;
-  versionId:string
-}
+
 //行业表格
 export interface ISkilldairnObj {
   id: string;
@@ -142,36 +155,20 @@ export interface ISkilldairnObj {
   newProjectList:string;
 }
 
-interface RootObject {
-  searchValue?: any;
-  createBy?: any;
-  createTime?: string;
-  updateBy?: any;
-  updateTime?: string;
-  remark?: any;
-  params: Params;
-  id: string;
-  authorid: string;
-  proname: string;
-  prodescription: string;
-  sxtype: string;
-  stucount?: any;
-  score?: any;
-  publishtime?: any;
-  status: string;
-  subjecttime?: string;
-  favorcount?: any;
-  pictureUrl?: any;
-  richText?: any;
-  newVersionId?: any;
-  taskCount: number;
-  trade: string;
-  major: string;
-  versionId: string;
-  versionNum: string;
-  showUrl: string;
-  version: string;
-}
 
-interface Params {
+
+//添加项目
+export interface Addpro {
+  name: string;
+  version: string|number;
+  description: string;
+  majorStationChineseList:  string[];
+  tradeName: string|number;
+  type: sxtype[];
+  subjectTime: string|number,
+  pictureUrl:string
+}
+interface sxtype{
+  sxType:string,
+  sxType1:string
 }

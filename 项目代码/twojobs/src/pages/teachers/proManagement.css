@@ -67,7 +67,12 @@ html,body,#root,.box{
     color: white;
     border-radius: 10px;
 }
-span:hover{
+.box .top1 span:hover{
+    background: #679cf6;
+    color: white;
+    border-radius: 10px;
+}
+.box .top span:hover{
     background: #679cf6;
     color: white;
     border-radius: 10px;
@@ -109,4 +114,4 @@ span:hover{
 .ant-layout-header a.active{
     border-bottom: 2px solid #679cf6;
     color: #679cf6;
-}
+} 

@@ -40,9 +40,6 @@ const AddPostSkill:FC<IRouteComponentProps> = ({history,location})=>{
     //岗位添加函数
     async function addPostSkill(value:ISkillAddItem){
         let stationVersionId = await skill.addPostSkill(value)
-        // if(!stationVersionId){
-        //    message.success('保存成功',1)
-        // }
         
         history.replace(`/teachers/addPostSkill?stationVersionId=${stationVersionId}&see=false`)
     }

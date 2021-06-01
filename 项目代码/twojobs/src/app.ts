@@ -7,7 +7,7 @@ import StoreContext from '@/context/storeContext'
 import store from '@/store'
 
 const baseURL = 'http://111.203.59.61:8060/dev-api'
-const authorization = 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImZhZGNjZWFkLTkxYzItNDg3ZC04NDc0LTliZGMzMTczZmVmMiJ9.coN_PcIFnGztO2-Bbv566pXCWS37GoguHvlmM1L0tKeqBiskvVvfoLL1LQmLv87tAFiSF-XoT1eR6w2jb6pf8Q'
+const authorization = 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImE4YWNlZTYyLTdlYzgtNDA3My04MjUxLWIwY2E2ZmRmNzc2NyJ9.IPxyjHTOppxL6k_7RaPRXDp3xyYHWe5VGYJ43BLzgFPHHA-QhPm8EgU6psHkX7hL83FjOuyevKrCim2cMqUHgg'
 
 export const request: RequestConfig = {
   timeout: 10000,
@@ -18,7 +18,7 @@ export const request: RequestConfig = {
       if(!/http/.test(url)){
           url = baseURL + url
         }
-        console.log(url)
+      
       return {
           url,
           options:{...options,interceptors:true,headers:{...options.headers,authorization}}

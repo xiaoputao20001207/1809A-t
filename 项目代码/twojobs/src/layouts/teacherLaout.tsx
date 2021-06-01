@@ -11,6 +11,7 @@ const content = (
      <p> <NavLink to="/teachers/planList">计划</NavLink></p>
       <p><NavLink to="/teachers/viewPlan">进度</NavLink></p>
       <p><NavLink to="/teachers/defence">答辩</NavLink></p>
+      <p><NavLink to="/teachers/planListManage">计划(管理)</NavLink></p>
     </div>
   );
   const contentinterview = (

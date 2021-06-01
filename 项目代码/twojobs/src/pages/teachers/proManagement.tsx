@@ -136,10 +136,6 @@ const columns = [
 ];
 
 const Postskill: FC = (props) => {
-  //专业状态
-  //const [toplist, setList] = useState<ISkillLabel[]>([])
-
-  // const [topitem, settopitem] = useState<ISkillListQuery[]>([])
 
   //专业每一项高亮
   const [curStatus, setcurStatus] = useState('');
@@ -151,7 +147,7 @@ const Postskill: FC = (props) => {
   const [carStatus, setcarStatus] = useState(0);
 
   //头部每一项状态
-  const [dataSource, setdataSource] = useState<ISkillListQuery[]>([]);
+  // const [dataSource, setdataSource] = useState<ISkillListQuery[]>([]);
 
   //搜索
   const [searchTitle, setsearchTitle] = useState('');
@@ -188,11 +184,7 @@ const Postskill: FC = (props) => {
         newProjectList:isMyInfo?"1":'0',
       };
     }
-    GetListDairnItem(queryParams).then((res) => {
-      if (res.code === 200) {
-        setdataSource(res.rows);
-      }
-    });
+    proSkill.GetListDairnItem(queryParams)
   }, [curStatus, carStatus, searchTitle, isMyInfo, curDairn, industry]);
 
   return (
@@ -286,11 +278,10 @@ const Postskill: FC = (props) => {
       </div>
       <div className="tab">
         <Table
-          dataSource={dataSource}
+          dataSource={proSkill.setdataSource}
           columns={columns}
-          rowKey="stationId"
+          rowKey="id"
         ></Table>
-        1
       </div>
     </div>
   );
