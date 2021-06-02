@@ -7,15 +7,15 @@ const status = ["全部","精品","认证","被屏蔽"]
 const QuestionHandle:React.FC=()=>{
     return <div className="questionHandle">
         {/* 头部 */}
-        {/* <div className="title">
+        <div className="title">
             问答/待处理问答
-        </div> */}
+        </div>
         {/* 主体 */}
         <div className="box_content">
             {/*来源和状态 */}
             <div className="one">
                 <div className="train_resource">
-                    <div>来源: <span> 网站2021A班 </span></div>
+                    <div>来源: <span style={{padding:"2px 5px",background:"rgb(103,156,246)",color:"#fff"}}> 网站2021A班 </span></div>
                 </div>
                 <div className="resource_type">
                     <div>状态 : </div>

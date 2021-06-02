@@ -25,7 +25,7 @@
     }
     >ul{
         >span{
-            padding: 4px 12px;
+            padding: 2px 12px;
             margin: 0px 4px 0px 0px;
         }
         >span.active{
@@ -70,10 +70,20 @@
     }
     >ul{
         flex: 1;
+        // background: pink;
         >li{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            p{
+                span{
+                    color: #ccc;
+                    margin:0px 10px;
+                    padding-top: 10px;
+                    display: inline-block;
+                    
+                }
+            }
         }
     }
 }
@@ -81,7 +91,8 @@
     display: flex;
     justify-content:  flex-start !important;
     >span{
-        padding: 5px 10px;
+        margin-top: 10px;
+        padding: 0px 10px;
         border-radius: 15px;
         border: 1px solid #679cf6;
         text-align: center;
