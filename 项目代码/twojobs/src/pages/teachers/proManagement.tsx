@@ -188,15 +188,12 @@ const Postskill: FC = (props) => {
         newProjectList:isMyInfo?"1":'0',
       };
     }
-    GetListDairnItem(queryParams).then((res) => {
-      if (res.code === 200) {
-        setdataSource(res.rows);
-      }
-    });
+    proSkill.GetListDairnItem(queryParams)
   }, [curStatus, carStatus, searchTitle, isMyInfo, curDairn, industry]);
 
   return (
     <div className="box">
+
       <div className="topfather">
         <div className="dairn">
           <b>实训类型:</b>
@@ -289,7 +286,6 @@ const Postskill: FC = (props) => {
           style={{width:'95%'}}
         
         ></Table>
-        1
       </div>
     </div>
   );
