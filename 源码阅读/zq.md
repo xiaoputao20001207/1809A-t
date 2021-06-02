@@ -1,4 +1,6 @@
 # zq
+- 0602
+    - [JS 的 new 做了哪些事情呢？](https://juejin.cn/post/6968856664560648199)
 - 0601
     - [手把手带你10分钟手撸一个简易的Markdown编辑器](https://juejin.cn/post/6968632189894262791)
     - [再也不怕面试官了: vue router原理剖析, 自行实现router](https://juejin.cn/post/6968706833527930887)

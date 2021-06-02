@@ -4,8 +4,6 @@ import './teacher.css'
 import { NavLink } from 'umi'
 import { Popover, Avatar, Image, Badge } from 'antd';
 import { BellOutlined, UserOutlined, ProfileOutlined, LogoutOutlined } from '@ant-design/icons';
-//引入面包屑
-import BreadCrumb from "@/components/breadCrumb"
 
 
 const { Header, Content, Footer } = Layout
@@ -74,8 +72,6 @@ const TeacherLayout: React.FC = (props) => {
            </div>
         </Header>
 
-        {/* //面包屑 */}
-        {/* < BreadCrumb/> */}
         
         <Content>{props.children}</Content>
         <Footer>

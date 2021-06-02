@@ -877,6 +877,16 @@
 - [x] 复习ts
 
 # 张琪
+## 2021.6.2
+1. 文章阅读
+   - [SessionStorage, LocalStorage, Cookie区别？](https://juejin.cn/post/6969080485725077511)
+2. 源码阅读
+   - [JS 的 new 做了哪些事情呢？](https://juejin.cn/post/6968856664560648199)
+3. leecode 刷题
+   - [矩形的重叠部分](https://leetcode-cn.com/problems/rectangle-area/solution/ju-xing-mian-ji-si-lu-by-z5w5rzpc7p-e6wz/)
+4. 项目进度
+   - [ x ] 面包屑
+
 ## 2021.6.1
 1. 文章阅读
 - [手把手带你10分钟手撸一个简易的Markdown编辑器](https://juejin.cn/post/6968632189894262791)
