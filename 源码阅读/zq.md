@@ -1,4 +1,5 @@
 # zq
+<<<<<<< HEAD
 - 0530
     - [react 高阶组件HOC详解](https://juejin.cn/post/6968013313347158053)
 - 0529
@@ -8,6 +9,8 @@
 - 05270
     - [防抖节流](https://juejin.cn/post/6964580071986167822)
     - [前端进阶-模块化](https://juejin.cn/post/6965026256286908429)
+- 0526
+    - [每天 10 分钟，学习 JavaScript —— （十一）原型链属性](https://juejin.cn/post/6966117810149785631)
 - 0526
     - [每天 10 分钟，学习 JavaScript —— （十一）原型链属性](https://juejin.cn/post/6966117810149785631)
 - 0525

@@ -11,7 +11,7 @@ import personcenter from './modules/personcenter'
 import logins from './modules/logins'
 import global from './modules/global'
 import proSkill from './modules/proSkill'
-
+import planList from "./modules/planList"
 
 export default{
     skill,
@@ -24,8 +24,6 @@ export default{
     personcenter,
     logins,
     global,
-    proSkill
+    proSkill,
+    planList
 }
-
-
-

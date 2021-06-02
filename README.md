@@ -1,4 +1,29 @@
 # 杜学洋
+## 2021/6/1
+1. 文章阅读
+> * [前端面试](https://juejin.cn/post/6844903577220349959)
+> * [带你了解路由的底层原理，用原生js手写一个路由](https://juejin.cn/post/6844904167404748814)
+1. 源码阅读
+
+2. leecode 刷题
+> * [猜数字的的大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)
+> * [统计好三元组](https://leetcode-cn.com/problems/count-good-triplets/)
+1. 项目进度
+    -[x] 计划管理页面
+    -[x] 计划管理页面排版
+    -[x] 计划管理页面tab切换数据
+## 2021/5/31
+1. 文章阅读
+> * [hash与history的区别](https://juejin.cn/post/6844904151206330375)
+> * [5分钟前端国际化](https://juejin.cn/post/6844903505866522638)
+1. 源码阅读
+> * [聊聊前端国际化文案该如何处理](https://juejin.cn/post/6844903778471280653)
+1. leecode 刷题
+> * [编写一个函数来计算它们的交集。](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
+> * [3的幂](https://leetcode-cn.com/problems/power-of-three/)
+1. 项目进度
+    -[x] 添加项目排版
+    -[x] 岗位接口表格功能
 ## 2021/5/30
 1. 文章阅读
 > * [九种跨域当时实现](https://juejin.cn/post/6844903767226351623)
@@ -89,7 +114,6 @@
 - [x] 添加岗位基本信息
 - [x] 排版
 - [x] 保存传参
-  
 ## 2021/5/24
 1.文章阅读
 > * [探索 Vue 3 中的 JSX](https://juejin.cn/post/6965057432544346143)
@@ -214,7 +238,6 @@
 - [x] 
 - [x] 
 - [x] 
-
 
 # 弓程婷
 
@@ -874,7 +897,6 @@
 - [x] 复习ts
 
 # 张琪
--
 ## 2021.5.30
 1. 文章阅读
 - [一份工作4年前端的Git备忘指南](https://juejin.cn/post/6967634683811069982)
@@ -939,7 +961,8 @@
    - [ x ] 添加岗位的排版布局修改
    - [ x ] tree bug修复 
    - [ x ] for-editor
-
+   - [ x ] 详情数据反显
+  
 ## 2021.5.25
 1. 文章阅读
 - [这些原生DOM操作你还记住多少](https://juejin.cn/post/6966062224892756005)
@@ -1076,6 +1099,35 @@
 
 
 # 吴晓桐
+## 2021.6.1
+1. 文章阅读
+- [2021不得不学的Typescript](https://juejin.cn/post/6966151454914510878)
+- [TypeScript 中的依赖注入](https://juejin.cn/post/6965857170646630408)
+2. 源码阅读
+
+- [生产环境js错误收集及定位源码位置](https://juejin.cn/post/6960108736966819848)
+- [Node.js eventloop + 线程池源码分析（建议精读）](https://juejin.cn/post/6951303053739819038)
+3. leecode 刷题
+
+ - [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
+ - [四数之和](https://leetcode-cn.com/problems/4sum/)
+
+4. 项目进度
+## 2021.5.31
+1. 文章阅读
+   - [建脚手架相关知识体系](https://juejin.cn/post/6966119324478079007)
+   - [vue create](https://cli.vuejs.org/zh/guide/creating-a-project.html)
+   - [原生DOM操作](https://juejin.cn/post/6966062224892756005)
+2. 源码阅读
+   - [assign](https://www.lodashjs.com/docs/lodash.assign)
+   - [_.create(prototype, [properties])](https://www.lodashjs.com/docs/lodash.create)
+   - [bind](https://www.lodashjs.com/docs/lodash.bind)
+3. leecode 刷题
+   - [二叉树前序遍历](https://leetcode-cn.com/leetbook/read/data-structure-binary-tree/xeywh5/)
+   - [二叉树中序遍历](https://leetcode-cn.com/leetbook/read/data-structure-binary-tree/xecaj6/)
+   - 
+4. 项目进度
+    - [x] 国际化 登录响响应器拦截.
 ## 2021.5.30
 1. 文章阅读
 - [React Hooks](https://juejin.cn/post/6844903709927800846)
@@ -1092,7 +1144,8 @@
 4. 项目进度
 
 - [x] 八维生产性实训平台 - 串通
-- [x] 八维生产性实训平台 - 登录.
+- [x] 八维生产性实训平台 - 登录
+
 ## 2021.5.29
    1. 文章阅读
    - [new Map()使用方法](https://www.jianshu.com/p/c9a55b591948)

@@ -1,11 +1,14 @@
-import { Addpostskill, getSkillDetail, Gettoplist, Gettoplist1 } from '@/service'
-import { ISkillAddItem, ISkilldairn, ISkillLabel } from '@/utils/interface'
+import { Addpostskill, getSkillDetail, Gettoplist, Gettoplist1, delSkill, GetListItem ,updateSkill, upretSkill} from '@/service'
+import { ISkillAddItem, ISkilldairn, ISkillLabel, ISkillListQuery } from '@/utils/interface'
 import { makeAutoObservable } from 'mobx'
 
 class Skill {
     constructor() {
         makeAutoObservable(this)
     }
+
+    //表格数据
+    setdataSource:ISkillListQuery[]=[]
     //定义属性
     toplist: ISkillLabel[] = [];
     //定义新增岗位
@@ -52,7 +55,6 @@ class Skill {
             }
         ]
     }
-    
     //定义方法
     async Gettoplist() {
         let result = await Gettoplist()
@@ -75,6 +77,13 @@ class Skill {
         }
     }
 
+    //获取表格数据
+    async GetListItem(queryParams: ISkillListQuery) {
+        let result = await GetListItem(queryParams);
+        if (result.code === 200) {
+           this.setdataSource=result.rows
+        }
+    }
     //获取岗位详情接口
     async getSkillDetail(stationVersionId: string) {
         let result = await getSkillDetail(stationVersionId)
@@ -82,6 +91,28 @@ class Skill {
             this.skillAddItem = result.data
         }
     }
-
+    //删除接口
+    async delSkill(stationVersionId: string) {
+        let result = await delSkill(stationVersionId);
+        if (result) {
+            return result;
+        }
+    }
+    //修改
+    async updateSkill(stationVersionId:string,status:string){
+        let result=await updateSkill(stationVersionId,status)
+        if(result){
+            return result;
+        }
+    }
+    //返回
+    async upretSkill(stationVersionId:string,status:string){
+        let result=await upretSkill(stationVersionId,status)
+        if(result){
+            return result;
+        }
+    }
 }
+
+
 export default new Skill

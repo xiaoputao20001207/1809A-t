@@ -1,6 +1,6 @@
 import { addSubmitItem, changeValueItem, delSubmitItem, getStationSkillDetail, initSkill } from '@/service/modules/description'
 import {makeAutoObservable} from 'mobx'
-import { IStationSkillDetail, Items } from '@/utils/interface'
+import { IStationSkillDetail, ISkillDescriptionListItem, Items } from '@/utils/interface'
 
 function setKeyById(skillList:Items[]){
     skillList.forEach(item => {

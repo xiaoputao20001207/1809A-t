@@ -53,6 +53,7 @@ import Breadcrumb from '@/components/breadCrumb'
                         <p> <NavLink to="/teachers/planList">{intl.formatMessage({id:'header.training-plan'})}</NavLink></p>
                           <p><NavLink to="/teachers/viewPlan">{intl.formatMessage({id:'header.training-progress'})}</NavLink></p>
                           <p><NavLink to="/teachers/defence">{intl.formatMessage({id:'header.training-plea'})}</NavLink></p>
+                          <p><NavLink to="/teachers/planListManage">计划(管理)</NavLink></p>
                         </div>} trigger="hover">
               <a>
               {

@@ -40,9 +40,6 @@ const AddPostSkill:FC<IRouteComponentProps> = ({history,location})=>{
     //岗位添加函数
     async function addPostSkill(value:ISkillAddItem){
         let stationVersionId = await skill.addPostSkill(value)
-        // if(!stationVersionId){
-        //    message.success('保存成功',1)
-        // }
         
         history.replace(`/teachers/addPostSkill?stationVersionId=${stationVersionId}&see=false`)
     }
@@ -57,7 +54,6 @@ const AddPostSkill:FC<IRouteComponentProps> = ({history,location})=>{
                     </div>
                 </div>
                 <div className={style.context}>
-                    
                     <Form form={form} key={JSON.stringify(skill.skillAddItem)} initialValues={{...skill.skillAddItem,...skill.skillAddItem.stationLevelList[0]}} onFinish={addPostSkill}>
                         <div className={style.context_top}>
                             <h2><span className="icon" data-v-262311c4></span>基本信息</h2>

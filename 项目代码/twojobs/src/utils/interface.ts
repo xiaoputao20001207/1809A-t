@@ -24,6 +24,31 @@ export interface ISkillListQuery{
     isMyInfo:boolean
 }
 
+//计划管理
+export interface IplanList{
+  classId: string,
+searchName: string,
+ifFinished: number,
+pageNum: number,
+pageSize: number
+}
+//
+export interface IplanListItem {
+  classId?: any;
+  className: string;
+  id: string;
+  classid: string;
+  planname: string;
+  begintime: string;
+  endtime: string;
+  states: string;
+  progress: string;
+  countStus: number;
+  countUncompleted: number;
+  description: string;
+  countCompleted?: any;
+  surplusTime: string;
+}
 export interface IStationVersionList{
   stationId: string;
   stationVersionId: string;
@@ -160,11 +185,6 @@ export interface questionDetailList {
     unsupportDownB: boolean;
   }
   
-  
-  
-  
-  
-  // ------------------张瑜--------------
   export interface IinterviewManageTableItem {
     interviewId: string;
     stationId?: any;
@@ -185,12 +205,12 @@ export interface questionDetailList {
     askAndanswerList?: any;
     soundrecordList?: any;
   }
+
   export interface IinterviewManageQuery {
     pageNum: number;
     pageSize: number;
     searchTitle?: string;
   }
-  //孔心语的
   
   export interface interviewList {
     interviewId: string;
@@ -213,7 +233,6 @@ export interface questionDetailList {
     soundrecordList?: any;
   }
   
-  //姜明亮 
   export interface DefenceList {
     defenceId: string;
     degenceName: string;
@@ -321,4 +340,21 @@ interface RootObject {
 }
 
 interface Params {
+}
+
+
+//添加项目
+export interface Addpro {
+  name: string;
+  version:number;
+  description: string;
+  majorStationChineseList:  string[];
+  tradeName: string|number;
+  type: sxtype[];
+  subjectTime: number,
+  pictureUrl:string
+}
+interface sxtype{
+  sxType:string,
+  sxType1:string
 }

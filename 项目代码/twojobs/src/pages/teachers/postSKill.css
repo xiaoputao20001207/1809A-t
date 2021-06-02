@@ -38,7 +38,7 @@ html,body,#root,.box{
     color: white;
     border-radius: 10px;
 }
-span:hover{
+.box .topc span:hover{
     background: #679cf6;
     color: white;
     border-radius: 10px;
@@ -72,6 +72,8 @@ span:hover{
     margin-left: 10px;
     color: white;
     font-size: 14px;
+   color: white;
+   font-size: 14px;
     padding: 20px;
     width: 150px;
 }

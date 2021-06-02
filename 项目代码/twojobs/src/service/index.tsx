@@ -1,7 +1,7 @@
 //抛出skill全部接口
 export * from './modules/skill'
-//抛出interviewList全部接口
 
+//抛出interviewList全部接口
 export * from './modules/interviewList'
 
 //获取面试管理页面
