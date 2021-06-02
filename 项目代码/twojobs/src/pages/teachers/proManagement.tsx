@@ -192,7 +192,7 @@ const Postskill: FC = (props) => {
   }, [curStatus, carStatus, searchTitle, isMyInfo, curDairn, industry]);
 
   return (
-    <div className="box">
+    <div className="box" style={{padding:'0 60px'}}>
 
       <div className="topfather">
         <div className="dairn">

@@ -1,8 +1,8 @@
 import { observer } from "mobx-react-lite"
 import React, { useEffect, useState } from "react"
 import { FC } from "react"
-import "./interviewManage.css"
 import styles from "./interviewManage.less"
+import "./interviewManage.css"
 import { IRouteComponentProps } from "@umijs/renderer-react"
 import {Button ,message,Input,Table ,Switch} from "antd"
 import {CaretRightOutlined ,PauseOutlined ,CheckOutlined,CloseOutlined} from "@ant-design/icons"
@@ -21,7 +21,7 @@ const columns = [
       title: '岗位名称',
     //   dataIndex: 'stationName',
       render:(row:InterViewListItem)=>{
-          return <a onClick={()=>{history.replace(`/teachers/interviewRecord?interviewId=${row.interviewId}&shield=${Boolean(row.shield)}&see=true`)}}>{row.stationName}</a>
+          return <a onClick={()=>{history.push(`/teachers/interviewRecord?interviewId=${row.interviewId}&shield=${Boolean(row.shield)}&see=true`)}}>{row.stationName}</a>
       },
       align:"center"
     },
@@ -127,12 +127,12 @@ const InterviewManage:FC<IRouteComponentProps>=(history)=>{
 
 
     return <div  data-v-0759f553="" data-v-7178e8ae="" className="box_model">
-
+    
                 <div className={styles.mainlist}>
-                        <div className={styles.search} style={{width:'95%',margin:'0 30px',height:'70px'}}>
-                            <Search className={styles.aa} placeholder="输入内容" allowClear onChange={e=>{setSearchTitle(e.target.value)}} style={{ width: 200 }} />
+                        <div className={styles.search}>
+                            <Search className={styles.aa} placeholder="搜索岗位/公司名称" allowClear onChange={e=>{setSearchTitle(e.target.value)}} style={{ width: 200 }} />
                         </div>
-                        <Table columns={columns} dataSource={interviewManage.interviewManageList} rowKey='1' style={{width:'95%'}}/>
+                        <Table columns={columns} dataSource={interviewManage.interviewManageList} rowKey='1'/>
                     </div>
 
     </div>

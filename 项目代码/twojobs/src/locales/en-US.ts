@@ -23,10 +23,4 @@ export default {
     'footer.eight dimensions culture':'Eight dimensions culture',//八维文华
     'footer.the social responsibility':'The social responsibility',//社会责任
     'footer.contact us':'Contact us',//联系我们
-    // 'footer.':'',
-    // 'footer.':'',
-    // 'footer.':'',
-    // 'footer.':'',
-    // 'footer.':'',
-    // 'footer.':'',
 }

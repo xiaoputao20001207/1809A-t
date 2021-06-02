@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
   ## 5.26 
    - [删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
    - [括号生成](https://leetcode-cn.com/problems/generate-parentheses/)  
@@ -9,6 +9,12 @@
   ## 5.24
    - [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/)
    - [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)
+  ## 5.24
+   - [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/)
+   - [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)
+  ## 5.23
+   - [字形变换](https://leetcode-cn.com/problems/zigzag-conversion/)
+   - [整数反转](https://leetcode-cn.com/problems/reverse-integer/)
   ## 5.22
    - [合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
    - [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)

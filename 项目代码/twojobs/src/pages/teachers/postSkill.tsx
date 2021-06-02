@@ -177,7 +177,7 @@ function retSkill(stationVersionId:string,status:string){
     })
 }
   return (
-    <div className="box" style={{padding:'0 20px'}}>
+    <div className="box" style={{padding:'0 60px'}}>
       <div className="topfather" >
         <div className="top">
           <b>专业:</b>

@@ -5,6 +5,10 @@ import { FC } from "react"
 import { Tabs ,Table} from 'antd';
 import rankList from "@/store/modules/rankList";
 import useStore from "@/context/useStore"
+import style from "./rankList.less"
+import classNames from 'classnames';
+import "./rankList.css"
+
 
 const { TabPane } = Tabs;
 
@@ -46,7 +50,7 @@ const RankList:FC=()=>{
     const {rankList} =useStore()
     const [RecordRanking,setRecordRanking] = useState([]) //面试记录榜单
     const [AnswerRecordRanking,setAnswerRecordRanking] = useState([]) //面试记录榜单
-
+    const [curId,setCurId]= useState(0)
     // const 
     useEffect(()=>{
         //请求班级数据
@@ -70,28 +74,31 @@ const RankList:FC=()=>{
     return <div  data-v-0759f553="" data-v-7178e8ae="" className="box_model">
                 
                 <div data-v-c6b29ed6="" className="box_content">
-                    <div data-v-c6b29ed6="" className="train_resource">
-                        <div data-v-c6b29ed6="" className="resource_type">
-                            <div data-v-c6b29ed6="" className="r_t_title">班级：</div>
-                            <div data-v-c6b29ed6="" className="r_t_list">
+                        <div data-v-c6b29ed6="" className={style.resource_type}>
+                            <div data-v-c6b29ed6="" className={style.r_t_title}>班级：</div>
+                            <div data-v-c6b29ed6="" className={style.r_t_list}>
                                 {
                                     [{id:'',classname:"全部"},...classInfo].map((item,index)=>{
-                                        return <span key={item.id} onClick={()=>{setClassId(item.id)}}>{item.classname}</span>
+                                        return <span key={item.id} onClick={()=>{
+                                            setClassId(item.id)
+                                            setCurId(index)
+                                        }} className={item.id==classId?classNames(style.rankitem,style.active):style.rankitem}>{item.classname}</span>
                                     })
                                 }
                             </div>
                         </div>
-                        <Tabs defaultActiveKey="1" onChange={()=>{setKey(key)}}>
-                            <TabPane tab="面试记录榜单" key="1">
-                                <Table columns={columns} dataSource={RecordRanking} rowKey='2' style={{width:'95%'}}/>
-                            </TabPane>
-                            <TabPane tab="面试题榜单" key="2">
-                                <Table columns={columns} dataSource={AnswerRecordRanking} rowKey='1' style={{width:'95%'}}/>
-                            </TabPane>
-                        </Tabs>
-                    </div>
+                        
+                        <div className={style.ranklist}>
+                            <Tabs defaultActiveKey="1" onChange={()=>{setKey(key)}}>
+                                <TabPane tab="面试记录榜单" key="1" id="aa">
+                                    <Table columns={columns} dataSource={RecordRanking} rowKey='2'/>
+                                </TabPane>
+                                <TabPane tab="面试题榜单" key="2">
+                                    <Table columns={columns} dataSource={AnswerRecordRanking} rowKey='1'/>
+                                </TabPane>
+                            </Tabs>
+                        </div>
                 </div>
-    
     </div>
 }
 export default observer(RankList)

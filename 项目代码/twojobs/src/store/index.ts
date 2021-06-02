@@ -15,6 +15,9 @@ import planList from "./modules/planList"
 import plan from './modules/plan'
 import view from './modules/view'
 import addPlan from './modules/addPlan'
+import user from './modules/user'
+
+
 
 export default{
     skill,
@@ -31,6 +34,6 @@ export default{
     planList,
     plan,
     view,
-    addPlan
+    addPlan,
+    user
 }
-

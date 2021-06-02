@@ -548,5 +548,12 @@ export interface IAddPlanList {
   isMove?:boolean;
 }
 
-interface Params {
+interface Params {}
+//登录
+export interface LoginParams{
+  code: string,
+  key: string,
+  password: string,
+  username: string,
+  uuid: string,
 }

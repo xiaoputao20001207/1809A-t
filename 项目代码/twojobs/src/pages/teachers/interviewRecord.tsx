@@ -91,7 +91,7 @@ const InterviewRecord:FC<IRouteComponentProps>=({location,history})=>{
                                 <span data-v-0759f553="" className="top_left_title">查看面试记录</span>
                             </div>
                             <div data-v-0759f553="" className="top_right ">
-                                <button data-v-0759f553="" type="button" className="el-button el-button--default el-button--medium" onClick={()=>{history.replace('/teachers/interviewManage')}}><span >返回</span></button>
+                                <button data-v-0759f553="" type="button" className="el-button el-button--default el-button--medium" onClick={()=>{history.go(-1)}}><span >返回</span></button>
                                 <button data-v-0759f553="" type="button" className="el-button el-button--primary el-button--medium" > <span onClick={()=>{forget()}}>{flag?'解除屏蔽':'屏蔽'}</span></button>
                             </div>
                         </div>

@@ -10,7 +10,7 @@
 > * [统计好三元组](https://leetcode-cn.com/problems/count-good-triplets/)
 1. 项目进度
     -[x] 计划管理页面
-    -[x] 计划管理页面排版
+    -[x] 计划管理页面排
     -[x] 计划管理页面tab切换数据
 ## 2021/5/31
 1. 文章阅读
@@ -48,6 +48,8 @@
 1. 项目进度
     -[x] 项目页面
     -[x] 添加项目
+    
+
 ## 2021/5/28
 1. 文章阅读
 > * [155个JavaScript基础问题](https://juejin.cn/post/6966781111888265253)
@@ -299,6 +301,8 @@
 - [x] 八维生产性实训平台 - 岗位页面-md附文本
 - [x] 八维生产性实训平台 - 问答页面
 
+# 弓程婷
+
 
 - ## 2021/05/30
 
@@ -309,11 +313,13 @@
 
 
 2. 源码阅读
+1. 源码阅读
    
 - [Promise 源码分析](https://juejin.cn/post/6844903745004765191)
 - [redux源码解读](https://juejin.cn/post/6844903600456466445) 
 
 3. LeetCode刷题
+ 1. LeetCode刷题
 - [只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
 - [二进制求和](https://leetcode-cn.com/problems/add-binary/submissions/)
 
@@ -337,11 +343,13 @@
 
 
 2. 源码阅读
+3. 源码阅读
    
 - [React 源码学习之 render 阶段](https://juejin.cn/post/6967959680341508126)
 - [Axios 源码解析](https://juejin.cn/post/6844903824583294984) 
 
 3. LeetCode刷题
+ 1. LeetCode刷题
 - [加一](https://leetcode-cn.com/problems/plus-one/submissions/)
 - [移动零](https://leetcode-cn.com/problems/move-zeroes/submissions/)
 
@@ -1134,6 +1142,32 @@
 - [x] 复习ts
 
 # 张琪
+## 2021.6.1
+1. 文章阅读
+- [手把手带你10分钟手撸一个简易的Markdown编辑器](https://juejin.cn/post/6968632189894262791)
+- [再也不怕面试官了: vue router原理剖析, 自行实现router](https://juejin.cn/post/6968706833527930887)
+2. 源码阅读
+   - [JavaScript 异步编程指南 — Promise 前世 Deferred](https://juejin.cn/post/6968225000742453262)
+3. leecode 刷题
+- [寻找第 n 高的薪水](https://leetcode-cn.com/problems/nth-highest-salary/)
+- [打家劫舍](https://leetcode-cn.com/problems/house-robber/)
+4. 项目进度
+   - [ x ] 页面 bug 调试
+   - [ x ] 语言国际化
+
+## 2021.5.31
+1. 文章阅读
+- [为什么要使用 async/await ？](https://juejin.cn/post/6967000766032658440)
+2. 源码阅读
+   - [javascript 求数组的最大值和最小值 (6种方法)](https://juejin.cn/post/6967704305713283080)
+3. leecode 刷题
+- [Excel 表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number/solution/hua-jie-suan-fa-171-excelbiao-lie-xu-hao-by-guanpe/)
+- [寻找峰值](https://leetcode-cn.com/problems/find-peak-element/)
+4. 项目进度
+   - [ x ] 面试排行榜页面完善排版
+   - [ x ] 登录页面
+   - [ x ] 导航守卫
+
 ## 2021.5.30
 1. 文章阅读
 - [一份工作4年前端的Git备忘指南](https://juejin.cn/post/6967634683811069982)
@@ -1198,8 +1232,6 @@
    - [ x ] 添加岗位的排版布局修改
    - [ x ] tree bug修复 
    - [ x ] for-editor
-   - [ x ] 详情数据反显
-  
 ## 2021.5.25
 1. 文章阅读
 - [这些原生DOM操作你还记住多少](https://juejin.cn/post/6966062224892756005)

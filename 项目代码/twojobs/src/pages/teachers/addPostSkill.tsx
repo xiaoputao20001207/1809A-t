@@ -45,7 +45,7 @@ const AddPostSkill:FC<IRouteComponentProps> = ({history,location})=>{
     }
 
     return <div>
-                <p className={style.jobs}><span>岗位</span>/岗位管理</p>
+                {/* <p className={style.jobs}><span>岗位</span>/岗位管理</p> */}
                 <div className={style.nav}>
                     <h2> <span className="icon" data-v-262311c4></span> 填加岗位能力 </h2>
                     <div>
