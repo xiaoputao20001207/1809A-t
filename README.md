@@ -1349,7 +1349,7 @@
  - [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
  - [四数之和](https://leetcode-cn.com/problems/4sum/)
 
-4. 项目进度
+4. 项目进度.
 
 ## 2021.5.31
 1. 文章阅读
