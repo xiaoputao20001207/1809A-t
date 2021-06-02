@@ -96,11 +96,6 @@ const Postskill: FC = (props) => {
     },
   ];
 
-  //专业状态
-  //const [toplist, setList] = useState<ISkillLabel[]>([])
-
-  // const [topitem, settopitem] = useState<ISkillListQuery[]>([])
-
   //专业每一项高亮
   const [curStatus, setcurStatus] = useState('');
 
@@ -182,11 +177,8 @@ function retSkill(stationVersionId:string,status:string){
     })
 }
   return (
-    <div className="box">
-      <p className={style.management}>
-        <span>岗位</span>/岗位管理
-      </p>
-      <div className="topfather">
+    <div className="box" style={{padding:'0 20px'}}>
+      <div className="topfather" >
         <div className="top">
           <b>专业:</b>
           {[{ name: '全部', id: '' }, ...skill.toplist].map((item) => {
@@ -216,7 +208,7 @@ function retSkill(stationVersionId:string,status:string){
           })}
         </div>
       </div>
-      <div className="search">
+      <div className="search" style={{width:'95%',marginLeft:"30px"}}>
         <div className="search-son">
           <input
             type="checkbox"
@@ -240,11 +232,12 @@ function retSkill(stationVersionId:string,status:string){
           </Button>
         </div>
       </div>
-      <div className="tab">
+      <div className="tab" >
         <Table
           dataSource={skill.setdataSource}
           columns={columns}
           rowKey="stationId"
+          style={{width:'95%'}}
         ></Table>
       </div>
     </div>
