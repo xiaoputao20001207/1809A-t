@@ -242,7 +242,6 @@
 - [x] 
 - [x] 
 
-# 弓程婷
 - ## 2021/06/01
 
 1. 文章阅读
@@ -302,7 +301,6 @@
 - [x] 八维生产性实训平台 - 问答页面
 
 # 弓程婷
-
 
 - ## 2021/05/30
 
@@ -1368,9 +1366,28 @@
 
 
 # 吴晓桐
+## 2021.6.2
+1. 文章阅读
+   - [程序员的几个阶段](https://juejin.cn/post/6968645798443614222)
+   - [ if-else 走天下了](https://juejin.cn/post/6969113940768849933)
+
+2. 源码阅读
+   - [ MindSpore 人脸识别](https://juejin.cn/post/6965741051646574628)
+   - [Android 原生webview传递header前端H5如何接收](https://juejin.cn/post/6965336033395212302)
+   - [用5个示例理解 CSS 变量](https://juejin.cn/post/6966387853483835429)
+  
+3. leecode 刷题
+  - [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/solution/valid-parentheses-fu-zhu-zhan-fa-by-jin407891080/)
+   - [组数总和](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-leetcode-solution/)
+
+4. 项目进度
+   - [x] WS请求 成功状态码返回101是升级版的WS请求 在WS之前 服务端不可以给客户端发请求 只能通过轮询来解决这个问题
+   - [x] 轮询分为 长轮询 和短轮询
+   - [x] 长轮巡：发送请求后会保持一个pending状态 知道给出响应或请求超时才返结果
+   - [x] 短轮巡：发送请求后直接返回结果给出相应不需要等
 ## 2021.6.1
 1. 文章阅读
-- [2021不得不学的Typescript](https://juejin.cn/post/6966151454914510878)
+- [节流和防抖](https://zhuanlan.zhihu.com/p/72923073)
 - [TypeScript 中的依赖注入](https://juejin.cn/post/6965857170646630408)
 2. 源码阅读
 
