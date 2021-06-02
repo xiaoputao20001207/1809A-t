@@ -12,6 +12,9 @@ import logins from './modules/logins'
 import global from './modules/global'
 import proSkill from './modules/proSkill'
 import planList from "./modules/planList"
+import plan from './modules/plan'
+import view from './modules/view'
+import addPlan from './modules/addPlan'
 
 export default{
     skill,
@@ -25,5 +28,9 @@ export default{
     logins,
     global,
     proSkill,
-    planList
+    planList,
+    plan,
+    view,
+    addPlan
 }
+

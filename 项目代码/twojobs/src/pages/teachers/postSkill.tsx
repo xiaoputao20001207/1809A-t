@@ -24,7 +24,7 @@ const status = ['全部', '草稿', '已发布', '待审核', '已驳回'];
 const Postskill: FC = (props) => {
   const columns = [
     {
-      title: '姓岗位名称',
+      title: '岗位名称',
       dataIndex: 'name',
       //   align:"center"
     },

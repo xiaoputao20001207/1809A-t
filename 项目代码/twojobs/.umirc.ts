@@ -16,8 +16,6 @@ export default defineConfig({
     default: 'zh-CN',
     antd: false,
     title: false,
-    // baseNavigator: true,
-    // baseSeparator: '-',
   },
 });
 
