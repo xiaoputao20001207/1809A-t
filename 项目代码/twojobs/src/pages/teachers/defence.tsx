@@ -37,7 +37,7 @@ import defence from '@/store/modules/defence'
      {
         title: '发起人',
         dataIndex: 'defenceAuthorName',
-   
+  
       },
       {
         title: '开始/截止时间',
@@ -69,7 +69,7 @@ import defence from '@/store/modules/defence'
             if(row.defenceStatus===1){
              return  <div className ='iconDefen'>
                 <Tooltip placement="bottom" title='编辑'><EditOutlined 
-                 onClick ={()=>{ }}
+                 onClick ={()=>{history.push(`/teachers/addDefence?defenceId=${row.defenceId}&see=false`) }}
                 /></Tooltip>
                  &emsp; 
                   <Tooltip placement="bottom" title='删除'>
@@ -80,21 +80,28 @@ import defence from '@/store/modules/defence'
             }else if(row.defenceStatus===2){
                 return  <div className ='iconDefen'>
                     <Tooltip placement="bottom" title='去答辩'>
-                       <DiffOutlined onClick ={()=>{ defence.getDefenceDetial(row.defenceId)
-                        history.push(`/teachers/defenceScore?defenceId=${row.defenceId}&see=false`)
-                      }} 
-                        
+                       <DiffOutlined onClick ={()=>{goDetail(row.defenceId) }}         
                        />
                    </Tooltip>  &emsp;
                    <Tooltip placement="bottom" title='查看评分'> 
-                      < BulbOutlined />
+                      < BulbOutlined  onClick ={()=>{gohistortyDetail(row.defenceId) }}  />
                   </Tooltip> </div> 
             }else{
-                return  <div className ='iconDefen'><DiffOutlined /> &emsp;</div>
+                return  <div className ='iconDefen'><DiffOutlined onClick ={()=>{goDetail(row.defenceId) }} /> &emsp;</div>
             }
        }
       },
   ];
+  //跳详情
+    async function goDetail(defenceId:string){
+      await defence.getDefenceDetial(defenceId)
+      await history.push(`/teachers/defenceScore?defenceId=${defenceId}&see=false`)
+   }
+   //跳评分
+   async function gohistortyDetail(defenceId:string){
+    await defence.getDefenceDetial(defenceId)
+    await history.push(`/teachers/scoreHistory?defenceId=${defenceId}&see=false`)
+ }
   interface Iprops extends RouteChildrenProps {
 
   }
@@ -116,8 +123,8 @@ let defenceConment:React.FC<Iprops> =() =>{
    //获取专业数据
    useEffect(() => {
       
-     defence.getDefenceList('',0,'')
-    skill.Gettoplist()
+     defence.getDefenceList('','' as unknown as number,'')
+     skill.Gettoplist()
 
  }, []);
 

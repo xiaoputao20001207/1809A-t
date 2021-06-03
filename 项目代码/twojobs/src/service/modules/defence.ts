@@ -5,7 +5,7 @@ import { request} from 'umi'
      method:"post",
      data:{'defenceGroupInfoList': []}
  })
-
+ 
  //获取表格答辩数据
 export let getDefenceListitem = (defenceMjorId:string,defenceStatus:number,searchTitle:string)=>
     request('/sxpt/defence/getDefenceList',{params:{defenceMjorId,defenceStatus,searchTitle,pageNum: 1

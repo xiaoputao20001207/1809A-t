@@ -1,6 +1,6 @@
 import  {makeAutoObservable} from 'mobx'
  import { getDefenceListitem,getclassTeam,savedefence,defenceInfo,delteDefen,defenceHistory,getDefenceDetial}  from '../../service'
- import {defenceTable,classPlanItem,TeamItem,SaveItem} from '@/utils/interface'
+ import {defenceTable,classPlanItem,TeamItem,SaveItem,defenDetail} from '@/utils/interface'
  import {getClasssPlanTree} from '@/service/index'
  
 class defence{
@@ -8,7 +8,7 @@ class defence{
      makeAutoObservable(this)
    }
    //详情数据
-    detailList = []
+    detailList ={} as defenDetail
     //表格数据
     DefenceList = [] 
     //班级计划
@@ -19,7 +19,7 @@ class defence{
     //获取 切换答辩列表
     async getDefenceList(defenceMjorId:string,defenceStatus:number,searchTitle:string){
      let result = await getDefenceListitem(defenceMjorId,defenceStatus,searchTitle)
-       console.log(result.rows)
+       console.log(result.rows,'21111111111111111')
       this.DefenceList = result.rows
    }
    //获取班级计划数据
@@ -55,12 +55,12 @@ class defence{
        }
     }
     //详情页面
-    async getDefenceDetial(defenceId:string){
-       let result1  = await defenceHistory(defenceId)
-        let defenceHistoryId =  result1.data.defenceScoreHistoryId
-        let result  = await getDefenceDetial(defenceId,defenceHistoryId)
-        console.log(result)
-        this.detailList =result.data
+     async getDefenceDetial(defenceId:string){
+        // let result1  = await defenceHistory(defenceId)
+        // let defenceHistoryId =  result1.data.defenceScoreHistoryId
+          let result  = await getDefenceDetial(defenceId,'1212121')
+          this.detailList =result.data
+      
     }
    
 }

@@ -234,3 +234,32 @@ export interface SaveItem {
   degenceName: string;
   majorList: string;
 }
+//去答辩数据
+export interface defenDetail {
+  defenceId: string;
+  degenceName: string;
+  defenceClassId: string;
+  defencePlanId: string;
+  defenceCreateTime: string;
+  defenceEndTime: string;
+  defenceStatus: number;
+  defenceMajorId: string;
+  defenceAdress: string;
+  className: string;
+  planName: string;
+  majorName: string;
+  defenceAuthor: string;
+  defenceScore?: any;
+  defenceHistoryId?: any;
+  taskProgressId?: any;
+  scoreId?: any;
+  defenceRater?: any;
+  raterName?: any;
+  defenceAuthorName: string;
+  avaScore?: any;
+  projectName?: any;
+  groupName?: any;
+  taskName?: any;
+  defenceGroupInfoList?: any;
+  defenceScoreList?: any;
+}
