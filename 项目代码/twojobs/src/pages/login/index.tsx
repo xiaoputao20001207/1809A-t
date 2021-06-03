@@ -39,6 +39,7 @@ const Login:FC = ()=>{
                     className="login-form"
                     initialValues={{ remember: true }}
                     onFinish={onFinish}
+                    style={{width:"100%"}}
                     >
                         <Form.Item
                             name="username"

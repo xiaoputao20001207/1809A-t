@@ -1,14 +1,52 @@
 # 杜学洋
+## 2021/6/3
+1. 文章阅读
+> * [Web开发者需要知道的CSS Tricks](https://juejin.cn/post/6844903576561516558)
+> * [WebSocket：5分钟从入门到精通](https://juejin.cn/post/6844903544978407431)
+2. 源码阅读
+
+3. leecode 刷题
+> * [最大重复子字符串](https://leetcode-cn.com/problems/maximum-repeating-substring/)
+> * [速算机器人](https://leetcode-cn.com/problems/nGK0Fy/)
+4. 项目进度
+    -[x] 添加项目功能
+    -[x] 添加项目页面下面的排版
+    -[x] 添加项目页面下面的判断渲染
+## 2021/6/2
+1. 文章阅读
+> * [axios拦截器封装http请求，刷新token重发请求](https://juejin.cn/post/6844903894481371143)
+> * [闭包](https://juejin.cn/post/6844903612879994887)
+2. 源码阅读
+
+3. leecode 刷题
+> * [替换所有问号](https://leetcode-cn.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)
+> * [转换成小写字母](https://leetcode-cn.com/problems/to-lower-case/)
+4. 项目进度
+    -[x] 添加项目功能
+    -[x] 添加项目页面下面的排版
+    -[x] 添加项目页面下面的判断渲染
+## 2021/5/31
+1. 文章阅读
+> * [hash与history的区别](https://juejin.cn/post/6844904151206330375)
+> * [5分钟前端国际化](https://juejin.cn/post/6844903505866522638)
+2. 源码阅读
+> * [聊聊前端国际化文案该如何处理](https://juejin.cn/post/6844903778471280653)
+3. leecode 刷题
+> * [编写一个函数来计算它们的交集。](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
+> * [3的幂](https://leetcode-cn.com/problems/power-of-three/)
+4. 项目进度
+    -[x] 添加项目排版
+    -[x] 岗位接口表格功能
 ## 2021/6/1
 1. 文章阅读
 > * [前端面试](https://juejin.cn/post/6844903577220349959)
 > * [带你了解路由的底层原理，用原生js手写一个路由](https://juejin.cn/post/6844904167404748814)
-1. 源码阅读
+2. 源码阅读
 
-2. leecode 刷题
+3. leecode 刷题
 > * [猜数字的的大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)
 > * [统计好三元组](https://leetcode-cn.com/problems/count-good-triplets/)
-1. 项目进度
+4. 项目进度
     -[x] 计划管理页面
     -[x] 计划管理页面排版
     -[x] 计划管理页面tab切换数据
@@ -16,49 +54,49 @@
 1. 文章阅读
 > * [hash与history的区别](https://juejin.cn/post/6844904151206330375)
 > * [5分钟前端国际化](https://juejin.cn/post/6844903505866522638)
-1. 源码阅读
+2. 源码阅读
 > * [聊聊前端国际化文案该如何处理](https://juejin.cn/post/6844903778471280653)
-1. leecode 刷题
+3. leecode 刷题
 > * [编写一个函数来计算它们的交集。](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
 > * [3的幂](https://leetcode-cn.com/problems/power-of-three/)
-1. 项目进度
+4. 项目进度
     -[x] 添加项目排版
     -[x] 岗位接口表格功能
 ## 2021/5/30
 1. 文章阅读
 > * [九种跨域当时实现](https://juejin.cn/post/6844903767226351623)
 > * [跨域](https://juejin.cn/post/6844903496521613320)
-1. 源码阅读
+2. 源码阅读
 > * [原生JS灵魂之问(中)，检验自己是否真的熟悉JavaScript？](https://juejin.cn/post/6844903974378668039)
-1. leecode 刷题
+3. leecode 刷题
 > * [各位相加](https://leetcode-cn.com/problems/add-digits/)
 > * [丢失的数](https://leetcode-cn.com/problems/missing-number/)
-1. 项目进度
+4. 项目进度
     -[x] 获取数据
     -[x] 调用点击保存接口
 ## 2021/5/29
 1. 文章阅读
 > * [Hooks很强大，为何还需要Mobx](https://juejin.cn/post/6930758273863778317)
 > * [Mobx特别容易入门级教程](https://juejin.cn/post/6844903907441770509)
-1. 源码阅读
+2. 源码阅读
 > * [原生JS灵魂之问](https://juejin.cn/post/6844903974378668039)
-1. leecode 刷题
+3. leecode 刷题
 > * [快乐数](https://leetcode-cn.com/problems/happy-number/)
 > * [除自身以外的数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/)
-1. 项目进度
+4. 项目进度
     -[x] 项目页面
     -[x] 添加项目
 ## 2021/5/28
 1. 文章阅读
 > * [155个JavaScript基础问题](https://juejin.cn/post/6966781111888265253)
 > * [如何让10万条数据的小程序列表如丝般顺滑](https://juejin.cn/post/6966904317148299271)
-1. 源码阅读
+2. 源码阅读
 > * [1 小时顶 7 天！程序员工作中的巧思](https://juejin.cn/post/6965879044634050568)
 > * [裁剪数组](https://www.lodashjs.com/docs/lodash.slice)
-1. leecode 刷题
+3. leecode 刷题
 > * [相同的树](https://leetcode-cn.com/problems/same-tree/)
 > * [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/)
-1. 项目进度
+4. 项目进度
     -[x] 项目页面
     -[x] 添加项目
 
@@ -70,10 +108,10 @@
 2. 源码阅读
 > * [indexOf](https://www.lodashjs.com/docs/lodash.indexOf)
 > * [裁剪数组](https://www.lodashjs.com/docs/lodash.slice)
-1. leecode 刷题
+3. leecode 刷题
 > * [fromPairs(pairs)](https://www.lodashjs.com/docs/lodash.fromPairs)
 > * [head(array)](https://www.lodashjs.com/docs/lodash.head)
-1. 项目进度
+4. 项目进度
     -[x] 头部排版
     -[x] 树形结构
 
