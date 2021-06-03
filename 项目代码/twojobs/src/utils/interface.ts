@@ -136,54 +136,7 @@ export interface Items{
   key:string
 }
 
-
-export interface questionDetailList {
-    isAsc: string
-    pageNum: number
-    pageSize: number
-    type: string
-    questionTitle?: string
-    quality?: string|number
-    authentication?: string|number
-    searchVal?: string
-  }
-  
-  export interface questionAnserItem {
-    answerId: string;
-    proId?: any;
-    taskId?: any;
-    stepId?: any;
-    qUserId: string;
-    qUserName: string;
-    qUserLevel?: any;
-    createTime: string;
-    taskName?: any;
-    rUserId?: any;
-    rUserName?: any;
-    rUserLevel?: any;
-    questionTitle: string;
-    questionContent: string;
-    answerCount: number;
-    favorCount?: any;
-    unSupportCount: number;
-    supportCount: number;
-    type?: any;
-    typeNum: string;
-    replyTime: string;
-    labels: any[];
-    avatar?: any;
-    replyContext?: any;
-    shield: number;
-    quality: number;
-    replyId?: any;
-    className?: any;
-    authentication: number;
-    collection: number;
-    supportUp?: any;
-    unsupportDown?: any;
-    supportUpB: boolean;
-    unsupportDownB: boolean;
-  }
+  //
   
   export interface IinterviewManageTableItem {
     interviewId: string;

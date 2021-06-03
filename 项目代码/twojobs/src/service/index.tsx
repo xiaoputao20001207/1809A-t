@@ -10,8 +10,13 @@ export * from './modules/interviewManage'
 //添加页面脚部markdown
 export * from './modules/description'
 
-// 抛出questionDetail
+// 抛出问答questionDetail
 export * from './modules/questionDetail'
+// 抛出问答getQuestionHandleList
+export * from './modules/questionHandle'
+// 抛出回答
+export * from './modules/answer'
+
 
 //铃铛查看全部
 export * from './modules/need'
@@ -29,3 +34,5 @@ export * from './modules/addPlan'
 
 //计划页面接口
 export * from './modules/view'
+
+
