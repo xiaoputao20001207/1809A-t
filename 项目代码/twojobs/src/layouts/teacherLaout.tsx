@@ -164,7 +164,7 @@ import Breadcrumb from '@/components/breadCrumb'
                             <div data-v-01b3f466="" className="b_b_right"><img data-v-01b3f466="" src="http://111.203.59.61:8060/static/img/wechat.e60a83ec.png" alt=""/>
                             <div data-v-01b3f466="" className="wechat_text">八维微信公众号</div></div></div>
             </div>
-                            <div data-v-01b3f466="" className="b_b_sign_bootm_son">京公网安备 11010802031438号 © Copyright 2020. 八维教育版权所有 | 京ICP备12008262号-12</div>
+            <div data-v-01b3f466="" className="b_b_sign_bootm_son">京公网安备 11010802031438号 © Copyright 2020. 八维教育版权所有 | 京ICP备12008262号-12</div>
         </Footer>
          
       </Layout>

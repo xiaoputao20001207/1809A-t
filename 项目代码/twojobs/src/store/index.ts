@@ -6,6 +6,7 @@ import interview from './modules/interview'
 import interviewManage from './modules/interviewManage'
 import rankList from './modules/rankList'
 import questionDetail from './modules/questionDetail'
+import questionhandle from './modules/questionhandle'
 import need from './modules/need'
 import personcenter from './modules/personcenter'
 import logins from './modules/logins'
@@ -26,6 +27,7 @@ export default{
     rankList,
     interviewManage,
     questionDetail,
+    questionhandle,
     need,
     personcenter,
     logins,
@@ -37,3 +39,4 @@ export default{
     addPlan,
     user
 }
+

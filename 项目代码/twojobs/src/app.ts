@@ -12,7 +12,7 @@ let isModal = false//控制只弹框一次
 const baseURL = 'http://111.203.59.61:8060/dev-api'
 
 export const request: RequestConfig = {
-  timeout: 10000,
+  timeout: 100000,
   errorConfig: {},
   middlewares: [],
   //请求拦截器

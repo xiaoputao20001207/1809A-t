@@ -1,14 +1,52 @@
 # 杜学洋
+## 2021/6/3
+1. 文章阅读
+> * [Web开发者需要知道的CSS Tricks](https://juejin.cn/post/6844903576561516558)
+> * [WebSocket：5分钟从入门到精通](https://juejin.cn/post/6844903544978407431)
+2. 源码阅读
+
+3. leecode 刷题
+> * [最大重复子字符串](https://leetcode-cn.com/problems/maximum-repeating-substring/)
+> * [速算机器人](https://leetcode-cn.com/problems/nGK0Fy/)
+4. 项目进度
+    -[x] 添加项目功能
+    -[x] 添加项目页面下面的排版
+    -[x] 添加项目页面下面的判断渲染
+## 2021/6/2
+1. 文章阅读
+> * [axios拦截器封装http请求，刷新token重发请求](https://juejin.cn/post/6844903894481371143)
+> * [闭包](https://juejin.cn/post/6844903612879994887)
+2. 源码阅读
+
+3. leecode 刷题
+> * [替换所有问号](https://leetcode-cn.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)
+> * [转换成小写字母](https://leetcode-cn.com/problems/to-lower-case/)
+4. 项目进度
+    -[x] 添加项目功能
+    -[x] 添加项目页面下面的排版
+    -[x] 添加项目页面下面的判断渲染
+## 2021/5/31
+1. 文章阅读
+> * [hash与history的区别](https://juejin.cn/post/6844904151206330375)
+> * [5分钟前端国际化](https://juejin.cn/post/6844903505866522638)
+2. 源码阅读
+> * [聊聊前端国际化文案该如何处理](https://juejin.cn/post/6844903778471280653)
+3. leecode 刷题
+> * [编写一个函数来计算它们的交集。](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
+> * [3的幂](https://leetcode-cn.com/problems/power-of-three/)
+4. 项目进度
+    -[x] 添加项目排版
+    -[x] 岗位接口表格功能
 ## 2021/6/1
 1. 文章阅读
 > * [前端面试](https://juejin.cn/post/6844903577220349959)
 > * [带你了解路由的底层原理，用原生js手写一个路由](https://juejin.cn/post/6844904167404748814)
-1. 源码阅读
+2. 源码阅读
 
-2. leecode 刷题
+3. leecode 刷题
 > * [猜数字的的大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)
 > * [统计好三元组](https://leetcode-cn.com/problems/count-good-triplets/)
-1. 项目进度
+4. 项目进度
     -[x] 计划管理页面
     -[x] 计划管理页面排
     -[x] 计划管理页面tab切换数据
@@ -16,36 +54,36 @@
 1. 文章阅读
 > * [hash与history的区别](https://juejin.cn/post/6844904151206330375)
 > * [5分钟前端国际化](https://juejin.cn/post/6844903505866522638)
-1. 源码阅读
+2. 源码阅读
 > * [聊聊前端国际化文案该如何处理](https://juejin.cn/post/6844903778471280653)
-1. leecode 刷题
+3. leecode 刷题
 > * [编写一个函数来计算它们的交集。](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
 > * [3的幂](https://leetcode-cn.com/problems/power-of-three/)
-1. 项目进度
+4. 项目进度
     -[x] 添加项目排版
     -[x] 岗位接口表格功能
 ## 2021/5/30
 1. 文章阅读
 > * [九种跨域当时实现](https://juejin.cn/post/6844903767226351623)
 > * [跨域](https://juejin.cn/post/6844903496521613320)
-1. 源码阅读
+2. 源码阅读
 > * [原生JS灵魂之问(中)，检验自己是否真的熟悉JavaScript？](https://juejin.cn/post/6844903974378668039)
-1. leecode 刷题
+3. leecode 刷题
 > * [各位相加](https://leetcode-cn.com/problems/add-digits/)
 > * [丢失的数](https://leetcode-cn.com/problems/missing-number/)
-1. 项目进度
+4. 项目进度
     -[x] 获取数据
     -[x] 调用点击保存接口
 ## 2021/5/29
 1. 文章阅读
 > * [Hooks很强大，为何还需要Mobx](https://juejin.cn/post/6930758273863778317)
 > * [Mobx特别容易入门级教程](https://juejin.cn/post/6844903907441770509)
-1. 源码阅读
+2. 源码阅读
 > * [原生JS灵魂之问](https://juejin.cn/post/6844903974378668039)
-1. leecode 刷题
+3. leecode 刷题
 > * [快乐数](https://leetcode-cn.com/problems/happy-number/)
 > * [除自身以外的数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/)
-1. 项目进度
+4. 项目进度
     -[x] 项目页面
     -[x] 添加项目
     
@@ -54,13 +92,13 @@
 1. 文章阅读
 > * [155个JavaScript基础问题](https://juejin.cn/post/6966781111888265253)
 > * [如何让10万条数据的小程序列表如丝般顺滑](https://juejin.cn/post/6966904317148299271)
-1. 源码阅读
+2. 源码阅读
 > * [1 小时顶 7 天！程序员工作中的巧思](https://juejin.cn/post/6965879044634050568)
 > * [裁剪数组](https://www.lodashjs.com/docs/lodash.slice)
-1. leecode 刷题
+3. leecode 刷题
 > * [相同的树](https://leetcode-cn.com/problems/same-tree/)
 > * [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/)
-1. 项目进度
+4. 项目进度
     -[x] 项目页面
     -[x] 添加项目
 
@@ -72,10 +110,10 @@
 2. 源码阅读
 > * [indexOf](https://www.lodashjs.com/docs/lodash.indexOf)
 > * [裁剪数组](https://www.lodashjs.com/docs/lodash.slice)
-1. leecode 刷题
+3. leecode 刷题
 > * [fromPairs(pairs)](https://www.lodashjs.com/docs/lodash.fromPairs)
 > * [head(array)](https://www.lodashjs.com/docs/lodash.head)
-1. 项目进度
+4. 项目进度
     -[x] 头部排版
     -[x] 树形结构
 
@@ -277,6 +315,118 @@
 
 - [为什么要使用 async/await ？](https://juejin.cn/post/6967000766032658440)
 - ​[面试-搬砖到城堡1：JS防抖和节流及应用场景](https://juejin.cn/post/6967273496430772255)
+
+- ## 2021/06/03
+1. 文章阅读
+
+- [剑指 Offer 25. 合并两个排序的链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/submissions/)
+- ​[JS 的 new 做了哪些事情呢？](https://juejin.cn/post/6968856664560648199)
+
+
+1. 源码阅读
+   
+- [React源码 commit阶段详解](https://juejin.cn/post/6922062693545279502)
+- [Webpack 源码研究](https://juejin.cn/post/6844903903675285511) 
+
+3. LeetCode刷题
+- [剑指 Offer 25. 合并两个排序的链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/submissions/)
+- [404. 左叶子之和 ](https://leetcode-cn.com/problems/sum-of-left-leaves/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
+
+- ## 2021/06/02
+1. 文章阅读
+
+- [WebSocket：5分钟从入门到精通](https://juejin.cn/post/6844903544978407431)
+- ​[3 分钟搞定 CSS 的 4 种引入方式](https://juejin.cn/post/6968625219619520526)
+
+
+1. 源码阅读
+   
+- [源码学习之 classnames 库](https://juejin.cn/post/6904644195227533325)
+- [如何阅读大型前端开源项目的源码 ](https://juejin.cn/post/6844903607393845255) 
+
+1. LeetCode刷题
+- [剑指 Offer 17. 打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/submissions/)
+- [剑指 Offer 15. 二进制中1的个数  ](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/submissions/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
+
+- ## 2021/06/01
+
+1. 文章阅读
+
+- [v-model 双向数据绑定实现原理](https://juejin.cn/post/6968500711390707749)
+- ​[防抖/节流到底解决什么问题？](https://juejin.cn/post/6968636979630047239)
+
+
+2. 源码阅读
+   
+- [React源码解析(一):组件的实现与挂载](https://juejin.cn/post/6844903504528556040)
+- [golang map源码详解](https://juejin.cn/post/6844903517530882061) 
+
+3. LeetCode刷题
+- [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
+- [剑指 Offer 10- II. 青蛙跳台阶问题 ](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/submissions/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
+
+
+- ## 2021/05/31
+
+1. 文章阅读
+
+- [为什么要使用 async/await ？](https://juejin.cn/post/6967000766032658440)
+- ​[面试-搬砖到城堡1：JS防抖和节流及应用场景](https://juejin.cn/post/6967273496430772255)
+
+
+2. 源码阅读
+   
+- [微信小程序源码获取教程](https://juejin.cn/post/6844903614847123463)
+- [源码20](https://juejin.cn/post/6844903506017517582) 
+- [JavaScript专题之数组去重](https://github.com/mqyqingfeng/Blog/issues/27) 
+
+3. LeetCode刷题
+- [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
+- [判断子序列 ](https://leetcode-cn.com/problems/is-subsequence/submissions/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
 
 
 2. 源码阅读
@@ -1386,6 +1536,23 @@
 
 
 # 吴晓桐
+## 2021.6.3
+1. 文章阅读
+   - [React 状态管理的终极方案 - 不要管理](https://juejin.cn/post/6969548134347177998)
+   - [实践指南-网页生成PDF](https://juejin.cn/post/6969538044890185758)
+
+2. 源码阅读
+   - [用 ObjectComponent 重新定义 React 组件](https://juejin.cn/post/6969536778927603725)
+   - [Android 原生webview传递header前端H5如何接收](https://juejin.cn/post/6965336033395212302)
+   - [生产环境js错误收集及定位源码位置](https://juejin.cn/post/6960108736966819848)
+  
+3. leecode 刷题
+   - [数组去重](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x21ib6/)
+   - [数组每一项相加之和](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2skh7/)
+   - [合并对象](https://leetcode-cn.com/leetbook/read/top-interview-questions/xm0u83/)
+
+4. 项目进度
+   - [x] 
 ## 2021.6.2
 1. 文章阅读
    - [程序员的几个阶段](https://juejin.cn/post/6968645798443614222)

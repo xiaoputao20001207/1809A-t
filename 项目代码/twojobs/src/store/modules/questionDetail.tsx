@@ -1,6 +1,6 @@
 import { makeAutoObservable ,runInAction} from "mobx"
-import { questionDetailList, questionAnserItem } from "@/utils/interface"
-import { getquestionDetailList ,getprojectlist} from '@/service/index'
+import { questionDetailList, questionAnserItem, commitParams } from "@/utils/question"
+import { getquestionDetailList ,getprojectlist, commit} from '@/service/index'
 import {message} from "antd"
 interface defauList{
     name:string|null,
@@ -25,11 +25,13 @@ class questionDetail {
     //标签值
     labelsvalue=""
     //第一栏选中字段
-    curpro="实训"
+    curpro="0"
     //默认每页显示条数
     pageSize = 8
     //实训的第二栏参数
     list:defauList[]=[]
+    //实训第三栏参数
+    list2:defauList[]=[]
     //默认页码
     pageNum = 1
     //最大数据
@@ -87,9 +89,16 @@ class questionDetail {
       };
       //第一栏改变 获取第二栏数据
     async  changeclass(v:string){
+        console.log(v);
+        
         this.curpro=v
         let res=  await getprojectlist()
             this.list=res.data
+      }
+     async changeclasstwo(){
+        let res= await getprojectlist()
+        this.list2=res.data
+        
       }
       //添加标签的值
       changelabelsvalue(e:React.ChangeEvent<HTMLInputElement>){
@@ -100,8 +109,7 @@ class questionDetail {
         message.error('最多只能添加5个标签');
       };
       //添加标签
-      addtext(e:React.KeyboardEvent<HTMLInputElement>){
-      
+      addtext(e:React.KeyboardEvent<HTMLInputElement>){   
         if(e.key=="Enter"){
             if(e.preventDefault){
                 e.preventDefault();
@@ -112,9 +120,6 @@ class questionDetail {
             }else{
                 this.error()
             }
-               
-            
-            
         }
       } 
       //删除标签
@@ -122,6 +127,18 @@ class questionDetail {
          this.labels=this.labels.filter((item,index)=>{
              return index!=i
          })
+      }
+      //发布
+     async commit (e:commitParams){
+        let lab=[...this.labels]
+        let params={...e,labels:lab}
+        let  res= await commit(params)
+        
+        if(res.code==200){
+            this.labels=[]
+            this.flag=false;
+            return true
+        }
       }
 }
 

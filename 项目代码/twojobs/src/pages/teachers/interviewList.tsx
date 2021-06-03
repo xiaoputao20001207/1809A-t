@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react"
 import { FC } from "react"
 import style from './interviewList.less'
 import './interviewList.css'
+import './postSKill.css'
 import useStore from "@/context/useStore"
 import { Input, Space, Button, Table,} from 'antd';
 import {history} from 'umi'
