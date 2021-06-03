@@ -1,4 +1,6 @@
 ## 练习
+- 0603
+    - [同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/solution/tong-gou-zi-fu-chuan-by-leetcode-solutio-s6fd/)
 - 0602
     - [矩形的重叠部分](https://leetcode-cn.com/problems/rectangle-area/solution/ju-xing-mian-ji-si-lu-by-z5w5rzpc7p-e6wz/)
 - 0601
