@@ -40,15 +40,12 @@ const AddPostSkill:FC<IRouteComponentProps> = ({history,location})=>{
     //岗位添加函数
     async function addPostSkill(value:ISkillAddItem){
         let stationVersionId = await skill.addPostSkill(value)
-        // if(!stationVersionId){
-        //    message.success('保存成功',1)
-        // }
         
         history.replace(`/teachers/addPostSkill?stationVersionId=${stationVersionId}&see=false`)
     }
 
     return <div>
-                <p className={style.jobs}><span>岗位</span>/岗位管理</p>
+                {/* <p className={style.jobs}><span>岗位</span>/岗位管理</p> */}
                 <div className={style.nav}>
                     <h2> <span className="icon" data-v-262311c4></span> 填加岗位能力 </h2>
                     <div>

@@ -1,3 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ant-layout{
+    width: 100%;
+}
+.ant-layout-content {
+    background-color: #eee;
+    flex: 1;
+}
 .ant-layout-footer{
     background: #353d53;
     height: 253px;

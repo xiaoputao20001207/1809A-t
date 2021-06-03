@@ -127,21 +127,7 @@ const InterviewManage:FC<IRouteComponentProps>=(history)=>{
 
 
     return <div  data-v-0759f553="" data-v-7178e8ae="" className="box_model">
-                <div data-v-0759f553="" className="breadcrumb_box">
-                    <div data-v-0759f553="" className="breadcrumb_list">
-                        <div aria-label="Breadcrumb" role="navigation" className="el-breadcrumb middle_text">
-                            <span className="el-breadcrumb__item">
-                                <span role="link" className="el-breadcrumb__inner is-link">面试</span>
-                                <span role="presentation" className="el-breadcrumb__separator">/</span>
-                            </span>
-                            <span className="el-breadcrumb__item" aria-current="page">
-                                <span role="link" className="el-breadcrumb__inner">面试记录管理</span>
-                                <span role="presentation" className="el-breadcrumb__separator">/</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
+    
                 <div className={styles.mainlist}>
                         <div className={styles.search}>
                             <Search className={styles.aa} placeholder="搜索岗位/公司名称" allowClear onChange={e=>{setSearchTitle(e.target.value)}} style={{ width: 200 }} />

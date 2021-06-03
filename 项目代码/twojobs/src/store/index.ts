@@ -5,6 +5,16 @@ import description from './modules/description'
 import interview from './modules/interview'
 import interviewManage from './modules/interviewManage'
 import rankList from './modules/rankList'
+import questionDetail from './modules/questionDetail'
+import need from './modules/need'
+import personcenter from './modules/personcenter'
+import logins from './modules/logins'
+import global from './modules/global'
+import proSkill from './modules/proSkill'
+import planList from "./modules/planList"
+import plan from './modules/plan'
+import view from './modules/view'
+import addPlan from './modules/addPlan'
 import user from './modules/user'
 
 
@@ -15,5 +25,15 @@ export default{
     interview,
     rankList,
     interviewManage,
+    questionDetail,
+    need,
+    personcenter,
+    logins,
+    global,
+    proSkill,
+    planList,
+    plan,
+    view,
+    addPlan,
     user
 }

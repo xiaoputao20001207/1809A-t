@@ -11,5 +11,11 @@ export default defineConfig({
   antd: {
     compact: true,
   },
+  //配置国际化
+  locale: {
+    default: 'zh-CN',
+    antd: false,
+    title: false,
+  },
 });
 

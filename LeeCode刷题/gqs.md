@@ -1,12 +1,35 @@
-- 5.20
+## 郭乾升
+
+- 6.1
+  - [只出现一次的数字](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x21ib6/)
+  - [两个数组的交集 II](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2y0c2/)
+- 5.31
+  - [反转链表](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnnhm6/)
+  - [合并两个有序链表](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnnbp2/
+- 5.30
+  - [有效的字母异位词](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn96us/)
+  - [验证回文串](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xne8id/)
+- 5.29
+  - [整数反转](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnx13t/)
+  - [[字符串中的第一个唯一字符]](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn5z8r/)
+- 5.28
+  - [旋转图像](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnhhkv/)
+  - [反转字符串](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnhbqj/)
+- 5.27
+  - [两数之和](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2jrse/)
+  - [有效的数独](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2f9gg/)
+- 5.26
+  - [加一](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2cv1c//)
+  - [移动零](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2ba4i/)
+- 5.25
   - [删除链表中的节点](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnarn7/)
   - [删除链表的倒数第N个节点](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn2925/)
-- 5.21
+- 5.24
   - [IP地址无效化](https://leetcode-cn.com/problems/defanging-an-ip-address/)
   - [猜数字](https://leetcode-cn.com/problems/guess-numbers/)
-- 5.24
+- 5.21
   - [二叉树的最大深度](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnd69e/)
   - [验证二叉搜索树](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn08xg/)
-- 5.25
+- 5.20
   - [删除链表中的节点](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnarn7/)
   - [删除链表的倒数第N个节点](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn2925/)

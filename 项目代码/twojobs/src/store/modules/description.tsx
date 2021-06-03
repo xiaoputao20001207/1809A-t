@@ -71,5 +71,6 @@ class Description{
         this.skillDetail = {...this.skillDetail, ...params}
         // console.log('params...', params, this.skillDetail);
     }
-}   
+} 
+  
 export default new Description
