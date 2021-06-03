@@ -1,42 +1,241 @@
-// 待处理问答
-.questionHandle{
+.questionhandle{
     width: 100%;
-    font-size: 14px;
-    // 头
-    .title{
-        height: 70px;
-        background: rgb(230,235,247);
-        margin: 0 auto;
-    }
-    // 主体
-    .box_content{
+    .question{
         width: 95%;
+        display: flex;
+        flex-direction: column;
         margin: 0 auto;
-        // 来源和状态
-        .one{
+        .box_con{
+            padding: 30px;
+            box-shadow: 0px 0px 10px 0px rgb(51 51 51 / 10%);
+            border-radius: 2px;
             background: #fff;
-            padding: 30px 0 30px 30px;
-            // 来源
-            .train_resource{
+            display: flex;
+            flex-direction: column;
+            .box_contop{
+                height: 34px;
                 display: flex;
                 align-items: center;
-                margin: 10px 0px;
-                span{
-                    margin-left: 15px;
+                margin: 5px 0;
+                >h2{
+                    width: 48px;
+                    height: 28px;
+                    font-size: 12px;
+                    color: #303849;
+                    margin-right: 10px;
+                    margin-top: 10px;
+                }
+                >span{
+                    font-size: 12px;
+                    color: #303849;
                     padding: 4px 12px;
+                    display: inline-block;
+                    cursor: pointer;
+                    border-radius: 15px;
+                    margin-right: 10px;
+                }
+                >span.active{
+                    background: #679cf6;
+                    color: #fff;
                 }
             }
-            // 状态
-            .resource_type{
+            .box_conbot{
+                height: 34px;
                 display: flex;
                 align-items: center;
-                margin: 10px 0px;
-                span{
-                    margin-left: 15px;
+                margin: 5px 0;
+                >h2{
+                    width: 48px;
+                    height: 28px;
+                    font-size: 12px;
+                    color: #303849;
+                    margin-right: 10px;
+                    margin-top: 10px;
+                }
+                >span{
+                    font-size: 12px;
+                    color: #303849;
                     padding: 4px 12px;
+                    display: inline-block;
+                    cursor: pointer;
+                    border-radius: 15px;
+                    margin-right: 10px;
+                }
+                >span.act{
+                    background: #679cf6;
+                    color: #fff;
                 }
             }
         }
-        
+        .box_tent{
+            background: #fff;
+            margin-top: 20px;
+            background: #fff;
+            display: flex;
+            flex-direction: column;
+            .box_tenttop{
+                height: 61px;
+                border-bottom: 1px solid rgb(218,224,233);
+                display: flex;
+                align-items: center;
+                >span{
+                    font-size: 18px;
+                    height: 40px;
+                    font-weight: bold;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #303849;
+                    padding: 0 20px;
+                }
+            }
+            .box_tentcon{
+                display: flex;
+                flex-direction: column;
+                .tentcon_top{
+                    height: 100px;
+                    background: rgb(247,248,249);
+                    display: flex;
+                    align-items: center;
+                    padding: 30px 20px;
+                    .top_nav{
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        .allcheck{
+                            margin-left: 40px;
+                        }
+                        .allright{
+                            display: flex;
+                            width: 560px;
+                            >button:nth-child(1){
+                                width: 98px;
+                                height: 100%;
+                                margin-right: 20px;
+                            }
+                            >button:nth-child(2){
+                                width: 182px;
+                                margin: 0 20px;
+                            }
+                            >button{
+                                >span{
+                                    font-size: 12px;
+                                    
+                                }
+                            }
+                            >span{
+                                width: 230px;
+                            }
+                        }
+                    }
+                }
+                .tentcon_list{
+                    width: 100%;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    background: #ffffff;
+                    border-radius: 2px;
+                    box-shadow: 0px 0px 10px 0px rgb(238,239,240);
+                    .tentcon_lis{
+                        height: 188px;
+                        padding-bottom: 30px;
+                        border-bottom: 0.5px solid #f2f2f2;
+                        padding-bottom: 20px;
+                        border-bottom: 0.5px solid #f2f2f2;
+                        padding-top: 20px;
+                        border-top: 0.5px solid #f2f2f2;
+                        display: flex;
+                        flex-direction: column;
+                        .lis1{
+                            padding-left: 100px;
+                            padding-right: 20px;
+                            font-size: 12px;
+                            color: #80879b;
+                            width: 80%;
+                            display: flex;
+                            justify-content: space-between;
+                            .lis1_left{
+                                >span{
+                                    font-size: 12px;
+                                    font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+                                    font-weight: 400;
+                                    color: #80879b;
+                                    margin-right: 24px;
+                                    >span{
+                                        color: #679cf6;
+                                    }
+                                }
+                            }
+                            .lis1_right{
+                                width: 58px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: flex-end;
+                                font-size: 12px;
+                                color: #80879b;
+                                >img{
+                                    margin-right: 5px;
+                                }
+                            }
+                        }
+                        .lis2{
+                            padding-top: 13px;
+                            width: 80%;
+                            padding-left: 100px;
+                            padding-right: 100px;
+                            display: -webkit-box;
+                            display: -ms-flexbox;
+                            display: flex;
+                            -webkit-box-align: center;
+                            -ms-flex-align: center;
+                            align-items: center;
+                            >img{
+                                width: 24px;
+                                height: 24px;
+                                margin-right: 10px;
+                            }
+                            >span{
+                                font-size: 16px;
+                                color: #000;
+                            }
+                        }
+                        .lis3{
+                            width: 100%;
+                            margin-top: 10px;
+                            display: flex;
+                            .lis3_left{
+                                margin-left: 30px;
+                            }
+                            .lis3_cen{
+                                width: 80%;
+                                padding-left: 56px;
+                                padding-right: 60px;
+                                display: flex;
+                                justify-content: space-between;
+                                >div:nth-child(1){
+                                    width: 83.33333%;
+                                    font-size: 14px;
+                                    color: #80879b;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    max-height: 30px;
+                                }
+                                >div:nth-child(2){
+                                    width: 12.5%;
+                                    font-size: 12px;
+                                    font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+                                    font-weight: 400;
+                                    color: #679cf6;
+                                    line-height: 16px;
+                                    text-align: right;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
