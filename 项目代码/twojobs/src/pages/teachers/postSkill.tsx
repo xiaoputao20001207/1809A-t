@@ -118,7 +118,6 @@ const Postskill: FC = (props) => {
     pageSize: 10,
     isMyInfo: false,
   };
-
   let { skill } = useStore();
 
   //头部发起请求

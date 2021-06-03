@@ -280,32 +280,50 @@ export interface ISkilldairn {
   content?: any;
   proId?: any;
 }
-//添加
+//添加项目
 export interface Addpro{
-  trade:string;
-  name:string;
-  version:number;
-  majorStationList:string;
-  sxType:string;
-  subjectTime:number;
-  note:string;
-  pictureUrl:string;
-  showUrl:string;
-  versionId:string
+  description: string,
+  id: string,
+  knowledge: [],
+  majorId: string,
+  majorStationList:[""],
+  name: string,
+  pictureUrl: string,
+  showUrl: string,
+  stationId: string,
+  subjectTime: number,
+  sxType: string,
+  trade: [],
+  tradeId: string,
+  version: number,
+  versionId: string
+}
+//添加
+export interface Imohu{
+  specialtyTag?:string, 
+  industryTag?:string,
+   isAsc: string,
+  pageNum: number,
+  pageSize: number,
+  sxtype?: number|string,
+  status?: number|string,
+  proName?: string,
+  newProjectList: number,
+  versionId?: string,
 }
 //行业表格
 export interface ISkilldairnObj {
   id: string;
-  specialtyTag:string;
-  status: string;
+  specialtyTag:number;
+  status: number;
   searchTitle:string;
   isMyInfo:boolean;
   curDairn:number;
   industryTag:number;
   taskCount:number;
-  sxtype:string;
+  sxtype:number;
   proName:string,
-  newProjectList:string;
+  newProjectList:number;
 }
 
 interface RootObject {
@@ -479,16 +497,16 @@ interface Params {
 
 
 //添加项目
-export interface Addpro {
-  name: string;
-  version:number;
-  description: string;
-  majorStationChineseList:  string[];
-  tradeName: string|number;
-  type: sxtype[];
-  subjectTime: number,
-  pictureUrl:string
-}
+// export interface Addpro {
+//   name: string;
+//   version:number;
+//   description: string;
+//   majorStationChineseList:  string[];
+//   tradeName: string|number;
+//   type: sxtype[];
+//   subjectTime: number,
+//   pictureUrl:string
+// }
 interface sxtype{
   sxType:string,
   sxType1:string

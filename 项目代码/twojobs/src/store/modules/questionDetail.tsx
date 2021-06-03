@@ -95,8 +95,8 @@ class questionDetail {
         let res=  await getprojectlist()
             this.list=res.data
       }
-     async changeclasstwo(e:any){
-        let res= await getprojectlist(e)
+     async changeclasstwo(){
+        let res= await getprojectlist()
         this.list2=res.data
         
       }

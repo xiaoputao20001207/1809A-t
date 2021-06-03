@@ -1,5 +1,5 @@
-import { Addproject, Gettoplist1 ,GetListDairnItem} from '@/service';
-import { Addpro, ISkilldairn, ISkilldairnObj } from '@/utils/interface';
+import {  Gettoplist1 ,GetListDairnItem, Gettoplist2, DelItem} from '@/service';
+import { Addpro, Imohu, ISkilldairn, ISkilldairnObj } from '@/utils/interface';
 import { makeAutoObservable } from 'mobx';
 
 class proSkill {
@@ -10,26 +10,9 @@ class proSkill {
   setdataSource:ISkilldairnObj[]=[]
   //定义类型
   toplist1: ISkilldairn[] = [];
+  toplist2:ISkilldairn[]=[]
   // topItem:ISkilldairn[] = [];
-  proAddItem = {
-  //  "name": '',
-  //       "version": '',
-  //       "description": '',
-  //       "majorStationChineseList":[],
-  //       "tradeName": '',
-  //       "subjectTime": '',
-  //       "pictureUrl":'',
-  //       "type": [{
-  //           "sxType1": "1",
-  //           "sxType": "生产实训"
-  //       }, {
-  //           "sxType1": "2",
-  //           "sxType": "集体实训"
-  //       }, {
-  //           "sxType1": "3",
-  //           "sxType": "专业群实训"
-  //       }]
-  };
+  proAddItem:Addpro[]=[]
 
   //定义方法
   async Gettoplist1() {
@@ -38,29 +21,27 @@ class proSkill {
       this.toplist1 = result.data;
     }
   }
+  async Gettoplist2() {
+    let result = await Gettoplist2();
+    if (result.data) {
+      this.toplist2 = result.data;
+    }
+  }
+  //删除
+  async DelItem (versionId:string){
+    let result=await DelItem(versionId);
+    if(result){
+      return result;
+    }
+  }
 //表格数据
-   async GetListDairnItem(queryParams:ISkilldairnObj){
+   async GetListDairnItem(queryParams:Imohu){
      let result=await GetListDairnItem(queryParams);
+     
      if(result){
-       this.setdataSource=result.rows;
+       this.setdataSource=result.rows ;
+       console.log(result);
      }
    }
-//添加项目
-async addProject(params: any) {
-  //结构
-  // let { name, version, description, majorStationChineseList, tradeName, subjectTime, sxType } = params;
-  // // 获取类型
-  // // let type = this.addIndustryItem.type;
-  // //深拷贝传过来的数值
-  // this.proAddItem = { ...this.proAddItem, name, version, description, majorStationChineseList, tradeName, subjectTime };
-  // // 调用添加链接
-  // let result = await Addproject(this.proAddItem);
-  // //容错处理
-  // if (result.data) {
-  //     this.proAddItem = result.data;
-  //     console.log(result)
-  //     return result.data.versionId;
-  // }
-  }
 }
 export default new proSkill();
