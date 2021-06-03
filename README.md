@@ -1386,6 +1386,23 @@
 
 
 # 吴晓桐
+## 2021.6.3
+1. 文章阅读
+   - [React 状态管理的终极方案 - 不要管理](https://juejin.cn/post/6969548134347177998)
+   - [实践指南-网页生成PDF](https://juejin.cn/post/6969538044890185758)
+
+2. 源码阅读
+   - [用 ObjectComponent 重新定义 React 组件](https://juejin.cn/post/6969536778927603725)
+   - [Android 原生webview传递header前端H5如何接收](https://juejin.cn/post/6965336033395212302)
+   - [生产环境js错误收集及定位源码位置](https://juejin.cn/post/6960108736966819848)
+  
+3. leecode 刷题
+   - [数组去重](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x21ib6/)
+   - [数组每一项相加之和](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2skh7/)
+   - [合并对象](https://leetcode-cn.com/leetbook/read/top-interview-questions/xm0u83/)
+
+4. 项目进度
+   - [x] 
 ## 2021.6.2
 1. 文章阅读
    - [程序员的几个阶段](https://juejin.cn/post/6968645798443614222)
