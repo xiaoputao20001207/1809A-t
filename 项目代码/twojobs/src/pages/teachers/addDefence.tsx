@@ -126,7 +126,6 @@ let addDefence:React.FC<RouteComponentProps> = ({history}) => {
     }
   return <div className='addDefence'>
 
-    <div className='top'>&emsp;&emsp;  答辩 / 发起答辩</div>
     <div className="list">
       <div className='commen'>
         <div id='save'><Link to="/teachers/defence"><Button>返回</Button></Link>

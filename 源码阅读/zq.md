@@ -1,5 +1,6 @@
 # zq
-
+- 0604
+    - [【进阶探索】从源码分析Redux 和 Mobx 那个更优美 ，一起探索谁丝滑！](https://juejin.cn/post/6968028239386116109#heading-19)
 - 0603
     - [React Hooks源码解析，原来这么简单～](https://juejin.cn/post/6844904080758800392)
 - 0602

@@ -1348,6 +1348,16 @@
 - [x] 复习ts
 
 # 张琪
+## 2021.6.4
+1. 文章阅读
+   - [前端开发者需要知道的 package.json](https://juejin.cn/post/6969454249411837965)
+2. 源码阅读
+   - [【进阶探索】从源码分析Redux 和 Mobx 那个更优美 ，一起探索谁丝滑！](https://juejin.cn/post/6968028239386116109#heading-19)
+3. leecode 刷题
+   - [快乐数](https://leetcode-cn.com/problems/happy-number/)
+4. 项目进度
+   - [ x ] 
+
 ## 2021.6.3
 1. 文章阅读
    - [React Hooks 用法大全](https://www.cnblogs.com/owenma/p/12035619.html)

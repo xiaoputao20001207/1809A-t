@@ -1,4 +1,6 @@
 # 张琪
+- 0604
+    - [前端开发者需要知道的 package.json](https://juejin.cn/post/6969454249411837965)
 - 0603
     - [React Hooks 用法大全](https://www.cnblogs.com/owenma/p/12035619.html)
 - 0602

@@ -1,4 +1,6 @@
 ## 练习
+- 0604
+    - [快乐数](https://leetcode-cn.com/problems/happy-number/)
 - 0603
     - [同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/solution/tong-gou-zi-fu-chuan-by-leetcode-solutio-s6fd/)
 - 0602

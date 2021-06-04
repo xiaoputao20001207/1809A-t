@@ -119,7 +119,7 @@ const Postskill:FC = (props)=>{
                 <div className="top">
                     <b>专业:</b>
                     {
-                       [{name:'全部',id:''},...skill.toplist].map(item=>{
+                        [{name:'全部',id:''},...skill.toplist].map(item=>{
                             return <span key={item.id} className={item.id===curStatus?'active':''} onClick={e=>setcurStatus(item.id)}>{item.name}</span>
                         })
                     }
