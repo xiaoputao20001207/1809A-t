@@ -1058,6 +1058,58 @@
 
 
 # 赵晓杰
+## 2021.6.4
+1. 文章阅读
+
+- [一看就会的SCSS](https://juejin.cn/post/6943987760130687012)
+- [分享15个Webpack实用的插件！！！](https://juejin.cn/post/6944940506862485511)
+
+2. 源码阅读
+
+- [Observer & Dep 实现](https://github.com/jasonandjay/js-code/blob/master/mvvm/obsever.js)
+
+3. leecode 刷题
+
+- [删除排序数组中的重复项](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2gy9m/)
+- [买卖股票的最佳时机 II](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2zsx1/)
+
+4. 项目进度
+
+
+5. 遇到的问题
+
+## 2021.6.3
+1. 文章阅读
+
+- [JavaScript中令人困扰的 this](https://juejin.cn/post/6944587375334916126)
+- [面向对象--原型与原型链](https://juejin.cn/post/6944595399088799752)
+
+2. 源码阅读
+
+- [patch 实现](https://github.com/jasonandjay/js-code/blob/master/diff-patch/patch.js)
+
+3. leecode 刷题
+
+- [实现 strStr()](https://leecode-cn.com/leetbook/read/array-and-string/cm5e2/)
+
+4. 项目进度
+
+## 2021.6.2
+1. 文章阅读
+
+- [用65行代码实现JavaScript动画序列播放](https://juejin.cn/post/6943433312371212302)
+- [可视化布局的新思路](https://juejin.cn/post/6943474376767438885)
+
+2. 源码阅读
+
+- [diff 实现](https://github.com/jasonandjay/js-code/blob/master/diff-patch/diff.js)
+- [flat 实现](https://github.com/jasonandjay/js-code/blob/master/original/flat.js)
+
+3. leecode 刷题
+
+- [移除元素](https://leecode-cn.com/leetbook/read/array-and-string/cwuyj/)
+- [最大连续1的个数](https://leecode-cn.com/leetbook/read/array-and-string/cd71t/)
+
 
 ## 2021.6.1
 1. 文章阅读
@@ -1189,7 +1241,7 @@
 - [x] 八维生产性实训平台 - 添加岗位页面保存基本信息以后新的框
 
 
-- ## 2021/05/24
+- ## 2021.05.24
 
 1. 文章阅读
 
@@ -1212,7 +1264,7 @@
 - [x] 八维生产性实训平台 - 岗位页面排版
 - [x] 八维生产性实训平台 - 添加岗位页面排版  
 
-- ## 2021/05/23
+- ## 2021.05.23
 
 1. 文章阅读
 
@@ -1234,7 +1286,7 @@
 - [x] 八维生产性实训平台 - 岗位页面头部、底部、table
 - [x] 八维生产性实训平台 - 岗位页面排版
 
-- ## 2021/05/22
+- ## 2021.05.22
 
 1. 文章阅读
 
@@ -1256,7 +1308,7 @@
 - [x] 八维生产性实训平台 - 岗位页面头部、底部、table
 - [x] 八维生产性实训平台 - 岗位页面排版
 
-- ## 2021/05/21
+- ## 2021.05.21
 
 1. 文章阅读
 
@@ -1278,7 +1330,7 @@
 - [x] 八维生产性实训平台 - 岗位页面头部、底部、table
 - [x] 八维生产性实训平台 - 岗位页面排版
 
-- ## 2021/05/20
+- ## 2021.05.20
 
 1. 文章阅读
 
@@ -1301,7 +1353,7 @@
 - [x] hooks
 - [x] 八维生产性实训平台 - 岗位页面的头部和底部
 
-## 2021/05/19
+## 2021.05.19
 
 1. 文章阅读
 
@@ -1324,7 +1376,7 @@
 - [x] 复习react
 - [x] 八维生产性实训平台--登录页面
 
-## 2021/05/18
+## 2021.05.18
 
 1. 文章阅读
 
