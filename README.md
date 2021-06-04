@@ -1632,6 +1632,23 @@
 
 
 # 吴晓桐
+## 2021.6.4
+1. 文章阅读
+   - [TypeScript 学习笔记](https://juejin.cn/post/6969457470783619103 )
+   - [手写简易浏览器](https://juejin.cn/post/6969575610108772359)
+
+2. 源码阅读
+   - [官方揭秘！你的颜色是这样算出来的…… ](https://juejin.cn/post/6968344281786351629)
+   - [可视化搭建工具技术探索之表单](https://juejin.cn/post/6965336033395212302)
+   - [iconfont 支持全新的彩色字体图标](https://juejin.cn/post/6960108736966819848)
+  
+3. leecode 刷题
+   - [findKey](https://www.lodashjs.com/docs/lodash.findKey)
+   - [findLastKey](https://www.lodashjs.com/docs/lodash.findLastKey)
+   - [get](https://www.lodashjs.com/docs/lodash.get)
+
+4. 项目进度
+   - [x] 答辩
 ## 2021.6.3
 1. 文章阅读
    - [React 状态管理的终极方案 - 不要管理](https://juejin.cn/post/6969548134347177998)
