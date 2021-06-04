@@ -30,6 +30,7 @@ export * from './modules/logins'
 //项目
 export * from './modules/proSkill'
 export * from './modules/planList'
+export * from './modules/planListAll'
 export * from './modules/addPlan'
 
 //计划页面接口

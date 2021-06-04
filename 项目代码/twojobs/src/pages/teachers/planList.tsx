@@ -39,8 +39,8 @@ const columns = [
         title: '操作',
         render:(row:IPlanListItem)=>{
             return <div>
-                <NavLink to={`/teachers/viewPlan?plan_id=${row.id}&class_id=${row.classid}`}><EyeOutlined/></NavLink>
-                <DeleteOutlined style={{color:'aqua'}} onClick={()=>{
+                <NavLink to={`/teachers/viewPlan?plan_id=${row.id}&class_id=${row.classid}`}><EyeOutlined style={{fontSize:'17px'}}/></NavLink>
+                <DeleteOutlined style={{color:'#679cf6',marginLeft:'20px',fontSize:'17px'}} onClick={()=>{
                     deleteClassPlan(row.id).then(res=>{
                         if(res.status==0){
                             message.info(res.msg);
@@ -73,34 +73,36 @@ const planList: React.FC = () => {
         plan.getPlanList(planParams)
         console.log('plan..........',plan.palnList)
     },[classId,ifFinished,searchName])
-    return <div>
-        <section><span>计划 / 计划</span></section>
-        <section>
-            班级：{
-                status.map((item, index) => {
-                    return <span key={index} onClick={()=>setClassId(item.classId)}>
-                        {item.name}
-                    </span>
-                })
-            }
-        </section>
-        <section>
-            <p>
-                {
-                    navList.map((item, index) => {
-                        return <span key={index} onClick={()=>setifFinished(index)}>
-                            {item}
+    return <div className={styles.planList}>
+        <section className={styles.title}><div>计划 / 计划</div></section>
+        <div className={styles.content}>
+            <section className={styles.titleText}>
+                班级：{
+                    status.map((item, index) => {
+                        return <span key={index} onClick={()=>setClassId(item.classId)}>
+                            {item.name}
                         </span>
                     })
                 }
-                <NavLink to="/teachers/addPlan"><Button>添加计划</Button></NavLink>
-                <Input className={styles.searchInput} placeholder="搜索计划/项目/任务" suffix={<SearchOutlined onClick={()=>{setsearchName(con),setcon('')}}/>} 
-                    value={con} onChange={e=>setcon(e.target.value)}/>
-            </p>
-        </section>
-        <section>
-            <Table rowKey="id" columns={columns} dataSource={plan.palnList} />
-        </section>
+            </section>
+            <section style={{paddingLeft: '30px'}}>
+                <p>
+                    {
+                        navList.map((item, index) => {
+                            return <span className={index==ifFinished?styles.active:''} style={{display:'inline-block',width:'80px',height:'30px',lineHeight:'30px', borderRadius:"30px",textAlign:'center',background:'#eee'}} key={index} onClick={()=>setifFinished(index)}>
+                                {item}
+                            </span>
+                        })
+                    }
+                    <NavLink to="/teachers/addPlan"><Button className={styles.addPlan} type="primary" >添加计划</Button></NavLink>
+                    <Input className={styles.searchInput} placeholder="搜索计划/项目/任务" suffix={<SearchOutlined onClick={()=>{setsearchName(con),setcon('')}}/>} 
+                        value={con} onChange={e=>setcon(e.target.value)}/>
+                </p>
+            </section>
+            <section>
+                <Table rowKey="id" columns={columns} dataSource={plan.palnList} />
+            </section>
+        </div>
     </div>
 }
 

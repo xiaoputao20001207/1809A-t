@@ -564,6 +564,7 @@ export interface IAddPlanList {
   avatar: string;
   flag?:boolean;
   isMove?:boolean;
+  dist?:string;
 }
 
 interface Params {}

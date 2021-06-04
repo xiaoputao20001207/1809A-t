@@ -1,4 +1,4 @@
-import { GetplanList } from '@/service/modules/planList';
+import { GetplanList } from '@/service/modules/planListAll';
 import { IplanList, IplanListItem } from '@/utils/interface';
 import { makeAutoObservable } from 'mobx';
 
