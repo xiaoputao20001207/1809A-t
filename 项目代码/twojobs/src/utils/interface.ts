@@ -381,6 +381,56 @@ export interface IPlanStatus {
   pageSize?: number;
 }
 export interface IPlanDetail {
+}
+//答辩表格数据
+export interface defenceTable {
+  defenceId: string;
+  degenceName: string;
+  defenceClassId?: any;
+  defencePlanId?: any;
+  defenceCreateTime: string;
+  defenceEndTime: string;
+  defenceStatus: number;
+  defenceMajorId?: any;
+  defenceAdress?: any;
+  className?: string;
+  planName?: string;
+  majorName?: string;
+  defenceAuthor: string;
+  defenceScore?: any;
+  defenceHistoryId?: any;
+  taskProgressId?: any;
+  scoreId?: any;
+  defenceRater?: any;
+  raterName?: any;
+  defenceAuthorName?: string;
+  avaScore?: any;
+  projectName?: any;
+  groupName?: any;
+  taskName?: any;
+  defenceGroupInfoList?: any;
+  defenceScoreList?: any;
+}
+//班级计划数据
+export interface classPlanItem {
+  value: string;
+  label: string;
+  parentId?: any;
+  children: Child[];
+  content?: any;
+  proId?: any;
+}
+
+interface Child {
+  value: string;
+  label: string;
+  parentId?: any;
+  children?: any;
+  content?: any;
+  proId?: any;
+}
+//小组数据
+export interface TeamItem {
   className: string;
   list: List[];
   stuRank?: any;
@@ -455,7 +505,7 @@ interface SProList {
   proname: string;
   length: string;
   taskList?: any;
-  sTaskList: STaskList[];
+  sTaskList: any[];
   taskCompletedCount?: any;
   taskCompletedpProgress?: any;
   beginTime: string;
@@ -575,4 +625,47 @@ export interface LoginParams{
   password: string,
   username: string,
   uuid: string,
+}
+//答辩保存数据
+export interface SaveItem {
+  defenceAdress: string;
+  defenceAuthorName: string;
+  defenceClassId: string;
+  defenceCreateTime: string;
+  defenceEndTime: string;
+  defenceId: string;
+  defenceMajorId: string;
+  defencePlanId: string;
+  defenceScore: string;
+  degenceName: string;
+  majorList: string;
+}
+//去答辩数据
+export interface defenDetail {
+  defenceId: string;
+  degenceName: string;
+  defenceClassId: string;
+  defencePlanId: string;
+  defenceCreateTime: string;
+  defenceEndTime: string;
+  defenceStatus: number;
+  defenceMajorId: string;
+  defenceAdress: string;
+  className: string;
+  planName: string;
+  majorName: string;
+  defenceAuthor: string;
+  defenceScore?: any;
+  defenceHistoryId?: any;
+  taskProgressId?: any;
+  scoreId?: any;
+  defenceRater?: any;
+  raterName?: any;
+  defenceAuthorName: string;
+  avaScore?: any;
+  projectName?: any;
+  groupName?: any;
+  taskName?: any;
+  defenceGroupInfoList?: any;
+  defenceScoreList?: any;
 }

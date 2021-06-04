@@ -74,7 +74,6 @@ const planList: React.FC = () => {
         console.log('plan..........',plan.palnList)
     },[classId,ifFinished,searchName])
     return <div className={styles.planList}>
-        <section className={styles.title}><div>计划 / 计划</div></section>
         <div className={styles.content}>
             <section className={styles.titleText}>
                 班级：{

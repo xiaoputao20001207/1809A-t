@@ -1059,6 +1059,64 @@
 
 # 赵晓杰
 
+## 2021.6.1
+1. 文章阅读
+- [数组的常用方法整理](https://blog.csdn.net/qq_42736311/article/details/115274807?utm_medium=distribute.pc_category.none-task-blog-hot-1.nonecase&dist_request_id=1328270.10280.16171099278440167&depth_1-utm_source=distribute.pc_category.none-task-blog-hot-1.nonecase)
+- [贪心算法](https://juejin.cn/post/6844904190578278414)
+1. 源码阅读
+- [_.flattenDeep](https://www.lodashjs.com/docs/lodash.flattenDeep)
+- [_.flattenDepth](https://www.lodashjs.com/docs/lodash.flattenDepth)
+ 
+2. LeeCode刷题
+- [移动零](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2ba4i/)
+- [两数之和](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2jrse/)
+4. 项目进度
+- [x] 八维生产性实训平台 -答辩页面
+## 2021.5.31
+1. 文章阅读
+- [二叉树之层序遍历](https://juejin.cn/post/6944716679687438344)
+2. 源码阅读
+- [throttle-debounce](https://github.com/jasonandjay/js-code/blob/master/original/throttle-debounce.js)
+- [deep-clone](https://github.com/jasonandjay/js-code/blob/master/original/deep-clone.js)
+1. LeeCode刷题
+- [两个数组的交集 II](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2y0c2/)
+- [加一](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2cv1c/)
+4. 项目进度
+- [x] 八维生产性实训平台 -答辩页面
+
+## 2021.5.30
+1. 文章阅读
+- [JS事件分类](https://blog.csdn.net/weixin_51458883/article/details/115257155?utm_medium=distribute.pc_category.none-task-blog-hot-5.nonecase&dist_request_id=&depth_1-utm_source=distribute.pc_category.none-task-blog-hot-5.nonecase)
+2. 源码阅读
+- [call-apply](https://github.com/jasonandjay/js-code/blob/master/original/call-apply.js)
+3. LeeCode刷题
+- [外观数列](https://leecode-cn.com/leetbook/read/top-interview-questions-easy/xnpvdm/)
+- [最长公共前缀](https://leecode-cn.com/leetbook/read/top-interview-questions-easy/xnmav1/)
+4. 项目进度
+- [x] 八维生产性实训平台 -答辩页面
+
+## 2021.5.29
+
+1. 文章阅读
+- [JS高级开发-内置对象Object梳理](https://blog.csdn.net/weixin_42210229/article/details/115110518?utm_medium=distribute.pc_category.none-task-blog-hot-3.nonecase&dist_request_id=1328740.2280.16167698045002259&depth_1-utm_source=distribute.pc_category.none-task-blog-hot-3.nonecase)
+2. 源码阅读
+3. LeeCode刷题
+- [字符串转换整数 (atoi)](https://leecode-cn.com/leetbook/read/top-interview-questions-easy/xnoilh/)
+- [实现 strStr()](https://leecode-cn.com/leetbook/read/top-interview-questions-easy/xnr003/)
+4. 项目进度
+- [x] 八维生产性实训平台 -答辩页面
+
+## 2021.5.28
+
+1. 文章阅读
+- [栈内存与堆内存，深浅拷贝](https://juejin.cn/post/6875859084600410119)
+2. 源码阅读
+- [bind-new.js](https://github.com/jasonandjay/js-code/blob/master/original/bind-new.js)
+3. LeeCode刷题
+- [有效的字母异位词](https://leecode-cn.com/leetbook/read/top-interview-questions-easy/xn96us/)
+- [验证回文串](https://leecode-cn.com/leetbook/read/top-interview-questions-easy/xne8id/)
+4. 项目进度
+- [x] 八维生产性实训平台 -答辩页面
 ## 2021.5.27
 1. 文章阅读
 - [2021不得不学的Typescript](https://juejin.cn/post/6966151454914510878)

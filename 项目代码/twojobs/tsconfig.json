@@ -1,21 +1,4 @@
 {
-<<<<<<< HEAD
-    "compilerOptions": {
-      "target": "esnext",
-      "module": "esnext",
-      "moduleResolution": "node",
-      "importHelpers": true,
-      "jsx": "react-jsx",
-      "esModuleInterop": true,
-      "sourceMap": true,
-      "baseUrl": "./",
-      "strict": true,
-      "paths": {
-        "@/*": ["src/*"],
-        "@@/*": ["src/.umi/*"]
-      },
-      "allowSyntheticDefaultImports": true
-=======
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
@@ -29,25 +12,25 @@
     "paths": {
       "@/*": ["src/*"],
       "@@/*": ["src/.umi/*"]
->>>>>>> a1b759ab95782f4786ee7cd7b47ed6c38d8277bd
     },
-    "include": [
-      "mock/**/*",
-      "src/**/*",
-      "config/**/*",
-      ".umirc.ts",
-      "typings.d.ts"
-    ],
-    "exclude": [
-      "node_modules",
-      "lib",
-      "es",
-      "dist",
-      "typings",
-      "**/__test__",
-      "test",
-      "docs",
-      "tests"
-    ]
-  }
-  
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "mock/**/*",
+    "src/**/*",
+    "config/**/*",
+    ".umirc.ts",
+    "typings.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib",
+    "es",
+    "dist",
+    "typings",
+    "**/__test__",
+    "test",
+    "docs",
+    "tests"
+  ]
+}

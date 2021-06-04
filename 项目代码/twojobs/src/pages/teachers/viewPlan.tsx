@@ -66,9 +66,6 @@ const viewPlan: React.FC<IRouteComponentProps> = (props) => {
     },[id])
     
     return <div className={styles.viewPlan}>
-        <section className={styles.title}>
-            进度/进度监控
-        </section>
         <div className={styles.context}>
             <section className={styles.titleTwo}>
                 <h2>{view.viewList.className}</h2>
