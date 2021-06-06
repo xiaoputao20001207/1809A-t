@@ -1669,7 +1669,6 @@
 - [整数反转](https://leetcode-cn.com/problems/reverse-integer/)
 
 4. 项目进度
-
 - [x] 复习history和hash跳转路由
 - [x] hash不美观 不需要后台做相对应的配置
 - [x] history 路径美观 但会出现404 需要后台相对应的配置 在线下webpack可使用historyApiFallback：true
@@ -1692,6 +1691,7 @@
 
 4. 项目进度
    - [x] 答辩
+  
 ## 2021.6.3
 1. 文章阅读
    - [React 状态管理的终极方案 - 不要管理](https://juejin.cn/post/6969548134347177998)
