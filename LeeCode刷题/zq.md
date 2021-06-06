@@ -1,5 +1,9 @@
 ## 练习
-- 06040
+- 0606
+    - [快乐数](https://leetcode-cn.com/problems/happy-number/)
+- 0605
+    - [丢失的数字](https://leetcode-cn.com/problems/missing-number/)
+- 0604
     - [快乐数](https://leetcode-cn.com/problems/happy-number/)
 - 0603
     - [同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/solution/tong-gou-zi-fu-chuan-by-leetcode-solutio-s6fd/)

@@ -23,6 +23,10 @@ const Login:FC = ()=>{
         logins.loginPage(value).then(res=>{
             if(res){
                 message.success('登录成功',2)
+                //存储刚登陆的时间
+                let starttime = + new Date()
+                localStorage.setItem('startTime',JSON.stringify(starttime))
+                
                 history.replace('/teachers/postskill')
             }else{
                 message.error('登录失败',2)

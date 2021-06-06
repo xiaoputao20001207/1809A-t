@@ -1348,11 +1348,31 @@
 - [x] 复习ts
 
 # 张琪
-## 2021.6.4.
+ ## 2021.6.6
+1. 文章阅读
+   - [谈谈你对闭包的理解？](https://juejin.cn/post/6969835249920376846)
+2. 源码阅读
+   - [vue 和react 语法差异之处](https://juejin.cn/post/6970075421522001928)
+3. leecode 刷题
+   - [寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/)
+4. 项目进度
+   - [ x ] 
+      
+## 2021.6.5
 1. 文章阅读
    - [前端开发者需要知道的 package.json](https://juejin.cn/post/6969454249411837965)
 2. 源码阅读
    - [【进阶探索】从源码分析Redux 和 Mobx 那个更优美 ，一起探索谁丝滑！](https://juejin.cn/post/6968028239386116109#heading-19)
+3. leecode 刷题
+   - [快乐数](https://leetcode-cn.com/problems/happy-number/)
+4. 项目进度
+   - [ x ] 
+
+## 2021.6.4.
+1. 文章阅读
+   - [谈谈你对原型链的理解？](https://juejin.cn/post/6969837174158000141)
+2. 源码阅读
+   - [js - 了解一下this](https://juejin.cn/post/6969985606709428232)
 3. leecode 刷题
    - [快乐数](https://leetcode-cn.com/problems/happy-number/)
 4. 项目进度

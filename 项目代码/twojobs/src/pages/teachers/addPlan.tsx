@@ -71,7 +71,6 @@ const addPlan: React.FC = () => {
     }
 
     return <div className={styles.addPlan}>
-        <div className={styles.title}><div>计划  /  添加计划</div></div>
         <section className={styles.connect}>
             <div className={styles.navTitle}><div><span></span>添加计划</div></div>
             <div className={styles.con}>
