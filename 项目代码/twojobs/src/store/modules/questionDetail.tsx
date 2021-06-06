@@ -62,7 +62,7 @@ class questionDetail {
     setpageNum(e: number) {
         this.pageNum = e
     }
-    //变换全部答案 没写出来
+    //变换全部答案 
     change(supportUpB: boolean, index: number) {
        this.showAllindex=index
         console.log(this.showAllindex);
