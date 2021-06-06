@@ -242,6 +242,88 @@
 
 # 弓程婷
 
+- ## 2021/06/06
+1. 文章阅读
+
+- [前端项目负责人在项目初期需要做什么？](https://juejin.cn/post/6968874442554343455)
+- ​[Cookie、localStorage和sessionStorage的区别](https://juejin.cn/post/6970291738652966942)
+
+
+1. 源码阅读
+   
+- [EventBus源码解析](https://juejin.cn/post/6844904007199113229)
+- ​[剖析 React 源码：先热个身](https://juejin.cn/post/6844903829704540174)
+
+3. LeetCode刷题
+- [ 找不同 ](https://leetcode-cn.com/problems/find-the-difference/submissions/)
+- ​[第三大的数](https://leetcode-cn.com/problems/third-maximum-number/submissions/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
+
+- ## 2021/06/05
+1. 文章阅读
+
+- [谈谈你对闭包的理解？](https://juejin.cn/post/6969835249920376846)
+- ​[Vue vs React，语法差异之处](https://juejin.cn/post/6970075421522001928)
+
+
+1. 源码阅读
+   
+- [HTML Entry 源码分析](https://juejin.cn/post/6885212507837825038)
+- ​[TypeScript 在 React 中使用总结](https://juejin.cn/post/6844903684422254606)
+
+3. LeetCode刷题
+- [检测大写字母](https://leetcode-cn.com/problems/detect-capital/submissions/)
+- ​[各位相加](https://leetcode-cn.com/problems/add-digits/submissions/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
+
+- ## 2021/06/04
+1. 文章阅读
+
+- [译」react-native-create-library 中文文档](https://juejin.cn/post/6970332661533376542)
+- ​[详解浏览器跨域访问的几种办法](https://juejin.cn/post/6969758389849063455)
+
+
+1. 源码阅读
+   
+- [源码篇（五）：手写vuex版mini源码分析vuex的执行过程。附送简版vuex源码](https://juejin.cn/post/6857059183762931720)
+- ​[Promise实现原理（附源码）](https://juejin.cn/post/6844903665686282253)
+
+3. LeetCode刷题
+4. 
+- [最常见的单词](https://leetcode-cn.com/problems/most-common-word/)
+- ​[消失的数字](https://leetcode-cn.com/problems/missing-number-lcci/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
+
 - ## 2021/06/03
 1. 文章阅读
 
