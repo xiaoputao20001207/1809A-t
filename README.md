@@ -1632,6 +1632,50 @@
 
 
 # 吴晓桐
+## 2021.6.6
+
+1. 文章阅读
+
+- [一文带你看懂 UmiJS （3.x版本）](https://juejin.cn/post/6844904197331091464)
+- ​[基于React的数据流实现](https://juejin.cn/post/6844904121116393486)
+
+2. 源码阅读
+   
+- [React Hooks源码浅析](https://zhuanlan.zhihu.com/p/68842478)
+- ​[react生命周期，hooks对应的生命周期？](https://www.cnblogs.com/cxyqts/p/14401737.html?ivk_sa=1024320u)
+  
+3. leecode 刷题
+
+- [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
+- ​[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
+
+4. 项目进度
+
+- [x] 回顾登录页 搭建框架下载 1.yarn create @umijs/umi-app 2.yarn 下载mobx mobx-react-lite
+
+## 2021.6.5
+1. 文章阅读
+
+- ​[一文带你看懂 UmiJS （3.x版本）](https://juejin.cn/post/6844904197331091464)
+- [从零开始创建一个React(Umi+AntD)项目](https://juejin.cn/post/6844904184597184519)
+
+2. 源码阅读
+   
+- [vue源码解读--生命周期](https://www.jianshu.com/p/4748048ed02b)
+- [React源码分析4 — React生命周期详解](https://blog.csdn.net/u013510838/article/details/58070092)
+
+3. leecode 刷题
+
+- [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/submissions/)
+- [整数反转](https://leetcode-cn.com/problems/reverse-integer/)
+
+4. 项目进度
+
+- [x] 复习history和hash跳转路由
+- [x] hash不美观 不需要后台做相对应的配置
+- [x] history 路径美观 但会出现404 需要后台相对应的配置 在线下webpack可使用historyApiFallback：true
+- [x] historyApiFallback：true:做了两件事 首先找到根节点index.html文件然后匹配到一样的路由 最后返回页面 如果没有 则会显示根节点index.html页面
+
 ## 2021.6.4
 1. 文章阅读
    - [TypeScript 学习笔记](https://juejin.cn/post/6969457470783619103 )
