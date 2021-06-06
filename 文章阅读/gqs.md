@@ -1,5 +1,19 @@
 # 郭乾升
-
+- 6.6
+  - [react-hooks如何使用？](https://juejin.cn/post/6864438643727433741)
+  - [「react进阶」一文吃透react-hooks原理](https://juejin.cn/post/6944863057000529933)
+- 6.5
+  - [一看就会的SCSS](https://juejin.cn/post/6943987760130687012)
+  - [分享15个Webpack实用的插件！！！](https://juejin.cn/post/6944940506862485511)
+- 6.4
+  - [JavaScript中令人困扰的 this](https://juejin.cn/post/6944587375334916126)
+  - [面向对象--原型与原型链](https://juejin.cn/post/6944595399088799752) 
+- 6.3
+  - [用65行代码实现JavaScript动画序列播放](https://juejin.cn/post/6943433312371212302)
+  - [可视化布局的新思路](https://juejin.cn/post/6943474376767438885)
+- 6.2
+  - [关于vue全局异步任务和组件内生命周期相关问题的解决方案](https://juejin.cn/post/6943054839555293191)
+  - [React 组件设计指南](https://juejin.cn/post/6942720798335434766)  
 - 6.1
   - [h5,小程序飞入购物车(抛物线绘制运动轨迹点)](https://juejin.cn/post/6884420198389973000)
   - [小程序用户登录架构设计](https://juejin.cn/post/6945264484491460638)
