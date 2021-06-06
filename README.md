@@ -1058,6 +1058,46 @@
 
 
 # 赵晓杰
+## 2021.06.06
+
+1. 文章阅读
+- [深入分析Promise](https://juejin.cn/post/6945319439772434469)
+
+- [当面试官问Webpack的时候他想知道什么](https://juejin.cn/post/6943468761575849992)
+
+2. 源码阅读
+
+3. LeeCode刷题
+- [拿硬币](https://leetcode-cn.com/problems/na-ying-bi/submissions/)
+
+- [IP地址无效化](https://leetcode-cn.com/problems/defanging-an-ip-address/)
+  
+- [猜数字](https://leetcode-cn.com/problems/guess-numbers/)
+
+1. 项目进度
+- [x] 询价页面得数据渲染
+- [x] 城市列表得渲染
+- [x] 城市点击出现弹框
+- [ ] img页面数据未请求,页面未渲染 
+
+
+
+## 2021.06.05
+
+1. 文章阅读
+- [「react进阶」一文吃透react-hooks原理](https://juejin.cn/post/6944863057000529933)
+
+- [回顾ES6](https://juejin.cn/post/6945012429382221861)
+  
+1. 源码阅读
+- [compiler.js](https://github.com/jasonandjay/js-code/blob/master/mvvm/compiler.js)
+
+- [mvvm.js](https://github.com/jasonandjay/js-code/blob/master/mvvm/mvvm.js)
+
+4. 项目进度
+- [x] 询价页面的排版
+- [ ] 图片页面的数据渲染
+- [ ] 询价页面的数据渲染    
 ## 2021.6.4
 1. 文章阅读
 
