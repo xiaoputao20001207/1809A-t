@@ -1,3 +1,6 @@
+## 2021.6.7
+- [ReactDOM.render](https://react.jokcy.me/book/update/react-dom-render.html)
+- [scheduler](https://react.jokcy.me/book/flow/scheduler-pkg.html)
 ## 2021.6.6
 - [useState](https://react.jokcy.me/book/hooks/hooks-use-state.html)
 ## 2021.6.5

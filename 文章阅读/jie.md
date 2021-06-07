@@ -1,3 +1,7 @@
+## 2021.6.7
+- [js Map对象的用法](https://blog.csdn.net/weixin_41646716/article/details/91509295?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control)
+
+- [js原型和原型链的简单理解](https://www.cnblogs.com/tg666/p/12059205.html)
 ## 2021.6.6
 - [深入分析Promise](https://juejin.cn/post/6945319439772434469)
 - [当面试官问Webpack的时候他想知道什么](https://juejin.cn/post/6943468761575849992)

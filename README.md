@@ -1242,6 +1242,21 @@
 - [x] 复习ts
   
 # 赵晓杰
+
+## 2021.6.7
+
+1. 文章阅读
+- [js Map对象的用法](https://blog.csdn.net/weixin_41646716/article/details/91509295?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control)
+
+- [js原型和原型链的简单理解](https://www.cnblogs.com/tg666/p/12059205.html)
+2. 源码阅读
+- [ReactDOM.render](https://react.jokcy.me/book/update/react-dom-render.html)
+- [scheduler](https://react.jokcy.me/book/flow/scheduler-pkg.html)
+1. LeeCode刷题
+- [合并区间](https://leetcode-cn.com/problems/merge-intervals/)
+- [插入区间](https://leetcode-cn.com/problems/insert-interval/)
+
+
 ## 2021.6.6
 
 1. 文章阅读
