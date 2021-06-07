@@ -1616,6 +1616,19 @@
 - [x] 复习ts
 
 # 张琪
+ ## 2021.6.7
+1. 文章阅读
+   - 0607 [学习 CSS 文本溢出显示省略号](https://juejin.cn/post/6970307196068315150)
+2. 源码阅读
+   - [js事件冒泡详解](https://juejin.cn/post/6969749811276808228)
+3. leecode 刷题
+   - [各数相加](https://leetcode-cn.com/problems/add-digits/solution/ge-wei-xiang-jia-by-eric-314-wz5y/)
+   - [丑数](https://leetcode-cn.com/problems/ugly-number/)
+4. 项目进度
+   - [ x ] 表格分页
+   - [ x ] 各页布局排版调整
+     
+
  ## 2021.6.6
 1. 文章阅读
    - [谈谈你对闭包的理解？](https://juejin.cn/post/6969835249920376846)
