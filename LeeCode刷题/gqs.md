@@ -1,4 +1,7 @@
 ## 郭乾升
+- 6.7
+  - [删除排序数组中的重复项](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2gy9m/)
+  - [买卖股票的最佳时机 II](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2zsx1/)
 - 6.6
   - [旋转数组](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2skh7/)
   - [存在重复元素](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2skh7/)
