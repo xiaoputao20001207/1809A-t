@@ -1264,46 +1264,46 @@
 - [x] 复习ts
   
 # 赵晓杰
-## 2021.06.06
+
+## 2021.6.7
+
+1. 文章阅读
+- [js Map对象的用法](https://blog.csdn.net/weixin_41646716/article/details/91509295?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control)
+
+- [js原型和原型链的简单理解](https://www.cnblogs.com/tg666/p/12059205.html)
+2. 源码阅读
+- [ReactDOM.render](https://react.jokcy.me/book/update/react-dom-render.html)
+- [scheduler](https://react.jokcy.me/book/flow/scheduler-pkg.html)
+1. LeeCode刷题
+- [合并区间](https://leetcode-cn.com/problems/merge-intervals/)
+- [插入区间](https://leetcode-cn.com/problems/insert-interval/)
+
+
+## 2021.6.6
 
 1. 文章阅读
 - [深入分析Promise](https://juejin.cn/post/6945319439772434469)
 
 - [当面试官问Webpack的时候他想知道什么](https://juejin.cn/post/6943468761575849992)
-
 2. 源码阅读
-
+- [useState](https://react.jokcy.me/book/hooks/hooks-use-state.html)
 3. LeeCode刷题
 - [拿硬币](https://leetcode-cn.com/problems/na-ying-bi/submissions/)
-
 - [IP地址无效化](https://leetcode-cn.com/problems/defanging-an-ip-address/)
-  
 - [猜数字](https://leetcode-cn.com/problems/guess-numbers/)
 
-1. 项目进度
-- [x] 询价页面得数据渲染
-- [x] 城市列表得渲染
-- [x] 城市点击出现弹框
-- [ ] img页面数据未请求,页面未渲染 
-
-
-
-## 2021.06.05
+## 2021.6.5
 
 1. 文章阅读
 - [「react进阶」一文吃透react-hooks原理](https://juejin.cn/post/6944863057000529933)
 
 - [回顾ES6](https://juejin.cn/post/6945012429382221861)
   
-1. 源码阅读
+2. 源码阅读
 - [compiler.js](https://github.com/jasonandjay/js-code/blob/master/mvvm/compiler.js)
 
 - [mvvm.js](https://github.com/jasonandjay/js-code/blob/master/mvvm/mvvm.js)
 
-4. 项目进度
-- [x] 询价页面的排版
-- [ ] 图片页面的数据渲染
-- [ ] 询价页面的数据渲染    
 ## 2021.6.4
 1. 文章阅读
 
@@ -1319,10 +1319,7 @@
 - [删除排序数组中的重复项](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2gy9m/)
 - [买卖股票的最佳时机 II](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2zsx1/)
 
-4. 项目进度
 
-
-5. 遇到的问题
 
 ## 2021.6.3
 1. 文章阅读
@@ -1352,11 +1349,8 @@
 - [flat 实现](https://github.com/jasonandjay/js-code/blob/master/original/flat.js)
 
 3. leecode 刷题
-
 - [移除元素](https://leecode-cn.com/leetbook/read/array-and-string/cwuyj/)
 - [最大连续1的个数](https://leecode-cn.com/leetbook/read/array-and-string/cd71t/)
-
-
 ## 2021.6.1
 1. 文章阅读
 - [数组的常用方法整理](https://blog.csdn.net/qq_42736311/article/details/115274807?utm_medium=distribute.pc_category.none-task-blog-hot-1.nonecase&dist_request_id=1328270.10280.16171099278440167&depth_1-utm_source=distribute.pc_category.none-task-blog-hot-1.nonecase)
