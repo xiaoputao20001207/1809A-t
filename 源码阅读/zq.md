@@ -1,4 +1,6 @@
 # zq
+- 0607 
+    - [js事件冒泡详解](https://juejin.cn/post/6969749811276808228)
 - 0606
     - [vue 和react 语法差异之处](https://juejin.cn/post/6970075421522001928)
 - 0605

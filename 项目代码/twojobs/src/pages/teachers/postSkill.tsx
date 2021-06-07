@@ -15,7 +15,7 @@ const status = ['全部','草稿','已发布','待审核','已驳回']
 
 const columns = [
     {
-      title: '姓岗位名称',
+      title: '岗位名称',
       dataIndex: 'name',
     //   align:"center"
     },
@@ -107,7 +107,6 @@ const Postskill:FC = (props)=>{
         }
         GetListItem(queryParams).then(res=>{
             if(res.code === 200){
-                console.log(res.rows,'11111111111111111')
                 setdataSource(res.rows)
             }
         })

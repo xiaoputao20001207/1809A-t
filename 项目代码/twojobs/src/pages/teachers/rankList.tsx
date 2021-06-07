@@ -80,7 +80,7 @@ const RankList:FC=()=>{
                             <div data-v-c6b29ed6="" className="r_t_list">
                                 {
                                     [{id:'',classname:"全部"},...classInfo].map((item,index)=>{
-                                        return <span key={item.id} onClick={()=>{setClassId(item.id)}}>{item.classname}</span>
+                                        return <span key={item.id} onClick={()=>{setClassId(item.id)}} className={classId==item.id?"shine":''}>{item.classname}</span>
                                     })
                                 }
                             </div>
