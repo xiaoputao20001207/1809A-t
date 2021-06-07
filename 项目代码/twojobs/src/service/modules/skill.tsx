@@ -5,11 +5,13 @@ import { ISkillAddItem, ISkillListQuery } from '@/utils/interface';
 export let Gettoplist = () => {
     return request('/sxpt/station/selectStationLabel')
 }
+
 //获取专业点击每一项接口
 export let GetListItem = (params:ISkillListQuery)=>{
     return request('/sxpt/station/selectStationVersionList',{params})
    
 }
+
 //添加岗位接口
 export let Addpostskill = (data:ISkillAddItem)=>{
     return request('/sxpt/station',{
@@ -38,4 +40,17 @@ export let updateSkill=(stationVersionId:string,status:string)=>{
 //返回
 export let upretSkill=(stationVersionId:string,status:string)=>{
     return request(`/sxpt/station/updateStationStatusCancel?stationVersionId=${stationVersionId}`)
+}
+
+//头像
+export let GetHeaderPhoto = () =>{
+    return request('/getInfo')
+}
+
+//上传头像
+export const UpPhoto = (data:FormData) => {
+    return request('/system/user/profile/avatar',{
+        method:"POST",
+        data
+    })
 }

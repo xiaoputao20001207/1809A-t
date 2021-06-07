@@ -18,6 +18,26 @@ export default {
     'header.project':'Project',//项目
     'header.jobs':'Jobs',//岗位
 
+    'breadcrumb.teachers':'Teachers',//教师端
+    'breadcrumb.postSkill':'postskill',//岗位项目
+    'breadcrumb.proManagement':'proManagement',//项目管理
+
+    'breadcrumb.planList':'planList',//实训 计划
+    'breadcrumb.viewPlan':'viewPlan',//实训 进度
+    'breadcrumb.defence':'defence',//实训 答辩
+    'breadcrumb.planListManage':'planListManage',//实训 计划管理
+
+    'breadcrumb.interviewList':'interviewList',//面试 面试记录
+    'breadcrumb.interviewManage':'interviewManage',//面试 面试记录管理
+    'breadcrumb.rankList':'rankList',//面试 面试排行榜
+
+    'breadcrumb.questionDetail':'questionDetail',//问答 问答列表
+    'breadcrumb.questionHandle':'questionHandle',//问答 问答管理
+
+    'breadcrumb.needHandle':'needHandle',//代办管理
+    'breadcrumb.teacherPersonCenter':'PersonCenter',//个人中心
+
+
     //脚部
     'footer.into the eight dimensions':'Into the eight dimensions',//走进八维
     'footer.eight dimensions culture':'Eight dimensions culture',//八维文华

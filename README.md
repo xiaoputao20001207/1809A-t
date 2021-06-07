@@ -1960,7 +1960,7 @@
 
 
 # 吴晓桐
-## 2021.6.6
+## 2021.6.7
 
 1. 文章阅读
 
@@ -1973,6 +1973,36 @@
 - ​[react生命周期，hooks对应的生命周期？](https://www.cnblogs.com/cxyqts/p/14401737.html?ivk_sa=1024320u)
   
 3. leecode 刷题
+
+ - [数组去重](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x21ib6/)
+
+4. 项目进度
+
+- [x] 国际化完善 图片上传 
+- [x] 强缓存：200 协商缓存成功304
+- [x] 图片上传
+```js
+   let form = new FormData() 
+   let files = e.target.files
+      if(files){for(let i=0; i<files.length; i++){
+            form.append('file',files[i])
+      }
+   }
+```
+
+## 2021.6.6
+
+1. 文章阅读
+
+- [带你理解 防抖,节流](https://juejin.cn/post/6844904197331091464)
+- ​[什么是构造函数](https://juejin.cn/post/6844904121116393486)
+
+2. 源码阅读
+   
+- [谈谈原型链](https://zhuanlan.zhihu.com/p/68842478)
+- ​[栈和堆的区别](https://www.cnblogs.com/cxyqts/p/14401737.html?ivk_sa=1024320u)
+  
+1. leecode 刷题
 
 - [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
 - ​[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
@@ -2315,11 +2345,13 @@
 + 撤销
     + 软撤销 git reset --soft []
     + 应撤销 git reset --hard []
+
 + 分支
     + 创建分支
     + 切换分支
     + 删除分支
     + 合并分支
+
 + 提交
     + 先拉去远程分支  pull
     + 在提交远程 push

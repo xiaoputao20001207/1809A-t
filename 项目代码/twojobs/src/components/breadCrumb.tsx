@@ -1,6 +1,6 @@
 import { Breadcrumb } from 'antd'
 import React,{FC} from 'react'
-import {useLocation, Link} from 'umi'
+import {useLocation, Link, useIntl} from 'umi'
 
 interface IBreadItem{
     path:string,
@@ -9,8 +9,8 @@ interface IBreadItem{
 
 const BreadCrumbs:React.FC = ()=> {
     const location = useLocation()
-    //console.log(location);
-    console.log(location.pathname.split('/').filter(item => item).map(item=>{return{path:`/${item}`,breadcrumbName:item}}));
+    let intl = useIntl()
+    //console.log(location.pathname.split('/').filter(item => item).map(item=>{return{path:`/${item}`,breadcrumbName:item}}));
     
     const routes:IBreadItem[] = location.pathname.split('/').filter(item =>item).map(item=>{
         return {
@@ -18,12 +18,15 @@ const BreadCrumbs:React.FC = ()=> {
             breadcrumbName:item
         }
     })
+
     function itemRender(route:IBreadItem, params:{}, routes:IBreadItem[], paths:string[]) {
         const last = routes.indexOf(route) === 0;
+        
+        // {console.log(route.breadcrumbName)}
         return last ? (
-          <span>{route.breadcrumbName}</span>
+          <span>{intl.formatMessage({id:'breadcrumb.'+route.breadcrumbName})}</span>
         ) : (
-          <Link to={paths.splice(1).join('/')}>{route.breadcrumbName}</Link>
+          <Link to={paths.splice(1).join('/')}>{intl.formatMessage({id:'breadcrumb.'+route.breadcrumbName})}</Link>
         );
       }
 
