@@ -1,4 +1,18 @@
 # 杜学洋
+## 2021/6/7
+1. 文章阅读
+ > * [浏览器缓存](https://jasonandjay.github.io/study/zh/standard/Cache.html#%E5%9B%BE%E8%A7%A3)
+ > * [前端缓存最佳实践](https://juejin.cn/post/6844903737538920462)
+2. 源码阅读
+ > * [Vue 源码解读（3）—— 响应式原理](https://juejin.cn/post/6950826293923414047)
+ > * [Vue 源码解读（4）—— 异步更新](https://juejin.cn/post/6951568091893465102)
+3. leecode 刷题
+> * [配对交换](https://leetcode-cn.com/problems/exchange-lcci/)
+> * [最大数值](https://leetcode-cn.com/problems/maximum-lcci/)
+4. 项目进度
+   - [x] 添加项目功能
+   - [x] 添加项目页面下面屡屡思路
+
 ## 2021/6/6
 1. 文章阅读
  > * [React进阶](https://juejin.cn/post/6963053793613185031)

@@ -162,6 +162,7 @@ const Postskill: FC = (props) => {
 
   //仅看我的
   const [isMyInfo, setisMyInfo] = useState(false);
+
   let queryParams: Imohu = {
     isAsc: 'desc',
     pageNum: 1,
@@ -170,8 +171,6 @@ const Postskill: FC = (props) => {
     status: 0,
     proName: '',
     newProjectList: 0,
-    specialtyTag: '',
-    industryTag: '',
   };
   let { proSkill, skill } = useStore();
   //详情

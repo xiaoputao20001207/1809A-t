@@ -1,4 +1,7 @@
 ## 杜学洋
+## 6.7
+  > * [配对交换](https://leetcode-cn.com/problems/exchange-lcci/)
+  > * [最大数值](https://leetcode-cn.com/problems/maximum-lcci/)
 ## 6.6
   > * [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/solution/valid-parentheses-fu-zhu-zhan-fa-by-jin407891080/)
   > * [组数总和](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-leetcode-solution/)

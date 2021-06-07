@@ -1,4 +1,7 @@
 # 杜学洋
+## 2021/6/7
+  > * [浏览器缓存](https://jasonandjay.github.io/study/zh/standard/Cache.html#%E5%9B%BE%E8%A7%A3)
+  > * [前端缓存最佳实践](https://juejin.cn/post/6844903737538920462)
 ## 2021/6/6
 文章阅读
   > * [React进阶](https://juejin.cn/post/6963053793613185031)
