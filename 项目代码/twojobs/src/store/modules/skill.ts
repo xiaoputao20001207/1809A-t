@@ -1,13 +1,17 @@
-import { Addpostskill, getSkillDetail, Gettoplist } from '@/service'
-import { ISkillAddItem, ISkillLabel } from '@/utils/interface'
+import { Addpostskill, GetHeaderPhoto, getSkillDetail, Gettoplist } from '@/service'
+import { ISkillAddItem, ISkillLabel, UserItem } from '@/utils/interface'
 import {makeAutoObservable} from 'mobx'
 
 class Skill{
     constructor(){
         makeAutoObservable(this)
     }
+
     //定义属性
     toplist:ISkillLabel [] = []
+
+    userList:UserItem = {}
+
     //定义新增岗位
     skillAddItem:ISkillAddItem = {
         "majorId": "",
@@ -52,6 +56,7 @@ class Skill{
             }
         ]
     }
+
     //定义方法
     async Gettoplist(){
         let result = await Gettoplist()
@@ -83,5 +88,13 @@ class Skill{
         }
     }
 
+    //获取头像
+    async GetHeaderPhoto(){
+        let result = await GetHeaderPhoto()
+        if(result.code === 200){
+            this.userList = result.user
+        }
+        
+    }
 }
 export default new Skill

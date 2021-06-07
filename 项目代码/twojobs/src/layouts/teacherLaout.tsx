@@ -20,7 +20,7 @@ import Breadcrumb from '@/components/breadCrumb'
 
   const TeacherLayout: React.FC = (props) => {
 
-  let {personcenter,global} = useStore()
+  let {personcenter,global, skill} = useStore()
   
     //实例化
   const intl = useIntl();
@@ -40,6 +40,7 @@ import Breadcrumb from '@/components/breadCrumb'
         if(language){
           setLocale(enLanguage[language],false)
         }
+        skill.GetHeaderPhoto()
     }, [])
 
     //退出显示弹框
@@ -58,11 +59,15 @@ import Breadcrumb from '@/components/breadCrumb'
     const handleCancel = () => {
       setIsModalVisible(false);
     };
+    console.log(skill.userList.avatar);
     
-    return <Layout>
-         
+    
+    return <Layout> 
+         {
+           JSON.stringify(skill.userList.avatar)
+         }
           <Header>
-            <img src="http://111.203.59.61:8060/static/img/w_bw.172a76e5.png" alt=""/>
+            <img src='http://111.203.59.61:8060/static/img/w_bw.172a76e5.png' alt=""/>
             
             <NavLink to='/teachers/postSkill'>{
                 intl.formatMessage({
@@ -132,6 +137,7 @@ import Breadcrumb from '@/components/breadCrumb'
                       </div>}
                     trigger="hover">
               <Badge count={2}  style={{marginTop:"15px",position:'absolute',top:'-30px',right:'5px'}}>
+              
                   <BellOutlined style={{fontSize:'25px',color:"white",position:'absolute',top:'-13px',right:'5px'}}/>
               </Badge>
             </Popover>
@@ -146,18 +152,17 @@ import Breadcrumb from '@/components/breadCrumb'
                     </Modal>
                 </div>} 
               trigger="hover">
-              
-                  <img 
-                    style={{margin:'0 5px 0 25px',width:'40px',height:'40px',borderRadius:"50%"}}
-                    src="http://111.203.59.61:8060/file_service/group1/M00/00/18/rBsCHWCect6AAI6AAAC1i-52NMk29.jpeg" alt=""/>
+                    <img src={`http://111.203.59.61:8060${skill.userList.avatar}`} alt="" style={{margin:'0 5px 0 25px',width:'40px',height:'40px',borderRadius:"50%"}}/>
+    
                <span style={{color:'white'}}>郭老师</span>
               </Popover>
            </div>
         </Header>
         {/* 面包屑 */}
         <Breadcrumb>
-          {/* {intl.formatMessage({id:'header.interview-the interview records'})}  */}
+          {intl.formatMessage({id:'header.interview-the interview records'})} 
         </Breadcrumb>
+
           <Spin spinning={global.isLoading}>
             <Content>{props.children}</Content>
           </Spin>
@@ -189,7 +194,6 @@ import Breadcrumb from '@/components/breadCrumb'
             </div>
             <div data-v-01b3f466="" className="b_b_sign_bootm_son">京公网安备 11010802031438号 © Copyright 2020. 八维教育版权所有 | 京ICP备12008262号-12</div>
         </Footer>
-         
       </Layout>
 }
 export default observer(TeacherLayout)

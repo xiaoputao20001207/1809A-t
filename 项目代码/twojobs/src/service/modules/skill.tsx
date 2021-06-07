@@ -39,3 +39,8 @@ export let updateSkill=(stationVersionId:string,status:string)=>{
 export let upretSkill=(stationVersionId:string,status:string)=>{
     return request(`/sxpt/station/updateStationStatusCancel?stationVersionId=${stationVersionId}`)
 }
+
+//头像
+export let GetHeaderPhoto = () =>{
+    return request('/getInfo')
+}

@@ -70,11 +70,6 @@ const columns = [
 
 const Postskill:FC = (props)=>{
 
-    //专业状态
-    //const [toplist, setList] = useState<ISkillLabel[]>([])
-    
-    // const [topitem, settopitem] = useState<ISkillListQuery[]>([])
-
     //专业每一项高亮
     const [curStatus, setcurStatus] = useState('')
 
@@ -92,9 +87,12 @@ const Postskill:FC = (props)=>{
 
     let {skill} = useStore()
 
-    //头部发起请求
+    //头部发起请求 头像
     useEffect(() => { 
         skill.Gettoplist()
+        // skill.GetHeaderPhoto()
+        // console.log('123');
+        
     }, [])
 
     //表格发起请求
@@ -107,7 +105,7 @@ const Postskill:FC = (props)=>{
         }
         GetListItem(queryParams).then(res=>{
             if(res.code === 200){
-                console.log(res.rows,'11111111111111111')
+                //console.log(res.rows,'11111111111111111')
                 setdataSource(res.rows)
             }
         })

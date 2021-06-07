@@ -33,3 +33,11 @@ export const changeOwnPage = (data:PersoncenterList)=>{
 export const closePage = () => {
     return request('/sxpt/blacking/blackList?isAsc=desc&pageNum=1&pageSize=10&type=0&blackingTitle=&classId=')
 }
+
+//上传头像
+export const UpPhoto = (data:FormData) => {
+    return request('/system/user/profile/avatar',{
+        method:"POST",
+        data
+    })
+}

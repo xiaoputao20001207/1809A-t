@@ -11,7 +11,7 @@ const { TabPane } = Tabs;
 
 const TeacherPersonCenter:FC = ()=>{
 
-    let {personcenter} = useStore()
+    let {personcenter, skill} = useStore()
 
     const [isModalVisible, setIsModalVisible] = useState(false);
 
@@ -61,6 +61,7 @@ const TeacherPersonCenter:FC = ()=>{
         }
     }
     
+    //显示弹框
     function showModal( ){
         setIsModalVisible(true)
     }
@@ -68,9 +69,13 @@ const TeacherPersonCenter:FC = ()=>{
     //个人详情回显
     useEffect(() => {
         personcenter.getPersonMessage()
+        //skill.GetHeaderPhoto()
     },[])
     
     return <div className='teacher_pages'>
+            {/* <Modal>
+
+            </Modal> */}
             {
                 isModalVisible?
                 <div className='mask' style={{width:'100%',height:'100%',background:'rgba(0,0,0,0.5)',position:'fixed',top:'0',left:'0',zIndex:999999}}>
@@ -81,21 +86,35 @@ const TeacherPersonCenter:FC = ()=>{
                         </h2>
                         <div className='mask-center'>
                             <div className='mask-left'>
-
+                                <div>
+                                    <img src={`http://111.203.59.61:8060${skill.userList.avatar}`}  alt=""/>
+                                </div>
                             </div>
                             <div className='mask-right'>
-
+                                    <img src={`http://111.203.59.61:8060${skill.userList.avatar}`}  alt=""/>
                             </div>
                         </div>
                         <div className='mask-bottom'>
                             <div>
-                                <input type="file"/>
+                                <input type="file" onChange={(e)=>{
+                                    let form = new FormData()
+                                    let files = e.target.files
+                                    console.log(files);
+                                    
+                                    if(files){
+                                        for(let i=0; i<files.length; i++){
+                                            form.append('file',files[i])
+                                        }
+                                        personcenter.UpPhoto(form)
+                                    }
+
+                                }}/>
                                 <span>+</span>
                                 <span>-</span>
                                 <span>正转</span>
                                 <span>反转</span>
                             </div>
-                            <button>提交</button>
+                            <button onClick={()=>{setIsModalVisible(false)}}>提交</button>
                         </div>
                     </div>
             </div>:
@@ -105,8 +124,7 @@ const TeacherPersonCenter:FC = ()=>{
                     <div className="el-left">
                         <h3>个人信息</h3>
                         <div className='el_left_img'>
-                            <img src="http://111.203.59.61:8060/file_service/group1/M00/00/18/rBsCHWCect6AAI6AAAC1i-52NMk29.jpeg" alt="" onClick={()=>{
-                                  
+                            <img src={`http://111.203.59.61:8060${skill.userList.avatar}`} alt="" onClick={()=>{
                                 showModal()
                             }}/>
                         </div>

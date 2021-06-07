@@ -1,4 +1,4 @@
-import { changeOwnPage, changePassword, closePage, exit, getPersonMessage, } from "@/service/modules/personcenter"
+import { changeOwnPage, changePassword, closePage, exit, getPersonMessage, UpPhoto, } from "@/service/modules/personcenter"
 import {PersoncenterList} from '@/utils/personcenter'
 import {makeAutoObservable} from 'mobx'
 
@@ -6,6 +6,8 @@ class Personcenter{
     constructor(){
         makeAutoObservable(this)
     }
+
+    srcStr = 'http://111.203.59.61:8060/file_service/group1/M00/00/18/rBsCHWCect6AAI6AAAC1i-52NMk29.jpeg'
 
     //个人中心详情
     personMessage:PersoncenterList = {} as PersoncenterList
@@ -34,6 +36,15 @@ class Personcenter{
     //关闭
     async close(){
         await closePage()
+    }
+
+    //上传头像
+    async UpPhoto(data:FormData){
+        let result = await UpPhoto(data)
+        console.log(data,result);
+        if(result.code === 200){
+            this.srcStr = `http://111.203.59.61:8060${result.imgUrl}`
+        }
     }
 }
 export default new Personcenter
