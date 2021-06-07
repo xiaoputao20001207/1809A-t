@@ -24,7 +24,7 @@
   - [验证回文串](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xne8id/)
 - 5.29
   - [整数反转](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnx13t/)
-  - [[字符串中的第一个唯一字符]](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn5z8r/)
+  - [字符串中的第一个唯一字符](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn5z8r/)
 - 5.28
   - [旋转图像](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnhhkv/)
   - [反转字符串](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnhbqj/)
