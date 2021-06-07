@@ -1,4 +1,7 @@
 ## 吴晓桐
+- 6.7
+  - [一文带你看懂 UmiJS （3.x版本）](https://juejin.cn/post/6844904197331091464)
+  - ​[基于React的数据流实现](https://juejin.cn/post/6844904121116393486)
 - 6.6
   - [一文带你看懂 UmiJS （3.x版本）](https://juejin.cn/post/6844904197331091464)
   - ​[基于React的数据流实现](https://juejin.cn/post/6844904121116393486)

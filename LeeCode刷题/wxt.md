@@ -1,4 +1,6 @@
 ## 吴晓桐
+- 6.7
+  - [数组去重](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x21ib6/)
 - 6.6
   - [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
   - ​[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
