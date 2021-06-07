@@ -108,7 +108,6 @@ let addDefence:React.FC<RouteComponentProps> = ({history}) => {
       content: '提交成功',
       className: 'custom-class',
       style: {
-      
         fontSize:'18px'
       },
     });

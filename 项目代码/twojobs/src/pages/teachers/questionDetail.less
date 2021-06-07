@@ -6,15 +6,13 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        // justify-content: center;
-        // align-items: center;
     }
 }
 // 状态栏
 .state{
     width: 95%;
-    height: 80px;
-    line-height: 80px;
+    height: 70px;
+    line-height: 70px;
     display: flex;
     flex-direction: row;
     background: #fff;
@@ -35,63 +33,52 @@
         }
     }
 }
-// .questiondetail{
-//     width: 74%;
-//     background: yellow;
-//     // background: #fff;
-//     margin-left: 13%;
-//     box-shadow: 0px 0px 10px 0px rgb(228, 221, 221);
-// }
-.icon{
-    font-size: 16px;
-}
-.List{
-    width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-// 列表
-.Item{
-    width: 1450px;
+
+// 搜索栏
+.search{
+    width: 95%;
+    height: 80px;
     background: #fff;
-    // background: red;
     display: flex;
-    flex-direction: row;
-    >div{
-        width: 10%;
+    align-items: center;
+    justify-content: flex-end;
+     margin: 5px 35px;
+    .one{
         display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        >button{
-            margin-top: 50%;
-            width: 100px;
-            height: 40px;
-            background: #679cf6;
-            border-radius: 4px;
+        align-items: center;
+        margin-left: 10px;
+        >input{
+            margin: 5px;
+        }
+        >span{
+            margin-right: 10px;
         }
     }
-    // 列表每一项
-    >ul{
-        flex: 1;
-        // background: pink;
-        >li{
+    // 我要提问按钮
+    .question{
+        background: #FF8D41;
+        color: #fff;
+        outline: none;
+        border: none;
+        font-size: 14px;
+        border-radius: 4px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+.con{
+    height: 600px;
+    .box_con{
+        width: 100%;
+        height: 500px;
+        .con_two{
             display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            p{
-                span{
-                    color: #ccc;
-                    margin:0px 10px;
-                    padding-top: 10px;
-                    display: inline-block;
-                    
-                }
-            }
+            align-items: center;
         }
     }
 }
+
 // 不超过5个的小标签
 .labels{
     display: flex;
@@ -111,41 +98,64 @@
 .labelsspan{
     display: inline-block;
     background: #ccc;
-    padding: 5px;
-    margin: 10px;
+    padding:0px 5px;
+    margin:0px 10px;
     border-radius: 15px;
 }
 
-// 搜索栏
-.search{
+
+// 列表
+.List{
     width: 95%;
-    height: 100px;
-    background: #fff;
+    // background: red;
+    margin: 0 auto;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-end;
-     margin: 5px 35px;
-    .s1{
+    .Item{
+        width: 1450px;
+        // background: yellow;
+        background: #fff;
         display: flex;
-        align-items: center;
-        margin-left: 10px;
-        >input{
-            margin: 5px;
+        flex-direction: row;
+        >div{//回答
+            width: 10%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            >button{
+                width: 100px;
+                height: 40px;
+                margin-top: 25%;
+                background: #679cf6;
+                border-radius: 4px;
+            }
         }
-        >span{
-            margin-right: 10px;
+        >ul{
+            flex: 1;
+            >li{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                p{
+                    span{
+                        color: #ccc;
+                        margin:0px 7px;
+                        display: inline-block;
+                        
+                    }
+                }
+            }
         }
     }
 }
-// 我要提问按钮
-.question{
-    background: #FF8D41;
-    color: #fff;
-    outline: none;
-    border: none;
-    font-size: 14px;
-    border-radius: 4px;
-    margin-left: 20px;
+
+
+
+
+.icon{
+    font-size: 16px;
 }
 .input{
     margin: 0 15px;
@@ -158,10 +168,4 @@
   .body{
       margin: 0 auto;
   }
-}
-
-.ant-modal-body{
-    width: 100%;
-    height: 500px;
-    background: red;
 }

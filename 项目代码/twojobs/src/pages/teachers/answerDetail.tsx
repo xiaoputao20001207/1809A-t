@@ -26,9 +26,9 @@ const answerDetail:React.FC<IRouteComponentProps> = (props)=>{
                         setAnswerContent('')
                 })
             }
-        })
-        
+        }) 
     }
+    
     let Collection = (type:string)=>{
         if(type == 'add'){
             addCollection(answerDetail.answerId).then((res)=>{
