@@ -1,4 +1,51 @@
 # 杜学洋
+## 2021/6/6
+1. 文章阅读
+ > * [React进阶](https://juejin.cn/post/6963053793613185031)
+ > * [webpack](https://juejin.cn/post/6961961165656326152)
+2. 源码阅读
+> * [React 组件性能优化最佳实践](https://juejin.cn/post/6965747225154732069)
+> * [大道理小聪明系列 - Redux + Hooks 工程实践一则](https://juejin.cn/post/6965732983781195807)
+3. leecode 刷题
+> * [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/solution/valid-parentheses-fu-zhu-zhan-fa-by-jin407891080/)
+> * [组数总和](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-leetcode-solution/)
+4. 项目进度
+   - [x] 添加项目功能
+   - [x] 添加项目页面下面的排版
+   - [x] 添加项目页面下面的判断渲染
+
+## 2021/6/5
+1. 文章阅读
+ > *[new Map()使用方法](https://www.jianshu.com/p/c9a55b591948)
+ > * [ES6学习☞set和map数据结构](https://www.jianshu.com/p/9be458a73e05)
+2. 源码阅读
+  > * [用 ObjectComponent 重新定义 React 组件](https://juejin.cn/post/6969536778927603725)
+  > * [Android 原生webview传递header前端H5如何接收](https://juejin.cn/post/6965336033395212302)
+  
+3. leecode 刷题
+> * [数组每一项相加之和](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2skh7/)
+> * [合并对象](https://leetcode-cn.com/leetbook/read/top-interview-questions/xm0u83/)
+4. 项目进度
+    - [x] 添加项目功能
+    - [x] 添加项目页面下面的排版
+    - [x] 添加项目页面下面的判断渲染
+
+## 2021/6/4
+1. 文章阅读
+> * [我们并不需要 Deno](https://juejin.cn/post/6969848850374721544)
+> * [前端需要了解的计算机网络知识](https://juejin.cn/post/6844904079974465544)
+2. 源码阅读
+> * [生产环境js错误收集及定位源码位置](https://juejin.cn/post/6960108736966819848)
+> * [ MindSpore 人脸识别](https://juejin.cn/post/6965741051646574628)
+  
+3. leecode 刷题
+> * [左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)
+> * [数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
+4. 项目进度
+    - [x] 添加项目功能
+    - [x] 添加项目页面下面的排版
+    - [x] 添加项目页面下面的判断渲染
+
 ## 2021/6/3
 1. 文章阅读
 > * [Web开发者需要知道的CSS Tricks](https://juejin.cn/post/6844903576561516558)
