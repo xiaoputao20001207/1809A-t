@@ -1,4 +1,7 @@
 # 郭乾升
+- 6.7
+  - [一看就会的SCSS](https://juejin.cn/post/6943987760130687012)
+  - [分享15个Webpack实用的插件！！！](https://juejin.cn/post/6944940506862485511)
 - 6.6
   - [react-hooks如何使用？](https://juejin.cn/post/6864438643727433741)
   - [「react进阶」一文吃透react-hooks原理](https://juejin.cn/post/6944863057000529933)
