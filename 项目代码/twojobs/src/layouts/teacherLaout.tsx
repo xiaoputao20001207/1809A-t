@@ -63,9 +63,6 @@ import Breadcrumb from '@/components/breadCrumb'
     
     
     return <Layout> 
-         {
-           JSON.stringify(skill.userList.avatar)
-         }
           <Header>
             <img src='http://111.203.59.61:8060/static/img/w_bw.172a76e5.png' alt=""/>
             
@@ -160,12 +157,13 @@ import Breadcrumb from '@/components/breadCrumb'
         </Header>
         {/* 面包屑 */}
         <Breadcrumb>
-          {intl.formatMessage({id:'header.interview-the interview records'})} 
+          {/* {intl.formatMessage({id:'header.interview-the interview records'})}  */}
         </Breadcrumb>
 
           <Spin spinning={global.isLoading}>
             <Content>{props.children}</Content>
           </Spin>
+
         <Footer>
             <div data-v-01b3f466="" data-v-7178e8ae="" className="bw_bottom">
                 <div data-v-01b3f466="" className="b_b_detail">

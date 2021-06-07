@@ -96,7 +96,7 @@ const TeacherPersonCenter:FC = ()=>{
                         </div>
                         <div className='mask-bottom'>
                             <div>
-                                <input type="file" onChange={(e)=>{
+                                <input type="file" placeholder='选择修改' onChange={(e)=>{
                                     let form = new FormData()
                                     let files = e.target.files
                                     console.log(files);
@@ -105,16 +105,16 @@ const TeacherPersonCenter:FC = ()=>{
                                         for(let i=0; i<files.length; i++){
                                             form.append('file',files[i])
                                         }
-                                        personcenter.UpPhoto(form)
+                                        skill.UpPhoto(form)
                                     }
-
+                                    setIsModalVisible(false)
                                 }}/>
                                 <span>+</span>
                                 <span>-</span>
                                 <span>正转</span>
                                 <span>反转</span>
                             </div>
-                            <button onClick={()=>{setIsModalVisible(false)}}>提交</button>
+                            {/* <button onClick={()=>{setIsModalVisible(false)}}>提交</button> */}
                         </div>
                     </div>
             </div>:

@@ -90,9 +90,6 @@ const Postskill:FC = (props)=>{
     //头部发起请求 头像
     useEffect(() => { 
         skill.Gettoplist()
-        // skill.GetHeaderPhoto()
-        // console.log('123');
-        
     }, [])
 
     //表格发起请求
