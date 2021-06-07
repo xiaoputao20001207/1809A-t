@@ -9,6 +9,7 @@ import interviewManage from './modules/interviewManage'
 import rankList from './modules/rankList'
 import questionDetail from './modules/questionDetail'
 import questionhandle from './modules/questionhandle'
+import answerDetail from './modules/answerDetailManage'
 import need from './modules/need'
 import personcenter from './modules/personcenter'
 import logins from './modules/logins'
@@ -19,6 +20,7 @@ import plan from './modules/plan'
 import view from './modules/view'
 import addPlan from './modules/addPlan'
 import user from './modules/user'
+import { isComputedProp } from '_mobx@6.3.2@mobx'
 
 
 
@@ -30,6 +32,7 @@ export default{
     interviewManage,
     questionDetail,
     questionhandle,
+    answerDetail,
     need,
     personcenter,
     logins,
