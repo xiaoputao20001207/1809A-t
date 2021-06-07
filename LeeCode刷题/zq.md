@@ -1,4 +1,7 @@
 ## 练习
+- 0607
+    - [各数相加](https://leetcode-cn.com/problems/add-digits/solution/ge-wei-xiang-jia-by-eric-314-wz5y/)
+    - [丑数](https://leetcode-cn.com/problems/ugly-number/)
 - 0606
     - [快乐数](https://leetcode-cn.com/problems/happy-number/)
 - 0605
