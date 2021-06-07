@@ -1,5 +1,11 @@
 # 张琪
-- 06030
+- 0606
+    - [谈谈你对闭包的理解？](https://juejin.cn/post/6969835249920376846)
+- 0605
+    - [小程序（三）自定义组件与组件化](https://juejin.cn/post/6970278790375161870)
+- 0604
+    - [前端开发者需要知道的 package.json](https://juejin.cn/post/6969454249411837965)
+- 0603
     - [React Hooks 用法大全](https://www.cnblogs.com/owenma/p/12035619.html)
 - 0602
     - [SessionStorage, LocalStorage, Cookie区别？](https://juejin.cn/post/6969080485725077511)

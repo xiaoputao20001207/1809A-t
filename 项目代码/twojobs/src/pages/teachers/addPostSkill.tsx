@@ -3,6 +3,7 @@ import style from './addpost.less'
 import {Button, Form, Input, Select, Slider, Empty, message} from 'antd'
 import {SendOutlined, SaveOutlined} from '@ant-design/icons'
 import './addpost.css'
+import {classPlanItem} from '@/utils/interface'
 import useStore from "@/context/useStore";
 import {observer} from 'mobx-react-lite'
 import { ISkillAddItem } from "@/utils/interface";

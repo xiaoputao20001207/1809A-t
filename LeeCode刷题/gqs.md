@@ -1,5 +1,18 @@
 ## 郭乾升
-
+- 6.6
+  - [旋转数组](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2skh7/)
+  - [存在重复元素](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2skh7/)
+- 6.5
+  - [删除排序数组中的重复项](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2gy9m/)
+  - [买卖股票的最佳时机 II](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2zsx1/)
+- 6.4
+  - [实现 strStr()](https://leecode-cn.com/leetbook/read/array-and-string/cm5e2/)
+- 6.3
+  - [移除元素](https://leetcode-cn.com/leetbook/read/array-and-string/cwuyj/)
+  - [最大连续1的个数](https://leetcode-cn.com/leetbook/read/array-and-string/cd71t/)
+- 6.2
+  - [反转字符串](https://leetcode-cn.com/leetbook/read/array-and-string/cacxi/)
+  - [数组拆分](https://leetcode-cn.com/leetbook/read/array-and-string/c24he/)
 - 6.1
   - [只出现一次的数字](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x21ib6/)
   - [两个数组的交集 II](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2y0c2/)

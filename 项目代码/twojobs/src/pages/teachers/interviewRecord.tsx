@@ -68,21 +68,6 @@ const InterviewRecord:FC<IRouteComponentProps>=({location,history})=>{
     }
 
     return <div data-v-0759f553="" data-v-7178e8ae="" className="box_model">
-                <div data-v-0759f553="" className="breadcrumb_box">
-                    <div data-v-0759f553="" className="breadcrumb_list">
-                        <div aria-label="Breadcrumb" role="navigation" className="el-breadcrumb middle_text">
-                            <span className="el-breadcrumb__item">
-                                <span role="link" className="el-breadcrumb__inner is-link">面试</span>
-                                <span role="presentation" className="el-breadcrumb__separator">/</span>
-                            </span>
-                            <span className="el-breadcrumb__item" aria-current="page">
-                                <span role="link" className="el-breadcrumb__inner">面试记录详情</span>
-                                <span role="presentation" className="el-breadcrumb__separator">/</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
                 <div data-v-0759f553="" className="box_content">
                     <div data-v-0759f553="" className="baseinfo">
                         <div data-v-0759f553="" className="addProject_title top">

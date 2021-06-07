@@ -5,6 +5,7 @@ import { IRouteComponentProps } from 'umi'
 import { Iview } from '@/utils/interface';
 import { Progress, Table,Select } from 'antd'
 import { TeamOutlined, CheckCircleOutlined, FieldTimeOutlined } from '@ant-design/icons'
+import styles from './viewPlan.less'
 const { Option } = Select;
 
 const columns = [
@@ -64,81 +65,80 @@ const viewPlan: React.FC<IRouteComponentProps> = (props) => {
         view.getViewSortList(viewParams)
     },[id])
     
-    return <div>
-        <section>
-            进度/进度监控
-        </section>
-        <section>
-            <h4>{view.viewList.className}</h4>
-            <h3>{view.viewList.planname}</h3>
-            <p>{view.viewList.begintime}~{view.viewList.endtime}</p>
-        </section>
-        <h1 onClick={()=>{console.log(111)}}>点击打印</h1>
-        <div>
-            <Select placeholder='请选择' style={{ width: 120 }} onChange={handleChange}>
-                {
-                    view.selectClassPlan&&view.selectClassPlan.map((item,index)=>{
-                    return <Option key={item.id} value={item.planname}>{item.planname}</Option>
-                    })
-                }
-            </Select>
-        </div>
-        <section>
+    return <div className={styles.viewPlan}>
+        <div className={styles.context}>
+            <section className={styles.titleTwo}>
+                <h2>{view.viewList.className}</h2>
+                <h3>{view.viewList.planname}</h3>
+                <p>{view.viewList.begintime}~{view.viewList.endtime}</p>
+            </section>
             <div>
-                <p>{view.viewList.countStus}</p>
-                <p>总人数</p>
+                <Select className={styles.input} placeholder='请选择' style={{ width: 120 }} onChange={handleChange}>
+                    {
+                        view.selectClassPlan&&view.selectClassPlan.map((item,index)=>{
+                        return <Option key={index+'z'} value={item.planname}>{item.planname}</Option>
+                        })
+                    }
+                </Select>
             </div>
-            <div>
-                <p>{view.viewList.progress}%</p>
-                <p>完成率</p>
+            <section className={styles.box}>
+                <div>
+                    <p className={styles.one} style={{color: '#679cf6'}}>{view.viewList.countStus}</p>
+                    <p className={styles.two}>总人数</p>
+                </div>
+                <div>
+                    <p className={styles.one}>{view.viewList.progress}%</p>
+                    <p  className={styles.two}>完成率</p>
+                </div>
+                <div>
+                    <p className={styles.one} style={{color: '#3bc9a9'}}>{view.viewList.countCompleted}</p>
+                    <p className={styles.two}>按期完成人数</p>
+                </div>
+                <div>
+                    <p className={styles.one} style={{color: '#fc3535'}}>{view.viewList.countUncompleted}</p>
+                    <p className={styles.two}>延期未完成人数</p>
+                </div>
+            </section>
+            <div className={styles.list}>
+                <div className={styles.left}>
+                    {
+                        view.viewList.list && view.viewList.list.map((item,index) => {
+                            return <div key={index+'12548'}>
+                                <button className={styles.button} onClick={()=>setisshow(!isshow)}>{isshow?'收起':'展开'}</button>
+                                {isshow&&<div>
+                                <p style={{width:'100px',marginTop:'30px',marginLeft:'20px',fontSize:'25px'}}>{item.groupname}</p>
+                                <div><Progress percent={item.groupProgress} status="active" /></div>
+                                <p className={styles.person}>
+                                    <span><TeamOutlined />人员：{item.members}</span>
+                                    <span><CheckCircleOutlined />按期完成：{item.finished}</span>
+                                    <span><FieldTimeOutlined />延期未完成：{item.unfinished}</span>
+                                </p>
+                                <p className={styles.gogogo}>
+                                    <span><span style={{display:'inline-block',width:'5px',height:'5px',borderRadius:'50%',background:'#3bc9a9',marginRight:'5px'}}></span>完成</span>
+                                    <span><span style={{display:'inline-block',width:'5px',height:'5px',borderRadius:'50%',background:'#ffa841',marginRight:'5px'}}></span>进行中</span>
+                                    <span><span style={{display:'inline-block',width:'5px',height:'5px',borderRadius:'50%',background:'#e6ebf5',marginRight:'5px'}}></span>未进行</span>
+                                </p>
+                                <Table rowKey='item.id' columns={columns} dataSource={item.stuList} />
+                                </div>
+                                }
+                            </div>
+                        })
+                    }
+                </div>
+                <div className={styles.right}>
+                    <h3>班级排行</h3>
+                    {
+                        view.viewSortList.length && view.viewSortList.map((item, index) => {
+                            return <div className={styles.sortList} key={index+'aa'}>
+                                    <span>{index<=2?'TOP.'+Number(index+1):Number(index+1)}</span><img className={styles.image} src={item.studentUrl} alt="" />
+                                    <p><span>{item.username}</span><span>{Number(item.taskCompletedpProgress) * 100}%</span></p>
+                                    <p><span>{item.groupname}</span><span>{item.endtime}</span></p>
+                                
+                            </div>
+                        })
+                    }
+                </div>
             </div>
-            <div>
-                <p>{view.viewList.countCompleted}</p>
-                <p>按期完成人数</p>
-            </div>
-            <div>
-                <p>{view.viewList.countUncompleted}</p>
-                <p>延期未完成人数</p>
-            </div>
-        </section>
-        <div className='view-left'>
-            {
-                view.viewList.list && view.viewList.list.map((item,index) => {
-                    return <div key={index}>
-                        <button onClick={()=>setisshow(!isshow)}>{isshow?'收起':'展开'}</button>
-                        {isshow&&<div>
-                        <p>{item.groupname}</p>
-                        <p><Progress percent={item.groupProgress} status="active" /></p>
-                        <p>
-                            <span><TeamOutlined />人员：{item.members}</span>
-                            <span><CheckCircleOutlined />按期完成：{item.finished}</span>
-                            <span><FieldTimeOutlined />延期未完成：{item.unfinished}</span>
-                        </p>
-                        <p>
-                            <span>完成</span>
-                            <span>进行中</span>
-                            <span>未进行</span>
-                        </p>
-                        <Table rowKey='id' columns={columns} dataSource={item.stuList} />
-                        </div>
-                        }
-                    </div>
-                })
-            }
-        </div>
-        <div className='view-right'>
-            <h3>班级排行</h3>
-            {
-                view.viewSortList && view.viewSortList.map((item, index) => {
-                    return <div key={index+'aa'}>
-                        <div><img src='' alt="" /></div>
-                        <div>
-                            <p><span>{item.username}</span><span>{Number(item.taskCompletedpProgress) * 100}%</span></p>
-                            <p><span>{item.groupname}</span><span>{item.endtime}</span></p>
-                        </div>
-                    </div>
-                })
-            }
         </div>
     </div>
 }

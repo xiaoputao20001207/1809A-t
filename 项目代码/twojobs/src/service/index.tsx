@@ -1,6 +1,14 @@
 //抛出skill全部接口
 export * from './modules/skill'
 
+//添加页面脚部markdown
+export * from './modules/description'
+
+//实训答辩
+export * from './modules/defence'
+//抛出skill全部接口
+export * from './modules/skill'
+
 //抛出interviewList全部接口
 export * from './modules/interviewList'
 
@@ -29,9 +37,9 @@ export * from './modules/logins'
 
 //项目
 export * from './modules/proSkill'
-export * from './modules/planList'
+export * from './modules/planListAll'
 export * from './modules/addPlan'
-
+export * from './modules/planList'
 //计划页面接口
 export * from './modules/view'
 

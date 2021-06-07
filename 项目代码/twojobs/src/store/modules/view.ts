@@ -19,8 +19,10 @@ class view {
         // if(result.data){
         //     this.viewSortList=result.data
         // }
-        console.log(result)
-        this.viewSortList=result.data
+        console.log('viewSortList+++++++++',result)
+        this.viewSortList=result.data.map((item:IViewSortList)=>{
+            return {...item,studentUrl:'http://111.203.59.61:8060'+item.studentUrl}
+        })
     }
     selectClassPlan:ISelectClassPlan[]=[]
     async getselectClassPlan(){
