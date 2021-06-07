@@ -28,7 +28,7 @@ class Personcenter{
 
     //修改基本资料
     async changeOwnPage(email:string,phonenumber:string,userName:string){
-        await changeOwnPage({...this.personMessage,email,phonenumber,userName})
+      return await changeOwnPage({...this.personMessage,email,phonenumber,userName})
     }
 
     //关闭

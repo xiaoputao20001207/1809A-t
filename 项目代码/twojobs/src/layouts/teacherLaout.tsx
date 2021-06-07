@@ -1,5 +1,5 @@
-import { Layout } from 'antd'
-import React, { useEffect } from 'react'
+import { Layout, Modal, Button } from 'antd'
+import React, { useEffect, useState } from 'react'
 import './teacher.css'
 import { NavLink, history, useIntl } from 'umi'
 import { Popover,  Badge, Spin, Select } from 'antd';
@@ -29,7 +29,9 @@ import Breadcrumb from '@/components/breadCrumb'
       'en':'en-US',
       'en-US':'en-US'
   }
+  const [isModalVisible, setIsModalVisible] = useState(false);
 
+  //国际化 - 懒加载
     useEffect(() => {
         setTimeout(() => {
           global.hideLoading()
@@ -40,6 +42,23 @@ import Breadcrumb from '@/components/breadCrumb'
         }
     }, [])
 
+    //退出显示弹框
+    const showModal = () => {
+      setIsModalVisible(true);
+    };
+    
+    //退出确认弹框
+    const handleOk = () => {
+      setIsModalVisible(false);
+         personcenter.exit()
+          history.replace('/login')
+    };
+
+    //退出取消弹框
+    const handleCancel = () => {
+      setIsModalVisible(false);
+    };
+    
     return <Layout>
          
           <Header>
@@ -103,13 +122,13 @@ import Breadcrumb from '@/components/breadCrumb'
             <div style={{float:'right',marginRight:'100px',height:'50px'}}>
             <Popover  placement="bottomRight" content={
                         <div style={{width:'300px'}}>
-                        <h2 style={{borderBottom:'1px solid #ccc',padding:'10px 0'}}><b>待办事项</b></h2>
-                        {
-                          need.needTabList && need.needTabList.map(item=>{
-                            return <p><NavLink to="" key={1}></NavLink></p>
-                          })
-                        }
-                        <p style={{textAlign:"center"}}><NavLink to="/teachers/needHandle"> <span style={{color:'grey'}} >查看全部</span> </NavLink></p>
+                          <h2 style={{borderBottom:'1px solid #ccc',padding:'10px 0'}}><b>待办事项</b></h2>
+                          {
+                            need.needTabList && need.needTabList.map(item=>{
+                              return <p><NavLink to="" key={1}></NavLink></p>
+                            })
+                          }
+                          <p style={{textAlign:"center"}}><NavLink to="/teachers/needHandle"> <span style={{color:'grey'}} >查看全部</span> </NavLink></p>
                       </div>}
                     trigger="hover">
               <Badge count={2}  style={{marginTop:"15px",position:'absolute',top:'-30px',right:'5px'}}>
@@ -121,15 +140,10 @@ import Breadcrumb from '@/components/breadCrumb'
                 <div style={{width:'100px'}}>
                     <p><NavLink to="/teachers/teacherPersonCenter"> <UserOutlined style={{color:'grey'}}/> <span>个人中心</span></NavLink></p>
                     <p><NavLink to="/teachers/needHandle"> <ProfileOutlined style={{color:'grey'}}/> <span> 我的代办</span> </NavLink></p>
-                    <p onClick={e=>{
-                        if(confirm('确定注销并退出系统吗？')){
-                          personcenter.exit()
-                          history.replace('/login')
-                          
-                        }else{
-                          console.log('已取消');
-                        }
-                    }}> <LogoutOutlined style={{color:'grey'}}/> <a >退出</a></p>
+                    <p  onClick={showModal}> <LogoutOutlined style={{color:'grey'}}/> <a >退出</a></p>
+                    <Modal title="Basic Modal" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
+                        <p>确定注销并退出系统吗?</p>
+                    </Modal>
                 </div>} 
               trigger="hover">
               
@@ -140,10 +154,13 @@ import Breadcrumb from '@/components/breadCrumb'
               </Popover>
            </div>
         </Header>
-        <Breadcrumb></Breadcrumb>
-        <Spin spinning={global.isLoading}>
-          <Content>{props.children}</Content>
-        </Spin>
+        {/* 面包屑 */}
+        <Breadcrumb>
+          {/* {intl.formatMessage({id:'header.interview-the interview records'})}  */}
+        </Breadcrumb>
+          <Spin spinning={global.isLoading}>
+            <Content>{props.children}</Content>
+          </Spin>
         <Footer>
             <div data-v-01b3f466="" data-v-7178e8ae="" className="bw_bottom">
                 <div data-v-01b3f466="" className="b_b_detail">

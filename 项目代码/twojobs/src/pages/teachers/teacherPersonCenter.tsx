@@ -1,5 +1,5 @@
-import { observer } from 'mobx-react-lite'
 import React,{FC, useEffect, useState} from 'react'
+import { observer } from 'mobx-react-lite'
 import './teacherPersonCenter.css'
 import {UserOutlined, MailOutlined, MobileOutlined} from '@ant-design/icons'
 import {Tabs, Form, Input, Radio, Button, message, Modal, } from 'antd'
@@ -30,24 +30,31 @@ const TeacherPersonCenter:FC = ()=>{
         let email = value.email;
         let phonenumber = value.phonenumber;
         let userName = value.userName;
-        personcenter.changeOwnPage(email,phonenumber,userName)
+        personcenter.changeOwnPage(email,phonenumber,userName).then(res=>{
+            message.success(res.msg,1)
+        })
     }
 
     //修改密码
     function onFinishpwd(value:any){
+
         let oldPassword = value.oldPassword
         let newPassword = value.newPassword
 
         if(/^\d{6}/.test(value.password) && /^\d{6}/.test(value.oldPassword) && /^\d{6}/.test(value.newPassword)){
             if(value.newPassword === value.password){
                 personcenter.changePassword(oldPassword,newPassword).then(res=>{
-                   if(res.code===500){
+                    //console.log(res);
+                    
+                   if(res.code === 500){
                         message.error(res.msg,2)
                    }else{
                        message.success(res.msg,2)
                    }
                    
+
                 })
+               
             }
         }else{
             message.error('输入有误字段小于6个字符',2)
@@ -67,30 +74,30 @@ const TeacherPersonCenter:FC = ()=>{
             {
                 isModalVisible?
                 <div className='mask' style={{width:'100%',height:'100%',background:'rgba(0,0,0,0.5)',position:'fixed',top:'0',left:'0',zIndex:999999}}>
-                <div className='mask-son'>
-                    <h2>
-                        <span>修改头像</span> 
-                        <span style={{color:'rgb(94, 94, 94)',padding:'0 10px'}} onClick={()=>setIsModalVisible(false)}>X</span> 
-                    </h2>
-                    <div className='mask-center'>
-                        <div className='mask-left'>
+                    <div className='mask-son'>
+                        <h2>
+                            <span>修改头像</span> 
+                            <span style={{color:'rgb(94, 94, 94)',padding:'0 10px'}} onClick={()=>setIsModalVisible(false)}>X</span> 
+                        </h2>
+                        <div className='mask-center'>
+                            <div className='mask-left'>
 
+                            </div>
+                            <div className='mask-right'>
+
+                            </div>
                         </div>
-                        <div className='mask-right'>
-
+                        <div className='mask-bottom'>
+                            <div>
+                                <input type="file"/>
+                                <span>+</span>
+                                <span>-</span>
+                                <span>正转</span>
+                                <span>反转</span>
+                            </div>
+                            <button>提交</button>
                         </div>
                     </div>
-                    <div className='mask-bottom'>
-                        <div>
-                            <input type="file"/>
-                            <span>+</span>
-                            <span>-</span>
-                            <span>正转</span>
-                            <span>反转</span>
-                        </div>
-                        <button>提交</button>
-                    </div>
-                </div>
             </div>:
             null
             }
@@ -171,11 +178,12 @@ const TeacherPersonCenter:FC = ()=>{
                                         onFinish={onFinishpwd}
                                         >
                                             <Form.Item
+                                                // hidden={true}
                                                 label="旧密码"
                                                 name="oldPassword"
                                                 rules={[{ required: true, message: 'Please input your old password!' }]}
                                                 style={{ marginTop:'16px', width:'700px',height:'36px'}}>
-                                                <Input  style={{lineHeight:'26px'}}/>
+                                                <Input.Password  style={{lineHeight:'26px'}}/>
                                             </Form.Item>
 
                                             <Form.Item
@@ -183,7 +191,7 @@ const TeacherPersonCenter:FC = ()=>{
                                                 label="新密码"
                                                 name="newPassword"
                                                 rules={[{ required: true, message: 'Please input your new password!' }]}>
-                                                <Input style={{lineHeight:'26px'}} />
+                                                <Input.Password style={{lineHeight:'26px'}} />
                                             </Form.Item>
 
                                             <Form.Item
@@ -191,7 +199,7 @@ const TeacherPersonCenter:FC = ()=>{
                                                 label="确认密码"
                                                 name="password"
                                                 rules={[{ required: true, message: 'Please input your password!' }]}>
-                                                <Input style={{lineHeight:'26px'}}/>
+                                                <Input.Password style={{lineHeight:'26px'}}/>
                                             </Form.Item>
                                                  
                                             <Form.Item>
