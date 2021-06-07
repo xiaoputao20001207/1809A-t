@@ -1,5 +1,5 @@
 # zq
-- 0606
+- 06060
     - [vue 和react 语法差异之处](https://juejin.cn/post/6970075421522001928)
 - 0605
     - [js - 了解一下this](https://juejin.cn/post/6969985606709428232)
