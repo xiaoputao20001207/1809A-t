@@ -8,7 +8,7 @@
 - 6.4
   - [实现 strStr()](https://leecode-cn.com/leetbook/read/array-and-string/cm5e2/)
 - 6.3
-  - [移除元素](https://leetcode-cn.com/leetbook/read/array-and-string/cwuyj/)
+  - [移除元素.](https://leetcode-cn.com/leetbook/read/array-and-string/cwuyj/)
   - [最大连续1的个数](https://leetcode-cn.com/leetbook/read/array-and-string/cd71t/)
 - 6.2
   - [反转字符串](https://leetcode-cn.com/leetbook/read/array-and-string/cacxi/)
