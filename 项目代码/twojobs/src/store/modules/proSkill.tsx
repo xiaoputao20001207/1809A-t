@@ -1,4 +1,4 @@
-import {  Gettoplist1 ,GetListDairnItem, Gettoplist2, DelItem, EditorDetail} from '@/service';
+import {  Gettoplist1 ,GetListDairnItem, Gettoplist2, DelItem, EditorDetail, getImg} from '@/service';
 import { Addpro, Imohu, ISkilldairn, ISkilldairnObj } from '@/utils/interface';
 import { makeAutoObservable } from 'mobx';
 
@@ -6,6 +6,8 @@ class proSkill {
   constructor() {
     makeAutoObservable(this);
   }
+  //上传图片
+  ProjectDetailImg: string = '';
   //表格数据
   setdataSource:ISkilldairnObj[]=[]
   //定义类型
@@ -84,5 +86,11 @@ class proSkill {
        console.log(result);
      }
    }
+     //上传图片
+     async addProjectImg(data: any) {
+      let result = await getImg(data);
+      if (result.url)
+          this.ProjectDetailImg = result.url
+  }
 }
 export default new proSkill();

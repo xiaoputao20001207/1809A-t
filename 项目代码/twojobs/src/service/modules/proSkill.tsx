@@ -59,3 +59,10 @@ export let saveTrainingSyllabusList=()=>{
 export let getProjectResources = () => {
   return request('/sxpt/projectResource/selectResourceTree')
 }
+//上传图片
+export let getImg = (data: any) => {
+  return request('/common/upload', {
+      method: 'POST',
+      data
+  })
+}

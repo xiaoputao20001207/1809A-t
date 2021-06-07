@@ -14,6 +14,7 @@ import {
   Radio,
   message,
   Table,
+  Modal
 } from 'antd';
 import {
   WalletTwoTone,
@@ -54,14 +55,14 @@ const { SubMenu } = Menu;
 const addProject: React.FC<IRouteComponentProps> = ({ history, location }) => {
   const tab = ['实训大纲', '实训任务', '项目资源', '实训环境', '前置项目'];
 
-  const tabs=[1,2,3,4]
-  const tabList=[
+  const tabs = [1, 2, 3, 4];
+  const tabList = [
     {
-      tabs:"tabs",
-      jia:"＋",
-      jian:"－"
+      tabs: 'tabs',
+      jia: '＋',
+      jian: '－',
     },
-  ]
+  ];
   //实训大纲
   let [TrainingSyllabus, setTrainingSyllabus] = useState<
     TrainingSyllabusList[]
@@ -149,11 +150,11 @@ const addProject: React.FC<IRouteComponentProps> = ({ history, location }) => {
               {TrainingSyllabus.map((item, index) => {
                 return (
                   <SubMenu key={index} title={item.label}>
-                    {item.children.map((_item1: any) => {
+                    {/* {item.children.map((_item1: any) => {
                       return (
                         <Menu.Item key={_item1.value}>{_item1.label}</Menu.Item>
                       );
-                    })}
+                    })} */}
                   </SubMenu>
                 );
               })}
@@ -301,34 +302,33 @@ const addProject: React.FC<IRouteComponentProps> = ({ history, location }) => {
           </div>
           <div>
             <p style={{ marginLeft: '400px' }}>添加与新项目关联的项目</p>
-          {
-            tabList.map((item,index)=>{
-              return <div
-              key={index}
-              style={{
-                width: '1000px',
-                marginLeft: '400px',
-                marginBottom: '50px',
-              }}
-            >
-              <Cascader
-                style={{ width: '300px' }}
-                placeholder="Please select"
-              />
-              <span onClick={()=>jia(item)}>{item.jia}</span>
-              <span>{item.jian}</span>
-            </div>
-            })
-          }
+            {tabList.map((item, index) => {
+              return (
+                <div
+                  key={index}
+                  style={{
+                    width: '1000px',
+                    marginLeft: '400px',
+                    marginBottom: '50px',
+                  }}
+                >
+                  <Cascader
+                    style={{ width: '300px' }}
+                    placeholder="Please select"
+                  />
+                  <span onClick={() => jia(item)}>{item.jia}</span>
+                  <span>{item.jian}</span>
+                </div>
+              );
+            })}
           </div>
         </div>
       </TabPane>
     </Tabs>
   );
-  function jia(item:any){
-    tabList.push(item)
+  function jia(item: any) {
+    tabList.push(item);
     console.log(tabList);
-    
   }
   //定义方法
   const [name, setname] = useState('');
@@ -431,8 +431,22 @@ const addProject: React.FC<IRouteComponentProps> = ({ history, location }) => {
   useEffect(() => {
     if (versionId) {
       proSkill.EditorDetail(versionId);
+      console.log(proSkill.detailList);
+      
     }
   }, [versionId]);
+      //上传图片
+      const [isModalVisible, setIsModalVisible] = useState(false);
+      const showModal = () => {
+          setIsModalVisible(true);
+      };
+      const handleOk = () => {
+          setIsModalVisible(false);
+      };
+  
+      const handleCancel = () => {
+          setIsModalVisible(false);
+      };
   return (
     <div className="cww_project_box">
       <div className="shen">
@@ -453,7 +467,13 @@ const addProject: React.FC<IRouteComponentProps> = ({ history, location }) => {
             <span className="cww_one_s1">
               <b>基本信息</b>
             </span>{' '}
-            <span
+                 {
+                  versionId || id1 ? 
+                  <span
+              className="cww_one_s2"
+                  >
+                    <WalletTwoTone />
+                    编辑</span>:<span
               className="cww_one_s2"
               onClick={() => {
                 if (
@@ -469,7 +489,7 @@ const addProject: React.FC<IRouteComponentProps> = ({ history, location }) => {
                     majorId: '',
                     majorStationList: majorStationList,
                     name: name,
-                    pictureUrl: imageUrl,
+                    pictureUrl: isModalVisible,
                     showUrl: shpwUrl,
                     stationId: '',
                     subjectTime: 1,
@@ -482,10 +502,10 @@ const addProject: React.FC<IRouteComponentProps> = ({ history, location }) => {
                     message.success('添加成功', 1, () => {
                       history.replace(
                         `/teachers/addProject?VersionId=${id1}&proId=${id2}&see=false`,
-                        );
-                        setversionId((id1 = ok.data.versionId));
-                        setId((id2 = ok.data.id));
-                        proSkill.EditorDetail(id1)
+                      );
+                      setversionId((id1 = ok.data.versionId));
+                      setId((id2 = ok.data.id));
+                      proSkill.EditorDetail(id1);
                     });
                   });
                 } else {
@@ -495,8 +515,9 @@ const addProject: React.FC<IRouteComponentProps> = ({ history, location }) => {
             >
               {' '}
               <WalletTwoTone />
-              {versionId || id1 ? '编辑' : '保存'}
+              保存
             </span>
+   }
           </div>
           <div className="cww_two">
             <div className="cww_two_one">
@@ -609,27 +630,44 @@ const addProject: React.FC<IRouteComponentProps> = ({ history, location }) => {
                   <FullscreenOutlined /> <b>封面</b>
                 </div>
                 <div className="cww_two_san_two">
-                  {/* {versionId||id1?<span><img src={proSkill.detailList.pictureUrl} alt="" /></span>: */}
-                  <Upload
-                    name="avatar"
-                    listType="picture-card"
-                    className="avatar-uploader"
-                    showUploadList={false}
-                    action="https://www.mocky.io/v2/5cc8019d300000980a055e76"
-                    beforeUpload={beforeUpload}
-                    onChange={handleChange}
-                    style={{ width: '100%', height: '100%', padding: '100px' }}
+                  {proSkill.ProjectDetailImg ? (
+                    // 详情页自带图片
+                    <img
+                      src={`http://111.203.59.61:8060${proSkill.ProjectDetailImg}`}
+                      alt=""
+                      onClick={showModal}
+                      style={{width:"100%",height:"100%"}}
+                    />
+                  ) : (
+                    // 添加后的图片
+                    <img
+                      src={`http://111.203.59.61:8060${proSkill.detailList.pictureUrl}`}
+                      alt=""
+                      onClick={showModal}
+                      style={{width:"100%",height:"100%"}}
+                    />
+                  )}
+                  <Modal
+                    title="上传封面"
+                    visible={isModalVisible}
+                    onOk={handleOk}
+                    onCancel={handleCancel}
                   >
-                    {imageUrl ? (
-                      <img
-                        src={imageUrl}
-                        alt="avatar"
-                        style={{ width: '100%' }}
-                      />
-                    ) : (
-                      uploadButton
-                    )}
-                  </Upload>
+                    <Input
+                      type="file"
+                      onChange={(e) => {
+                        let form = new FormData();
+                        let files = e.target.files;
+                        if (files) {
+                          for (let i = 0; i < files.length; i++) {
+                            form.append('file', files[i]);
+                          }
+                          console.log(form);
+                          proSkill.addProjectImg(form);
+                        }
+                      }}
+                    />
+                  </Modal>
                   {/* } */}
                 </div>
                 <div className="cww_two_san_san">
