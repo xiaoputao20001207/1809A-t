@@ -10,6 +10,12 @@ import need from '@/store/modules/need';
 import { getLocale, setLocale } from '@/.umi/plugin-locale/localeExports';
 import Breadcrumb from '@/components/breadCrumb'
 
+// var thisPage=false;
+// window.onbeforeunload=function checkLeave(e : any){
+//  var evt = e ? e : (window.event ? window.event : null);        //此方法为了在firefox中的兼容
+//     if(!thisPage)evt.returnValue='离开会使编写的内容丢失。';
+// }
+
   const { Header, Content, Footer } = Layout
 
   const TeacherLayout: React.FC = (props) => {

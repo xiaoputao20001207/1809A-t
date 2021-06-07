@@ -37,6 +37,7 @@ export const request: RequestConfig = {
   }],
   //响应拦截器
   responseInterceptors: [async (response,options) => {
+    console.log(response,options,location)
     // console.log(response,options)
     let data = {code:200,msg:''};
 
@@ -77,6 +78,9 @@ export const request: RequestConfig = {
 
     
   //登录时间提醒
+  if(window.location.pathname=='/login'){
+    localStorage.clear()
+  }else{
     let endtime = + new Date()
     let starttime =JSON.parse( localStorage.getItem('starttime') as string)
     let result = endtime-starttime
@@ -92,6 +96,8 @@ export const request: RequestConfig = {
       localStorage.setItem('starttime',JSON.stringify(+ new Date()))
 
     }
+  }
+    
     return response;
   }],
 };
