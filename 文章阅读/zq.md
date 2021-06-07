@@ -1,5 +1,18 @@
 # 张琪
-<<<<<<< HEAD
+- 0606
+    - [谈谈你对闭包的理解？](https://juejin.cn/post/6969835249920376846)
+- 0605
+    - [小程序（三）自定义组件与组件化](https://juejin.cn/post/6970278790375161870)
+- 0604
+    - [前端开发者需要知道的 package.json](https://juejin.cn/post/6969454249411837965)
+- 0603
+    - [React Hooks 用法大全](https://www.cnblogs.com/owenma/p/12035619.html)
+- 0602
+    - [SessionStorage, LocalStorage, Cookie区别？](https://juejin.cn/post/6969080485725077511)
+- 0601
+    - [手把手带你10分钟手撸一个简易的Markdown编辑器](https://juejin.cn/post/6968632189894262791)
+- 0531 
+    - [为什么要使用 async/await ？](https://juejin.cn/post/6967000766032658440)
 - 0530
     - [一份工作4年前端的Git备忘指南](https://juejin.cn/post/6967634683811069982)
 - 0529
@@ -12,12 +25,13 @@
 - 0526
     - [JS常用的循环遍历你会几种](https://juejin.cn/post/6966390357005172773)
     - [ReactDOM.render的渲染原理（理解）](https://juejin.cn/post/
->>>>>>> 719f29d456929dec0d38ae8f0df02c612fd1c462
-=======
+
 -05260
     - [JS常用的循环遍历你会几种](https://juejin.cn/post/6966390357005172773)
     - [ReactDOM.render的渲染原理（理解）](https://juejin.cn/post/
->>>>>>> 70ceacff330bf4207b990c63f251a3b4bd5c1408
+-05260
+    - [JS常用的循环遍历你会几种](https://juejin.cn/post/6966390357005172773)
+    - [ReactDOM.render的渲染原理（理解）](https://juejin.cn/post/
 - 0525
     - [这些原生DOM操作你还记住多少](https://juejin.cn/post/6966062224892756005)
     - [【js 进阶】全篇干货 ！一篇文章让你彻底弄懂栈、堆、队列、执行栈、上下文、事件循环（Event Loop）](https://juejin.cn/post/6966158666030383118)

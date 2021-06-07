@@ -1,8 +1,12 @@
-
+html,body,#root{
+    width: 100%;
+    height: 100%;
+}
 .login{
     width: 100%;
     height: 100%;
     position: relative;
+    
     background: url(http://111.203.59.61:8060/static/img/login-background.55b26da3.jpg);
     /* background-size: 100%; */
 }

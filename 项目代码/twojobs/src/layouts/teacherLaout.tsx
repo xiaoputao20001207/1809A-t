@@ -10,18 +10,25 @@ import need from '@/store/modules/need';
 import { getLocale, setLocale } from '@/.umi/plugin-locale/localeExports';
 import Breadcrumb from '@/components/breadCrumb'
 
+// var thisPage=false;
+// window.onbeforeunload=function checkLeave(e : any){
+//  var evt = e ? e : (window.event ? window.event : null);        //此方法为了在firefox中的兼容
+//     if(!thisPage)evt.returnValue='离开会使编写的内容丢失。';
+// }
+
   const { Header, Content, Footer } = Layout
 
   const TeacherLayout: React.FC = (props) => {
-    let {personcenter,global} = useStore()
+
+  let {personcenter,global} = useStore()
   
     //实例化
-    const intl = useIntl();
+  const intl = useIntl();
 
-    const enLanguage:{[key:string]:string} = {
-        'en':'en-US',
-        'en-US':'en-US'
-    }
+  const enLanguage:{[key:string]:string} = {
+      'en':'en-US',
+      'en-US':'en-US'
+  }
 
     useEffect(() => {
         setTimeout(() => {
@@ -49,11 +56,11 @@ import Breadcrumb from '@/components/breadCrumb'
                 })
               }</NavLink>
             <Popover placement="bottomLeft" content={ <div style={{width:'100px'}}>
-                        <p> <NavLink to="/teachers/planList">{intl.formatMessage({id:'header.training-plan'})}</NavLink></p>
+                          <p> <NavLink to="/teachers/planList">{intl.formatMessage({id:'header.training-plan'})}</NavLink></p>
                           <p><NavLink to="/teachers/viewPlan">{intl.formatMessage({id:'header.training-progress'})}</NavLink></p>
                           <p><NavLink to="/teachers/defence">{intl.formatMessage({id:'header.training-plea'})}</NavLink></p>
-                          <p><NavLink to="/teachers/planListManage">计划(管理)</NavLink></p>
-                        </div>} trigger="hover">
+                          <p><NavLink to="/teachers/planListManage">{intl.formatMessage({id:'header.training-plan-management'})}</NavLink></p>
+                      </div>} trigger="hover">
               <a>
               {
                 intl.formatMessage({

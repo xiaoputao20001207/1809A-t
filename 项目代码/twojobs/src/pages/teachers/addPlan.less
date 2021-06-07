@@ -1,4 +1,7 @@
 :local{
+    .body{
+        background: #ddd;
+    }
     .addPlan,html,body{
         width: 100%;
         height: 100%;
@@ -10,6 +13,8 @@
             position: absolute;
             left: 0;
             top: 0;
+            display: flex;
+            
             .bounced{
                 width: 400px;
                 height: 400px;
@@ -20,9 +25,307 @@
                 bottom: 0;
                 margin: auto;
                 background: #fff;
+                overflow-y: auto;
+            }
+        
+        }
+        .maskbox1{
+            width: 100%;
+            height: 500px;
+            background: rgba(0,0,0,0.5);
+            position: absolute;
+            left: 0;
+            top: 0;
+            .bounced1{
+                width: 550px;
+                height: 450px;
+                border-radius: 10px;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background: #fff;
+                overflow: hidden;
+                .leftList{
+                    float: left;
+                    width: 50%;
+                    height: 100%;
+                    .allYes{
+                        width: 70%;
+                        height: 10%;
+                        font-size: 17px;
+                        background: rgba(178, 183, 198, 0.1);
+                        margin-left: 20px;
+                    }
+                    .ulList{
+                        width: 70%;
+                        height: 60%;
+                        overflow-y: auto;
+                        box-sizing: inherit;
+                        color: #606266;
+                        background: rgba(178, 183, 198, 0.1);
+                        margin-left: 20px;
+                        font-size: 14px;
+                        word-break: break-all;
+                        & li{
+                            width: 100%;
+                            margin-right: 0 !important;
+                            margin-bottom: 25px;
+                            display: -webkit-box;
+                            display: -ms-flexbox;
+                            display: flex;
+                            -webkit-box-align: center;
+                            -ms-flex-align: center;
+                            align-items: center;
+                            &>input{
+                                margin-top: -10px;
+                                margin-right: 5px;
+                                margin-left: 5px;
+                            }
+                            &>div{
+                                margin-top: -10px;
+                                margin-left: 5px;
+                                margin-right: 5px;
+
+                            }
+                        }
+                    }
+                }
+                .rightList{
+                    width: 50%;
+                    height: 80%;
+                    float: left;
+                    .createTeam{
+                        width: 85%;
+                        height:36px;
+                        line-height: 36px;
+                        text-align: center;
+                        border: 1px solid #b2b7c6;
+                        cursor: pointer;
+                        font-size: 15px;
+                        background: rgba(178, 183, 198, 0.1);
+                        .iconAdd{
+                            color: #606266;
+                            margin-right: 10px;
+                            margin-top: 3px;
+                        }
+                    }
+                    .ulList1{
+                        width: 85%;
+                        height: 60%;
+                        overflow-y: auto;
+                        box-sizing: inherit;
+                        color: #606266;
+                        font-size: 14px;
+                        word-break: break-all;
+                        margin-top: 5px;
+                        .teamTitle{width: 100%;
+                            height: 30px;
+                            display: flex;
+                            background-color:rgba(178, 183, 198, 0.1);
+                            padding-left: 30px;
+                            .iconAdd{
+                                color: #606266;
+                                margin-right: 10px;
+                                margin-top: 6px;
+                            }
+                        }
+                        .ulList1Ul{
+                            width: 100%;
+                            background: rgba(0,0,0,0.1);
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-around;
+                            & li{
+                                width: 30%;
+                                height: 60px;
+                                display: flex;
+                                flex-direction: column;
+                                position: relative;
+                                .iconRight{
+                                    position: absolute;
+                                    right: 20px;
+                                    top: 0;
+                                }
+                                img{
+                                    margin-bottom: 0px;
+                                }
+                            }
+                        }
+                        
+                    }
+                }
             }
         }
     }
+    .connect{
+        width: 1300px;
+        margin: 0 auto;
+        padding: 0 10px 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
     
+        .navTitle{
+            padding: 0 55px;
+            width: 100%;
+            height: 70px;
+            border-bottom: 1px solid rgba(178, 183, 198, 0.15);
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            background: #fff;
+            &{
+                div{
+                    width: 100%;
+                    height: 70px;
+                    border-bottom: 1px solid rgba(178, 183, 198, 0.15);
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #303849;
+                }
+                span{
+                    width: 3px;
+                    height: 19px;
+                    background: #679cf6;
+                    margin-right: 10px;
+                }
+            }
+        }
+        .con{
+            width: 100%;
+            padding: 40px 100px;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            background: #fff;
+            .floats{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: top;
+                width: 650px;
+                height: 60px;
+                .input{
+                    text-align: center;
+                    width: 80px;
+                }
+                
+            }
+            .team{
+                width: 80px;
+                line-height: 36px;
+                text-align: right;
+                vertical-align: middle;
+                float: left;
+                font-size: 14px;
+                color: #606266;
+                line-height: 40px;
+                padding: 0 12px 0 0;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                font-weight: 700;
+                margin-top: -7px;
+            }
+            .floatss{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: top;
+                width: 281px;
+                height: 60px;
+            }
+            .floatsss{
+                width: 300px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: top;
+                width: 319px;
+                height: 60px;
+            }
+            .button{
+                width: 300px;
+                display: flex;
+                justify-content: space-around;
+                height: 80px;
+                align-items: center;
+                margin-left: 65px;
+                .buttons{
+                    width: 120px;
+                    border-radius: 10px;
+                    height: 41px;
+                    font-size: 15px;
+                    
+                }
+            }
+        }
+    }
+    .inputs{
+        width: 200px;
+    }
     
+    .title{
+        width: 100%;
+        height: 80px;
+        background: #ddd;
+        font-size: 14px;
+        line-height: 80px;
+        &{
+            div{
+                margin-left: 60px;
+            }
+        }
+    }
+    .imgItem{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    .buttonGo{
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        margin-left: 15px;
+    }
+    .newaddPlanList{
+        width: 1280px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        background: #fff;
+        margin-top: 20px;
+        .h4{
+            height: 16px;
+            font-size: 18px;
+            font-weight: 500;
+            color: #303849;
+            line-height: 16px;
+            margin-bottom: 20px;
+            background:#fff;
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+        .jihua{
+            width: 100%;
+            height: 40px;
+            line-height: 40px;
+            border-bottom: 1px solid #eee;
+            span{
+                margin-left: 20px;
+                font-size: 16px;
+            }
+        }
+    }
 }

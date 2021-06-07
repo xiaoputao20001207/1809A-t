@@ -136,7 +136,54 @@ export interface Items{
   key:string
 }
 
-  //
+
+export interface questionDetailList {
+    isAsc: string
+    pageNum: number
+    pageSize: number
+    type: string
+    questionTitle?: string
+    quality?: string|number
+    authentication?: string|number
+    searchVal?: string
+  }
+  
+  export interface questionAnserItem {
+    answerId: string;
+    proId?: any;
+    taskId?: any;
+    stepId?: any;
+    qUserId: string;
+    qUserName: string;
+    qUserLevel?: any;
+    createTime: string;
+    taskName?: any;
+    rUserId?: any;
+    rUserName?: any;
+    rUserLevel?: any;
+    questionTitle: string;
+    questionContent: string;
+    answerCount: number;
+    favorCount?: any;
+    unSupportCount: number;
+    supportCount: number;
+    type?: any;
+    typeNum: string;
+    replyTime: string;
+    labels: any[];
+    avatar?: any;
+    replyContext?: any;
+    shield: number;
+    quality: number;
+    replyId?: any;
+    className?: any;
+    authentication: number;
+    collection: number;
+    supportUp?: any;
+    unsupportDown?: any;
+    supportUpB: boolean;
+    unsupportDownB: boolean;
+  }
   
   export interface IinterviewManageTableItem {
     interviewId: string;
@@ -233,32 +280,50 @@ export interface ISkilldairn {
   content?: any;
   proId?: any;
 }
-//添加
+//添加项目
 export interface Addpro{
-  trade:string;
-  name:string;
-  version:number;
-  majorStationList:string;
-  sxType:string;
-  subjectTime:number;
-  note:string;
-  pictureUrl:string;
-  showUrl:string;
-  versionId:string
+  description: string,
+  id: string,
+  knowledge: [],
+  majorId: string,
+  majorStationList:[""],
+  name: string,
+  pictureUrl: string,
+  showUrl: string,
+  stationId: string,
+  subjectTime: number,
+  sxType: string,
+  trade: [],
+  tradeId: string,
+  version: number,
+  versionId: string
+}
+//添加
+export interface Imohu{
+  specialtyTag?:string, 
+  industryTag?:string,
+   isAsc: string,
+  pageNum: number,
+  pageSize: number,
+  sxtype?: number|string,
+  status?: number|string,
+  proName?: string,
+  newProjectList: number,
+  versionId?: string,
 }
 //行业表格
 export interface ISkilldairnObj {
   id: string;
-  specialtyTag:string;
-  status: string;
+  specialtyTag:number;
+  status: number;
   searchTitle:string;
   isMyInfo:boolean;
   curDairn:number;
   industryTag:number;
   taskCount:number;
-  sxtype:string;
+  sxtype:number;
   proName:string,
-  newProjectList:string;
+  newProjectList:number;
 }
 
 interface RootObject {
@@ -316,6 +381,56 @@ export interface IPlanStatus {
   pageSize?: number;
 }
 export interface IPlanDetail {
+}
+//答辩表格数据
+export interface defenceTable {
+  defenceId: string;
+  degenceName: string;
+  defenceClassId?: any;
+  defencePlanId?: any;
+  defenceCreateTime: string;
+  defenceEndTime: string;
+  defenceStatus: number;
+  defenceMajorId?: any;
+  defenceAdress?: any;
+  className?: string;
+  planName?: string;
+  majorName?: string;
+  defenceAuthor: string;
+  defenceScore?: any;
+  defenceHistoryId?: any;
+  taskProgressId?: any;
+  scoreId?: any;
+  defenceRater?: any;
+  raterName?: any;
+  defenceAuthorName?: string;
+  avaScore?: any;
+  projectName?: any;
+  groupName?: any;
+  taskName?: any;
+  defenceGroupInfoList?: any;
+  defenceScoreList?: any;
+}
+//班级计划数据
+export interface classPlanItem {
+  value: string;
+  label: string;
+  parentId?: any;
+  children: Child[];
+  content?: any;
+  proId?: any;
+}
+
+interface Child {
+  value: string;
+  label: string;
+  parentId?: any;
+  children?: any;
+  content?: any;
+  proId?: any;
+}
+//小组数据
+export interface TeamItem {
   className: string;
   list: List[];
   stuRank?: any;
@@ -390,7 +505,7 @@ interface SProList {
   proname: string;
   length: string;
   taskList?: any;
-  sTaskList: STaskList[];
+  sTaskList: any[];
   taskCompletedCount?: any;
   taskCompletedpProgress?: any;
   beginTime: string;
@@ -432,16 +547,16 @@ interface Params {
 
 
 //添加项目
-export interface Addpro {
-  name: string;
-  version:number;
-  description: string;
-  majorStationChineseList:  string[];
-  tradeName: string|number;
-  type: sxtype[];
-  subjectTime: number,
-  pictureUrl:string
-}
+// export interface Addpro {
+//   name: string;
+//   version:number;
+//   description: string;
+//   majorStationChineseList:  string[];
+//   tradeName: string|number;
+//   type: sxtype[];
+//   subjectTime: number,
+//   pictureUrl:string
+// }
 interface sxtype{
   sxType:string,
   sxType1:string
@@ -499,7 +614,58 @@ export interface IAddPlanList {
   avatar: string;
   flag?:boolean;
   isMove?:boolean;
+  dist?:string;
 }
 
-interface Params {
+interface Params {}
+//登录
+export interface LoginParams{
+  code: string,
+  key: string,
+  password: string,
+  username: string,
+  uuid: string,
+}
+//答辩保存数据
+export interface SaveItem {
+  defenceAdress: string;
+  defenceAuthorName: string;
+  defenceClassId: string;
+  defenceCreateTime: string;
+  defenceEndTime: string;
+  defenceId: string;
+  defenceMajorId: string;
+  defencePlanId: string;
+  defenceScore: string;
+  degenceName: string;
+  majorList: string;
+}
+//去答辩数据
+export interface defenDetail {
+  defenceId: string;
+  degenceName: string;
+  defenceClassId: string;
+  defencePlanId: string;
+  defenceCreateTime: string;
+  defenceEndTime: string;
+  defenceStatus: number;
+  defenceMajorId: string;
+  defenceAdress: string;
+  className: string;
+  planName: string;
+  majorName: string;
+  defenceAuthor: string;
+  defenceScore?: any;
+  defenceHistoryId?: any;
+  taskProgressId?: any;
+  scoreId?: any;
+  defenceRater?: any;
+  raterName?: any;
+  defenceAuthorName: string;
+  avaScore?: any;
+  projectName?: any;
+  groupName?: any;
+  taskName?: any;
+  defenceGroupInfoList?: any;
+  defenceScoreList?: any;
 }

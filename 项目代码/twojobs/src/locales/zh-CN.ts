@@ -3,11 +3,12 @@ export default {
     'header.training-plan':'计划',
     'header.training-progress':'进度',
     'header.training-plea':'答辩',
+    'header.training-plan-management':'计划(管理)',
 
     'header.interview':'面试',
-    'header.interview-the interview records':'面试记录',//
-    'header.interview-interview Record Management':'面试管理记录',//
-    'header.interview-interview leaderboard':'面试排行榜',//
+    'header.interview-the interview records':'面试记录',
+    'header.interview-interview Record Management':'面试管理记录',
+    'header.interview-interview leaderboard':'面试排行榜',
 
     'header.question':'问答',
     'header.question-list':'问答列表',

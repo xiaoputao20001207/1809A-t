@@ -5,6 +5,10 @@ import { FC } from "react"
 import { Tabs ,Table} from 'antd';
 import rankList from "@/store/modules/rankList";
 import useStore from "@/context/useStore"
+import style from "./rankList.less"
+import classNames from 'classnames';
+import "./rankList.css"
+
 
 const { TabPane } = Tabs;
 
@@ -46,7 +50,7 @@ const RankList:FC=()=>{
     const {rankList} =useStore()
     const [RecordRanking,setRecordRanking] = useState([]) //面试记录榜单
     const [AnswerRecordRanking,setAnswerRecordRanking] = useState([]) //面试记录榜单
-
+    const [curId,setCurId]= useState(0)
     // const 
     useEffect(()=>{
         //请求班级数据

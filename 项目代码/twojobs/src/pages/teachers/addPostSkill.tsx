@@ -3,6 +3,7 @@ import style from './addpost.less'
 import {Button, Form, Input, Select, Slider, Empty, message} from 'antd'
 import {SendOutlined, SaveOutlined} from '@ant-design/icons'
 import './addpost.css'
+import {classPlanItem} from '@/utils/interface'
 import useStore from "@/context/useStore";
 import {observer} from 'mobx-react-lite'
 import { ISkillAddItem } from "@/utils/interface";
@@ -45,7 +46,7 @@ const AddPostSkill:FC<IRouteComponentProps> = ({history,location})=>{
     }
 
     return <div>
-                <p className={style.jobs}><span>岗位</span>/岗位管理</p>
+                {/* <p className={style.jobs}><span>岗位</span>/岗位管理</p> */}
                 <div className={style.nav}>
                     <h2> <span className="icon" data-v-262311c4></span> 填加岗位能力 </h2>
                     <div>

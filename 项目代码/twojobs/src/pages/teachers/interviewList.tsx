@@ -1,13 +1,15 @@
 import { observer } from "mobx-react-lite"
 import React, { useEffect, useState } from "react"
 import { FC } from "react"
-import style from './postless.less'
+import style from './interviewList.less'
+import './interviewList.css'
 import './postSKill.css'
 import useStore from "@/context/useStore"
 import { Input, Space, Button, Table,} from 'antd';
 import {history} from 'umi'
 import { InterViewListItem, Interviewquery } from "@/utils/interview"
 import { getinterviewTableList } from "@/service"
+import classNames from 'classnames';
 
 const { Search } = Input;
 
@@ -103,40 +105,40 @@ const InterviewList:FC=()=>{
     },[searchTitle,carStatus,curStatus])
 
 
-    return <div className='box'>
-    <div className='topfather'>
-            <div className="top">
-                <b>专业:</b>
-                {
-                   [{name:'全部',id:''},...interview.skillLabelList].map(item=>{
-                        return <span key={item.id} className={item.id===curStatus?'active':''} onClick={e=>setcurStatus(item.id)}>{item.name}</span>
-                    })
-                }
-        
-        </div>
-        <div className='topc'>
-                <b>面试结果:</b>
-                {
-                    ['全部',...status].map((item,index)=>{
-                        return <span key={index} className={index===carStatus?'active':''} onClick={e=>setcarStatus(index)}>{item}</span>
-                    })
-                }
-        </div>
-    </div>
-    <div className="search" style={{width:'95%',margin:'0 30px',height:'70px'}}>
-        <div className='search-son'>
-            <Space direction="vertical">
-                {
-                    // 小问题
-                    // 在搜索事件触发时 才会更改searchTitle 的内容  做不到实时监听  onChange onSearch
-                }
-                <Search placeholder="搜索岗位/公司名称" onChange={e => setsearchTitle(e.target.value)} style={{ width: 200 }} />
-            </Space>
-        </div>
-    </div>
-    <div className="tab">
-        <Table dataSource={dataSource} columns={columns} rowKey="interviewId" style={{width:'95%'}}></Table>
-    </div>
+    return <div  data-v-0759f553="" data-v-7178e8ae="" className="box_model">
+
+                <div data-v-c6b29ed6="" className={style.resource_type}>
+                            <div data-v-c6b29ed6="" className={style.r_t_title1}>专业：
+                                    {
+                                        [{name:'全部',id:''},...interview.skillLabelList].map(item=>{
+                                                return <span key={item.id} className={item.id==curStatus?classNames(style.rankitem,style.active):style.rankitem} onClick={e=>setcurStatus(item.id)}>{item.name}</span>
+                                            })
+                                    }
+                            </div>
+                            
+                            <div data-v-c6b29ed6="" className={style.r_t_title2}>面试结果：
+                                    {
+                                        ['全部',...status].map((item,index)=>{
+                                            return <span key={index} className={index==carStatus?classNames(style.rankitem,style.active):style.rankitem} onClick={e=>setcarStatus(index)}>{item}</span>
+                                        })
+                                    }
+                            </div>
+                            
+                        </div>
+
+
+                <div className="searchlist">
+                        <Space direction="vertical">
+                            {
+                                // 小问题
+                                // 在搜索事件触发时 才会更改searchTitle 的内容  做不到实时监听  onChange onSearch
+                            }
+                            <Search placeholder="搜索岗位/公司名称" onChange={e => setsearchTitle(e.target.value)} style={{ width: 200 }} />
+                        </Space>
+                </div>
+                <div className={style.interviewtab}>
+                    <Table dataSource={dataSource} columns={columns} rowKey="interviewId" style={{margin:'0'}}></Table>
+                </div>
 </div>
 }
 export default observer(InterviewList)

@@ -4,6 +4,7 @@ export default {
     'header.training-plan':'plan',//计划
     'header.training-progress':'progress',//进度
     'header.training-plea':'plea',//答辩
+    'header.training-plan-management':'Plan(management)',//计划管理
 
     'header.interview':'Interview',//面试
     'header.interview-interview Record Management':'Interview Record Management',//面试管理记录
@@ -22,10 +23,4 @@ export default {
     'footer.eight dimensions culture':'Eight dimensions culture',//八维文华
     'footer.the social responsibility':'The social responsibility',//社会责任
     'footer.contact us':'Contact us',//联系我们
-    // 'footer.':'',
-    // 'footer.':'',
-    // 'footer.':'',
-    // 'footer.':'',
-    // 'footer.':'',
-    // 'footer.':'',
 }
