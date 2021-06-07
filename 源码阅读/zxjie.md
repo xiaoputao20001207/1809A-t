@@ -1,3 +1,36 @@
+## 2021.6.6
+- [useState](https://react.jokcy.me/book/hooks/hooks-use-state.html)
+## 2021.6.5
+- [compiler.js](https://github.com/jasonandjay/js-code/blob/master/mvvm/compiler.js)
+- [mvvm.js](https://github.com/jasonandjay/js-code/blob/master/mvvm/mvvm.js)
+## 2021.6.4
+
+- [Observer & Dep 实现](https://github.com/jasonandjay/js-code/blob/master/mvvm/obsever.js)
+
+## 2021.6.3
+- [patch 实现](https://github.com/jasonandjay/js-code/blob/master/diff-patch/patch.js)
+
+## 2021.6.2
+- [diff 实现](https://github.com/jasonandjay/js-code/blob/master/diff-patch/diff.js)
+- [flat 实现](https://github.com/jasonandjay/js-code/blob/master/original/flat.js)
+
+## 2021.6.1
+- [_.flattenDeep](https://www.lodashjs.com/docs/lodash.flattenDeep)
+- [_.flattenDepth](https://www.lodashjs.com/docs/lodash.flattenDepth)
+## 2021.5.31
+- [throttle-debounce](https://github.com/jasonandjay/js-code/blob/master/original/throttle-debounce.js)
+- [deep-clone](https://github.com/jasonandjay/js-code/blob/master/original/deep-clone.js)
+
+## 2021.5.30
+- [call-apply](https://github.com/jasonandjay/js-code/blob/master/original/call-apply.js)
+## 2021.5.29
+- [JS高级开发-内置对象Object梳理](https://blog.csdn.net/weixin_42210229/article/details/115110518?utm_medium=distribute.pc_category.none-task-blog-hot-3.nonecase&dist_request_id=1328740.2280.16167698045002259&depth_1-utm_source=distribute.pc_category.none-task-blog-hot-3.nonecase)
+## 2021.5.28
+1. 源码阅读
+- [bind-new.js](https://github.com/jasonandjay/js-code/blob/master/original/bind-new.js)
+## 2021.5.27
+- [生产环境js错误收集及定位源码位置](https://juejin.cn/post/6960108736966819848)
+- [Node.js eventloop + 线程池源码分析（建议精读）](https://juejin.cn/post/6951303053739819038)
 ## 5.26
 - [React源码解析](https://juejin.cn/post/6844903568487497741)
 - [剖析 React 源码](https://juejin.cn/post/6844903829704540174)
