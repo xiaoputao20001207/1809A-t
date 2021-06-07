@@ -5,11 +5,12 @@ import {UserOutlined, MailOutlined, MobileOutlined} from '@ant-design/icons'
 import {Tabs, Form, Input, Radio, Button, message, Modal, } from 'antd'
 import useStore from '@/context/useStore'
 import {Four} from '@/utils/personcenter'
-import {history} from 'umi'
+import {IRouteComponentProps} from 'umi'
+// import {} from 'umi-react-lite'
 
 const { TabPane } = Tabs;
 
-const TeacherPersonCenter:FC = ()=>{
+const TeacherPersonCenter:FC<IRouteComponentProps> = ({history})=>{
 
     let {personcenter, skill} = useStore()
 

@@ -76,7 +76,7 @@ import Breadcrumb from '@/components/breadCrumb'
                       id:'header.project'
                     })
                   }</NavLink>
-                <Popover placement="bottomLeft" content={ <div style={{width:'100px'}}>
+                <Popover placement="bottomLeft" content={ <div style={{width:'120px'}}>
                               <p> <NavLink to="/teachers/planList">{intl.formatMessage({id:'header.training-plan'})}</NavLink></p>
                               <p><NavLink to="/teachers/viewPlan">{intl.formatMessage({id:'header.training-progress'})}</NavLink></p>
                               <p><NavLink to="/teachers/defence">{intl.formatMessage({id:'header.training-plea'})}</NavLink></p>
