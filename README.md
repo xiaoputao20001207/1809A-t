@@ -745,7 +745,37 @@
 
 # 弓程婷
 
+- ## 2021/06/07
+- 
+1. 文章阅读
+
+- [浅解强缓存和协商缓存](https://juejin.cn/post/6844903736196726798)
+- ​[为什么要缓存？](https://juejin.cn/post/6844903959614717966)
+
+
+1. 源码阅读
+   
+- [EventBus源码解析](https://juejin.cn/post/6844904007199113229)
+- ​[我的源码阅读之路：redux源码剖析](https://juejin.cn/post/6844903682060861454)
+
+3. LeetCode刷题
+- [ 位1的个数 ](https://leetcode-cn.com/problems/number-of-1-bits/submissions/)
+- ​[ 可以形成最大正方形的矩形数目 ](https://leetcode-cn.com/problems/number-of-rectangles-that-can-form-the-largest-square/submissions/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
+- [x] 八维生产性实训平台 - 问答页面-我要提问
+
 - ## 2021/06/06
+- 
 1. 文章阅读
 
 - [前端项目负责人在项目初期需要做什么？](https://juejin.cn/post/6968874442554343455)
@@ -771,6 +801,7 @@
 - [x] 八维生产性实训平台 - 岗位页面-rate评分组件
 - [x] 八维生产性实训平台 - 岗位页面-md附文本
 - [x] 八维生产性实训平台 - 问答页面
+- [x] 八维生产性实训平台 - 问答页面-我要提问
 
 - ## 2021/06/05
 1. 文章阅读
@@ -798,6 +829,7 @@
 - [x] 八维生产性实训平台 - 岗位页面-rate评分组件
 - [x] 八维生产性实训平台 - 岗位页面-md附文本
 - [x] 八维生产性实训平台 - 问答页面
+- [ ] - [x] 八维生产性实训平台 - 问答页面-我要提问
 
 - ## 2021/06/04
 1. 文章阅读
@@ -811,8 +843,7 @@
 - [源码篇（五）：手写vuex版mini源码分析vuex的执行过程。附送简版vuex源码](https://juejin.cn/post/6857059183762931720)
 - ​[Promise实现原理（附源码）](https://juejin.cn/post/6844903665686282253)
 
-3. LeetCode刷题
-4. 
+3. LeetCode刷题 
 - [最常见的单词](https://leetcode-cn.com/problems/most-common-word/)
 - ​[消失的数字](https://leetcode-cn.com/problems/missing-number-lcci/)
 
@@ -826,6 +857,7 @@
 - [x] 八维生产性实训平台 - 岗位页面-rate评分组件
 - [x] 八维生产性实训平台 - 岗位页面-md附文本
 - [x] 八维生产性实训平台 - 问答页面
+- [x] 八维生产性实训平台 - 问答页面-我要提问
 
 - ## 2021/06/03
 1. 文章阅读
@@ -853,6 +885,7 @@
 - [x] 八维生产性实训平台 - 岗位页面-rate评分组件
 - [x] 八维生产性实训平台 - 岗位页面-md附文本
 - [x] 八维生产性实训平台 - 问答页面
+- [x] 八维生产性实训平台 - 问答页面-我要提问
 
 - ## 2021/06/02
 1. 文章阅读
@@ -948,17 +981,15 @@
 
 
 2. 源码阅读
-1. 源码阅读
    
 - [Promise 源码分析](https://juejin.cn/post/6844903745004765191)
 - [redux源码解读](https://juejin.cn/post/6844903600456466445) 
 
 3. LeetCode刷题
- 1. LeetCode刷题
 - [只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
 - [二进制求和](https://leetcode-cn.com/problems/add-binary/submissions/)
 
-4. 项目进度
+1. 项目进度
 
 - [x] 八维生产性实训平台 - 岗位页面头部、底部、table
 - [x] 八维生产性实训平台 - 岗位页面排版
@@ -977,17 +1008,15 @@
 - ​[数据流管理方案：Redux 和 MobX 哪个更好？](https://juejin.cn/post/6938207430048219166)
 
 2. 源码阅读
-3. 源码阅读
    
 - [React 源码学习之 render 阶段](https://juejin.cn/post/6967959680341508126)
 - [Axios 源码解析](https://juejin.cn/post/6844903824583294984) 
 
 3. LeetCode刷题
- 1. LeetCode刷题
 - [加一](https://leetcode-cn.com/problems/plus-one/submissions/)
 - [移动零](https://leetcode-cn.com/problems/move-zeroes/submissions/)
 
-4. 项目进度
+1. 项目进度
 
 - [x] 八维生产性实训平台 - 岗位页面头部、底部、table
 - [x] 八维生产性实训平台 - 岗位页面排版

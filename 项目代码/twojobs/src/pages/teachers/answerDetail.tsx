@@ -44,7 +44,7 @@ const answerDetail:React.FC<IRouteComponentProps> = (props)=>{
             })
         }
     }
-    // 生命周期函数
+    //钩子函数
      useEffect(()=>{
         getAnswerDetail(props.location.query.answerId as string).then(ok=>{ //提问者详情
              setAnswerDetail(ok.data)
@@ -101,6 +101,7 @@ const answerDetail:React.FC<IRouteComponentProps> = (props)=>{
                         
                     </p>
                 </div>
+
                 <div className = {answerView?classNames(style.writeAnswer,style.active):style.writeAnswer}> {/*写回答的弹出框*/}
                         <p><img style={{width:'35px',height:'35px',borderRadius:'50%'}} src={`http://111.203.59.61:8060${user.avatar}`}/> {user.nickName}</p>
                         <Editor style={{height:'410px'}}  value={answerContent} onChange={(e)=>{setAnswerContent(e)}}/>
@@ -123,6 +124,7 @@ const answerDetail:React.FC<IRouteComponentProps> = (props)=>{
                 />
                 </div>  
             </div>
+            {/* 右侧我的问答 */}
             <div className={style.right}>
                     <div className = {style.rightTop}>
                         <h3>我的问答</h3>

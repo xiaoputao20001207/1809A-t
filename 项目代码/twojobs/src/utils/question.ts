@@ -1,4 +1,5 @@
-export interface questionDetailList {
+// 接口 类型
+export interface IquestionDetailList {
     isAsc: string
     pageNum: number
     pageSize: number
@@ -236,5 +237,4 @@ export  interface IanswerDetail {
     text2: string
     type: number
   }
-  
-  
+ 
