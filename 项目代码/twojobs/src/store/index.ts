@@ -40,5 +40,5 @@ export default{
     view,
     addPlan,
     user,
-    defence
+    defence,
 }

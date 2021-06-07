@@ -1,9 +1,10 @@
+// 接口
 
 import { request } from 'umi';
-// 状态接口
-import { commitParams,questionDetailList} from '@/utils/question';
 
-export let getquestionDetailList=(params:questionDetailList)=>{
+import { commitParams,IquestionDetailList} from '@/utils/question';
+//问题页面的接口
+export let getquestionDetailList=(params:IquestionDetailList)=>{
     return request("/sypt/answer/list",{params:params})
 }
 

@@ -41,16 +41,12 @@ let type = (id: string) => {
 // 弹框里的问题类型数据
 const typeList = [ "实训","面试", "工作", "其他"];
 
-//渲染蓝色小标题
+//渲染五个蓝色小标题
 let renderlabels = (labels: string[]) => {
     return labels.map((item, index) => {
-        return <span key={index}>{item}123</span>
+        return <span key={index}>{item}</span>
     })
 }
-const onFinishFailed = (errorInfo: any) => {
-    console.log('onFinishFailed:', errorInfo);
-};
-
 
 
 const questionDetail: React.FC<IRouteComponentProps> = (props) => {
@@ -70,13 +66,27 @@ const questionDetail: React.FC<IRouteComponentProps> = (props) => {
 
     //初始进入页面获取数据
     useEffect(() => {
-        questionDetail.getquestionDetailList({ ...questionParams, questionTitle: questionDetail.title, authentication: questionDetail.authentication, type: questionDetail.curIndex, pageNum: questionDetail.pageNum, pageSize: questionDetail.pageSize, quality: questionDetail.quality })
+        questionDetail.getquestionDetailList({ 
+            ...questionParams, 
+            questionTitle: questionDetail.title, 
+            authentication: questionDetail.authentication, 
+            type: questionDetail.curIndex,
+            pageNum: questionDetail.pageNum, 
+            pageSize: questionDetail.pageSize, 
+            quality: questionDetail.quality })
 
 
     }, [])
-    //监听数据变化时调用接口获取数据
+    //当数据发送变化时调用接口获取数据
     useEffect(() => {
-        questionDetail.getquestionDetailList({ ...questionParams, questionTitle: questionDetail.title, authentication: questionDetail.authentication, type: questionDetail.curIndex, pageNum: questionDetail.pageNum, pageSize: questionDetail.pageSize, quality: questionDetail.quality })
+        questionDetail.getquestionDetailList({ 
+            ...questionParams, 
+            questionTitle: questionDetail.title, 
+            authentication: questionDetail.authentication, 
+            type: questionDetail.curIndex, 
+            pageNum: questionDetail.pageNum, 
+            pageSize: questionDetail.pageSize, 
+            quality: questionDetail.quality })
     }, [questionDetail.curIndex, questionDetail.pageNum, questionDetail.quality, questionDetail.authentication, questionDetail.title])
     return <div>
         {/*状态栏切换*/}
@@ -136,7 +146,6 @@ const questionDetail: React.FC<IRouteComponentProps> = (props) => {
                     <Form name="basic" 
                           initialValues={{ remember: true }}
                           onFinish={onFinish}
-                          onFinishFailed={onFinishFailed}
                           className={styles.box_con}
                            >
                         {/* 第一行 */}
@@ -259,12 +268,16 @@ const questionDetail: React.FC<IRouteComponentProps> = (props) => {
                 </Modal>
 
             </div>
+
             {/* List列表 */}
             <List className={styles.List} 
                   itemLayout="vertical" size="large" 
                   dataSource={questionDetail.questionDetailList}
-                  footer={
-                    <Pagination current={questionDetail.pageNum} onChange={e => questionDetail.setpageNum(e)} total={questionDetail.total} />
+                  footer={ 
+                    // 分页
+                    <Pagination current={questionDetail.pageNum} 
+                                onChange={e => questionDetail.setpageNum(e)} 
+                                total={questionDetail.total} />
                   }
                   renderItem={(item, index) => (
                     <List.Item className={styles.Item} key={item.answerId}>                    
@@ -279,13 +292,14 @@ const questionDetail: React.FC<IRouteComponentProps> = (props) => {
                                 </p> 
                                 <p><CommentOutlined className={classNames(styles.icon)} />{item.answerCount}</p>
                             </li>
-                            <li>
-                                <h2>{item.quality ? <img src="http://111.203.59.61:8060/static/img/boutique.fc46be52.svg" alt="" /> : ""}
+                            <li>{/*认证或是精品*/}
+                                <h3>{item.quality ? <img src="http://111.203.59.61:8060/static/img/boutique.fc46be52.svg" alt="" /> : ""}
                                     {item.authentication ? <img src="http://111.203.59.61:8060/static/img/authentication.c814dd7c.svg" alt="" /> : null} 
-                                    {item.questionTitle}</h2> 
+                                    {item.questionTitle}</h3> 
                             </li>
                             <li>{questionDetail.showAllindex == index ? <span>{item.questionContent}</span> : <b>{item.questionContent}</b>} 
-                                <a onClick={() => {questionDetail.change(item.supportUpB, index)}}>查看全部</a> 
+                                {/* <a onClick={() => {questionDetail.change(item.supportUpB, index)}}>查看全部</a>  */}
+                                <a>查看全部</a> 
                             </li>
                             <li className={styles.labels}>
                                 {item.labels.length ? renderlabels(item.labels) : null}

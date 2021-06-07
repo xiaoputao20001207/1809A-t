@@ -723,6 +723,35 @@
 
 # 弓程婷
 
+- ## 2021/06/07
+- 
+1. 文章阅读
+
+- [浅解强缓存和协商缓存](https://juejin.cn/post/6844903736196726798)
+- ​[为什么要缓存？](https://juejin.cn/post/6844903959614717966)
+
+
+1. 源码阅读
+   
+- [EventBus源码解析](https://juejin.cn/post/6844904007199113229)
+- ​[我的源码阅读之路：redux源码剖析](https://juejin.cn/post/6844903682060861454)
+
+3. LeetCode刷题
+- [ 位1的个数 ](https://leetcode-cn.com/problems/number-of-1-bits/submissions/)
+- ​[ 可以形成最大正方形的矩形数目 ](https://leetcode-cn.com/problems/number-of-rectangles-that-can-form-the-largest-square/submissions/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
+- [x] 八维生产性实训平台 - 问答页面-我要提问
+
 - ## 2021/06/06
 - 
 1. 文章阅读
