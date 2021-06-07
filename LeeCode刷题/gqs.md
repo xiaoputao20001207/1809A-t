@@ -18,7 +18,7 @@
   - [两个数组的交集 II](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2y0c2/)
 - 5.31
   - [反转链表](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnnhm6/)
-  - [合并两个有序链表](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnnbp2/
+  - [合并两个有序链表](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnnbp2/)
 - 5.30
   - [有效的字母异位词](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn96us/)
   - [验证回文串](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xne8id/)
