@@ -1,5 +1,5 @@
 ## 练习
-- 06060
+- 0606
     - [快乐数](https://leetcode-cn.com/problems/happy-number/)
 - 0605
     - [丢失的数字](https://leetcode-cn.com/problems/missing-number/)
