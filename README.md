@@ -1,4 +1,51 @@
 # 杜学洋
+## 2021/6/6
+1. 文章阅读
+ > * [React进阶](https://juejin.cn/post/6963053793613185031)
+ > * [webpack](https://juejin.cn/post/6961961165656326152)
+2. 源码阅读
+> * [React 组件性能优化最佳实践](https://juejin.cn/post/6965747225154732069)
+> * [大道理小聪明系列 - Redux + Hooks 工程实践一则](https://juejin.cn/post/6965732983781195807)
+3. leecode 刷题
+> * [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/solution/valid-parentheses-fu-zhu-zhan-fa-by-jin407891080/)
+> * [组数总和](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-leetcode-solution/)
+4. 项目进度
+   - [x] 添加项目功能
+   - [x] 添加项目页面下面的排版
+   - [x] 添加项目页面下面的判断渲染
+
+## 2021/6/5
+1. 文章阅读
+ > *[new Map()使用方法](https://www.jianshu.com/p/c9a55b591948)
+ > * [ES6学习☞set和map数据结构](https://www.jianshu.com/p/9be458a73e05)
+2. 源码阅读
+  > * [用 ObjectComponent 重新定义 React 组件](https://juejin.cn/post/6969536778927603725)
+  > * [Android 原生webview传递header前端H5如何接收](https://juejin.cn/post/6965336033395212302)
+  
+3. leecode 刷题
+> * [数组每一项相加之和](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2skh7/)
+> * [合并对象](https://leetcode-cn.com/leetbook/read/top-interview-questions/xm0u83/)
+4. 项目进度
+    - [x] 添加项目功能
+    - [x] 添加项目页面下面的排版
+    - [x] 添加项目页面下面的判断渲染
+
+## 2021/6/4
+1. 文章阅读
+> * [我们并不需要 Deno](https://juejin.cn/post/6969848850374721544)
+> * [前端需要了解的计算机网络知识](https://juejin.cn/post/6844904079974465544)
+2. 源码阅读
+> * [生产环境js错误收集及定位源码位置](https://juejin.cn/post/6960108736966819848)
+> * [ MindSpore 人脸识别](https://juejin.cn/post/6965741051646574628)
+  
+3. leecode 刷题
+> * [左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)
+> * [数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
+4. 项目进度
+    - [x] 添加项目功能
+    - [x] 添加项目页面下面的排版
+    - [x] 添加项目页面下面的判断渲染
+
 ## 2021/6/3
 1. 文章阅读
 > * [Web开发者需要知道的CSS Tricks](https://juejin.cn/post/6844903576561516558)
@@ -25,18 +72,7 @@
     -[x] 添加项目功能
     -[x] 添加项目页面下面的排版
     -[x] 添加项目页面下面的判断渲染
-## 2021/5/31
-1. 文章阅读
-> * [hash与history的区别](https://juejin.cn/post/6844904151206330375)
-> * [5分钟前端国际化](https://juejin.cn/post/6844903505866522638)
-2. 源码阅读
-> * [聊聊前端国际化文案该如何处理](https://juejin.cn/post/6844903778471280653)
-3. leecode 刷题
-> * [编写一个函数来计算它们的交集。](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
-> * [3的幂](https://leetcode-cn.com/problems/power-of-three/)
-4. 项目进度
-    -[x] 添加项目排版
-    -[x] 岗位接口表格功能
+
 ## 2021/6/1
 1. 文章阅读
 > * [前端面试](https://juejin.cn/post/6844903577220349959)
@@ -48,7 +84,7 @@
 > * [统计好三元组](https://leetcode-cn.com/problems/count-good-triplets/)
 4. 项目进度
     -[x] 计划管理页面
-    -[x] 计划管理页面排
+    -[x] 计划管理页面排版
     -[x] 计划管理页面tab切换数据
 ## 2021/5/31
 1. 文章阅读
@@ -86,8 +122,6 @@
 4. 项目进度
     -[x] 项目页面
     -[x] 添加项目
-    
-
 ## 2021/5/28
 1. 文章阅读
 > * [155个JavaScript基础问题](https://juejin.cn/post/6966781111888265253)
@@ -280,22 +314,430 @@
 - [x] 
 - [x] 
 
-- ## 2021/06/01
-
+# 郭乾升
+## 2021.6.6
 1. 文章阅读
 
-- [v-model 双向数据绑定实现原理](https://juejin.cn/post/6968500711390707749)
-- ​[防抖/节流到底解决什么问题？](https://juejin.cn/post/6968636979630047239)
-
+- [Vue 源码解读（1）](https://juejin.cn/post/6949370458793836580)
+- [一文搞定数据响应式原理](https://juejin.cn/post/6949481542431277093)
 
 2. 源码阅读
+
+- [lodash源码分析之arrayEach](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/arrayEach.md)
+- [lodash源码分析之arrayEachRight](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/arrayEachRight.md)
+
+3. leecode 刷题
+
+- [删除链表中的节点](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnarn7/)
+- [删除链表的倒数第N个节点](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn2925/)
+
+4. 项目进度
+
+- [x] 计划页面的跳转
+- [x] 进度页面的跳转
+- [x] 进度页面的布局
+- [x] 删除接口的调用
+- [x] 添加岗位的编写布局功能实现
+
+
+5. 遇到的问题
+
+## 2021.6.5
+1. 文章阅读
+
+- [看破JS底层——实现a==1、2、3](https://juejin.cn/post/6948257149625729055)
+- [React Router 入门完全指南(包含 Router Hooks)](https://juejin.cn/post/6948226424427773983)
+
+2. 源码阅读
+
+- [lodash源码分析之Stack](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/Stack.md)
+
+3. leecode 刷题
+
+- [反转链表](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnnhm6/)
+- [合并两个有序链表](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnnbp2/)
+
+4. 项目进度
+
+- [x] 计划页面的跳转
+- [x] 进度页面的跳转
+- [x] 进度页面的布局
+- [x] 删除接口的调用
+- [x] 添加岗位的编写布局功能实现
+
+
+5. 遇到的问题
+
+## 2021.6.4
+1. 文章阅读
+
+- [H5 页面列表缓存方案](https://juejin.cn/post/6948210854126944292)
+- [使用hooks写React组件注意的5个地方](https://juejin.cn/post/6947573426076778533)
+
+2. 源码阅读
+
+- [lodash源码分析之缓存使用方式的进一步封装](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/SetCache.md)
+
+3. leecode 刷题
+
+- [有效的字母异位词](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn96us/)
+- [验证回文串](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xne8id/)
+
+4. 项目进度
+
+- [x] 计划页面的跳转
+- [x] 进度页面的跳转
+- [x] 进度页面的布局
+- [x] 删除接口的调用
+- [x] 添加岗位的编写布局功能实现
+
+
+5. 遇到的问题
+
+## 2021.6.3
+1. 文章阅读
+
+- [前端浏览器缓存知识梳理](https://juejin.cn/post/6947936223126093861)
+- [前端面试之异步任务顺序化（async/await）](https://juejin.cn/post/6947982719821283342)
+
+2. 源码阅读
+
+- [lodash源码分析之缓存方式的选择](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/MapCache.md)
+
+3. leecode 刷题
+
+- [整数反转](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnx13t/)
+- [[字符串中的第一个唯一字符]](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn5z8r/)
+
+1. 项目进度
+
+- [x] 计划页面的跳转
+- [x] 进度页面的跳转
+- [x] 进度页面的布局
+- [x] 删除接口的调用
+- [x] 添加岗位的编写布局功能实现
+
+
+5. 遇到的问题
+
+## 2021.6.2
+1. 文章阅读
+
+- [一个合格的中级前端工程师需要掌握的 28 个 JavaScript 技巧](https://juejin.cn/post/6844903856489365518)
+- [JavaScript 中哪一种循环最快呢？](https://juejin.cn/post/6930973929452339213)
+
+2. 源码阅读
+
+- [lodash源码分析之List缓存](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/ListCache.md)
+
+3. leecode 刷题
+
+- [旋转图像](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnhhkv/)
+- [反转字符串](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnhbqj/)
+
+4. 项目进度
+
+- [x] 计划页面的跳转
+- [x] 进度页面的跳转
+- [x] 进度页面的布局
+- [x] 删除接口的调用
+- [x] 添加岗位的编写布局功能实现
+
+## 2021.6.1
+1. 文章阅读
+
+- [看破JS底层——实现a==1、2、3](https://juejin.cn/post/6948257149625729055)
+- [React Router 入门完全指南(包含 Router Hooks)](https://juejin.cn/post/6948226424427773983)
+
+2. 源码阅读
+
+- [lodash源码分析之arrayIncludes](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/arrayIncludes.md)
+- [lodash源码分析之arrayIncludesWith](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/arrayIncludesWith.md)
+
+3. leecode 刷题
+
+- [二叉树的最大深度](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnd69e/)
+- [验证二叉搜索树](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn08xg/)
+
+4. 项目进度
+
+- [x] 计划页面的跳转
+- [x] 进度页面的跳转
+- [x] 进度页面的布局
+- [x] 删除接口的调用
+- [ ] 添加岗位的编写布局功能实现
+
+
+5. 遇到的问题
+
+## 2021.5.31
+1. 文章阅读
+
+- [Vue 源码解读（1）](https://juejin.cn/post/6949370458793836580)
+- [一文搞定数据响应式原理](https://juejin.cn/post/6949481542431277093)
+
+2. 源码阅读
+
+- [lodash源码分析之arrayEach](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/arrayEach.md)
+- [lodash源码分析之arrayEachRight](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/arrayEachRight.md)
+
+3. leecode 刷题
+
+- [删除链表中的节点](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnarn7/)
+- [删除链表的倒数第N个节点](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn2925/)
+
+4. 项目进度
+
+- [x] 计划页面布局
+- [x] 计划页面数据接收
+- [x] 计划页面的跳转
+- [x] 进度页面的跳转
+- [x] 进度页面的布局
+- [x] 详情页面的编写 
+
+
+5. 遇到的问题
+
+## 2021.5.30
+1. 文章阅读
+
+- [看破JS底层——实现a==1、2、3](https://juejin.cn/post/6948257149625729055)
+- [React Router 入门完全指南(包含 Router Hooks)](https://juejin.cn/post/6948226424427773983)
+
+2. 源码阅读
+
+- [lodash源码分析之Stack](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/Stack.md)
+
+3. leecode 刷题
+
+- [反转链表](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnnhm6/)
+- [合并两个有序链表](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnnbp2/)
+
+4. 项目进度
+
+- [x] 计划页面布局
+- [x] 计划页面数据接收
+- [x] 计划页面的跳转
+- [x] 进度页面的跳转
+- [ ] 进度页面的布局
+
+
+5. 遇到的问题
+
+## 2021.5.29
+1. 文章阅读
+
+- [H5 页面列表缓存方案](https://juejin.cn/post/6948210854126944292)
+- [使用hooks写React组件注意的5个地方](https://juejin.cn/post/6947573426076778533)
+
+2. 源码阅读
+
+- [lodash源码分析之缓存使用方式的进一步封装](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/SetCache.md)
+
+3. leecode 刷题
+
+- [有效的字母异位词](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn96us/)
+- [验证回文串](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xne8id/)
+
+4. 项目进度
+
+- [x] 计划页面布局
+- [x] 计划页面数据接收
+- [x] 计划页面的跳转
+- [x] 进度页面的跳转
+- [ ] 进度页面的布局
+
+
+5. 遇到的问题
+
+## 2021.5.28
+1. 文章阅读
+
+- [前端浏览器缓存知识梳理](https://juejin.cn/post/6947936223126093861)
+- [前端面试之异步任务顺序化（async/await）](https://juejin.cn/post/6947982719821283342)
+
+2. 源码阅读
+
+- [lodash源码分析之缓存方式的选择](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/MapCache.md)
+
+3. leecode 刷题
+
+- [整数反转](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnx13t/)
+- [[字符串中的第一个唯一字符]](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn5z8r/)
+
+1. 项目进度
+
+- [x] 计划页面布局
+- [x] 计划页面数据接收
+- [ ] 计划页面的跳转
+- [ ] 进度页面的跳转
+- [ ] 进度页面的布局
+
+
+5. 遇到的问题
+
+## 2021.5.27
+1. 文章阅读
+
+- [一个合格的中级前端工程师需要掌握的 28 个 JavaScript 技巧](https://juejin.cn/post/6844903856489365518)
+- [JavaScript 中哪一种循环最快呢？](https://juejin.cn/post/6930973929452339213)
+
+2. 源码阅读
+
+- [lodash源码分析之List缓存](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/ListCache.md)
+
+3. leecode 刷题
+
+- [旋转图像](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnhhkv/)
+- [反转字符串](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnhbqj/)
+
+4. 项目进度
+
+- [x] 计划页面布局
+- [ ] 计划页面数据接收
+- [ ] 计划页面的跳转
+- [ ] 进度页面的跳转
+- [ ] 进度页面的布局
+## 2021.5.26
+1. 文章阅读
+
+- [看破JS底层——实现a==1、2、3](https://juejin.cn/post/6948257149625729055)
+- [React Router 入门完全指南(包含 Router Hooks)](https://juejin.cn/post/6948226424427773983)
+
+2. 源码阅读
+
+- [lodash源码分析之Stack](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/Stack.md)
+
+3. leecode 刷题
+
+- [反转链表](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnnhm6/)
+- [合并两个有序链表](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnnbp2/)
+
+4. 项目进度
+
+- [x] 项目登录页面布局
+- [x] 添加账号 添加密码
+- [x] 岗位管理页面解析
+- [x] 首页页面的排版
+- [ ] 首页页面的布局
+
+## 2021.5.25
+1. 文章阅读
+
+- [什么是BFC？大白话讲清楚](https://juejin.cn/post/6950082193632788493)
+- [Vue 源码解读（2）—— Vue 初始化过程](https://juejin.cn/post/6950084496515399717)
+
+2. 源码阅读
+
+- [_.difference](https://www.lodashjs.com/docs/lodash.difference#_differencearray-values)
+- [_.differenceBy](https://www.lodashjs.com/docs/lodash.differenceBy#_differencebyarray-values-iteratee_identity)
+
+3. leecode 刷题
+
+- [删除链表中的节点](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnarn7/)
+- [删除链表的倒数第N个节点](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn2925/)
+
+4. 项目进度
+
+- [x] 项目登录页面布局
+- [ ] 添加账号 添加密码
+- [ ] 岗位管理页面解析
+- [ ] 首页页面的排版
+- [ ] 首页页面的布局
+
+## 2021.5.24
+1. 文章阅读
+
+- [看破JS底层——实现a==1、2、3](https://juejin.cn/post/6948257149625729055)
+- [JavaScript之走近原型链](https://juejin.cn/post/6949814782862032909)
+
+2. 源码阅读
+
+- [Hash](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/Hash.md)
+- [堆](https://github.com/jasonandjay/js-code/blob/master/algorithm/heap.js)
+
+3. leecode 刷题
+
+- [IP地址无效化](https://leetcode-cn.com/problems/defanging-an-ip-address/)
+  
+- [猜数字](https://leetcode-cn.com/problems/guess-numbers/)
+
+4. 项目进度
+
+- [x] 项目登录页面布局
+- [x] 添加账号 添加密码
+- [ ] 岗位管理页面解析
+- [ ] 首页页面的排版
+- [ ] 首页页面的布局
+
+## 2021.5 .21
+1. 文章阅读
+
+- [看破JS底层——实现a==1、2、3](https://juejin.cn/post/6948257149625729055)
+- [React Router 入门完全指南(包含 Router Hooks)](https://juejin.cn/post/6948226424427773983)
+
+2. 源码阅读
+
+- [lodash源码分析之arrayIncludes](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/arrayIncludes.md)
+- [lodash源码分析之arrayIncludesWith](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/arrayIncludesWith.md)
+
+3. leecode 刷题
+
+- [二叉树的最大深度](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnd69e/)
+- [验证二叉搜索树](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn08xg/)
+
+4. 项目进度
+
+- [x] 项目登录页面布局
+- [x] 添加账号 添加密码
+- [ ] 岗位管理页面解析
+- [ ] 首页页面的排版
+- [ ] 首页页面的布局
+
+
+5. 遇到的问题
+
+## 2021.5.20
+1. 文章阅读
+
+- [Vue 源码解读（1）](https://juejin.cn/post/6949370458793836580)
+- [一文搞定数据响应式原理](https://juejin.cn/post/6949481542431277093)
+
+2. 源码阅读
+
+- [lodash源码分析之arrayEach](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/arrayEach.md)
+- [lodash源码分析之arrayEachRight](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/arrayEachRight.md)
+
+3. leecode 刷题
+
+- [删除链表中的节点](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnarn7/)
+- [删除链表的倒数第N个节点](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn2925/)
+
+4. 项目进度
+
+- [x] 项目登录页面布局
+- [x] 添加账号 添加密码
+- [x] 岗位管理页面解析
+- [x] 首页页面的排版
+- [x] 首页页面的布局
+
+# 弓程婷
+
+- ## 2021/06/06
+1. 文章阅读
+
+- [前端项目负责人在项目初期需要做什么？](https://juejin.cn/post/6968874442554343455)
+- ​[Cookie、localStorage和sessionStorage的区别](https://juejin.cn/post/6970291738652966942)
+
+
+1. 源码阅读
    
-- [React源码解析(一):组件的实现与挂载](https://juejin.cn/post/6844903504528556040)
-- [golang map源码详解](https://juejin.cn/post/6844903517530882061) 
+- [EventBus源码解析](https://juejin.cn/post/6844904007199113229)
+- ​[剖析 React 源码：先热个身](https://juejin.cn/post/6844903829704540174)
 
 3. LeetCode刷题
-- [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
-- [剑指 Offer 10- II. 青蛙跳台阶问题 ](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/submissions/)
+- [ 找不同 ](https://leetcode-cn.com/problems/find-the-difference/submissions/)
+- ​[第三大的数](https://leetcode-cn.com/problems/third-maximum-number/submissions/)
 
 4. 项目进度
 
@@ -308,13 +750,60 @@
 - [x] 八维生产性实训平台 - 岗位页面-md附文本
 - [x] 八维生产性实训平台 - 问答页面
 
-
-- ## 2021/05/31
-
+- ## 2021/06/05
 1. 文章阅读
 
-- [为什么要使用 async/await ？](https://juejin.cn/post/6967000766032658440)
-- ​[面试-搬砖到城堡1：JS防抖和节流及应用场景](https://juejin.cn/post/6967273496430772255)
+- [谈谈你对闭包的理解？](https://juejin.cn/post/6969835249920376846)
+- ​[Vue vs React，语法差异之处](https://juejin.cn/post/6970075421522001928)
+
+
+1. 源码阅读
+   
+- [HTML Entry 源码分析](https://juejin.cn/post/6885212507837825038)
+- ​[TypeScript 在 React 中使用总结](https://juejin.cn/post/6844903684422254606)
+
+3. LeetCode刷题
+- [检测大写字母](https://leetcode-cn.com/problems/detect-capital/submissions/)
+- ​[各位相加](https://leetcode-cn.com/problems/add-digits/submissions/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
+
+- ## 2021/06/04
+1. 文章阅读
+
+- [译」react-native-create-library 中文文档](https://juejin.cn/post/6970332661533376542)
+- ​[详解浏览器跨域访问的几种办法](https://juejin.cn/post/6969758389849063455)
+
+
+1. 源码阅读
+   
+- [源码篇（五）：手写vuex版mini源码分析vuex的执行过程。附送简版vuex源码](https://juejin.cn/post/6857059183762931720)
+- ​[Promise实现原理（附源码）](https://juejin.cn/post/6844903665686282253)
+
+3. LeetCode刷题
+4. 
+- [最常见的单词](https://leetcode-cn.com/problems/most-common-word/)
+- ​[消失的数字](https://leetcode-cn.com/problems/missing-number-lcci/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
 
 - ## 2021/06/03
 1. 文章阅读
@@ -428,30 +917,6 @@
 - [x] 八维生产性实训平台 - 岗位页面-md附文本
 - [x] 八维生产性实训平台 - 问答页面
 
-
-2. 源码阅读
-   
-- [微信小程序源码获取教程](https://juejin.cn/post/6844903614847123463)
-- [源码20](https://juejin.cn/post/6844903506017517582) 
-- [JavaScript专题之数组去重](https://github.com/mqyqingfeng/Blog/issues/27) 
-
-3. LeetCode刷题
-- [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
-- [判断子序列 ](https://leetcode-cn.com/problems/is-subsequence/submissions/)
-
-4. 项目进度
-
-- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
-- [x] 八维生产性实训平台 - 岗位页面排版
-- [x] 八维生产性实训平台 - 点击添加岗位页面
-- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
-- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
-- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
-- [x] 八维生产性实训平台 - 岗位页面-md附文本
-- [x] 八维生产性实训平台 - 问答页面
-
-# 弓程婷
-
 - ## 2021/05/30
 
 1. 文章阅读
@@ -488,7 +953,6 @@
 
 - [Hooks 邂逅 Mobx，代码变得更丝滑了](https://juejin.cn/post/6930758273863778317)
 - ​[数据流管理方案：Redux 和 MobX 哪个更好？](https://juejin.cn/post/6938207430048219166)
-
 
 2. 源码阅读
 3. 源码阅读
@@ -777,287 +1241,47 @@
 - [x] 学习markdown
 - [x] 复习ts
   
-# 郭乾升
-## 2021.6.1
-1. 文章阅读
+# 赵晓杰
+## 2021.06.06
 
-- [看破JS底层——实现a==1、2、3](https://juejin.cn/post/6948257149625729055)
-- [React Router 入门完全指南(包含 Router Hooks)](https://juejin.cn/post/6948226424427773983)
+1. 文章阅读
+- [深入分析Promise](https://juejin.cn/post/6945319439772434469)
+
+- [当面试官问Webpack的时候他想知道什么](https://juejin.cn/post/6943468761575849992)
 
 2. 源码阅读
 
-- [lodash源码分析之arrayIncludes](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/arrayIncludes.md)
-- [lodash源码分析之arrayIncludesWith](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/arrayIncludesWith.md)
-
-3. leecode 刷题
-
-- [二叉树的最大深度](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnd69e/)
-- [验证二叉搜索树](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn08xg/)
-
-4. 项目进度
-
-- [x] 计划页面的跳转
-- [x] 进度页面的跳转
-- [x] 进度页面的布局
-- [x] 删除接口的调用
-- [ ] 添加岗位的编写布局功能实现
-
-
-5. 遇到的问题
-
-## 2021.5.31
-1. 文章阅读
-
-- [Vue 源码解读（1）](https://juejin.cn/post/6949370458793836580)
-- [一文搞定数据响应式原理](https://juejin.cn/post/6949481542431277093)
-
-2. 源码阅读
-
-- [lodash源码分析之arrayEach](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/arrayEach.md)
-- [lodash源码分析之arrayEachRight](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/arrayEachRight.md)
-
-3. leecode 刷题
-
-- [删除链表中的节点](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnarn7/)
-- [删除链表的倒数第N个节点](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn2925/)
-
-4. 项目进度
-
-- [x] 计划页面布局
-- [x] 计划页面数据接收
-- [x] 计划页面的跳转
-- [x] 进度页面的跳转
-- [x] 进度页面的布局
-- [x] 详情页面的编写 
-
-
-5. 遇到的问题
-
-## 2021.5.30
-1. 文章阅读
-
-- [看破JS底层——实现a==1、2、3](https://juejin.cn/post/6948257149625729055)
-- [React Router 入门完全指南(包含 Router Hooks)](https://juejin.cn/post/6948226424427773983)
-
-2. 源码阅读
-
-- [lodash源码分析之Stack](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/Stack.md)
-
-3. leecode 刷题
-
-- [反转链表](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnnhm6/)
-- [合并两个有序链表](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnnbp2/)
-
-4. 项目进度
-
-- [x] 计划页面布局
-- [x] 计划页面数据接收
-- [x] 计划页面的跳转
-- [x] 进度页面的跳转
-- [ ] 进度页面的布局
-
-
-5. 遇到的问题
-
-## 2021.5.29
-1. 文章阅读
-
-- [H5 页面列表缓存方案](https://juejin.cn/post/6948210854126944292)
-- [使用hooks写React组件注意的5个地方](https://juejin.cn/post/6947573426076778533)
-
-2. 源码阅读
-
-- [lodash源码分析之缓存使用方式的进一步封装](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/SetCache.md)
-
-3. leecode 刷题
-
-- [有效的字母异位词](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn96us/)
-- [验证回文串](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xne8id/)
-
-4. 项目进度
-
-- [x] 计划页面布局
-- [x] 计划页面数据接收
-- [x] 计划页面的跳转
-- [x] 进度页面的跳转
-- [ ] 进度页面的布局
-
-
-5. 遇到的问题
-
-## 2021.5.28
-1. 文章阅读
-
-- [前端浏览器缓存知识梳理](https://juejin.cn/post/6947936223126093861)
-- [前端面试之异步任务顺序化（async/await）](https://juejin.cn/post/6947982719821283342)
-
-2. 源码阅读
-
-- [lodash源码分析之缓存方式的选择](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/MapCache.md)
-
-3. leecode 刷题
-
-- [整数反转](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnx13t/)
-- [[字符串中的第一个唯一字符]](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn5z8r/)
-
-1. 项目进度
-
-- [x] 计划页面布局
-- [x] 计划页面数据接收
-- [ ] 计划页面的跳转
-- [ ] 进度页面的跳转
-- [ ] 进度页面的布局
-
-
-5. 遇到的问题
-
-## 2021.5.27
-1. 文章阅读
-
-- [一个合格的中级前端工程师需要掌握的 28 个 JavaScript 技巧](https://juejin.cn/post/6844903856489365518)
-- [JavaScript 中哪一种循环最快呢？](https://juejin.cn/post/6930973929452339213)
-
-2. 源码阅读
-
-- [lodash源码分析之List缓存](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/ListCache.md)
-
-3. leecode 刷题
-
-- [旋转图像](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnhhkv/)
-- [反转字符串](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnhbqj/)
-
-4. 项目进度
-
-- [x] 计划页面布局
-- [ ] 计划页面数据接收
-- [ ] 计划页面的跳转
-- [ ] 进度页面的跳转
-- [ ] 进度页面的布局
-## 2021.5.26
-1. 文章阅读
-
-- [看破JS底层——实现a==1、2、3](https://juejin.cn/post/6948257149625729055)
-- [React Router 入门完全指南(包含 Router Hooks)](https://juejin.cn/post/6948226424427773983)
-
-2. 源码阅读
-
-- [lodash源码分析之Stack](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/Stack.md)
-
-3. leecode 刷题
-
-- [反转链表](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnnhm6/)
-- [合并两个有序链表](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnnbp2/)
-
-4. 项目进度
-
-- [x] 项目登录页面布局
-- [x] 添加账号 添加密码
-- [x] 岗位管理页面解析
-- [x] 首页页面的排版
-- [ ] 首页页面的布局
-
-## 2021.5.25
-1. 文章阅读
-
-- [什么是BFC？大白话讲清楚](https://juejin.cn/post/6950082193632788493)
-- [Vue 源码解读（2）—— Vue 初始化过程](https://juejin.cn/post/6950084496515399717)
-
-2. 源码阅读
-
-- [_.difference](https://www.lodashjs.com/docs/lodash.difference#_differencearray-values)
-- [_.differenceBy](https://www.lodashjs.com/docs/lodash.differenceBy#_differencebyarray-values-iteratee_identity)
-
-3. leecode 刷题
-
-- [删除链表中的节点](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnarn7/)
-- [删除链表的倒数第N个节点](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn2925/)
-
-4. 项目进度
-
-- [x] 项目登录页面布局
-- [ ] 添加账号 添加密码
-- [ ] 岗位管理页面解析
-- [ ] 首页页面的排版
-- [ ] 首页页面的布局
-
-## 2021.5.24
-1. 文章阅读
-
-- [看破JS底层——实现a==1、2、3](https://juejin.cn/post/6948257149625729055)
-- [JavaScript之走近原型链](https://juejin.cn/post/6949814782862032909)
-
-2. 源码阅读
-
-- [Hash](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/Hash.md)
-- [堆](https://github.com/jasonandjay/js-code/blob/master/algorithm/heap.js)
-
-3. leecode 刷题
+3. LeeCode刷题
+- [拿硬币](https://leetcode-cn.com/problems/na-ying-bi/submissions/)
 
 - [IP地址无效化](https://leetcode-cn.com/problems/defanging-an-ip-address/)
   
 - [猜数字](https://leetcode-cn.com/problems/guess-numbers/)
 
-4. 项目进度
+1. 项目进度
+- [x] 询价页面得数据渲染
+- [x] 城市列表得渲染
+- [x] 城市点击出现弹框
+- [ ] img页面数据未请求,页面未渲染 
 
-- [x] 项目登录页面布局
-- [x] 添加账号 添加密码
-- [ ] 岗位管理页面解析
-- [ ] 首页页面的排版
-- [ ] 首页页面的布局
 
-## 2021.5 .21
+
+## 2021.06.05
+
 1. 文章阅读
+- [「react进阶」一文吃透react-hooks原理](https://juejin.cn/post/6944863057000529933)
 
-- [看破JS底层——实现a==1、2、3](https://juejin.cn/post/6948257149625729055)
-- [React Router 入门完全指南(包含 Router Hooks)](https://juejin.cn/post/6948226424427773983)
+- [回顾ES6](https://juejin.cn/post/6945012429382221861)
+  
+1. 源码阅读
+- [compiler.js](https://github.com/jasonandjay/js-code/blob/master/mvvm/compiler.js)
 
-2. 源码阅读
-
-- [lodash源码分析之arrayIncludes](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/arrayIncludes.md)
-- [lodash源码分析之arrayIncludesWith](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/arrayIncludesWith.md)
-
-3. leecode 刷题
-
-- [二叉树的最大深度](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnd69e/)
-- [验证二叉搜索树](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn08xg/)
+- [mvvm.js](https://github.com/jasonandjay/js-code/blob/master/mvvm/mvvm.js)
 
 4. 项目进度
-
-- [x] 项目登录页面布局
-- [x] 添加账号 添加密码
-- [ ] 岗位管理页面解析
-- [ ] 首页页面的排版
-- [ ] 首页页面的布局
-
-
-5. 遇到的问题
-
-## 2021.5.20
-1. 文章阅读
-
-- [Vue 源码解读（1）](https://juejin.cn/post/6949370458793836580)
-- [一文搞定数据响应式原理](https://juejin.cn/post/6949481542431277093)
-
-2. 源码阅读
-
-- [lodash源码分析之arrayEach](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/arrayEach.md)
-- [lodash源码分析之arrayEachRight](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/arrayEachRight.md)
-
-3. leecode 刷题
-
-- [删除链表中的节点](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnarn7/)
-- [删除链表的倒数第N个节点](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn2925/)
-
-4. 项目进度
-
-- [x] 项目登录页面布局
-- [x] 添加账号 添加密码
-- [x] 岗位管理页面解析
-- [x] 首页页面的排版
-- [x] 首页页面的布局
-
-
-# 赵晓杰
+- [x] 询价页面的排版
+- [ ] 图片页面的数据渲染
+- [ ] 询价页面的数据渲染    
 ## 2021.6.4
 1. 文章阅读
 
@@ -1376,11 +1600,31 @@
 - [x] 复习ts
 
 # 张琪
-## 2021.6.4.
+ ## 2021.6.6
+1. 文章阅读
+   - [谈谈你对闭包的理解？](https://juejin.cn/post/6969835249920376846)
+2. 源码阅读
+   - [vue 和react 语法差异之处](https://juejin.cn/post/6970075421522001928)
+3. leecode 刷题
+   - [寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/)
+4. 项目进度
+   - [ x ] 
+      
+## 2021.6.5
 1. 文章阅读
    - [前端开发者需要知道的 package.json](https://juejin.cn/post/6969454249411837965)
 2. 源码阅读
    - [【进阶探索】从源码分析Redux 和 Mobx 那个更优美 ，一起探索谁丝滑！](https://juejin.cn/post/6968028239386116109#heading-19)
+3. leecode 刷题
+   - [快乐数](https://leetcode-cn.com/problems/happy-number/)
+4. 项目进度
+   - [ x ] 
+
+## 2021.6.4.
+1. 文章阅读
+   - [谈谈你对原型链的理解？](https://juejin.cn/post/6969837174158000141)
+2. 源码阅读
+   - [js - 了解一下this](https://juejin.cn/post/6969985606709428232)
 3. leecode 刷题
    - [快乐数](https://leetcode-cn.com/problems/happy-number/)
 4. 项目进度
@@ -1670,7 +1914,6 @@
 - [整数反转](https://leetcode-cn.com/problems/reverse-integer/)
 
 4. 项目进度
-
 - [x] 复习history和hash跳转路由
 - [x] hash不美观 不需要后台做相对应的配置
 - [x] history 路径美观 但会出现404 需要后台相对应的配置 在线下webpack可使用historyApiFallback：true
@@ -1712,6 +1955,7 @@
 
 4. 项目进度
    - [x] 
+
 ## 2021.6.2
 1. 文章阅读
    - [程序员的几个阶段](https://juejin.cn/post/6968645798443614222)
@@ -1731,6 +1975,7 @@
    - [x] 轮询分为 长轮询 和短轮询
    - [x] 长轮巡：发送请求后会保持一个pending状态 知道给出响应或请求超时才返结果
    - [x] 短轮巡：发送请求后直接返回结果给出相应不需要等
+
 ## 2021.6.1
 1. 文章阅读
 - [节流和防抖](https://zhuanlan.zhihu.com/p/72923073)
@@ -1761,6 +2006,7 @@
    - 
 4. 项目进度
     - [x] 国际化 登录响响应器拦截.
+
 ## 2021.5.30
 1. 文章阅读
 - [React Hooks](https://juejin.cn/post/6844903709927800846)
@@ -1809,6 +2055,7 @@
 
 4. 铃铛排版
     我的主页排版
+
 ## 2021.5.27
 1. 文章阅读
    - [实现一个简易的 npm install](https://juejin.cn/post/69663903570051727)
@@ -1825,6 +2072,7 @@
 4. 项目进度
     - 头部排版
     - 树形结构
+
 ## 2021.5.26
 1. 文章阅读
    - [JS常用的循环遍历](https://juejin.cn/post/6966390357005172773)
@@ -1965,6 +2213,7 @@
 4. 项目进度
    - 登录页面的实现 
    - 接口的实现
+
 ## 2021.5.18 
 + 创建版本库
     + git clone url
@@ -1989,7 +2238,6 @@
 + 提交
     + 先拉去远程分支  pull
     + 在提交远程 push
-
 
 - [x] 用户接口
 - [x] 密码接口

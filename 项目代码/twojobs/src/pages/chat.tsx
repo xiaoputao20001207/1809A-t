@@ -38,7 +38,7 @@ const Chat: React.FC = () => {
             return;
         }
         // 建立socket实例
-        socket = io('http://10.0.8.42:3000');
+        socket = io('http://10.0.8.17:3000');
         // 监听连接成功
         socket.on('connect', () => {
             console.log('alerady connect');
