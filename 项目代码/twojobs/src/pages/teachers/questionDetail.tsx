@@ -267,13 +267,8 @@ const questionDetail: React.FC<IRouteComponentProps> = (props) => {
                     <Pagination current={questionDetail.pageNum} onChange={e => questionDetail.setpageNum(e)} total={questionDetail.total} />
                   }
                   renderItem={(item, index) => (
-<<<<<<< HEAD
-                    <List.Item className={classNames(styles.Item)} key={item.answerId}>                    
-                        <ul>
-=======
                     <List.Item className={styles.Item} key={item.answerId}>                    
                         <ul >
->>>>>>> 303aad39a7f315d7fc86fa3fd1a208870f7c1f25
                             <li > 
                                 <p>
                                     <span>{item.qUserName}</span>
