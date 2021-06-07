@@ -13,8 +13,6 @@ const Layout:FC<IRouteComponentProps> = props => {
     //     //你的业务操作。。。。      
     //     return warning;   
     // }     
-
-
     if(/\/teacher/.test(props.location.pathname)){
         return <TeacherLayout>{props.children}</TeacherLayout>
     }
