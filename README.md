@@ -1,17 +1,66 @@
 # 杜学洋
+## 2021/6/6
+1. 文章阅读
+ > * [React进阶](https://juejin.cn/post/6963053793613185031)
+ > * [webpack](https://juejin.cn/post/6961961165656326152)
+2. 源码阅读
+> * [React 组件性能优化最佳实践](https://juejin.cn/post/6965747225154732069)
+> * [大道理小聪明系列 - Redux + Hooks 工程实践一则](https://juejin.cn/post/6965732983781195807)
+3. leecode 刷题
+> * [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/solution/valid-parentheses-fu-zhu-zhan-fa-by-jin407891080/)
+> * [组数总和](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-leetcode-solution/)
+4. 项目进度
+   - [x] 添加项目功能
+   - [x] 添加项目页面下面的排版
+   - [x] 添加项目页面下面的判断渲染
+
+## 2021/6/5
+1. 文章阅读
+ > *[new Map()使用方法](https://www.jianshu.com/p/c9a55b591948)
+ > * [ES6学习☞set和map数据结构](https://www.jianshu.com/p/9be458a73e05)
+2. 源码阅读
+  > * [用 ObjectComponent 重新定义 React 组件](https://juejin.cn/post/6969536778927603725)
+  > * [Android 原生webview传递header前端H5如何接收](https://juejin.cn/post/6965336033395212302)
+  
+3. leecode 刷题
+> * [数组每一项相加之和](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2skh7/)
+> * [合并对象](https://leetcode-cn.com/leetbook/read/top-interview-questions/xm0u83/)
+4. 项目进度
+    - [x] 添加项目功能
+    - [x] 添加项目页面下面的排版
+    - [x] 添加项目页面下面的判断渲染
+
+## 2021/6/4
+1. 文章阅读
+> * [我们并不需要 Deno](https://juejin.cn/post/6969848850374721544)
+> * [前端需要了解的计算机网络知识](https://juejin.cn/post/6844904079974465544)
+2. 源码阅读
+> * [生产环境js错误收集及定位源码位置](https://juejin.cn/post/6960108736966819848)
+> * [ MindSpore 人脸识别](https://juejin.cn/post/6965741051646574628)
+  
+3. leecode 刷题
+> * [左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)
+> * [数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
+4. 项目进度
+    - [x] 添加项目功能
+    - [x] 添加项目页面下面的排版
+    - [x] 添加项目页面下面的判断渲染
+
 ## 2021/6/3
 1. 文章阅读
-> * [Web开发者需要知道的CSS Tricks](https://juejin.cn/post/6844903576561516558)
-> * [WebSocket：5分钟从入门到精通](https://juejin.cn/post/6844903544978407431)
+ > * [Web开发者需要知道s://juejin.cn/post/6844903576561516558)
+ > * [WebSocket：5分钟从入门到精通](https://juejin.cn/post/6844903544978407431)
 2. 源码阅读
-
+  > * [Android 原生webview传递header前端H5如何接收](https://juejin.cn/post/6965336033395212302)
+   > * [用5个示例理解 CSS 变量](https://juejin.cn/post/6966387853483835429)
 3. leecode 刷题
-> * [最大重复子字符串](https://leetcode-cn.com/problems/maximum-repeating-substring/)
-> * [速算机器人](https://leetcode-cn.com/problems/nGK0Fy/)
+ > * [最大重复子字符串](https://leetcode-cn.com/problems/maximum-repeating-substring/)
+ > * [速算机器人](https://leetcode-cn.com/problems/nGK0Fy/)
 4. 项目进度
-    -[x] 添加项目功能
-    -[x] 添加项目页面下面的排版
-    -[x] 添加项目页面下面的判断渲染
+    - [x] 添加项目功能
+    - [x] 添加项目页面下面的排版
+    - [x] 添加项目页面下面的判断渲染
+
 ## 2021/6/2
 1. 文章阅读
 > * [axios拦截器封装http请求，刷新token重发请求](https://juejin.cn/post/6844903894481371143)
@@ -22,9 +71,10 @@
 > * [替换所有问号](https://leetcode-cn.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)
 > * [转换成小写字母](https://leetcode-cn.com/problems/to-lower-case/)
 4. 项目进度
-    -[x] 添加项目功能
-    -[x] 添加项目页面下面的排版
-    -[x] 添加项目页面下面的判断渲染
+    - [x] 添加项目功能
+    - [x] 添加项目页面下面的排版
+    - [x] 添加项目页面下面的判断渲染
+
 ## 2021/5/31
 1. 文章阅读
 > * [hash与history的区别](https://juejin.cn/post/6844904151206330375)
@@ -35,8 +85,9 @@
 > * [编写一个函数来计算它们的交集。](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
 > * [3的幂](https://leetcode-cn.com/problems/power-of-three/)
 4. 项目进度
-    -[x] 添加项目排版
-    -[x] 岗位接口表格功能
+    - [x] 添加项目排版
+    - [x] 岗位接口表格功能
+
 ## 2021/6/1
 1. 文章阅读
 > * [前端面试](https://juejin.cn/post/6844903577220349959)
@@ -47,9 +98,10 @@
 > * [猜数字的的大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)
 > * [统计好三元组](https://leetcode-cn.com/problems/count-good-triplets/)
 4. 项目进度
-    -[x] 计划管理页面
-    -[x] 计划管理页面排
-    -[x] 计划管理页面tab切换数据
+    - [x] 计划管理页面
+    - [x] 计划管理页面排
+    - [x] 计划管理页面tab切换数据
+
 ## 2021/5/31
 1. 文章阅读
 > * [hash与history的区别](https://juejin.cn/post/6844904151206330375)
@@ -60,8 +112,9 @@
 > * [编写一个函数来计算它们的交集。](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
 > * [3的幂](https://leetcode-cn.com/problems/power-of-three/)
 4. 项目进度
-    -[x] 添加项目排版
-    -[x] 岗位接口表格功能
+    - [x] 添加项目排版
+    - [x] 岗位接口表格功能
+
 ## 2021/5/30
 1. 文章阅读
 > * [九种跨域当时实现](https://juejin.cn/post/6844903767226351623)
@@ -72,8 +125,9 @@
 > * [各位相加](https://leetcode-cn.com/problems/add-digits/)
 > * [丢失的数](https://leetcode-cn.com/problems/missing-number/)
 4. 项目进度
-    -[x] 获取数据
-    -[x] 调用点击保存接口
+    - [x] 获取数据
+    - [x] 调用点击保存接口
+
 ## 2021/5/29
 1. 文章阅读
 > * [Hooks很强大，为何还需要Mobx](https://juejin.cn/post/6930758273863778317)
@@ -84,8 +138,8 @@
 > * [快乐数](https://leetcode-cn.com/problems/happy-number/)
 > * [除自身以外的数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/)
 4. 项目进度
-    -[x] 项目页面
-    -[x] 添加项目
+    - [x] 项目页面
+    - [x] 添加项目
     
 
 ## 2021/5/28
@@ -99,8 +153,8 @@
 > * [相同的树](https://leetcode-cn.com/problems/same-tree/)
 > * [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/)
 4. 项目进度
-    -[x] 项目页面
-    -[x] 添加项目
+    - [x] 项目页面
+    - [x] 添加项目
 
 ## 2021/5/27
 1. 文章阅读
@@ -114,8 +168,8 @@
 > * [fromPairs(pairs)](https://www.lodashjs.com/docs/lodash.fromPairs)
 > * [head(array)](https://www.lodashjs.com/docs/lodash.head)
 4. 项目进度
-    -[x] 头部排版
-    -[x] 树形结构
+    - [x] 头部排版
+    - [x] 树形结构
 
 ## 2021/5/26   
 1.文章阅读
@@ -1545,6 +1599,7 @@
    - [用 ObjectComponent 重新定义 React 组件](https://juejin.cn/post/6969536778927603725)
    - [Android 原生webview传递header前端H5如何接收](https://juejin.cn/post/6965336033395212302)
    - [生产环境js错误收集及定位源码位置](https://juejin.cn/post/6960108736966819848)
+   - 
   
 3. leecode 刷题
    - [数组去重](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x21ib6/)

@@ -1,4 +1,4 @@
-import {  Gettoplist1 ,GetListDairnItem, Gettoplist2, DelItem} from '@/service';
+import {  Gettoplist1 ,GetListDairnItem, Gettoplist2, DelItem, EditorDetail} from '@/service';
 import { Addpro, Imohu, ISkilldairn, ISkilldairnObj } from '@/utils/interface';
 import { makeAutoObservable } from 'mobx';
 
@@ -13,7 +13,39 @@ class proSkill {
   toplist2:ISkilldairn[]=[]
   // topItem:ISkilldairn[] = [];
   proAddItem:Addpro[]=[]
-
+  //详情
+  detailList:Addpro={
+    answerCount: 0,
+    authorName: null,
+    description: "",
+    discussCount: 0,
+    favorCount: null,
+    favorites: null,
+    favoritesInd: false,
+    id: "",
+    knowledge: [],
+    knowledgeId: null,
+    knowledgeName: null,
+    labelName: "",
+    majorId: "",
+    majorName: "",
+    majorStationChineseList: [""],
+    majorStationList: [""],
+    name: "",
+    pictureUrl: "",
+    showUrl: "",
+    stationId: "",
+    stationIds: "",
+    stationName: "",
+    stuCount: null,
+    subjectTime: 5,
+    sxType: "2",
+    trade: [""],
+    tradeId: "",
+    tradeName: "",
+    version: "",
+    versionId: "",
+  }
   //定义方法
   async Gettoplist1() {
     let result = await Gettoplist1();
@@ -33,6 +65,15 @@ class proSkill {
     if(result){
       return result;
     }
+  }
+  //详情
+  async EditorDetail(versionId:string){
+     let result =await EditorDetail(versionId);
+     if(result){
+         this.detailList=result.data
+     }
+     console.log(this.detailList);
+     
   }
 //表格数据
    async GetListDairnItem(queryParams:Imohu){
