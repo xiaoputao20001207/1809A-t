@@ -676,6 +676,200 @@
 
 # 弓程婷
 
+- ## 2021/06/06
+1. 文章阅读
+
+- [前端项目负责人在项目初期需要做什么？](https://juejin.cn/post/6968874442554343455)
+- ​[Cookie、localStorage和sessionStorage的区别](https://juejin.cn/post/6970291738652966942)
+
+
+1. 源码阅读
+   
+- [EventBus源码解析](https://juejin.cn/post/6844904007199113229)
+- ​[剖析 React 源码：先热个身](https://juejin.cn/post/6844903829704540174)
+
+3. LeetCode刷题
+- [ 找不同 ](https://leetcode-cn.com/problems/find-the-difference/submissions/)
+- ​[第三大的数](https://leetcode-cn.com/problems/third-maximum-number/submissions/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
+
+- ## 2021/06/05
+1. 文章阅读
+
+- [谈谈你对闭包的理解？](https://juejin.cn/post/6969835249920376846)
+- ​[Vue vs React，语法差异之处](https://juejin.cn/post/6970075421522001928)
+
+
+1. 源码阅读
+   
+- [HTML Entry 源码分析](https://juejin.cn/post/6885212507837825038)
+- ​[TypeScript 在 React 中使用总结](https://juejin.cn/post/6844903684422254606)
+
+3. LeetCode刷题
+- [检测大写字母](https://leetcode-cn.com/problems/detect-capital/submissions/)
+- ​[各位相加](https://leetcode-cn.com/problems/add-digits/submissions/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
+
+- ## 2021/06/04
+1. 文章阅读
+
+- [译」react-native-create-library 中文文档](https://juejin.cn/post/6970332661533376542)
+- ​[详解浏览器跨域访问的几种办法](https://juejin.cn/post/6969758389849063455)
+
+
+1. 源码阅读
+   
+- [源码篇（五）：手写vuex版mini源码分析vuex的执行过程。附送简版vuex源码](https://juejin.cn/post/6857059183762931720)
+- ​[Promise实现原理（附源码）](https://juejin.cn/post/6844903665686282253)
+
+3. LeetCode刷题
+4. 
+- [最常见的单词](https://leetcode-cn.com/problems/most-common-word/)
+- ​[消失的数字](https://leetcode-cn.com/problems/missing-number-lcci/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
+
+- ## 2021/06/03
+1. 文章阅读
+
+- [剑指 Offer 25. 合并两个排序的链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/submissions/)
+- ​[JS 的 new 做了哪些事情呢？](https://juejin.cn/post/6968856664560648199)
+
+
+1. 源码阅读
+   
+- [React源码 commit阶段详解](https://juejin.cn/post/6922062693545279502)
+- [Webpack 源码研究](https://juejin.cn/post/6844903903675285511) 
+
+3. LeetCode刷题
+- [剑指 Offer 25. 合并两个排序的链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/submissions/)
+- [404. 左叶子之和 ](https://leetcode-cn.com/problems/sum-of-left-leaves/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
+
+- ## 2021/06/02
+1. 文章阅读
+
+- [WebSocket：5分钟从入门到精通](https://juejin.cn/post/6844903544978407431)
+- ​[3 分钟搞定 CSS 的 4 种引入方式](https://juejin.cn/post/6968625219619520526)
+
+
+1. 源码阅读
+   
+- [源码学习之 classnames 库](https://juejin.cn/post/6904644195227533325)
+- [如何阅读大型前端开源项目的源码 ](https://juejin.cn/post/6844903607393845255) 
+
+1. LeetCode刷题
+- [剑指 Offer 17. 打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/submissions/)
+- [剑指 Offer 15. 二进制中1的个数  ](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/submissions/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
+
+- ## 2021/06/01
+
+1. 文章阅读
+
+- [v-model 双向数据绑定实现原理](https://juejin.cn/post/6968500711390707749)
+- ​[防抖/节流到底解决什么问题？](https://juejin.cn/post/6968636979630047239)
+
+
+2. 源码阅读
+   
+- [React源码解析(一):组件的实现与挂载](https://juejin.cn/post/6844903504528556040)
+- [golang map源码详解](https://juejin.cn/post/6844903517530882061) 
+
+3. LeetCode刷题
+- [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
+- [剑指 Offer 10- II. 青蛙跳台阶问题 ](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/submissions/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
+
+
+- ## 2021/05/31
+
+1. 文章阅读
+
+- [为什么要使用 async/await ？](https://juejin.cn/post/6967000766032658440)
+- ​[面试-搬砖到城堡1：JS防抖和节流及应用场景](https://juejin.cn/post/6967273496430772255)
+
+
+2. 源码阅读
+   
+- [微信小程序源码获取教程](https://juejin.cn/post/6844903614847123463)
+- [源码20](https://juejin.cn/post/6844903506017517582) 
+- [JavaScript专题之数组去重](https://github.com/mqyqingfeng/Blog/issues/27) 
+
+3. LeetCode刷题
+- [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
+- [判断子序列 ](https://leetcode-cn.com/problems/is-subsequence/submissions/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
+
 - ## 2021/05/30
 
 1. 文章阅读
