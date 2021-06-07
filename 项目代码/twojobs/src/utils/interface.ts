@@ -282,22 +282,38 @@ export interface ISkilldairn {
 }
 //添加项目
 export interface Addpro{
+  answerCount: number,
+  authorName: null,
   description: string,
+  discussCount: number,
+  favorCount: null,
+  favorites: null,
+  favoritesInd: boolean,
   id: string,
-  knowledge: [],
+  knowledge: Array<0>,
+  knowledgeId: null,
+  knowledgeName: null,
+  labelName: string,
   majorId: string,
-  majorStationList:[""],
+  majorName: string,
+  majorStationChineseList: [string],
+  majorStationList: [string],
   name: string,
   pictureUrl: string,
   showUrl: string,
   stationId: string,
+  stationIds: string,
+  stationName: string,
+  stuCount: null,
   subjectTime: number,
   sxType: string,
-  trade: [],
+  trade:[string],
   tradeId: string,
-  version: number,
-  versionId: string
+  tradeName: string,
+  version: string,
+  versionId: string,
 }
+
 //添加
 export interface Imohu{
   specialtyTag?:string, 
@@ -310,6 +326,7 @@ export interface Imohu{
   proName?: string,
   newProjectList: number,
   versionId?: string,
+  id?:string
 }
 //行业表格
 export interface ISkilldairnObj {
@@ -626,46 +643,66 @@ export interface LoginParams{
   username: string,
   uuid: string,
 }
-//答辩保存数据
-export interface SaveItem {
-  defenceAdress: string;
-  defenceAuthorName: string;
-  defenceClassId: string;
-  defenceCreateTime: string;
-  defenceEndTime: string;
-  defenceId: string;
-  defenceMajorId: string;
-  defencePlanId: string;
-  defenceScore: string;
-  degenceName: string;
-  majorList: string;
+//实训大纲
+export interface TrainingSyllabusList {
+  value: string;
+  content: string;
+  children: any;
+  label: string;
+  msg: string;
+  code: number;
+  data: Datum[];
 }
-//去答辩数据
-export interface defenDetail {
-  defenceId: string;
-  degenceName: string;
-  defenceClassId: string;
-  defencePlanId: string;
-  defenceCreateTime: string;
-  defenceEndTime: string;
-  defenceStatus: number;
-  defenceMajorId: string;
-  defenceAdress: string;
-  className: string;
-  planName: string;
-  majorName: string;
-  defenceAuthor: string;
-  defenceScore?: any;
-  defenceHistoryId?: any;
-  taskProgressId?: any;
-  scoreId?: any;
-  defenceRater?: any;
-  raterName?: any;
-  defenceAuthorName: string;
-  avaScore?: any;
-  projectName?: any;
-  groupName?: any;
-  taskName?: any;
-  defenceGroupInfoList?: any;
-  defenceScoreList?: any;
+
+export interface Datum {
+  value: string;
+  label: string;
+  parentId: string;
+  children: Child1[];
+  content?: any;
+  proId?: any;
+}
+interface Child1 {
+  value: string;
+  label: string;
+  parentId: string;
+  children?: any;
+  content: string;
+  proId?: any;
+}
+//项目资源
+export interface ProjectResourcesList {
+  value: string;
+  label: string;
+  parentId: string;
+  children: Child3[];
+  content?: any;
+  proId?: any;
+}
+
+export interface Child3 {
+  value: string;
+  label: string;
+  parentId: string;
+  children?: any;
+  content?: any;
+  proId?: any;
+}
+//前置项目
+export interface LeadProjectList {
+  value: string;
+  label?: string;
+  parentId?: any;
+  children: Child4[];
+  content?: any;
+  proId: string;
+}
+
+interface Child4 {
+  value: string;
+  label: string;
+  parentId?: any;
+  children?: any;
+  content?: any;
+  proId?: any;
 }

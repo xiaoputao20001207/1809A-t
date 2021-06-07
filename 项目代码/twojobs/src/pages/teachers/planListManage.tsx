@@ -5,6 +5,7 @@ import  "./planListManage.less"
 import { IplanList, IplanListItem } from '@/utils/interface';
 import { observer } from 'mobx-react-lite';
 import useStore from '@/context/useStore';
+import {Link} from "umi"
 const PlanListManage: React.FC = () => {
   const columns = [
     {
@@ -53,8 +54,10 @@ const PlanListManage: React.FC = () => {
     },
     {
       title: '操作',
-      render:()=>{
-          return<EyeOutlined style={{ color: '#679cf6',fontSize:"18px" }} />
+      render:(row:IplanListItem)=>{
+          return<Link to={`/teachers/viewPlan?plan_id=${row.id}&class_id=${row.classid}`}>
+          <EyeOutlined style={{ color: '#679cf6',fontSize:"18px" }}  />
+          </Link>
       }
     },
   ];
