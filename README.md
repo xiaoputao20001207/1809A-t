@@ -1,4 +1,51 @@
 # 杜学洋
+## 2021/6/6
+1. 文章阅读
+ > * [React进阶](https://juejin.cn/post/6963053793613185031)
+ > * [webpack](https://juejin.cn/post/6961961165656326152)
+2. 源码阅读
+> * [React 组件性能优化最佳实践](https://juejin.cn/post/6965747225154732069)
+> * [大道理小聪明系列 - Redux + Hooks 工程实践一则](https://juejin.cn/post/6965732983781195807)
+3. leecode 刷题
+> * [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/solution/valid-parentheses-fu-zhu-zhan-fa-by-jin407891080/)
+> * [组数总和](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-leetcode-solution/)
+4. 项目进度
+   - [x] 添加项目功能
+   - [x] 添加项目页面下面的排版
+   - [x] 添加项目页面下面的判断渲染
+
+## 2021/6/5
+1. 文章阅读
+ > *[new Map()使用方法](https://www.jianshu.com/p/c9a55b591948)
+ > * [ES6学习☞set和map数据结构](https://www.jianshu.com/p/9be458a73e05)
+2. 源码阅读
+  > * [用 ObjectComponent 重新定义 React 组件](https://juejin.cn/post/6969536778927603725)
+  > * [Android 原生webview传递header前端H5如何接收](https://juejin.cn/post/6965336033395212302)
+  
+3. leecode 刷题
+> * [数组每一项相加之和](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2skh7/)
+> * [合并对象](https://leetcode-cn.com/leetbook/read/top-interview-questions/xm0u83/)
+4. 项目进度
+    - [x] 添加项目功能
+    - [x] 添加项目页面下面的排版
+    - [x] 添加项目页面下面的判断渲染
+
+## 2021/6/4
+1. 文章阅读
+> * [我们并不需要 Deno](https://juejin.cn/post/6969848850374721544)
+> * [前端需要了解的计算机网络知识](https://juejin.cn/post/6844904079974465544)
+2. 源码阅读
+> * [生产环境js错误收集及定位源码位置](https://juejin.cn/post/6960108736966819848)
+> * [ MindSpore 人脸识别](https://juejin.cn/post/6965741051646574628)
+  
+3. leecode 刷题
+> * [左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)
+> * [数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
+4. 项目进度
+    - [x] 添加项目功能
+    - [x] 添加项目页面下面的排版
+    - [x] 添加项目页面下面的判断渲染
+
 ## 2021/6/3
 1. 文章阅读
 > * [Web开发者需要知道的CSS Tricks](https://juejin.cn/post/6844903576561516558)
@@ -1867,7 +1914,6 @@
 - [整数反转](https://leetcode-cn.com/problems/reverse-integer/)
 
 4. 项目进度
-
 - [x] 复习history和hash跳转路由
 - [x] hash不美观 不需要后台做相对应的配置
 - [x] history 路径美观 但会出现404 需要后台相对应的配置 在线下webpack可使用historyApiFallback：true
@@ -1909,6 +1955,7 @@
 
 4. 项目进度
    - [x] 
+
 ## 2021.6.2
 1. 文章阅读
    - [程序员的几个阶段](https://juejin.cn/post/6968645798443614222)
@@ -1928,6 +1975,7 @@
    - [x] 轮询分为 长轮询 和短轮询
    - [x] 长轮巡：发送请求后会保持一个pending状态 知道给出响应或请求超时才返结果
    - [x] 短轮巡：发送请求后直接返回结果给出相应不需要等
+
 ## 2021.6.1
 1. 文章阅读
 - [节流和防抖](https://zhuanlan.zhihu.com/p/72923073)
@@ -1958,6 +2006,7 @@
    - 
 4. 项目进度
     - [x] 国际化 登录响响应器拦截.
+
 ## 2021.5.30
 1. 文章阅读
 - [React Hooks](https://juejin.cn/post/6844903709927800846)
@@ -2006,6 +2055,7 @@
 
 4. 铃铛排版
     我的主页排版
+
 ## 2021.5.27
 1. 文章阅读
    - [实现一个简易的 npm install](https://juejin.cn/post/69663903570051727)
@@ -2022,6 +2072,7 @@
 4. 项目进度
     - 头部排版
     - 树形结构
+
 ## 2021.5.26
 1. 文章阅读
    - [JS常用的循环遍历](https://juejin.cn/post/6966390357005172773)
@@ -2162,6 +2213,7 @@
 4. 项目进度
    - 登录页面的实现 
    - 接口的实现
+
 ## 2021.5.18 
 + 创建版本库
     + git clone url
@@ -2186,7 +2238,6 @@
 + 提交
     + 先拉去远程分支  pull
     + 在提交远程 push
-
 
 - [x] 用户接口
 - [x] 密码接口
