@@ -1,4 +1,6 @@
 # 郭乾升
+- 6.7
+  - [lodash源码分析之缓存方式的选择](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/MapCache.md)
 - 6.6
   - [lodash源码分析之缓存使用方式的进一步封装](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/SetCache.md)
 - 6.5
