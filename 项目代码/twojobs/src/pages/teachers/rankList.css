@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-html,body,#root,.box{
+html,body,#root{
     width: 100%;
     height: 100%;
   
@@ -124,10 +124,6 @@ html,body,#root,.box{
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
-.box_model .train_resource .resource_type .r_t_title[data-v-c6b29ed6], .box_model .train_resource .resource_type .r_t_list[data-v-c6b29ed6]{
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
 .box_model .train_resource .resource_type .r_t_list span.active[data-v-c6b29ed6]{
     background: #679cf6;
     color: #fff;
@@ -157,4 +153,15 @@ html,body,#root,.box{
 }
 .ranklist___aitsv{
     width: 100%;
+}
+.shine{
+    background: #679cf6;
+    border-radius: 18px;
+    color: #fff;
+}
+
+.r_t_list span{
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 0 8px;
 }
