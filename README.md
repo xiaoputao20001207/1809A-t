@@ -25,18 +25,7 @@
     -[x] 添加项目功能
     -[x] 添加项目页面下面的排版
     -[x] 添加项目页面下面的判断渲染
-## 2021/5/31
-1. 文章阅读
-> * [hash与history的区别](https://juejin.cn/post/6844904151206330375)
-> * [5分钟前端国际化](https://juejin.cn/post/6844903505866522638)
-2. 源码阅读
-> * [聊聊前端国际化文案该如何处理](https://juejin.cn/post/6844903778471280653)
-3. leecode 刷题
-> * [编写一个函数来计算它们的交集。](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
-> * [3的幂](https://leetcode-cn.com/problems/power-of-three/)
-4. 项目进度
-    -[x] 添加项目排版
-    -[x] 岗位接口表格功能
+
 ## 2021/6/1
 1. 文章阅读
 > * [前端面试](https://juejin.cn/post/6844903577220349959)
