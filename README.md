@@ -1,8 +1,8 @@
 # 杜学洋
 ## 2021/6/6
 1. 文章阅读
- > * [React进阶](https://juejin.cn/post/6963053793613185031)
- > * [webpack](https://juejin.cn/post/6961961165656326152)
+> * [React进阶](https://juejin.cn/post/6963053793613185031)
+> * [webpack](https://juejin.cn/post/6961961165656326152)
 2. 源码阅读
 > * [React 组件性能优化最佳实践](https://juejin.cn/post/6965747225154732069)
 > * [大道理小聪明系列 - Redux + Hooks 工程实践一则](https://juejin.cn/post/6965732983781195807)
