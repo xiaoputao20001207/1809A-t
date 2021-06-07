@@ -99,7 +99,7 @@ const TeacherPersonCenter:FC = ()=>{
                                 <input type="file" placeholder='选择修改' onChange={(e)=>{
                                     let form = new FormData()
                                     let files = e.target.files
-                                    console.log(files);
+                                    // console.log(files);
                                     
                                     if(files){
                                         for(let i=0; i<files.length; i++){
@@ -152,7 +152,7 @@ const TeacherPersonCenter:FC = ()=>{
                                             rules={[{ required: true, message: 'Please input your username!' }]}
                                             style={{ marginTop:'16px', width:'700px',height:'36px'}}
                                         >
-                                            <Input style={{lineHeight:'26px'}}/>
+                                            <Input style={{lineHeight:'26px'}} placeholder='请输入旧密码'/>
                                         </Form.Item>
 
                                         <Form.Item
@@ -161,9 +161,7 @@ const TeacherPersonCenter:FC = ()=>{
                                             name="phonenumber"
                                             rules={[{ required: true, message: 'Please input your phonenumber!' }]}
                                         >
-                                            <Input 
-                                                style={{lineHeight:'26px'}}
-                                            />
+                                            <Input style={{lineHeight:'26px'}} placeholder='请输入新密码'/>
                                         </Form.Item>
 
                                         <Form.Item
@@ -171,9 +169,8 @@ const TeacherPersonCenter:FC = ()=>{
                                             label="邮箱"
                                             name="email"
                                             rules={[{ required: true, message: 'Please input your email!' }]}>
-                                            <Input 
-                                                style={{lineHeight:'26px',marginLeft:'23px'}}
-                                            />
+
+                                            <Input style={{lineHeight:'26px',marginLeft:'23px'}} placeholder='请确认密码'/>
                                         </Form.Item>
                                         
                                         <Form.Item name="sex" label="性别" style={{ marginTop:'16px', width:'680px',height:'36px',marginLeft:'10px'}}>

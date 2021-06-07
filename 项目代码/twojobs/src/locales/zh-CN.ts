@@ -33,6 +33,9 @@ export default {
     'breadcrumb.questionDetail':'问答列表',
     'breadcrumb.questionHandle':'问答管理',
 
+    'breadcrumb.needHandle':'代办管理',
+    'breadcrumb.teacherPersonCenter':'个人中心',
+
     'footer.into the eight dimensions':'走进八维',
     'footer.eight dimensions culture':'八维文华',
     'footer.the social responsibility':'社会责任',

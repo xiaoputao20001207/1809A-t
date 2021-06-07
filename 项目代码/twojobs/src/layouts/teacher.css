@@ -177,3 +177,6 @@ div {
     color: white;
     font-size: 15px;
 }
+#root .ant-layout .ant-breadcrumb{
+    padding: 0 40px;
+}

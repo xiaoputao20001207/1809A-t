@@ -34,6 +34,10 @@ export default {
     'breadcrumb.questionDetail':'questionDetail',//问答 问答列表
     'breadcrumb.questionHandle':'questionHandle',//问答 问答管理
 
+    'breadcrumb.needHandle':'needHandle',//代办管理
+    'breadcrumb.teacherPersonCenter':'PersonCenter',//个人中心
+
+
     //脚部
     'footer.into the eight dimensions':'Into the eight dimensions',//走进八维
     'footer.eight dimensions culture':'Eight dimensions culture',//八维文华
