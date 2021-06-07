@@ -41,3 +41,21 @@ export let DelItem = (versionId:string) =>{
     method:'DELETE',
    })
 }
+
+//详情EditorDetail
+export let EditorDetail=(versionId:string)=>{
+  return request(`/sxpt/project/selectProjectByVserionId?versionId=${versionId}`)
+}
+
+//编辑页面实训大纲
+export let getTrainingSyllabus = () => {
+  return request('/sxpt/brief/selectBriefTree')
+}
+//实训大纲保存
+export let saveTrainingSyllabusList=()=>{
+  return request('/sxpt/brief')
+}
+//编辑页面项目资源
+export let getProjectResources = () => {
+  return request('/sxpt/projectResource/selectResourceTree')
+}

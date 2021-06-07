@@ -7,6 +7,8 @@ class Personcenter{
         makeAutoObservable(this)
     }
 
+    srcStr = 'http://111.203.59.61:8060/file_service/group1/M00/00/18/rBsCHWCect6AAI6AAAC1i-52NMk29.jpeg'
+
     //个人中心详情
     personMessage:PersoncenterList = {} as PersoncenterList
 
@@ -28,12 +30,13 @@ class Personcenter{
 
     //修改基本资料
     async changeOwnPage(email:string,phonenumber:string,userName:string){
-        await changeOwnPage({...this.personMessage,email,phonenumber,userName})
+      return await changeOwnPage({...this.personMessage,email,phonenumber,userName})
     }
 
     //关闭
     async close(){
         await closePage()
     }
+
 }
 export default new Personcenter

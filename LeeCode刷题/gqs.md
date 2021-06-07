@@ -1,4 +1,7 @@
 ## 郭乾升
+- 6.7
+  - [删除排序数组中的重复项](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2gy9m/)
+  - [买卖股票的最佳时机 II](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2zsx1/)
 - 6.6
   - [旋转数组](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2skh7/)
   - [存在重复元素](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2skh7/)
@@ -8,7 +11,7 @@
 - 6.4
   - [实现 strStr()](https://leecode-cn.com/leetbook/read/array-and-string/cm5e2/)
 - 6.3
-  - [移除元素](https://leetcode-cn.com/leetbook/read/array-and-string/cwuyj/)
+  - [移除元素.](https://leetcode-cn.com/leetbook/read/array-and-string/cwuyj/)
   - [最大连续1的个数](https://leetcode-cn.com/leetbook/read/array-and-string/cd71t/)
 - 6.2
   - [反转字符串](https://leetcode-cn.com/leetbook/read/array-and-string/cacxi/)
@@ -18,13 +21,13 @@
   - [两个数组的交集 II](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2y0c2/)
 - 5.31
   - [反转链表](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnnhm6/)
-  - [合并两个有序链表](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnnbp2/
+  - [合并两个有序链表](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnnbp2/)
 - 5.30
   - [有效的字母异位词](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn96us/)
   - [验证回文串](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xne8id/)
 - 5.29
   - [整数反转](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnx13t/)
-  - [[字符串中的第一个唯一字符]](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn5z8r/)
+  - [字符串中的第一个唯一字符](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn5z8r/)
 - 5.28
   - [旋转图像](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnhhkv/)
   - [反转字符串](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnhbqj/)

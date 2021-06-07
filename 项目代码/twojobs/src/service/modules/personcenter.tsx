@@ -33,3 +33,4 @@ export const changeOwnPage = (data:PersoncenterList)=>{
 export const closePage = () => {
     return request('/sxpt/blacking/blackList?isAsc=desc&pageNum=1&pageSize=10&type=0&blackingTitle=&classId=')
 }
+

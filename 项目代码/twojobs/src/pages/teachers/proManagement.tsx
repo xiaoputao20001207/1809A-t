@@ -19,7 +19,7 @@ import { Input, Space, Button, Table } from 'antd';
 import style from './postless.less';
 import { observer } from 'mobx-react-lite';
 import useStore from '@/context/useStore';
-import { history } from 'umi';
+import { history,Link } from 'umi';
 import proSkill from '@/store/modules/proSkill';
 
 const { Search } = Input;
@@ -122,7 +122,7 @@ const Postskill: FC = (props) => {
         } else if (row.status === '1') {
           return (
             <div className={style.action}>
-              <FormOutlined style={{ color: '#679cf6' }} />
+             <Link to={`/teachers/addProject?versionId=${row.versionId}&proId=${row.id}&see=false`}> <FormOutlined style={{ color: '#679cf6' }}/></Link>
               <SendOutlined style={{ color: '#679cf6' }} />
               <DeleteOutlined
                 style={{ color: '#679cf6' }}
@@ -162,6 +162,7 @@ const Postskill: FC = (props) => {
 
   //仅看我的
   const [isMyInfo, setisMyInfo] = useState(false);
+
   let queryParams: Imohu = {
     isAsc: 'desc',
     pageNum: 1,
@@ -170,10 +171,9 @@ const Postskill: FC = (props) => {
     status: 0,
     proName: '',
     newProjectList: 0,
-    specialtyTag: '',
-    industryTag: '',
   };
   let { proSkill, skill } = useStore();
+  //详情
   //删除
   function del(versionId: string) {
     proSkill.DelItem(versionId).then((res) => {
@@ -309,7 +309,7 @@ const Postskill: FC = (props) => {
           <Button
             type="primary"
             onClick={() => {
-              history.replace('/teachers/addProject');
+              history.replace('/teachers/addProject?see=false');
             }}
           >
             +添加项目

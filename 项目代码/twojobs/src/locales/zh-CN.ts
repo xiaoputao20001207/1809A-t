@@ -17,6 +17,25 @@ export default {
     'header.project':'项目',
     'header.jobs':'岗位',
 
+    'breadcrumb.teachers':'教师端',
+    'breadcrumb.postSkill':'岗位项目',
+    'breadcrumb.proManagement':'项目管理',
+    
+    'breadcrumb.planList':'计划', 
+    'breadcrumb.viewPlan':'进度', 
+    'breadcrumb.defence':'答辩', 
+    'breadcrumb.planListManage':'计划管理', 
+
+    'breadcrumb.interviewList':'面试记录',
+    'breadcrumb.interviewManage':'面试记录管理',
+    'breadcrumb.rankList':'面试排行榜',
+
+    'breadcrumb.questionDetail':'问答列表',
+    'breadcrumb.questionHandle':'问答管理',
+
+    'breadcrumb.needHandle':'代办管理',
+    'breadcrumb.teacherPersonCenter':'个人中心',
+
     'footer.into the eight dimensions':'走进八维',
     'footer.eight dimensions culture':'八维文华',
     'footer.the social responsibility':'社会责任',
