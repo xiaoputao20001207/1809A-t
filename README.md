@@ -792,8 +792,7 @@
 - [源码篇（五）：手写vuex版mini源码分析vuex的执行过程。附送简版vuex源码](https://juejin.cn/post/6857059183762931720)
 - ​[Promise实现原理（附源码）](https://juejin.cn/post/6844903665686282253)
 
-3. LeetCode刷题
-4. 
+3. LeetCode刷题 
 - [最常见的单词](https://leetcode-cn.com/problems/most-common-word/)
 - ​[消失的数字](https://leetcode-cn.com/problems/missing-number-lcci/)
 
@@ -931,17 +930,15 @@
 
 
 2. 源码阅读
-1. 源码阅读
    
 - [Promise 源码分析](https://juejin.cn/post/6844903745004765191)
 - [redux源码解读](https://juejin.cn/post/6844903600456466445) 
 
 3. LeetCode刷题
- 1. LeetCode刷题
 - [只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
 - [二进制求和](https://leetcode-cn.com/problems/add-binary/submissions/)
 
-4. 项目进度
+1. 项目进度
 
 - [x] 八维生产性实训平台 - 岗位页面头部、底部、table
 - [x] 八维生产性实训平台 - 岗位页面排版
@@ -960,17 +957,15 @@
 - ​[数据流管理方案：Redux 和 MobX 哪个更好？](https://juejin.cn/post/6938207430048219166)
 
 2. 源码阅读
-3. 源码阅读
    
 - [React 源码学习之 render 阶段](https://juejin.cn/post/6967959680341508126)
 - [Axios 源码解析](https://juejin.cn/post/6844903824583294984) 
 
 3. LeetCode刷题
- 1. LeetCode刷题
 - [加一](https://leetcode-cn.com/problems/plus-one/submissions/)
 - [移动零](https://leetcode-cn.com/problems/move-zeroes/submissions/)
 
-4. 项目进度
+1. 项目进度
 
 - [x] 八维生产性实训平台 - 岗位页面头部、底部、table
 - [x] 八维生产性实训平台 - 岗位页面排版
