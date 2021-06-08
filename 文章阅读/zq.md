@@ -1,6 +1,6 @@
 # 张琪
 - 0608
-    - [TypeScript 学习笔记](https://juejin.cn/post/6969457470783619103 )
+    - [TypeScript - 学习笔记](https://juejin.cn/post/6969457470783619103 )
     - [手写简易浏览器](https://juejin.cn/post/6969575610108772359)
 - 0607
     - [学习 CSS 文本溢出显示省略号](https://juejin.cn/post/6970307196068315150)
