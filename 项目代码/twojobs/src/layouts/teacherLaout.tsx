@@ -143,7 +143,7 @@ import Breadcrumb from '@/components/breadCrumb'
                         <p><NavLink to="/teachers/teacherPersonCenter"> <UserOutlined style={{color:'grey'}}/> <span>个人中心</span></NavLink></p>
                         <p><NavLink to="/teachers/needHandle"> <ProfileOutlined style={{color:'grey'}}/> <span> 我的代办</span> </NavLink></p>
                         <p  onClick={showModal}> <LogoutOutlined style={{color:'grey'}}/> <a >退出</a></p>
-                        <Modal title="Basic Modal" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
+                        <Modal title="" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
                             <p>确定注销并退出系统吗?</p>
                         </Modal>
                     </div>} 
