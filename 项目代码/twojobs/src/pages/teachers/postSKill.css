@@ -45,7 +45,7 @@ html,body,#root{
     color: white;
     border-radius: 10px;
 }
-.box span:hover{
+.topfather span:hover{
     background: #679cf6;
     color: white;
     border-radius: 10px;
@@ -57,7 +57,11 @@ html,body,#root{
 .search{
     width: 100%;
     height: 60px;
+    
 }
+.search .ant-input{
+        height: 36px;
+    }
 
 .ant-input-group-wrapper {
     margin: 16px 10px 10px 10px;

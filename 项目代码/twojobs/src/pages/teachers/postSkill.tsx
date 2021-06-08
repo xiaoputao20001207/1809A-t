@@ -102,10 +102,6 @@ const Postskill:FC = (props)=>{
         }
         GetListItem(queryParams).then(res=>{
             if(res.code === 200){
-<<<<<<< HEAD
-=======
-                //console.log(res.rows,'11111111111111111')
->>>>>>> 70564c58dea78ba023e507fe5dbf71c7afb730b7
                 setdataSource(res.rows)
             }
         })
