@@ -37,7 +37,7 @@ export const request: RequestConfig = {
   }],
   //响应拦截器
   responseInterceptors: [async (response,options) => {
-    // console.log(response,options,location)
+    console.log(response,options,location)
     // console.log(response,options)
     let data = {code:200,msg:''};
 
@@ -126,4 +126,5 @@ export function onRouteChange({ matchedRoutes }:any) {
   if(location.pathname === '/'){
     history.replace('/login')
   }
+  
 }

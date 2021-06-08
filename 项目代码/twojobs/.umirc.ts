@@ -17,5 +17,12 @@ export default defineConfig({
     antd: false,
     title: false,
   },
+  dynamicImport: {
+    loading: '@/Loading',
+  },
+  hash:true,
+  history: { type: 'hash' },
+  base:"/1809A/zhaoxiaojie/bwproject/",
+  publicPath: process.env.NODE_ENV === 'production' ? '/1809A/zhaoxiaojie/bwproject/' : '/',
 });
 
