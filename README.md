@@ -1673,7 +1673,7 @@
 # 张琪
 ## 2021.6.8
 1. 文章阅读
-   - [TypeScript 学习笔记](https://juejin.cn/post/6969457470783619103 )
+   - [TypeScript -学习笔记](https://juejin.cn/post/6969457470783619103 )
 2. 源码阅读
    - [Node.js eventloop + 线程池源码分析（建议精读）](https://juejin.cn/post/6951303053739819038)
 3. leecode 刷题
