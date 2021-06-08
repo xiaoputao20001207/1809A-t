@@ -1960,6 +1960,24 @@
 
 
 # 吴晓桐
+## 2021.6.8
+1. 文章阅读
+   
+   - [总结TypeScript在项目开发中的应用实践体会](https://juejin.cn/post/6970841540776329224)
+   - ​[10分钟实现微信 "炸屎"大作战](https://juejin.cn/post/6969401491853410312)
+
+2. 源码阅读
+   - [「React进阶」漫谈React异步组件前世与今生](https://juejin.cn/post/6970845778713509919)
+   - ​[前端项目负责人在项目初期需要做什么](https://juejin.cn/post/6968874442554343455)
+
+  
+3. leecode 刷题
+
+ - [字符串回文串](https://leetcode-cn.com/problems/valid-palindrome/solution/125-yan-zheng-hui-wen-chuan-by-i3raztjhz-j4tw/)
+ - [乘积最大数组](https://leetcode-cn.com/leetbook/read/top-interview-questions/xmk3rv/)
+
+4. 项目进度
+
 
 ## 2021.6.7
 1. 文章阅读
