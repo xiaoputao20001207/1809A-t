@@ -163,6 +163,7 @@ const Postskill: FC = (props) => {
   //仅看我的
   const [isMyInfo, setisMyInfo] = useState(false);
 
+
   let queryParams: Imohu = {
     isAsc: 'desc',
     pageNum: 1,
@@ -220,7 +221,6 @@ const Postskill: FC = (props) => {
     }
     proSkill.GetListDairnItem(queryParams);
   }, [curStatus, carStatus, searchTitle, isMyInfo, curDairn, industry]);
-  console.log(proSkill.setdataSource);
 
   return (
     <div className="box" style={{padding:'0 60px'}}>

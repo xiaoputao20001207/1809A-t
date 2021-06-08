@@ -76,10 +76,9 @@ const PlanListManage: React.FC = () => {
   let tab=["未开始","进行中","已结束"]
 //   一进页面获取数据
   useEffect(() => {
-    // /sxpt/classPlan/getPlanListAll
     planList.GetplanList(`classId=&searchName=&ifFinished=${1}&pageNum=1&pageSize=10`);
   }, []);
-//   获取未开始数据
+//   获取数据
   function GetplanList(index:number) {
       planList.GetplanList(`classId=&searchName=&ifFinished=${index}&pageNum=1&pageSize=10`)
   }

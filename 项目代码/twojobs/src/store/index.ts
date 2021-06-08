@@ -19,7 +19,8 @@ import plan from './modules/plan'
 import view from './modules/view'
 import addPlan from './modules/addPlan'
 import user from './modules/user'
-
+//添加任务
+import addTasks from "./modules/addTasks"
 
 
 export default{
@@ -40,5 +41,6 @@ export default{
     view,
     addPlan,
     user,
-    defence
+    defence,
+    addTasks
 }

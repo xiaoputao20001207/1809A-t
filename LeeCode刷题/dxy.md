@@ -1,4 +1,7 @@
 ## 杜学洋
+## 6.8
+  > * [二叉树前序遍历](https://leetcode-cn.com/leetbook/read/data-structure-binary-tree/xeywh5/)
+  > * [二叉树中序遍历](https://leetcode-cn.com/leetbook/read/data-structure-binary-tree/xecaj6/)
 ## 6.7
   > * [配对交换](https://leetcode-cn.com/problems/exchange-lcci/)
   > * [最大数值](https://leetcode-cn.com/problems/maximum-lcci/)

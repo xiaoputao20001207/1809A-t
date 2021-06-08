@@ -9,8 +9,8 @@ export let Gettoplist2 = () => {
   return request('/sxpt/label/selectMajorStationList');
 };
 //获取行业点击的每一项接口
-export let GetListDairnItem = (queryParams?: Imohu) => {
-  return request('/sxpt/project/selectProjectList?', { params:queryParams });
+export let GetListDairnItem = (params: Imohu) => {
+  return request('/sxpt/project/selectProjectList?', { params });
 };
 
 //获取行业接口

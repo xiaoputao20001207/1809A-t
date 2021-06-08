@@ -107,7 +107,6 @@ const Postskill:FC = (props)=>{
         }
         GetListItem(queryParams).then(res=>{
             if(res.code === 200){
-                console.log(res.rows,'11111111111111111')
                 setdataSource(res.rows)
             }
         })
@@ -147,7 +146,7 @@ const Postskill:FC = (props)=>{
             </div>
         </div>
         <div className="tab">
-            <Table dataSource={dataSource} columns={columns} rowKey="stationId"></Table>1
+            <Table dataSource={dataSource} columns={columns} rowKey="stationId"></Table>
         </div>
     </div>
 }

@@ -1,4 +1,17 @@
 # 杜学洋
+## 2021/6/8
+1. 文章阅读
+ > * [TypeScript 学习笔记](https://juejin.cn/post/6969457470783619103 )
+ > * [手写简易浏览器](https://juejin.cn/post/6969575610108772359)
+2. 源码阅读
+ > * [生产环境js错误收集及定位源码位置](https://juejin.cn/post/6960108736966819848)
+ > * [Node.js eventloop + 线程池源码分析（建议精读）](https://juejin.cn/post/6951303053739819038)
+3. leecode 刷题
+ > * [二叉树前序遍历](https://leetcode-cn.com/leetbook/read/data-structure-binary-tree/xeywh5/)
+ > * [二叉树中序遍历](https://leetcode-cn.com/leetbook/read/data-structure-binary-tree/xecaj6/)
+4. 项目进度
+   - [x] 添加项目功能
+   - [x] 添加项目页面下面屡屡思路
 ## 2021/6/7
 1. 文章阅读
  > * [浏览器缓存](https://jasonandjay.github.io/study/zh/standard/Cache.html#%E5%9B%BE%E8%A7%A3)

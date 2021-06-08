@@ -1,4 +1,7 @@
 # 杜学洋
+## 2021/6/8
+  > * [TypeScript 学习笔记](https://juejin.cn/post/6969457470783619103 )
+  > * [手写简易浏览器](https://juejin.cn/post/6969575610108772359)
 ## 2021/6/7
   > * [浏览器缓存](https://jasonandjay.github.io/study/zh/standard/Cache.html#%E5%9B%BE%E8%A7%A3)
   > * [前端缓存最佳实践](https://juejin.cn/post/6844903737538920462)

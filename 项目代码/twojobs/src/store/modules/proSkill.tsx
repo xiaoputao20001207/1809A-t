@@ -83,7 +83,7 @@ class proSkill {
      
      if(result){
        this.setdataSource=result.rows ;
-       console.log(result);
+       console.log(this.setdataSource);
      }
    }
      //上传图片
