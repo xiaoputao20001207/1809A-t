@@ -1,4 +1,7 @@
 ## 练习
+- 0608
+    - [左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)
+    -  [速算机器人](https://leetcode-cn.com/problems/nGK0Fy/)
 - 0607
     - [各数相加](https://leetcode-cn.com/problems/add-digits/solution/ge-wei-xiang-jia-by-eric-314-wz5y/)
     - [丑数](https://leetcode-cn.com/problems/ugly-number/)

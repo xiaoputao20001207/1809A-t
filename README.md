@@ -1671,6 +1671,18 @@
 - [x] 复习ts
 
 # 张琪
+## 2021.6.8
+1. 文章阅读
+   - [TypeScript 学习笔记](https://juejin.cn/post/6969457470783619103 )
+2. 源码阅读
+   - [Node.js eventloop + 线程池源码分析（建议精读）](https://juejin.cn/post/6951303053739819038)
+3. leecode 刷题
+   - [左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)
+   -  [速算机器人](https://leetcode-cn.com/problems/nGK0Fy/)
+4. 项目进度
+   - [ x ] 表格分页
+   - [ x ] 各页布局排版调整
+     
 ## 2021.6.7
 1. 文章阅读
    - 0607 [学习 CSS 文本溢出显示省略号](https://juejin.cn/post/6970307196068315150)
