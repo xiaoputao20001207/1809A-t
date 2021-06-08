@@ -2,11 +2,13 @@ import  {makeAutoObservable} from 'mobx'
  import { getDefenceListitem,getclassTeam,savedefence,defenceInfo,delteDefen,defenceHistory,getDefenceDetial}  from '../../service'
  import {defenceTable,classPlanItem,TeamItem,SaveItem,defenDetail} from '@/utils/interface'
  import {getClasssPlanTree} from '@/service/index'
- 
+ import {message} from 'antd'
 class defence{
    constructor(){
      makeAutoObservable(this)
    }
+   //页数
+     page = 1
    //详情数据
     detailList ={} as defenDetail
     //表格数据
@@ -17,10 +19,13 @@ class defence{
     //小组数据
      classTeam:TeamItem ={} as TeamItem
     //获取 切换答辩列表
-    async getDefenceList(defenceMjorId:string,defenceStatus:number,searchTitle:string){
-     let result = await getDefenceListitem(defenceMjorId,defenceStatus,searchTitle)
+    async getDefenceList(defenceMjorId:string,defenceStatus:number,searchTitle:string,pageNum: number
+      ,pageSize: number){
+     let result = await getDefenceListitem(defenceMjorId,defenceStatus,searchTitle,pageNum
+      , pageSize)
        console.log(result.rows,'21111111111111111')
       this.DefenceList = result.rows
+      this.page = result.total
    }
    //获取班级计划数据
     async getClasssPlanTree(){
@@ -49,8 +54,9 @@ class defence{
     async delteDefen(id:string){
       let result = await delteDefen(id)
        if(result.code==200){
-        let result = await   getDefenceListitem('',0,'')
-        alert('删除成功')
+         
+        let result = await   getDefenceListitem('',0,'',1,10)
+        
         this.DefenceList = result.rows
        }
     }
