@@ -723,6 +723,36 @@
 
 # 弓程婷
 
+- ## 2021/06/08
+- 
+1. 文章阅读
+
+- [前端批量获取文件并打包压缩解决方案](https://juejin.cn/post/6970866355977486349)
+- ​[call（）、apply（）、bind（）三者的区别和使用？](https://juejin.cn/post/6971029774995030029)
+
+
+1. 源码阅读
+   
+- [react源码解析3.react源码架构](https://juejin.cn/post/6968982632465956901)
+- ​[React17源码解读—— 事件系统](https://juejin.cn/post/6967738672279994382)
+
+3. LeetCode刷题
+- [ 交替合并字符串 ](https://leetcode-cn.com/problems/merge-strings-alternately/submissions/)
+- ​[ 唯一元素的和 ](https://leetcode-cn.com/problems/sum-of-unique-elements/submissions/)
+
+4. 项目进度
+
+- [x] 八维生产性实训平台 - 岗位页面头部、底部、table
+- [x] 八维生产性实训平台 - 岗位页面排版
+- [x] 八维生产性实训平台 - 点击添加岗位页面
+- [x] 八维生产性实训平台 - 岗位页面点击保存以后出现的列表
+- [x] 八维生产性实训平台 - 岗位页面-tree树形控件
+- [x] 八维生产性实训平台 - 岗位页面-rate评分组件
+- [x] 八维生产性实训平台 - 岗位页面-md附文本
+- [x] 八维生产性实训平台 - 问答页面
+- [x] 八维生产性实训平台 - 问答页面-我要提问
+- [x] 八维生产性实训平台 - 问答页面-我要提问-回答
+
 - ## 2021/06/07
 - 
 1. 文章阅读
