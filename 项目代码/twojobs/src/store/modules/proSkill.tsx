@@ -1,4 +1,4 @@
-import {  Gettoplist1 ,GetListDairnItem, Gettoplist2, DelItem} from '@/service';
+import {  Gettoplist1 ,GetListDairnItem, Gettoplist2, DelItem, EditorDetail, getImg} from '@/service';
 import { Addpro, Imohu, ISkilldairn, ISkilldairnObj } from '@/utils/interface';
 import { makeAutoObservable } from 'mobx';
 
@@ -6,6 +6,8 @@ class proSkill {
   constructor() {
     makeAutoObservable(this);
   }
+  //上传图片
+  ProjectDetailImg: string = '';
   //表格数据
   setdataSource:ISkilldairnObj[]=[]
   //定义类型
@@ -13,7 +15,39 @@ class proSkill {
   toplist2:ISkilldairn[]=[]
   // topItem:ISkilldairn[] = [];
   proAddItem:Addpro[]=[]
-
+  //详情
+  detailList:Addpro={
+    answerCount: 0,
+    authorName: null,
+    description: "",
+    discussCount: 0,
+    favorCount: null,
+    favorites: null,
+    favoritesInd: false,
+    id: "",
+    knowledge: [],
+    knowledgeId: null,
+    knowledgeName: null,
+    labelName: "",
+    majorId: "",
+    majorName: "",
+    majorStationChineseList: [""],
+    majorStationList: [""],
+    name: "",
+    pictureUrl: "",
+    showUrl: "",
+    stationId: "",
+    stationIds: "",
+    stationName: "",
+    stuCount: null,
+    subjectTime: 5,
+    sxType: "2",
+    trade: [""],
+    tradeId: "",
+    tradeName: "",
+    version: "",
+    versionId: "",
+  }
   //定义方法
   async Gettoplist1() {
     let result = await Gettoplist1();
@@ -34,14 +68,29 @@ class proSkill {
       return result;
     }
   }
+  //详情
+  async EditorDetail(versionId:string){
+     let result =await EditorDetail(versionId);
+     if(result){
+         this.detailList=result.data
+     }
+     console.log(this.detailList);
+     
+  }
 //表格数据
    async GetListDairnItem(queryParams:Imohu){
      let result=await GetListDairnItem(queryParams);
      
      if(result){
        this.setdataSource=result.rows ;
-       console.log(result);
+       console.log(this.setdataSource);
      }
    }
+     //上传图片
+     async addProjectImg(data: any) {
+      let result = await getImg(data);
+      if (result.url)
+          this.ProjectDetailImg = result.url
+  }
 }
 export default new proSkill();

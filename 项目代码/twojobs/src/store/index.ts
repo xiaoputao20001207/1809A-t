@@ -22,6 +22,8 @@ import addPlan from './modules/addPlan'
 import user from './modules/user'
 import { isComputedProp } from '_mobx@6.3.2@mobx'
 
+//添加任务
+import addTasks from "./modules/addTasks"
 
 
 export default{
@@ -44,4 +46,5 @@ export default{
     addPlan,
     user,
     defence,
+    addTasks
 }

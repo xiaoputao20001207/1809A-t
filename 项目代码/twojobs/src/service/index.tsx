@@ -42,3 +42,9 @@ export * from './modules/addPlan'
 export * from './modules/planList'
 //计划页面接口
 export * from './modules/view'
+//添加任务
+export * from "./modules/addTasks"
+// //项目资源
+// export * from "./modules/ProjectResourcesList"
+
+
