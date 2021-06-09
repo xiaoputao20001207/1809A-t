@@ -1,4 +1,6 @@
 ## 吴晓桐
+- 6.9
+   - [Node.js eventloop + 线程池源码分析（建议精读）](https://juejin.cn/post/6951303053739819038)
 - 6.8
    - [「React进阶」漫谈React异步组件前世与今生](https://juejin.cn/post/6970845778713509919)
    - ​[前端项目负责人在项目初期需要做什么](https://juejin.cn/post/6968874442554343455)

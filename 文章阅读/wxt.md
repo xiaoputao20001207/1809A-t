@@ -1,4 +1,6 @@
 ## 吴晓桐
+- 6.9
+   - [TypeScript -学习笔记](https://juejin.cn/post/6969457470783619103 )
 - 6.8
    - [总结TypeScript在项目开发中的应用实践体会](https://juejin.cn/post/6970841540776329224)
    - ​[10分钟实现微信 "炸屎"大作战](https://juejin.cn/post/6969401491853410312)

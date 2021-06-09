@@ -1,4 +1,7 @@
 ## 吴晓桐
+- 6.9
+   - [左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)
+   -  [速算机器人](https://leetcode-cn.com/problems/nGK0Fy/)
 - 6.8
    - [字符串回文串](https://leetcode-cn.com/problems/valid-palindrome/solution/125-yan-zheng-hui-wen-chuan-by-i3raztjhz-j4tw/)
    - [乘积最大数组](https://leetcode-cn.com/leetbook/read/top-interview-questions/xmk3rv/)
