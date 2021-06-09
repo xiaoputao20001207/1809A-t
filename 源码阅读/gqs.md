@@ -1,4 +1,6 @@
 # 郭乾升
+- 6.8
+  - [lodash源码分析之List缓存](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/ListCache.md)
 - 6.7
   - [lodash源码分析之缓存方式的选择](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/MapCache.md)
 - 6.6

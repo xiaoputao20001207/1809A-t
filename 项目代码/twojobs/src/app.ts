@@ -124,7 +124,7 @@ export function onRouteChange({ matchedRoutes }:any) {
   }
   //重定向
   if(location.pathname === '/'){
-    history.replace('/login')
+    history.replace('/teachers/postSkill')
   }
   
 }
