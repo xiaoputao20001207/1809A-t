@@ -1,4 +1,6 @@
 ## 郭乾升
+- 6.8
+  - [实现 strStr()](https://leecode-cn.com/leetbook/read/array-and-string/cm5e2/)
 - 6.7
   - [删除排序数组中的重复项](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2gy9m/)
   - [买卖股票的最佳时机 II](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2zsx1/)

@@ -1,4 +1,7 @@
 # 郭乾升
+- 6.8
+  - [JavaScript中令人困扰的 this](https://juejin.cn/post/6944587375334916126)
+  - [面向对象--原型与原型链](https://juejin.cn/post/6944595399088799752)
 - 6.7
   - [一看就会的SCSS](https://juejin.cn/post/6943987760130687012)
   - [分享15个Webpack实用的插件！！！](https://juejin.cn/post/6944940506862485511)

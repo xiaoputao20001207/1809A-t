@@ -341,6 +341,29 @@
 - [x] 
 
 # 郭乾升
+## 2021.6.8
+1. 文章阅读
+
+- [H5 页面列表缓存方案](https://juejin.cn/post/6948210854126944292)
+- [使用hooks写React组件注意的5个地方](https://juejin.cn/post/6947573426076778533)
+
+2. 源码阅读
+
+- [lodash源码分析之缓存使用方式的进一步封装](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/SetCache.md)
+
+3. leecode 刷题
+
+- [有效的字母异位词](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn96us/)
+- [验证回文串](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xne8id/)
+
+4. 项目进度
+
+- [x] 计划页面的跳转
+- [x] 进度页面的跳转
+- [x] 进度页面的布局
+- [x] 删除接口的调用
+- [x] 添加岗位的编写布局功能实现
+
 ## 2021.6.7
 1. 文章阅读
 
