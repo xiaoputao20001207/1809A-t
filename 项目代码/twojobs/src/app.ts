@@ -101,6 +101,7 @@ export const request: RequestConfig = {
     return response;
   }],
 };
+
 // 覆盖根组件，把mobx的store注入
 export function rootContainer(container:React.ReactElement) {
   return React.createElement(StoreContext.Provider, {value:store}, container);

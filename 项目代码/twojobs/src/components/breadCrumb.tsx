@@ -23,6 +23,7 @@ const BreadCrumbs:React.FC = ()=> {
         const last = routes.indexOf(route) === 0;
         
         // {console.log(route.breadcrumbName)}
+        console.log(last)
         return last ? (
           <span>{intl.formatMessage({id:'breadcrumb.'+route.breadcrumbName})}</span>
         ) : (

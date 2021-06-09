@@ -59,7 +59,6 @@ import Breadcrumb from '@/components/breadCrumb'
     const handleCancel = () => {
       setIsModalVisible(false);
     };
-    console.log(skill.userList.avatar);
     
     
     return <Layout> 
