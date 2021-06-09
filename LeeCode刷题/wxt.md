@@ -1,4 +1,9 @@
 ## 吴晓桐
+- 6.8
+   - [字符串回文串](https://leetcode-cn.com/problems/valid-palindrome/solution/125-yan-zheng-hui-wen-chuan-by-i3raztjhz-j4tw/)
+   - [乘积最大数组](https://leetcode-cn.com/leetbook/read/top-interview-questions/xmk3rv/)
+- 6.7
+  - [数组去重](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x21ib6/)
 - 6.6
   - [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
   - ​[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)

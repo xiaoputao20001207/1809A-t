@@ -2015,18 +2015,34 @@
 
 
 # 吴晓桐
-## 2021.6.7
+## 2021.6.8
 
 1. 文章阅读
-
-- [一文带你看懂 UmiJS （3.x版本）](https://juejin.cn/post/6844904197331091464)
-- ​[基于React的数据流实现](https://juejin.cn/post/6844904121116393486)
+   - [总结TypeScript在项目开发中的应用实践体会](https://juejin.cn/post/6970841540776329224)
+   - ​[10分钟实现微信 "炸屎"大作战](https://juejin.cn/post/6969401491853410312)
 
 2. 源码阅读
-   
-- [React Hooks源码浅析](https://zhuanlan.zhihu.com/p/68842478)
-- ​[react生命周期，hooks对应的生命周期？](https://www.cnblogs.com/cxyqts/p/14401737.html?ivk_sa=1024320u)
+   - [「React进阶」漫谈React异步组件前世与今生](https://juejin.cn/post/6970845778713509919)
+   - ​[前端项目负责人在项目初期需要做什么](https://juejin.cn/post/6968874442554343455)
+
   
+3. leecode 刷题
+
+ - [字符串回文串](https://leetcode-cn.com/problems/valid-palindrome/solution/125-yan-zheng-hui-wen-chuan-by-i3raztjhz-j4tw/)
+ - [乘积最大数组](https://leetcode-cn.com/leetbook/read/top-interview-questions/xmk3rv/)
+
+4. 项目进度
+
+## 2021.6.7
+1. 文章阅读
+   
+   - [带你理解 防抖,节流](https://juejin.cn/post/6844904197331091464)
+   - ​[什么是构造函数](https://juejin.cn/post/6844904121116393486)
+
+2. 源码阅读
+   - [谈谈原型链](https://zhuanlan.zhihu.com/p/68842478)
+   - ​[栈和堆的区别](https://www.cnblogs.com/cxyqts/p/14401737.html?ivk_sa=1024320u)
+
 3. leecode 刷题
 
  - [数组去重](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x21ib6/)
@@ -2049,13 +2065,13 @@
 
 1. 文章阅读
 
-- [带你理解 防抖,节流](https://juejin.cn/post/6844904197331091464)
-- ​[什么是构造函数](https://juejin.cn/post/6844904121116393486)
+- [一文带你看懂 UmiJS （3.x版本）](https://juejin.cn/post/6844904197331091464)
+- ​[基于React的数据流实现](https://juejin.cn/post/6844904121116393486).
 
 2. 源码阅读
    
-- [谈谈原型链](https://zhuanlan.zhihu.com/p/68842478)
-- ​[栈和堆的区别](https://www.cnblogs.com/cxyqts/p/14401737.html?ivk_sa=1024320u)
+- [React Hooks源码浅析](https://zhuanlan.zhihu.com/p/68842478)
+- ​[react生命周期，hooks对应的生命周期？](https://www.cnblogs.com/cxyqts/p/14401737.html?ivk_sa=1024320u)
   
 1. leecode 刷题
 

@@ -1,4 +1,10 @@
 ## 吴晓桐
+- 6.8
+   - [总结TypeScript在项目开发中的应用实践体会](https://juejin.cn/post/6970841540776329224)
+   - ​[10分钟实现微信 "炸屎"大作战](https://juejin.cn/post/6969401491853410312)
+- 6.7
+  - [一文带你看懂 UmiJS （3.x版本）](https://juejin.cn/post/6844904197331091464)
+  - ​[基于React的数据流实现](https://juejin.cn/post/6844904121116393486)
 - 6.6
   - [一文带你看懂 UmiJS （3.x版本）](https://juejin.cn/post/6844904197331091464)
   - ​[基于React的数据流实现](https://juejin.cn/post/6844904121116393486)

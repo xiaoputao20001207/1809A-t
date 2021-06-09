@@ -1,4 +1,10 @@
 ## 吴晓桐
+- 6.8
+   - [「React进阶」漫谈React异步组件前世与今生](https://juejin.cn/post/6970845778713509919)
+   - ​[前端项目负责人在项目初期需要做什么](https://juejin.cn/post/6968874442554343455)
+- 6.7
+  - [React Hooks源码浅析](https://zhuanlan.zhihu.com/p/68842478)
+  - ​[react生命周期，hooks对应的生命周期？](https://www.cnblogs.com/cxyqts/p/14401737.html?ivk_sa=1024320u))
 - 6.6
   - [React Hooks源码浅析](https://zhuanlan.zhihu.com/p/68842478)
   - ​[react生命周期，hooks对应的生命周期？](https://www.cnblogs.com/cxyqts/p/14401737.html?ivk_sa=1024320u)
