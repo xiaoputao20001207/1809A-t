@@ -141,7 +141,7 @@ const Postskill:FC = (props)=>{
             </div>
         </div>
         <div className="tab">
-            <Table dataSource={dataSource} columns={columns} rowKey="stationId"></Table>
+            <Table dataSource={dataSource} columns={columns} rowKey="stationId"></Table>1
         </div>
     </div>
 }

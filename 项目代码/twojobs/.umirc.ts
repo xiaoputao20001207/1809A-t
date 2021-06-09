@@ -17,12 +17,22 @@ export default defineConfig({
     antd: false,
     title: false,
   },
-  // dynamicImport: {
-  //   loading: '@/Loading',
-  // },
-  // hash: true,
-  // history:{ type : 'hash' },
-  // base:'/1809A/guoqiansheng/practice/',
-  // publicPath: process.env.NODE_ENV === 'production' ? '/1809A/guoqiansheng/practice/' : '/',
+
+  //路由按需加载
+  dynamicImport: {
+    loading: '@/Loading',
+  },
+
+  // 资源输出路径
+  publicPath: process.env.NODE_ENV === 'production' ? '/1809A/wuxiaotong/job/' : '/',
+
+  //路由前缀
+  base:'/1809A/wuxiaotong/job/',
+
+  // //修改为hash
+  hash: true,
+  
+  // //修改路由类型
+  history: { type: 'hash' },
 });
 

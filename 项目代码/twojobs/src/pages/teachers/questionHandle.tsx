@@ -8,17 +8,15 @@ import useStore from "@/context/useStore"
 import { useState } from "react"
 import { useEffect } from "react"
 import classNames from 'classnames';
-import { Button , Input,Table} from 'antd';
+import { Button , Input} from 'antd';
 import { SearchOutlined,DownOutlined } from '@ant-design/icons';
-import {IRouteComponentProps} from "umi"
+
 
 const sources=['网站2021A班']
 const statuss=['全部','精品','认证','被屏蔽']
 const trainingType=['实训','面试']
-const titleAll = ["待处理问题", "所有回答"]
 
-const QuestionHandle:React.FC<IRouteComponentProps>=(props)=>{
-    let [titleTab, setTitleTab] = useState(0)
+const QuestionHandle:React.FC=()=>{
     let [skillLabel, setSkillLabel] = useState([])
     let [curSkill, setCurSkill] = useState('')
     let [curStatus, setCurStatus] = useState(0)
@@ -45,7 +43,6 @@ const QuestionHandle:React.FC<IRouteComponentProps>=(props)=>{
                 setDataSource(res.rows)
             }
         })
-
         console.log(questionhandle,111);
     }, [curSkill, curStatus, isMyInfo, searchTitle]);
 
@@ -53,14 +50,11 @@ const QuestionHandle:React.FC<IRouteComponentProps>=(props)=>{
     return <div className={styles.questionhandle}>
         <section className={styles.question}>
             <div className={styles.box_con}>
-
                 <div className={styles.box_contop}>
                     <h2>来源:</h2>
                     {
                         sources.map((item,index)=>{
-                            return <span  
-                                        className={item === curSkill ? classNames(styles.span, styles.active) : styles.span} 
-                                        onClick={e => setCurSkill(item)} key={item}>{item}</span>
+                            return <span  className={item === curSkill ? classNames(styles.span, styles.active) : styles.span} onClick={e => setCurSkill(item)} key={item}>{item}</span>
                         })
                     }
                 </div>
@@ -73,17 +67,11 @@ const QuestionHandle:React.FC<IRouteComponentProps>=(props)=>{
                     }
                 </div>
             </div>
-            <div className={styles.box_con}>
-                {/* 渲染待处理问答 */}
-                <div className={styles.box_nav}>
-                        {
-                            titleAll.map((item, index) => {
-                                return <span key={index} onClick={() => { setTitleTab(index) }} className={index === titleTab ? styles.active : ""}>{item}</span>
-                            })
-                        }
-
-                    </div>
-
+            <div className={styles.box_tent}>
+                <div className={styles.box_tenttop}>
+                    <span>待处理问答</span>
+                    <span>所有问答</span>
+                </div>
                 <div className={styles.box_tentcon}>
                     <div className={styles.tentcon_top}>
                         <div className={styles.top_nav}>
@@ -102,7 +90,6 @@ const QuestionHandle:React.FC<IRouteComponentProps>=(props)=>{
                             </div>
                         </div>
                     </div>
-                    
                     <div className={styles.tentcon_list}>
                         {
                             dataSource.map((item,index)=>{
@@ -137,9 +124,7 @@ const QuestionHandle:React.FC<IRouteComponentProps>=(props)=>{
                                     </div>
                                     {/* 底部 */}
                                     <div className={styles.lis4} style={{display:'flex',alignItems:'center'}}>
-                                        <Button type="primary" style={{margin:"10px 10px 10px 100px"}} size="large" onClick={()=>{
-                                            props.history.push(`/teachers/answerDetailManage?answerId=${item.answerId}`)
-                                        }}>回答</Button>
+                                        <Button type="primary" style={{margin:"10px 10px 10px 100px"}}>回答</Button>
                                         <Button type="primary" style={{margin:"10px"}}>选择其他有 "正确答案" 的类似问题</Button>
                                         <Button style={{margin:"10px",color:'orange',border:'1px solid orange'}}>设为精品</Button>
                                     </div>

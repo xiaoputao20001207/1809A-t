@@ -9,8 +9,8 @@ export let Gettoplist2 = () => {
   return request('/sxpt/label/selectMajorStationList');
 };
 //获取行业点击的每一项接口
-export let GetListDairnItem = (params: Imohu) => {
-  return request('/sxpt/project/selectProjectList?', { params });
+export let GetListDairnItem = (queryParams?: Imohu) => {
+  return request('/sxpt/project/selectProjectList?', { params:queryParams });
 };
 
 //获取行业接口
@@ -58,11 +58,4 @@ export let saveTrainingSyllabusList=()=>{
 //编辑页面项目资源
 export let getProjectResources = () => {
   return request('/sxpt/projectResource/selectResourceTree')
-}
-//上传图片
-export let getImg = (data: any) => {
-  return request('/common/upload', {
-      method: 'POST',
-      data
-  })
 }

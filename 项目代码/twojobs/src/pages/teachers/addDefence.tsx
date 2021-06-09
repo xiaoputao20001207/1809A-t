@@ -16,10 +16,7 @@ const columns = [
     dataIndex: '',
   },
 ];
-interface Iprops  extends RouteComponentProps{
-  history:any
-}
-let addDefence:React.FC<Iprops> = ({history}) => {
+let addDefence:React.FC<RouteComponentProps> = ({history}) => {
   let { skill, defence } = useStore()
   console.log(defence.ClasssPlanTree.label)
 
@@ -37,8 +34,6 @@ let addDefence:React.FC<Iprops> = ({history}) => {
   let [classItem, setclassItem] = useState('')
   //编辑 保存
   let [flag, setflag] = useState(false)
-  //保存id
-  let [defenceId,setdefenceId] = useState('')
   //select
   function handleChange1(value: string) {
 
@@ -76,7 +71,7 @@ let addDefence:React.FC<Iprops> = ({history}) => {
   }
   //获取详情数据
   async function Detaillist(){
-    let {query} = history.location 
+    let {query} = history.location as any
     let id = query.defenceId
  
     if(location.href !='http://localhost:8000/teachers/addDefence'){
@@ -91,42 +86,23 @@ let addDefence:React.FC<Iprops> = ({history}) => {
     skill.Gettoplist()
     defence.getClasssPlanTree()
     Detaillist()
-    //     let {defenceId} =  history.location.query
-      
-      
-    //  setdefenceId(defenceId)
-    // if( defenceId){
-    //   params = {
-    //     ...params, defenceAdress: address, degenceName: defenName, defencePlanId: classItem, defenceMajorId: skillItem,
-    //      defenceCreateTime: startTime, defenceEndTime: endTime,defenceId
-    //    }
-    //    defence.savedefence(params)
-    // }
+   
   }, []);
   // 保存数据
   useEffect(() => {
     let classid = '9'
     let classPlanid = classItem
-    let {defenceId} =  history.location.query
-      if(history.location.pathname != '/teachers/addDefence'){
-        setdefenceId(defenceId)
-      }else{
-        setdefenceId('')
-      }
-      
-  
     params = {
      ...params, defenceAdress: address, degenceName: defenName, defencePlanId: classItem, defenceMajorId: skillItem,
-      defenceCreateTime: startTime, defenceEndTime: endTime,defenceId
+      defenceCreateTime: startTime, defenceEndTime: endTime
     }
-
+    console.log(classItem, address, defenName, skillItem, startTime, endTime, 'ffffffffffffffffff')
     if (flag) {
-      
       defence.getclassTeam(classid = '9', classPlanid)
       defence.savedefence(params)
     }
 
-  }, [flag, classItem, address, defenName, skillItem, startTime, endTime,defenceId]);
+  }, [flag, classItem, address, defenName, skillItem, startTime, endTime]);
   const success1 = () => {
     message.success({
       content: '提交成功',
@@ -160,7 +136,7 @@ let addDefence:React.FC<Iprops> = ({history}) => {
         <hr />
         <div>答辩名称<Input className='inp'
           disabled ={flag?true:false}
-          placeholder={flag? defence.detailList.degenceName!:'请输入答辩时间'}
+          placeholder={flag? defence.detailList.degenceName:'请输入答辩时间'}
 
           value={defenName}
           onChange={(e) => { setdefenName(e.target.value) }}

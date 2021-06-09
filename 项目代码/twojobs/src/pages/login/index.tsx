@@ -7,8 +7,9 @@ import { observer } from 'mobx-react-lite'
 import { history, setLocale,getLocale} from 'umi'
 import './login.css'
 import { removeCookie } from '@/utils/auth';
+import {IRouteComponentProps} from 'umi'
 
-const Login:FC = ()=>{
+const Login:FC<IRouteComponentProps> = ({history,location})=>{
 
     let {logins} = useStore()
 
@@ -23,10 +24,17 @@ const Login:FC = ()=>{
         logins.loginPage(value).then(res=>{
             if(res){
                 message.success('登录成功',2)
-                //存储刚登陆的时间
-                let starttime = + new Date()
-                localStorage.setItem('starttime',JSON.stringify(starttime))
-                history.replace('/teachers/postskill')
+                // if(location.query.redirect){
+                //     //存储刚登陆的时间
+                //     let starttime = + new Date()
+                //     localStorage.setItem('starttime',JSON.stringify(starttime))
+                //     history.replace(decodeURIComponent(location.query.redirect as string));
+                //     // history.replace('/teachers/postskill')
+
+                // }else{
+                //     history.replace('/')
+                // }
+                  history.replace('/teachers/postskill') 
             }else{
                 message.error('登录失败',2)
             }
@@ -47,7 +55,7 @@ const Login:FC = ()=>{
                         <Form.Item
                             name="username"
                             rules={[{ required: true, message: 'Please input your Username!' }]}
-                            style={{height:'55px',padding:'0 30px',lineHeight:'55px'}}
+                            style={{height:'40px',padding:'0 30px',lineHeight:'40px'}}
                         >
                             <Input prefix={<UserOutlined className="site-form-item-icon" />} placeholder="账号"  style={{height:'35px'}}/>
                         </Form.Item>
@@ -55,7 +63,7 @@ const Login:FC = ()=>{
                         <Form.Item
                             name="password"
                             rules={[{ required: true, message: 'Please input your Password!' }]}
-                            style={{height:'55px',padding:'0 30px',lineHeight:'55px'}}
+                            style={{height:'40px',padding:'0 30px',lineHeight:'40px'}}
                         >
                             <Input
                             prefix={<LockOutlined className="site-form-item-icon" />}
@@ -70,28 +78,28 @@ const Login:FC = ()=>{
                                 name="code"
                                 rules={[{ required: true, message: 'Please input your Password!' }]}
                                 className='yes'
-                                style={{height:'55px',padding:'0 30px',lineHeight:'55px'}}
+                                style={{height:'50px',padding:'0 20px',lineHeight:'40px'}}
                             >
                                 <Input  
                                     placeholder='输入验证码' 
-                                    className='dan'
+                                    // className='codeTrue'
                                     type="code"
-                                    style={{height:'35px',width:'210px'}}
+                                    style={{height:'35px',width:'160px'}}
                                     />
                             </Form.Item>
                         
-                            <img src={`data:image/gif;base64,${logins.loginList.img}`} alt="" 
+                            <img src={logins.loginList.img?`data:image/gif;base64,${logins.loginList.img}`:''} alt="" 
                                      onClick={()=>logins.Verificationcode()}  
-                                     style={{width:'100px',height:'40px',marginLeft:'110px',marginTop:'7px'}}/>
+                                     style={{width:'100px',height:'50px',paddingTop:"15px",marginLeft:'80px'}}/>
                         </Form.Item>
 
                         <div style={{display:'flex'}}>
-                        <Form.Item style={{height:'55px',padding:'0 30px',lineHeight:'55px',width:"230px"}}>
+                        <Form.Item style={{height:'40px',padding:'0 30px',lineHeight:'40px',width:"230px"}}>
                             <Form.Item name="remember" valuePropName="checked" noStyle>
                                 <Checkbox>记住密码</Checkbox>
                             </Form.Item>
                         </Form.Item>
-                        <Form.Item name="key" label="" style={{height:'55px',lineHeight:'55px',width:"200px"}}>
+                        <Form.Item name="key" label="" style={{height:'40px',lineHeight:'40px',width:"200px"}}>
                                 <Radio.Group style={{marginLeft:'10px'}}>
                                     <Radio value="student">学生</Radio>
                                     <Radio value="teacher">老师</Radio>
@@ -99,7 +107,7 @@ const Login:FC = ()=>{
                         </Form.Item>
                         </div>
 
-                        <Form.Item style={{height:'55px',padding:'0 30px',lineHeight:'55px',marginTop:'10px'}}>
+                        <Form.Item style={{height:'40px',padding:'0 30px',lineHeight:'40px',marginTop:'10px'}}>
                             <Button type="primary" htmlType="submit" className="login-form-button" style={{height:'40px'}}>
                                 登录
                             </Button>

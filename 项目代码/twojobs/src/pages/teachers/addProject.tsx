@@ -14,18 +14,17 @@ import {
   Radio,
   message,
   Table,
-  Modal,
-  Space,
 } from 'antd';
 import {
   WalletTwoTone,
   FullscreenOutlined,
   LoadingOutlined,
+  PlusOutlined,
   CopyOutlined,
   EyeOutlined,
+  RollbackOutlined,
+  FormOutlined,
   DeleteOutlined,
-  MinusCircleOutlined,
-  PlusOutlined,
 } from '@ant-design/icons';
 import {
   getaddlistzhuanye,
@@ -35,7 +34,7 @@ import {
   // getLeadProject,
   getProjectResources,
 } from '../../service/index';
-import { IRouteComponentProps, Link } from 'umi';
+import { IRouteComponentProps } from 'umi';
 import Editor from 'for-editor';
 import { SendOutlined, SaveOutlined } from '@ant-design/icons';
 import useStore from '@/context/useStore';
@@ -47,8 +46,7 @@ import {
 } from '@/utils/interface';
 import { observer } from 'mobx-react-lite';
 import proSkill from '@/store/modules/proSkill';
-import addTasks from '@/store/modules/addTasks';
-const { Option } = Select;
+
 const { TextArea } = Input;
 const { TabPane } = Tabs;
 const { Content, Sider } = Layout;
@@ -56,14 +54,14 @@ const { SubMenu } = Menu;
 const addProject: React.FC<IRouteComponentProps> = ({ history, location }) => {
   const tab = ['实训大纲', '实训任务', '项目资源', '实训环境', '前置项目'];
 
-  const tabs = [1, 2, 3, 4];
-  const tabList = [
+  const tabs=[1,2,3,4]
+  const tabList=[
     {
-      tabs: 'tabs',
-      jia: '＋',
-      jian: '－',
+      tabs:"tabs",
+      jia:"＋",
+      jian:"－"
     },
-  ];
+  ]
   //实训大纲
   let [TrainingSyllabus, setTrainingSyllabus] = useState<
     TrainingSyllabusList[]
@@ -89,37 +87,37 @@ const addProject: React.FC<IRouteComponentProps> = ({ history, location }) => {
   const columns = [
     {
       title: '任务名称',
-      dataIndex: 'taskName',
+      dataIndex: 'name',
       //   align:"center"
     },
     {
       title: '任务结果',
-      dataIndex: '',
+      dataIndex: 'majorName',
       //   align:"center"
     },
     {
       title: '保新技能',
-      dataIndex: '',
+      dataIndex: 'stationVersion',
       //   align:"center"
     },
     {
       title: '提薪技能',
-      dataIndex: '',
+      dataIndex: 'skillNum',
       // align:"center"
     },
     {
       title: '考核标准',
-      dataIndex: 'assessmentStandard',
+      dataIndex: 'userName',
       // align:"center"
     },
     {
       title: '步骤数量',
-      dataIndex: 'steptCount',
+      dataIndex: 'createTime',
       // align:"center"
     },
     {
       title: '推荐工期',
-      dataIndex: 'subjectTime',
+      dataIndex: 'createTime',
       // align:"center"
     },
     {
@@ -128,6 +126,8 @@ const addProject: React.FC<IRouteComponentProps> = ({ history, location }) => {
         return (
           <div>
             <EyeOutlined style={{ color: '#679cf6' }} />
+            <RollbackOutlined style={{ color: '#679cf6' }} />
+            <FormOutlined style={{ color: '#679cf6' }} />
             <SendOutlined style={{ color: '#679cf6' }} />
             <DeleteOutlined style={{ color: '#679cf6' }} />
           </div>
@@ -135,10 +135,6 @@ const addProject: React.FC<IRouteComponentProps> = ({ history, location }) => {
       },
     },
   ];
-  // const Demo1 = () => {
-  //   const onFinish = values => {
-  //     console.log('Received values of form:', values);
-  //   };
   const Demo = () => (
     <Tabs defaultActiveKey="1">
       <TabPane tab="实训大纲" key="1">
@@ -153,11 +149,11 @@ const addProject: React.FC<IRouteComponentProps> = ({ history, location }) => {
               {TrainingSyllabus.map((item, index) => {
                 return (
                   <SubMenu key={index} title={item.label}>
-                    {/* {item.children.map((_item1: any) => {
+                    {item.children.map((_item1: any) => {
                       return (
                         <Menu.Item key={_item1.value}>{_item1.label}</Menu.Item>
                       );
-                    })} */}
+                    })}
                   </SubMenu>
                 );
               })}
@@ -178,14 +174,10 @@ const addProject: React.FC<IRouteComponentProps> = ({ history, location }) => {
         </Layout>
       </TabPane>
       <TabPane tab="实训任务" key="2">
-        <Link
-          to={`/teachers/addTask?proId=${id}&versionId=${versionId}&see=false`}
-        >
-          <Button type="primary">+添加任务</Button>
-        </Link>
+        <Button type="primary">+添加任务</Button>
         <div>
           <Table
-            dataSource={addTasks.TaskList}
+            dataSource={proSkill.setdataSource}
             columns={columns}
             rowKey="versionId"
             style={{ width: '900px', textAlign: 'center' }}
@@ -278,111 +270,65 @@ const addProject: React.FC<IRouteComponentProps> = ({ history, location }) => {
         </Layout>
       </TabPane>
       <TabPane tab="实训环境" key="4">
-      <Form name="dynamic_form_nest_item" autoComplete="off">
-      <Form.Item>
-        <Button type="primary" htmlType="submit">
-          保存
-        </Button>
-      </Form.Item>
-      <Form.List name="users">
-        {(fields, { add, remove }) => (
-          <>
-            {fields.map(({ key, name, fieldKey, ...restField }) => (
-              <Space key={key} style={{ display: 'flex', marginBottom: 8 }} align="baseline">
-                <Form.Item
-                  {...restField}
-                  name={[name, 'first']}
-                  fieldKey={[fieldKey, 'first']}
-                  rules={[{ required: true, message: 'Missing first name' }]}
-                >
-                  <Input placeholder="First Name" />
-                </Form.Item>
-                <Form.Item
-                  {...restField}
-                  name={[name, 'last']}
-                  fieldKey={[fieldKey, 'last']}
-                  rules={[{ required: true, message: 'Missing last name' }]}
-                >
-                  <Input placeholder="Last Name" />
-                </Form.Item>
-                       <Form.Item
-                  {...restField}
-                  name={[name, 'last']}
-                  fieldKey={[fieldKey, 'last']}
-                  rules={[{ required: true, message: 'Missing last name' }]}
-                >
-                  <Input placeholder="Last Name" />
-                </Form.Item>
-                <MinusCircleOutlined onClick={() => remove(name)} />
-              </Space>
-            ))}
-            <Form.Item>
-              <Button type="dashed" onClick={() => add()} block icon={<PlusOutlined />}>
-                Add field
-              </Button>
-            </Form.Item>
-          </>
-        )}
-      </Form.List>
-    </Form>
+        <div>
+          <div>
+            <CopyOutlined />
+            保存
+          </div>
+          <div>
+            <div>
+              <span>环境名称</span>
+              <Input placeholder="请输入标题" />
+              <span>+</span>
+              <span>-</span>
+            </div>
+            <div>
+              <span>环境地址</span>
+              <Input placeholder="请输入外部链接地址" />
+            </div>
+            <div>
+              <span>环境描述</span>
+              <Input placeholder="请输入内容" />
+            </div>
+          </div>
+        </div>
       </TabPane>
       <TabPane tab="前置项目" key="5">
         <div>
           <div>
+            <CopyOutlined />
+            保存
+          </div>
+          <div>
             <p style={{ marginLeft: '400px' }}>添加与新项目关联的项目</p>
-            <Form name="dynamic_form_nest_item" autoComplete="off">
-              <Form.Item>
-                <Button type="primary" htmlType="submit">
-                  保存
-                </Button>
-              </Form.Item>
-              <Form.List name="users">
-                {(fields, { add, remove }) => (
-                  <>
-                    {fields.map(({ key, name, fieldKey, ...restField }) => (
-                      <Space
-                        key={key}
-                        style={{ display: 'flex', marginBottom: 8 }}
-                        align="baseline"
-                      >
-                        <Form.Item
-                          name="gender"
-                          rules={[
-                            {
-                              required: true,
-                              message: 'Please select gender!',
-                            },
-                          ]}
-                        >
-                          <Select placeholder="请选择">
-                            <Option value="male">Male</Option>
-                            <Option value="female">Female</Option>
-                            <Option value="other">Other</Option>
-                          </Select>
-                        </Form.Item>
-                        <MinusCircleOutlined onClick={() => remove(name)} />
-                      </Space>
-                    ))}
-                        <Button
-                        type="dashed"
-                        onClick={() => add()}
-                        block
-                        icon={<PlusOutlined />}
-                      >
-                        Add field
-                      </Button>
-                  </>
-                )}
-              </Form.List>
-            </Form>
+          {
+            tabList.map((item,index)=>{
+              return <div
+              key={index}
+              style={{
+                width: '1000px',
+                marginLeft: '400px',
+                marginBottom: '50px',
+              }}
+            >
+              <Cascader
+                style={{ width: '300px' }}
+                placeholder="Please select"
+              />
+              <span onClick={()=>jia(item)}>{item.jia}</span>
+              <span>{item.jian}</span>
+            </div>
+            })
+          }
           </div>
         </div>
       </TabPane>
     </Tabs>
   );
-  function jia(item: any) {
-    tabList.push(item);
+  function jia(item:any){
+    tabList.push(item)
     console.log(tabList);
+    
   }
   //定义方法
   const [name, setname] = useState('');
@@ -481,25 +427,12 @@ const addProject: React.FC<IRouteComponentProps> = ({ history, location }) => {
   }
   //
   let versionId = location.query.versionId as string;
-  let id = location.query.proId as string;
   //详情
   useEffect(() => {
     if (versionId) {
       proSkill.EditorDetail(versionId);
     }
   }, [versionId]);
-  //上传图片
-  const [isModalVisible, setIsModalVisible] = useState(false);
-  const showModal = () => {
-    setIsModalVisible(true);
-  };
-  const handleOk = () => {
-    setIsModalVisible(false);
-  };
-
-  const handleCancel = () => {
-    setIsModalVisible(false);
-  };
   return (
     <div className="cww_project_box">
       <div className="shen">
@@ -520,57 +453,50 @@ const addProject: React.FC<IRouteComponentProps> = ({ history, location }) => {
             <span className="cww_one_s1">
               <b>基本信息</b>
             </span>{' '}
-            {versionId || id1 ? (
-              <span className="cww_one_s2">
-                <WalletTwoTone />
-                编辑
-              </span>
-            ) : (
-              <span
-                className="cww_one_s2"
-                onClick={() => {
-                  if (
-                    description != '' &&
-                    majorStationList != [] &&
-                    name != '' &&
-                    shpwUrl != ''
-                  ) {
-                    updatecode({
-                      description: description,
-                      id: '',
-                      knowledge: [],
-                      majorId: '',
-                      majorStationList: majorStationList,
-                      name: name,
-                      pictureUrl: isModalVisible,
-                      showUrl: shpwUrl,
-                      stationId: '',
-                      subjectTime: 1,
-                      sxType: '1',
-                      trade: trade,
-                      tradeId: '',
-                      version: version,
-                      versionId: '',
-                    }).then((ok) => {
-                      message.success('添加成功', 1, () => {
-                        history.replace(
-                          `/teachers/addProject?VersionId=${id1}&proId=${id2}&see=false`,
+            <span
+              className="cww_one_s2"
+              onClick={() => {
+                if (
+                  description != '' &&
+                  majorStationList != [] &&
+                  name != '' &&
+                  shpwUrl != ''
+                ) {
+                  updatecode({
+                    description: description,
+                    id: '',
+                    knowledge: [],
+                    majorId: '',
+                    majorStationList: majorStationList,
+                    name: name,
+                    pictureUrl: imageUrl,
+                    showUrl: shpwUrl,
+                    stationId: '',
+                    subjectTime: 1,
+                    sxType: '1',
+                    trade: trade,
+                    tradeId: '',
+                    version: version,
+                    versionId: '',
+                  }).then((ok) => {
+                    message.success('添加成功', 1, () => {
+                      history.replace(
+                        `/teachers/addProject?VersionId=${id1}&proId=${id2}&see=false`,
                         );
                         setversionId((id1 = ok.data.versionId));
                         setId((id2 = ok.data.id));
-                        proSkill.EditorDetail(id1);
-                      });
+                        proSkill.EditorDetail(id1)
                     });
-                  } else {
-                    alert('请完善信息');
-                  }
-                }}
-              >
-                {' '}
-                <WalletTwoTone />
-                保存
-              </span>
-            )}
+                  });
+                } else {
+                  alert('请完善信息');
+                }
+              }}
+            >
+              {' '}
+              <WalletTwoTone />
+              {versionId || id1 ? '编辑' : '保存'}
+            </span>
           </div>
           <div className="cww_two">
             <div className="cww_two_one">
@@ -683,43 +609,27 @@ const addProject: React.FC<IRouteComponentProps> = ({ history, location }) => {
                   <FullscreenOutlined /> <b>封面</b>
                 </div>
                 <div className="cww_two_san_two">
-                  {proSkill.ProjectDetailImg ? (
-                    // 详情页自带图片
-                    <img
-                      src={`http://111.203.59.61:8060${proSkill.ProjectDetailImg}`}
-                      alt=""
-                      onClick={showModal}
-                      style={{ width: '100%', height: '100%' }}
-                    />
-                  ) : (
-                    // 添加后的图片
-                    <img
-                      src={`http://111.203.59.61:8060${proSkill.detailList.pictureUrl}`}
-                      alt=""
-                      onClick={showModal}
-                      style={{ width: '100%', height: '100%' }}
-                    />
-                  )}
-                  <Modal
-                    title="上传封面"
-                    visible={isModalVisible}
-                    onOk={handleOk}
-                    onCancel={handleCancel}
+                  {/* {versionId||id1?<span><img src={proSkill.detailList.pictureUrl} alt="" /></span>: */}
+                  <Upload
+                    name="avatar"
+                    listType="picture-card"
+                    className="avatar-uploader"
+                    showUploadList={false}
+                    action="https://www.mocky.io/v2/5cc8019d300000980a055e76"
+                    beforeUpload={beforeUpload}
+                    onChange={handleChange}
+                    style={{ width: '100%', height: '100%', padding: '100px' }}
                   >
-                    <Input
-                      type="file"
-                      onChange={(e) => {
-                        let form = new FormData();
-                        let files = e.target.files;
-                        if (files) {
-                          for (let i = 0; i < files.length; i++) {
-                            form.append('file', files[i]);
-                          }
-                          proSkill.addProjectImg(form);
-                        }
-                      }}
-                    />
-                  </Modal>
+                    {imageUrl ? (
+                      <img
+                        src={imageUrl}
+                        alt="avatar"
+                        style={{ width: '100%' }}
+                      />
+                    ) : (
+                      uploadButton
+                    )}
+                  </Upload>
                   {/* } */}
                 </div>
                 <div className="cww_two_san_san">

@@ -2,7 +2,7 @@ import React,{useEffect,useState} from 'react'
 import {observer} from 'mobx-react-lite'
 import useStore from '@/context/useStore'
 import './defence.less'
-import {Table,Input,Button,Tooltip,message,Pagination } from 'antd'
+import {Table,Input,Button,Tooltip} from 'antd'
 import {defenceTable} from '@/utils/interface'
 import { NavLink,RouteChildrenProps} from 'react-router-dom'
 import {history} from 'umi'
@@ -11,20 +11,8 @@ let status = ['全部','未开始','进行中','已结束']
 
 import {EditOutlined,DeleteOutlined,DiffOutlined,BulbOutlined,PlusOutlined} from '@ant-design/icons'
 import defence from '@/store/modules/defence'
-import { changeOwnPage } from '@/service'
-const success = () => {
-  message.success({
-    content: '删除成功',
-    className: 'del',
-    style: {
-   
-      fontSize:'18px'
-    },
-  });
-};
-
  //表头数据
-   
+  
   const columns = [
     {
       title: '名称',
@@ -76,7 +64,7 @@ const success = () => {
       },
       {
         title: '操作',
-        
+      
         render:(row:defenceTable)=>{
             if(row.defenceStatus===1){
              return  <div className ='iconDefen'>
@@ -86,13 +74,7 @@ const success = () => {
                  &emsp; 
                   <Tooltip placement="bottom" title='删除'>
                       <DeleteOutlined 
-                        onClick ={()=>{ 
-                          let del = confirm('确定删除吗')
-                          if(del){
-                           defence.delteDefen(row.defenceId)
-                           success()
-                           
-                        }}}/>
+                        onClick ={()=>{ defence.delteDefen(row.defenceId)}}/>
                   </Tooltip>
                 </div>
             }else if(row.defenceStatus===2){
@@ -126,9 +108,7 @@ const success = () => {
 
 let defenceConment:React.FC<Iprops> =() =>{
    let {defence,skill} = useStore()
-    //页码数
-    let [page,setpage] = useState(0)
-    // 条数
+    
     //专业
     let [ skillIndex,setskillIndex] = useState('')
     //状态
@@ -143,7 +123,7 @@ let defenceConment:React.FC<Iprops> =() =>{
    //获取专业数据
    useEffect(() => {
       
-     defence.getDefenceList('','' as unknown as number,'',1,10)
+     defence.getDefenceList('','' as unknown as number,'')
      skill.Gettoplist()
 
  }, []);
@@ -151,15 +131,12 @@ let defenceConment:React.FC<Iprops> =() =>{
 
     //获取数据
     useEffect(() => {
-        console.log(page)
-         defence.getDefenceList( ldefenceMjorId,defenceStatus ,searchTitle,page ,10 )
+      
+         defence.getDefenceList( ldefenceMjorId,defenceStatus ,searchTitle )
          skill.Gettoplist()
 
-    }, [skillIndex,statusIndex,searchTitle,page]);
-  function onChange(page:number,pageSize:number|undefined):void{
-    
-     setpage(page)
-  }
+    }, [skillIndex,statusIndex,searchTitle]);
+   
     return <div className = 'defence'>
          <div className="list">
              <div className = 'commen'>
@@ -189,13 +166,8 @@ let defenceConment:React.FC<Iprops> =() =>{
          <div className="table">
          <div className ='search'> <Search className='inp' placeholder="搜索班级/名称/计划" onSearch={onSearch} enterButton />
           <NavLink to='/teachers/addDefence'> <Button className='defenceBtn'  ><PlusOutlined /> 发起答辩</Button></NavLink></div>
-         <Table rowKey ='defenceId' dataSource={defence.DefenceList} columns={columns} pagination ={false} />;
-         <Pagination className ='page' total={defence.page}  onChange={onChange} />
+         <Table rowKey ='defenceId' dataSource={defence.DefenceList} columns={columns} />;
          </div>
     </div>
 }
 export default observer(defenceConment);
-
-function pageSize(page: any, pageSize: any) {
-  throw new Error('Function not implemented.')
-}
