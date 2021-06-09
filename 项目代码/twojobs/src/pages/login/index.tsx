@@ -43,7 +43,7 @@ const Login:FC<IRouteComponentProps> = ({history,location})=>{
 
     return <div className='login'>
                 <div className='mask'>
-                <h3>八维生产性实训平台</h3>
+                <h3>八维生产实训平台</h3>
                     <div className='login_big'>
                     <Form
                     name="normal_login"
