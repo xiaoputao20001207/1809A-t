@@ -18,15 +18,15 @@ export default defineConfig({
         title: false,
     },
     // 按需加载
-    dynamicImport: {
-        loading: '@/Loading',
-    },
-    hash:true,
-    history:{type:'hash'},
-    // 路由前缀
-    base:'/1809A/gongchengting/practice/',
-    // 资源输出路径
-    publicPath: process.env.NODE_ENV === 'production' ? '/1809A/gongchengting/practice/' : '/',
+    // dynamicImport: {
+    //     loading: '@/Loading',
+    // },
+    // hash:true,
+    // history:{type:'hash'},
+    // // 路由前缀
+    // base:'/1809A/gongchengting/practice/',
+    // // 资源输出路径
+    // publicPath: process.env.NODE_ENV === 'production' ? '/1809A/gongchengting/practice/' : '/',
     
 
 });

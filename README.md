@@ -28,8 +28,8 @@
 
 ## 2021/6/6
 1. 文章阅读
- > * [React进阶](https://juejin.cn/post/6963053793613185031)
- > * [webpack](https://juejin.cn/post/6961961165656326152)
+> * [React进阶](https://juejin.cn/post/6963053793613185031)
+> * [webpack](https://juejin.cn/post/6961961165656326152)
 2. 源码阅读
 > * [React 组件性能优化最佳实践](https://juejin.cn/post/6965747225154732069)
 > * [大道理小聪明系列 - Redux + Hooks 工程实践一则](https://juejin.cn/post/6965732983781195807)
@@ -354,6 +354,28 @@
 - [x] 
 
 # 郭乾升
+## 2021.6.7
+1. 文章阅读
+
+- [看破JS底层——实现a==1、2、3](https://juejin.cn/post/6948257149625729055)
+- [React Router 入门完全指南(包含 Router Hooks)](https://juejin.cn/post/6948226424427773983)
+
+2. 源码阅读
+
+- [lodash源码分析之Stack](https://github.com/yeyuqiudeng/pocket-lodash/blob/master/internal/Stack.md)
+
+3. leecode 刷题
+
+- [反转链表](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnnhm6/)
+- [合并两个有序链表](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnnbp2/)
+
+4. 项目进度
+
+- [x] 计划页面的跳转
+- [x] 进度页面的跳转
+- [x] 进度页面的布局
+- [x] 删除接口的调用
+- [x] 添加岗位的编写布局功能实现
 ## 2021.6.6
 1. 文章阅读
 
@@ -1340,46 +1362,46 @@
 - [x] 复习ts
   
 # 赵晓杰
-## 2021.06.06
+
+## 2021.6.7
+
+1. 文章阅读
+- [js Map对象的用法](https://blog.csdn.net/weixin_41646716/article/details/91509295?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control)
+
+- [js原型和原型链的简单理解](https://www.cnblogs.com/tg666/p/12059205.html)
+2. 源码阅读
+- [ReactDOM.render](https://react.jokcy.me/book/update/react-dom-render.html)
+- [scheduler](https://react.jokcy.me/book/flow/scheduler-pkg.html)
+1. LeeCode刷题
+- [合并区间](https://leetcode-cn.com/problems/merge-intervals/)
+- [插入区间](https://leetcode-cn.com/problems/insert-interval/)
+
+
+## 2021.6.6
 
 1. 文章阅读
 - [深入分析Promise](https://juejin.cn/post/6945319439772434469)
 
 - [当面试官问Webpack的时候他想知道什么](https://juejin.cn/post/6943468761575849992)
-
 2. 源码阅读
-
+- [useState](https://react.jokcy.me/book/hooks/hooks-use-state.html)
 3. LeeCode刷题
 - [拿硬币](https://leetcode-cn.com/problems/na-ying-bi/submissions/)
-
 - [IP地址无效化](https://leetcode-cn.com/problems/defanging-an-ip-address/)
-  
 - [猜数字](https://leetcode-cn.com/problems/guess-numbers/)
 
-1. 项目进度
-- [x] 询价页面得数据渲染
-- [x] 城市列表得渲染
-- [x] 城市点击出现弹框
-- [ ] img页面数据未请求,页面未渲染 
-
-
-
-## 2021.06.05
+## 2021.6.5
 
 1. 文章阅读
 - [「react进阶」一文吃透react-hooks原理](https://juejin.cn/post/6944863057000529933)
 
 - [回顾ES6](https://juejin.cn/post/6945012429382221861)
   
-1. 源码阅读
+2. 源码阅读
 - [compiler.js](https://github.com/jasonandjay/js-code/blob/master/mvvm/compiler.js)
 
 - [mvvm.js](https://github.com/jasonandjay/js-code/blob/master/mvvm/mvvm.js)
 
-4. 项目进度
-- [x] 询价页面的排版
-- [ ] 图片页面的数据渲染
-- [ ] 询价页面的数据渲染    
 ## 2021.6.4
 1. 文章阅读
 
@@ -1395,10 +1417,7 @@
 - [删除排序数组中的重复项](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2gy9m/)
 - [买卖股票的最佳时机 II](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2zsx1/)
 
-4. 项目进度
 
-
-5. 遇到的问题
 
 ## 2021.6.3
 1. 文章阅读
@@ -1428,11 +1447,8 @@
 - [flat 实现](https://github.com/jasonandjay/js-code/blob/master/original/flat.js)
 
 3. leecode 刷题
-
 - [移除元素](https://leecode-cn.com/leetbook/read/array-and-string/cwuyj/)
 - [最大连续1的个数](https://leecode-cn.com/leetbook/read/array-and-string/cd71t/)
-
-
 ## 2021.6.1
 1. 文章阅读
 - [数组的常用方法整理](https://blog.csdn.net/qq_42736311/article/details/115274807?utm_medium=distribute.pc_category.none-task-blog-hot-1.nonecase&dist_request_id=1328270.10280.16171099278440167&depth_1-utm_source=distribute.pc_category.none-task-blog-hot-1.nonecase)
@@ -1698,6 +1714,31 @@
 - [x] 复习ts
 
 # 张琪
+## 2021.6.8
+1. 文章阅读
+   - [TypeScript -学习笔记](https://juejin.cn/post/6969457470783619103 )
+2. 源码阅读
+   - [Node.js eventloop + 线程池源码分析（建议精读）](https://juejin.cn/post/6951303053739819038)
+3. leecode 刷题
+   - [左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)
+   -  [速算机器人](https://leetcode-cn.com/problems/nGK0Fy/)
+4. 项目进度
+   - [ x ] 表格分页
+   - [ x ] 各页布局排版调整
+     
+## 2021.6.7
+1. 文章阅读
+   - 0607 [学习 CSS 文本溢出显示省略号](https://juejin.cn/post/6970307196068315150)
+2. 源码阅读
+   - [js事件冒泡详解](https://juejin.cn/post/6969749811276808228)
+3. leecode 刷题
+   - [各数相加](https://leetcode-cn.com/problems/add-digits/solution/ge-wei-xiang-jia-by-eric-314-wz5y/)
+   - [丑数](https://leetcode-cn.com/problems/ugly-number/)
+4. 项目进度
+   - [ x ] 表格分页
+   - [ x ] 各页布局排版调整
+     
+
  ## 2021.6.6
 1. 文章阅读
    - [谈谈你对闭包的理解？](https://juejin.cn/post/6969835249920376846)
@@ -1974,7 +2015,7 @@
 
 
 # 吴晓桐
-## 2021.6.6
+## 2021.6.7
 
 1. 文章阅读
 
@@ -1987,6 +2028,36 @@
 - ​[react生命周期，hooks对应的生命周期？](https://www.cnblogs.com/cxyqts/p/14401737.html?ivk_sa=1024320u)
   
 3. leecode 刷题
+
+ - [数组去重](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x21ib6/)
+
+4. 项目进度
+
+- [x] 国际化完善 图片上传 
+- [x] 强缓存：200 协商缓存成功304
+- [x] 图片上传
+```js
+   let form = new FormData() 
+   let files = e.target.files
+      if(files){for(let i=0; i<files.length; i++){
+            form.append('file',files[i])
+      }
+   }
+```
+
+## 2021.6.6
+
+1. 文章阅读
+
+- [带你理解 防抖,节流](https://juejin.cn/post/6844904197331091464)
+- ​[什么是构造函数](https://juejin.cn/post/6844904121116393486)
+
+2. 源码阅读
+   
+- [谈谈原型链](https://zhuanlan.zhihu.com/p/68842478)
+- ​[栈和堆的区别](https://www.cnblogs.com/cxyqts/p/14401737.html?ivk_sa=1024320u)
+  
+1. leecode 刷题
 
 - [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
 - ​[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
@@ -2012,7 +2083,6 @@
 - [整数反转](https://leetcode-cn.com/problems/reverse-integer/)
 
 4. 项目进度
-
 - [x] 复习history和hash跳转路由
 - [x] hash不美观 不需要后台做相对应的配置
 - [x] history 路径美观 但会出现404 需要后台相对应的配置 在线下webpack可使用historyApiFallback：true
@@ -2055,6 +2125,7 @@
 
 4. 项目进度
    - [x] 
+
 ## 2021.6.2
 1. 文章阅读
    - [程序员的几个阶段](https://juejin.cn/post/6968645798443614222)
@@ -2074,6 +2145,7 @@
    - [x] 轮询分为 长轮询 和短轮询
    - [x] 长轮巡：发送请求后会保持一个pending状态 知道给出响应或请求超时才返结果
    - [x] 短轮巡：发送请求后直接返回结果给出相应不需要等
+
 ## 2021.6.1
 1. 文章阅读
 - [节流和防抖](https://zhuanlan.zhihu.com/p/72923073)
@@ -2104,6 +2176,7 @@
    - 
 4. 项目进度
     - [x] 国际化 登录响响应器拦截.
+
 ## 2021.5.30
 1. 文章阅读
 - [React Hooks](https://juejin.cn/post/6844903709927800846)
@@ -2152,6 +2225,7 @@
 
 4. 铃铛排版
     我的主页排版
+
 ## 2021.5.27
 1. 文章阅读
    - [实现一个简易的 npm install](https://juejin.cn/post/69663903570051727)
@@ -2168,6 +2242,7 @@
 4. 项目进度
     - 头部排版
     - 树形结构
+
 ## 2021.5.26
 1. 文章阅读
    - [JS常用的循环遍历](https://juejin.cn/post/6966390357005172773)
@@ -2308,6 +2383,7 @@
 4. 项目进度
    - 登录页面的实现 
    - 接口的实现
+
 ## 2021.5.18 
 + 创建版本库
     + git clone url
@@ -2324,15 +2400,16 @@
 + 撤销
     + 软撤销 git reset --soft []
     + 应撤销 git reset --hard []
+
 + 分支
     + 创建分支
     + 切换分支
     + 删除分支
     + 合并分支
+
 + 提交
     + 先拉去远程分支  pull
     + 在提交远程 push
-
 
 - [x] 用户接口
 - [x] 密码接口

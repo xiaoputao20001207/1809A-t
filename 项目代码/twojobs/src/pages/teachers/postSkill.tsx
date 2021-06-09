@@ -15,7 +15,7 @@ const status = ['全部','草稿','已发布','待审核','已驳回']
 
 const columns = [
     {
-      title: '姓岗位名称',
+      title: '岗位名称',
       dataIndex: 'name',
     //   align:"center"
     },
@@ -70,11 +70,6 @@ const columns = [
 
 const Postskill:FC = (props)=>{
 
-    //专业状态
-    //const [toplist, setList] = useState<ISkillLabel[]>([])
-    
-    // const [topitem, settopitem] = useState<ISkillListQuery[]>([])
-
     //专业每一项高亮
     const [curStatus, setcurStatus] = useState('')
 
@@ -92,7 +87,7 @@ const Postskill:FC = (props)=>{
 
     let {skill} = useStore()
 
-    //头部发起请求
+    //头部发起请求 头像
     useEffect(() => { 
         skill.Gettoplist()
     }, [])

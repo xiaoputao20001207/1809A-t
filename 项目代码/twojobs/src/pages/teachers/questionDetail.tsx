@@ -91,7 +91,7 @@ const questionDetail: React.FC<IRouteComponentProps> = (props) => {
     return <div>
         {/*状态栏切换*/}
         <section className={styles.state}>
-            <p>状态：</p>
+            <p>类型：</p>
             <ul>{
                     status.map((item, index) => {
                         return <span className={item.type === questionDetail.curIndex ? classNames(styles.active) : '11'} 

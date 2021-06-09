@@ -223,7 +223,7 @@ const Postskill: FC = (props) => {
   }, [curStatus, carStatus, searchTitle, isMyInfo, curDairn, industry]);
 
   return (
-    <div className="box" style={{padding:'0 60px'}}>
+    <div className="box">
 
       <div className="topfather">
         <div className="dairn">
@@ -286,10 +286,11 @@ const Postskill: FC = (props) => {
       <div
         className="search"
         style={{
-          width: '95%',
-          margin: '0 30px',
+          width: '100%',
+          margin: '0 auto',
           height: '70px',
-          padding: '0 100px',
+          // padding: '0 100px',
+          marginTop:"20px"
         }}
       >
         <div className="search-son">
@@ -320,7 +321,7 @@ const Postskill: FC = (props) => {
           dataSource={proSkill.setdataSource}
           columns={columns}
           rowKey="versionId"
-          style={{ width: '95%' }}
+          style={{ width: '100%' }}
         ></Table>
       </div>
     </div>

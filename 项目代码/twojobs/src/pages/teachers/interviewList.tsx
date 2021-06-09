@@ -128,13 +128,11 @@ const InterviewList:FC=()=>{
 
 
                 <div className="searchlist">
-                        <Space direction="vertical">
                             {
                                 // 小问题
                                 // 在搜索事件触发时 才会更改searchTitle 的内容  做不到实时监听  onChange onSearch
                             }
                             <Search placeholder="搜索岗位/公司名称" onChange={e => setsearchTitle(e.target.value)} style={{ width: 200 }} />
-                        </Space>
                 </div>
                 <div className={style.interviewtab}>
                     <Table dataSource={dataSource} columns={columns} rowKey="interviewId" style={{margin:'0'}}></Table>

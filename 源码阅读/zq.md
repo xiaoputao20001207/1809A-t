@@ -1,4 +1,8 @@
 # zq
+- 0608
+    - [Node.js eventloop +线程池源码分析（建议精读）](https://juejin.cn/post/6951303053739819038)
+- 0607 
+    - [js事件冒泡详解](https://juejin.cn/post/6969749811276808228)
 - 0606
     - [vue 和react 语法差异之处](https://juejin.cn/post/6970075421522001928)
 - 0605
