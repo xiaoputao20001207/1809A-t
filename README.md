@@ -2059,7 +2059,7 @@
    - [左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)
    -  [速算机器人](https://leetcode-cn.com/problems/nGK0Fy/)
 4. 项目进度
-   - [ x ] 上线 Jenkins
+   - [ x ] 上线 Jenkins.
 ## 2021.6.8
 
 1. 文章阅读
