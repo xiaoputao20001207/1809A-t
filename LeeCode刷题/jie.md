@@ -1,3 +1,6 @@
+## 2021.6.8
+- [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/)
+- [二进制求和](https://leetcode-cn.com/problems/add-binary/)
 ## 2021.6.7
 - [合并区间](https://leetcode-cn.com/problems/merge-intervals/)
 - [插入区间](https://leetcode-cn.com/problems/insert-interval/)

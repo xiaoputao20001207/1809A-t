@@ -126,4 +126,5 @@ export function onRouteChange({ matchedRoutes }:any) {
   if(location.pathname === '/'){
     history.replace('/login')
   }
+  
 }

@@ -1363,6 +1363,18 @@
   
 # 赵晓杰
 
+## 2021.6.8
+
+1. 文章阅读
+- [react useEffect闭包陷阱](https://juejin.cn/post/6970948874240262180)
+
+- [使用React时要避免的 10 大错误](https://juejin.cn/post/6971215985026007076)
+2. 源码阅读
+- [Koajs成长之路--何时设置content-type](https://juejin.cn/post/6970350841949585422)
+- [videojs 源码分析](https://juejin.cn/post/6961014406842941448)
+1. LeeCode刷题
+- [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/)
+- [二进制求和](https://leetcode-cn.com/problems/add-binary/)
 ## 2021.6.7
 
 1. 文章阅读

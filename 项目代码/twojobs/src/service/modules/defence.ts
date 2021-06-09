@@ -7,9 +7,10 @@ import { request} from 'umi'
  })
  
  //获取表格答辩数据
-export let getDefenceListitem = (defenceMjorId:string,defenceStatus:number,searchTitle:string)=>
-    request('/sxpt/defence/getDefenceList',{params:{defenceMjorId,defenceStatus,searchTitle,pageNum: 1
-    ,pageSize: 10}})
+export let getDefenceListitem = (defenceMjorId:string,defenceStatus:number,searchTitle:string,pageNum:number
+    ,pageSize: number)=>
+    request('/sxpt/defence/getDefenceList',{params:{defenceMjorId,defenceStatus,searchTitle,pageNum
+    ,pageSize}})
 //保存数据
 export let  savedefence = (params:SaveItem)=> request('/sxpt/defence',{
      method:"post",

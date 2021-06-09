@@ -1,3 +1,8 @@
+## 2021.6.8
+- [react useEffect闭包陷阱](https://juejin.cn/post/6970948874240262180)
+
+- [使用React时要避免的 10 大错误](https://juejin.cn/post/6971215985026007076)
+
 ## 2021.6.7
 - [js Map对象的用法](https://blog.csdn.net/weixin_41646716/article/details/91509295?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control)
 
