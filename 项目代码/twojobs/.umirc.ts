@@ -18,21 +18,26 @@ export default defineConfig({
     title: false,
   },
 
-  // //路由按需加载
-  // dynamicImport: {
-  //   loading: '@/Loading',
-  // },
+  //路由按需加载
+  dynamicImport: {
+    loading: '@/Loading',
+  },
 
-  // // 资源输出路径
-  // publicPath: process.env.NODE_ENV === 'production' ? '/1809A/wuxiaotong/job/' : '/',
+  // 资源输出路径
+  publicPath: process.env.NODE_ENV === 'production' ? '/1809A/wuxiaotong/jobhub/' : '/',
 
-  // //路由前缀
-  // base:'/1809A/wuxiaotong/job/',
+  //路由前缀
+  base:'/1809A/wuxiaotong/jobhub/',
 
-  // // //修改为hash
-  // hash: true,
+  // //修改为hash
+  hash: true,
   
-  // // //修改路由类型
-  // history: { type: 'hash' },
+  // //修改路由类型
+  history: { type: 'hash' },
+
+  //埋点
+  analytics: {
+    baidu: 'e88f75e84335710de29f356059cdc5e0',
+  },
 });
 
