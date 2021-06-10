@@ -39,5 +39,6 @@ export default defineConfig({
   analytics: {
     baidu: 'e88f75e84335710de29f356059cdc5e0',
   },
+  
 });
 
